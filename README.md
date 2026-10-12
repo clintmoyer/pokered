@@ -1,8 +1,8 @@
 # Pokedogs
 
-A local dog-themed Pokémon Red mod. The first milestone is a playable opening through Brock, with Groenendael, Shiba Inu, and Newfoundland starter lines, new stats and moves, and original dog sprites.
+A dog-themed Pokémon Red mod. The first milestone is a playable opening through Brock, with Groenendael, Shiba Inu, and Newfoundland starter lines, new stats and moves, and original dog sprites.
 
-Build with RGBDS 1.0.4 using `make -j4 demo`, then load `build/pokedogs-demo.gb` in a Game Boy emulator. See [the demo specification](docs/DEMO.md) for scope and verification instructions. Development stays local; changes are recorded as Git commits.
+Build with RGBDS 1.0.4 using `make -j4 demo`, then load `build/pokedogs-demo.gb` in a Game Boy emulator. See [the demo specification](docs/DEMO.md) for scope and verification instructions. Changes are recorded as Git commits on the [`dogs` branch of clintmoyer/pokered](https://github.com/clintmoyer/pokered/tree/dogs).
 
 ## Upstream Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 

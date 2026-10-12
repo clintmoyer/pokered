@@ -1,6 +1,6 @@
 # Pokedogs: first-gym demo
 
-This is a local development fork of pret/pokered. Do not create a GitHub repository or push changes. Make local commits at useful milestones.
+This is a development fork of pret/pokered on the `dogs` branch of the existing clintmoyer/pokered repository. Make local commits at useful milestones and push this branch when requested. Do not create a new GitHub repository.
 
 ## Baseline
 
@@ -8,7 +8,7 @@ This is a local development fork of pret/pokered. Do not create a GitHub reposit
 - RGBDS: `1.0.4` (also recorded in `.rgbds-version`).
 - Unmodified Red SHA-1: `ea9bcae617fdf159b045185467ae58b2e4a48b9a`.
 - Unmodified Blue SHA-1: `d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`.
-- Development branch: `demo/first-gym`.
+- Development branch: `dogs`.
 
 ## Design
 
