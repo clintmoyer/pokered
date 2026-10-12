@@ -4,6 +4,8 @@ A dog-themed Pokémon Red mod. The first milestone is a playable opening through
 
 Build with RGBDS 1.0.4 using `make -j4 demo`, then load `build/pokedogs-demo.gb` in a Game Boy emulator. See [the demo specification](docs/DEMO.md) for scope and verification instructions. Changes are recorded as Git commits on the [`dogs` branch of clintmoyer/pokered](https://github.com/clintmoyer/pokered/tree/dogs).
 
+The [full-game plan](docs/FULL_GAME_PLAN.md) defines all 151 dog forms, the complete move pool, single-ROM collection access, and preserved HM functions.
+
 ## Upstream Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
 This is a disassembly of Pokémon Red and Blue.
