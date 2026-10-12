@@ -18,6 +18,18 @@ UncompressMonSprite::
 ; $99 ≤ index:             bank $D ("Pics 5")
 	ld a, [wCurPartySpecies]
 	ld b, a
+	; Dog sprites live together in their own bank; numeric species IDs stay stable.
+	ld hl, DogSpriteSpecies
+.checkDog
+	ld a, [hli]
+	cp -1
+	jr z, .originalBanks
+	cp b
+	jr nz, .checkDog
+	ld a, BANK("Dog Pics")
+	jp UncompressSpriteData
+.originalBanks
+	ld a, b
 	cp MEW
 	ld a, BANK(MewPicFront)
 	jr z, .GotBank
@@ -44,6 +56,12 @@ UncompressMonSprite::
 	ld a, BANK("Pics 5")
 .GotBank
 	jp UncompressSpriteData
+
+DogSpriteSpecies:
+	db BULBASAUR, IVYSAUR, VENUSAUR, CHARMANDER, CHARMELEON, CHARIZARD
+	db SQUIRTLE, WARTORTLE, BLASTOISE, RATTATA, RATICATE
+	db CATERPIE, METAPOD, BUTTERFREE, MANKEY, PRIMEAPE
+	db GEODUDE, GRAVELER, GOLEM, ONIX, -1
 
 ; de: destination location
 LoadMonFrontSprite::
