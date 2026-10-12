@@ -4,14 +4,14 @@ _Route12SnorlaxText::
 	done
 
 _Route12SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "NEOMAST woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
 	done
 
 _Route12SnorlaxCalmedDownText::
-	text "SNORLAX calmed"
+	text "NEOMAST calmed"
 	line "down! With a big"
 	cont "yawn, it returned"
 	cont "to the mountains!"
@@ -59,9 +59,9 @@ _Route12CooltrainerMEndBattleText::
 	prompt
 
 _Route12CooltrainerMAfterBattleText::
-	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	text "My SAMOPUP grows"
+	line "into SAMOYED"
+	cont "at level 24!"
 	done
 
 _Route12SuperNerdBattleText::
@@ -124,7 +124,7 @@ _Route12Fisher5EndBattleText::
 	prompt
 
 _Route12Fisher5AfterBattleText::
-	text "I catch MAGIKARP"
+	text "I catch SPRINGPUP"
 	line "all the time, but"
 	cont "they're so weak!"
 	done

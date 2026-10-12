@@ -1,12 +1,13 @@
 _FuchsiaGymKogaPostBattleAdviceText::
-	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
+	text "Five badges! Your"
+	line "pack is fearless."
 
-	para "It will surely"
-	line "terrorize foes!"
+	para "This demo ends"
+	line "here for now."
+
+	para "Use DOG PADDLE"
+	line "and HAUL to find"
+	cont "more dog friends!"
 	done
 
 _FuchsiaGymKogaSoulBadgeInfoText::
@@ -17,7 +18,7 @@ _FuchsiaGymKogaSoulBadgeInfoText::
 	cont "increases!"
 
 	para "It also lets you"
-	line "SURF outside of"
+	line "DOG PADDLE out of"
 	cont "battle!"
 
 	para "Ah! Take this"
@@ -35,7 +36,7 @@ _FuchsiaGymKogaTM06ExplanationText::
 	text_start
 
 	para "TM06 contains"
-	line "TOXIC!"
+	line "VENOM MARK!"
 
 	para "It is a secret"
 	line "technique over"

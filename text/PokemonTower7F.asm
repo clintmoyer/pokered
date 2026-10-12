@@ -8,9 +8,9 @@ _PokemonTower7FMrFujiRescueText::
 
 	para "I came to calm"
 	line "the soul of"
-	cont "CUBONE's mother."
+	cont "SCOTTPUP's mother."
 
-	para "I think MAROWAK's"
+	para "I think SCOTTDIG's"
 	line "spirit has gone"
 	cont "to the afterlife."
 

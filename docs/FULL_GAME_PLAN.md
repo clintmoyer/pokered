@@ -55,7 +55,8 @@ or permanently exclusive rewards required to complete the Pokédex.
   choice can remain without locking the other form out.
 - Adoptable SPRINGPUP replaces the Mt. Moon seller's gift and also appears on
   Route 4. Other story gifts remain bonuses rather than exclusive sources.
-- NEOMAST retains the sleeping-roadblock role. The three legendary guardians
+- NEOMAST retains the sleeping-roadblock role and also has a rare, repeatable
+  Route 18 encounter beyond the flute gate. The three legendary guardians
   retain their original encounter sites. PSIGUARD inhabits Cerulean Cave B1F;
   MUDIMYTH gains a standard, post-Champion encounter on Cerulean Cave 2F.
 - For special encounters, fleeing or defeating the dog makes it available again
@@ -96,11 +97,12 @@ Their field-menu labels and explanatory text must match the redesigned names.
    Supply Grass and Electric counters before the gym and access to all starters
    on Route 25. Remove Brock's demo-ending text.
 2. Extend through Vermilion and Erika, implementing Cut, Flash, and Fly along the
-   way. The current demo reaches Erika with 91 forms, Rock Tunnel, Celadon,
-   Cut, Flash, Fly, three Tervuren stone branches, and repeatable sources for
-   both fossil families. Continue with the Rocket Hideout and Tower story.
+   way. This slice is implemented, including three Tervuren stone branches
+   and repeatable sources for both fossil families.
 3. Extend through Fuchsia, Saffron, Cinnabar, and Viridian, with Surf, Strength,
    Safari encounters, Tower events, sleeping dogs, and late-game progression.
+   The current demo reaches Koga with 139 forms, the Rocket Hideout, Tower,
+   sleeping dogs, Safari rewards, Surf and Strength. Saffron onward remains.
 4. Finish Elite Four, Champion, legendary retries, Cerulean Cave, and collection
    completion. Add the remaining presentation assets and sound pass.
 

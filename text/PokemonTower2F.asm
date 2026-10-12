@@ -31,10 +31,10 @@ _PokemonTower2FRivalHowsYourDexText::
 	text "How's your #DEX"
 	line "coming, pal?"
 	cont "I just caught a"
-	cont "CUBONE!"
+	cont "SCOTTPUP!"
 
 	para "I can't find the"
-	line "grown-up MAROWAK"
+	line "grown-up SCOTTDIG"
 	cont "yet!"
 
 	para "I doubt there are"

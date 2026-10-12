@@ -14,6 +14,10 @@ SURGE_B = [('magnemite','magneton'), ('voltorb','electrode')]
 ERIKA_A = [('nidoranf','nidorina','nidoqueen'), ('nidoranm','nidorino','nidoking'), ('vulpix','ninetales','growlithe'), ('arcanine','clefairy','clefable')]
 ERIKA_B = [('poliwag','poliwhirl','poliwrath'), ('bellsprout','weepinbell','victreebel'), ('cubone','marowak','tangela'), ('eevee','vaporeon','jolteon')]
 ERIKA_C = [('flareon','omanyte','omastar'), ('kabuto','kabutops','porygon')]
+KOGA_A = [('paras','parasect','venonat'), ('venomoth','psyduck','golduck'), ('tentacool','tentacruel','ponyta'), ('rapidash','slowpoke','slowbro')]
+KOGA_B = [('farfetchd','doduo','dodrio'), ('seel','dewgong','grimer'), ('muk','shellder','cloyster'), ('gastly','haunter','gengar')]
+KOGA_C = [('krabby','kingler','exeggcute'), ('exeggutor','lickitung','koffing'), ('weezing','rhyhorn','rhydon'), ('chansey','kangaskhan','horsea')]
+KOGA_D = [('seadra','goldeen','seaking'), ('mr.mime','scyther','pinsir'), ('tauros','ditto','snorlax'), ('dratini','dragonair','dragonite')]
 
 def encode(image, size, content):
     image = image.convert('RGBA')
@@ -30,7 +34,7 @@ def encode(image, size, content):
     grayscale = canvas.convert('L').point(lambda v: min((0,85,170,255), key=lambda p: abs(p-v)))
     return grayscale
 
-def atlas(path, roster, row_bounds=None, column_bounds=None):
+def atlas(path, roster, row_bounds=None, column_bounds=None, cell_rows=None):
     source = Image.open(path)
     if row_bounds is None:
         row_bounds = [round(source.height*i/len(roster)) for i in range(len(roster)+1)]
@@ -43,7 +47,8 @@ def atlas(path, roster, row_bounds=None, column_bounds=None):
                 col = pair*2 + view
                 left = column_bounds[row][col] if column_bounds else round(source.width*col/columns)
                 right = column_bounds[row][col+1] if column_bounds else round(source.width*(col+1)/columns)
-                crop = source.crop((left, row_bounds[row], right, row_bounds[row+1]))
+                top,bottom = cell_rows[row][col] if cell_rows else (row_bounds[row],row_bounds[row+1])
+                crop = source.crop((left, top, right, bottom))
                 size = 32 if view else 56
                 content = 28 if view else (42,48,52)[pair] if roster == STARTERS else 50
                 result = encode(crop, size, content)
@@ -72,6 +77,23 @@ for name, roster, rows, columns in [
     source = ROOT/f'assets/dogs/erika-{name}-source.png'
     if source.exists():
         atlas(source, roster, rows, columns)
+
+for name, roster in [('a',KOGA_A),('b',KOGA_B),('c',KOGA_C),('d',KOGA_D)]:
+    source = ROOT/f'assets/dogs/koga-{name}-source.png'
+    if source.exists():
+        bounds = {'a':[0,250,506,741,1024], 'b':[0,259,505,756,1024],
+                  'c':[0,250,506,735,1024], 'd':[0,250,508,770,1024]}
+        cell_rows = None
+        columns = None
+        if name == 'c':
+            cell_rows = [[(0,250)]*6,[(250,506)]*6,
+                         [(506,745)]*2+[(506,738)]*2+[(506,750)]*2,
+                         [(815,990),(817,992),(741,996),(742,993),(815,989),(815,988)]]
+            columns = [[0,256,512,768,1024,1280,1536],
+                       [0,279,497,772,1040,1274,1536],
+                       [0,256,512,768,1024,1280,1536],
+                       [0,256,512,768,1024,1280,1536]]
+        atlas(source, roster, bounds[name], columns, cell_rows)
 
 # The quadruped menu icon stores two 8x16 halves in an 8x32 strip.
 icon = Image.open(ROOT/'gfx/pokemon/front/bulbasaur.png').crop((10,6,46,42)).resize((16,16), Image.Resampling.NEAREST)

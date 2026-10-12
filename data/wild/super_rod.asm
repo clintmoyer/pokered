@@ -41,61 +41,61 @@ SuperRodData:
 
 .Group1:
 	db 2
-	db 15, TENTACOOL
-	db 15, POLIWAG
+	db 20, SPANPUP
+	db 20, PORTPUP
 
 .Group2:
 	db 2
-	db 15, GOLDEEN
-	db 15, POLIWAG
+	db 20, AMERPUP
+	db 20, PORTPUP
 
 .Group3:
 	db 3
-	db 15, PSYDUCK
-	db 15, GOLDEEN
-	db 15, KRABBY
+	db 20, LABPUP
+	db 20, AMERPUP
+	db 20, IRISPUP
 
 .Group4:
 	db 2
-	db 15, KRABBY
-	db 15, SHELLDER
+	db 20, IRISPUP
+	db 20, CHESSPUP
 
 .Group5:
 	db 2
-	db 23, POLIWHIRL
-	db 15, SLOWPOKE
+	db 23, PORTWATER
+	db 20, BASSPUP
 
 .Group6:
 	db 4
-	db 15, DRATINI
-	db 15, KRABBY
-	db 15, PSYDUCK
-	db 15, SLOWPOKE
+	db 20, LUNDEPUP
+	db 20, IRISPUP
+	db 20, LABPUP
+	db 20, BASSPUP
 
 .Group7:
 	db 4
-	db 5, TENTACOOL
-	db 15, KRABBY
-	db 15, GOLDEEN
-	db 15, MAGIKARP
+	db 20, SPANPUP
+	db 20, IRISPUP
+	db 20, AMERPUP
+	db 20, SPRINGPUP
 
 .Group8:
 	db 4
-	db 15, STARYU
-	db 15, HORSEA
-	db 15, SHELLDER
-	db 15, GOLDEEN
+	db 20, OTTERPUP
+	db 20, BARBPUP
+	db 20, CHESSPUP
+	db 20, AMERPUP
 
 .Group9:
 	db 4
-	db 23, SLOWBRO
-	db 23, SEAKING
-	db 23, KINGLER
-	db 23, SEADRA
+	db 23, BASSET
+	db 23, AMERTIDE
+	db 23, IRISTIDE
+	db 23, BARBTIDE
 
 .Group10:
 	db 4
-	db 23, SEAKING
-	db 15, KRABBY
-	db 15, GOLDEEN
-	db 15, MAGIKARP
+	db 23, AMERTIDE
+	db 20, IRISPUP
+	db 20, AMERPUP
+	db 20, SPRINGPUP

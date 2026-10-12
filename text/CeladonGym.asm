@@ -40,11 +40,11 @@ _CeladonGymErikaPostBattleAdviceText::
 	text "Four badges! Your"
 	line "pack is blooming."
 
-	para "This demo ends"
-	line "here for now."
+	para "Check the poster"
+	line "in GAME CORNER."
 
-	para "Keep exploring and"
-	line "meet more dogs!"
+	para "LAVENDER TOWER"
+	line "needs your help!"
 	done
 
 _CeladonGymRainbowBadgeInfoText::

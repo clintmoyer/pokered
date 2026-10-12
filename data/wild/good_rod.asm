@@ -1,5 +1,4 @@
-; random choice of 2 good rod encounters
+; repeatable dog encounters with the Good Rod
 GoodRodMons:
-	; level, species
-	db 10, GOLDEEN
-	db 10, POLIWAG
+	db 15, AMERPUP
+	db 15, PORTPUP

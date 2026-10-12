@@ -1,21 +1,17 @@
 _RhydonDexEntry::
-	text "Protected by an"
-	next "armor-like hide,"
-	next "it is capable of"
-
-	page "living in molten"
-	next "lava of 3,600"
-	next "degrees"
+	text "BULL TERRIER."
+	next "guards its pack."
+	next "Its ground power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _KangaskhanDexEntry::
-	text "The infant rarely"
-	next "ventures out of"
-	next "its mother's"
-
-	page "protective pouch"
-	next "until it is 3"
-	next "years old"
+	text "GREAT DANE."
+	next "guards its pack."
+	next "Its normal power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _NidoranMDexEntry::
@@ -67,13 +63,11 @@ _NidokingDexEntry::
 	dex
 
 _SlowbroDexEntry::
-	text "The SHELLDER that"
-	next "is latched onto"
-	next "SLOWPOKE's tail"
-
-	page "is said to feed"
-	next "on the host's left"
-	next "over scraps"
+	text "BASSET HOUND."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _IvysaurDexEntry::
@@ -86,53 +80,45 @@ _IvysaurDexEntry::
 	dex
 
 _ExeggutorDexEntry::
-	text "Legend has it that"
-	next "on rare occasions,"
-	next "one of its heads"
-
-	page "will drop off and"
-	next "continue on as an"
-	next "EXEGGCUTE"
+	text "BERNESE MOUNTAIN"
+	next "DOG."
+	next "guards its pack."
+	page "Its grass power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _LickitungDexEntry::
-	text "Its tongue can be"
-	next "extended like a"
-	next "chameleon's. It"
-
-	page "leaves a tingling"
-	next "sensation when it"
-	next "licks enemies"
+	text "SAINT BERNARD."
+	next "guards its pack."
+	next "Its normal power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _ExeggcuteDexEntry::
-	text "Often mistaken"
-	next "for eggs."
-	next "When disturbed,"
-
-	page "they quickly"
-	next "gather and attack"
-	next "in swarms"
+	text "BERNESE MOUNTAIN"
+	next "DOG."
+	next "guards its pack."
+	page "Its grass power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _GrimerDexEntry::
-	text "Appears in filthy"
-	next "areas. Thrives by"
-	next "sucking up"
-
-	page "polluted sludge"
-	next "that is pumped"
-	next "out of factories"
+	text "SHAR PEI."
+	next "guards its pack."
+	next "Its poison power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _GengarDexEntry::
-	text "Under a full moon,"
-	next "this #MON"
-	next "likes to mimic"
-
-	page "the shadows of"
-	next "people and laugh"
-	next "at their fright"
+	text "WEIMARANER."
+	next "guards its pack."
+	next "Its ghost power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _NidoranFDexEntry::
@@ -165,13 +151,11 @@ _CuboneDexEntry::
 	dex
 
 _RhyhornDexEntry::
-	text "Its massive bones"
-	next "are 1000 times"
-	next "harder than human"
-
-	page "bones. It can"
-	next "easily knock a"
-	next "trailer flying"
+	text "BULL TERRIER."
+	next "guards its pack."
+	next "Its ground power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _LaprasDexEntry::
@@ -215,43 +199,36 @@ _GyaradosDexEntry::
 	dex
 
 _ShellderDexEntry::
-	text "Its hard shell"
-	next "repels any kind"
-	next "of attack."
-
-	page "It is vulnerable"
-	next "only when its"
-	next "shell is open"
+	text "CHESAPEAKE BAY"
+	next "RETRIEVER."
+	next "guards its pack."
+	page "Its water power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _TentacoolDexEntry::
-	text "Drifts in shallow"
-	next "seas. Anglers who"
-	next "hook them by"
-
-	page "accident are"
-	next "often punished by"
-	next "its stinging acid"
+	text "SPANISH WATER DOG."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _GastlyDexEntry::
-	text "Almost invisible,"
-	next "this gaseous"
-	next "#MON cloaks"
-
-	page "the target and"
-	next "puts it to sleep"
-	next "without notice"
+	text "WEIMARANER."
+	next "guards its pack."
+	next "Its ghost power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _ScytherDexEntry::
-	text "With ninja-like"
-	next "agility and speed,"
-	next "it can create the"
-
-	page "illusion that"
-	next "there is more"
-	next "than one"
+	text "BELGIAN MALINOIS."
+	next "guards its pack."
+	next "Its bug power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _StaryuDexEntry::
@@ -273,13 +250,11 @@ _BlastoiseDexEntry::
 	dex
 
 _PinsirDexEntry::
-	text "If it fails to"
-	next "crush the victim"
-	next "in its pincers,"
-
-	page "it will swing it"
-	next "around and toss"
-	next "it hard"
+	text "BORDER COLLIE."
+	next "guards its pack."
+	next "Its grass power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _TangelaDexEntry::
@@ -328,13 +303,11 @@ _PidgeyDexEntry::
 	dex
 
 _SlowpokeDexEntry::
-	text "Incredibly slow"
-	next "and dopey. It"
-	next "takes 5 seconds"
-
-	page "for it to feel"
-	next "pain when under"
-	next "attack"
+	text "BASSET HOUND."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _KadabraDexEntry::
@@ -357,13 +330,12 @@ _GravelerDexEntry::
 	dex
 
 _ChanseyDexEntry::
-	text "A rare and elusive"
-	next "#MON that is"
-	next "said to bring"
-
-	page "happiness to those"
-	next "who manage to get"
-	next "it"
+	text "CAVALIER KING"
+	next "CHARLES SPANIEL."
+	next "guards its pack."
+	page "Its normal power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _MachokeDexEntry::
@@ -377,13 +349,11 @@ _MachokeDexEntry::
 	dex
 
 _MrMimeDexEntry::
-	text "If interrupted"
-	next "while it is"
-	next "miming, it will"
-
-	page "slap around the"
-	next "offender with its"
-	next "broad hands"
+	text "LHASA APSO."
+	next "guards its pack."
+	next "Its psychic power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _HitmonleeDexEntry::
@@ -416,23 +386,20 @@ _ArbokDexEntry::
 	dex
 
 _ParasectDexEntry::
-	text "A host-parasite"
-	next "pair in which the"
-	next "parasite mushroom"
-
-	page "has taken over the"
-	next "host bug. Prefers"
-	next "damp places"
+	text "BICHON FRISE."
+	next "guards its pack."
+	next "Its bug power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _PsyduckDexEntry::
-	text "While lulling its"
-	next "enemies with its"
-	next "vacant look, this"
-
-	page "wily #MON will"
-	next "use psychokinetic"
-	next "powers"
+	text "LABRADOR"
+	next "RETRIEVER."
+	next "guards its pack."
+	page "Its water power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _DrowzeeDexEntry::
@@ -483,13 +450,11 @@ _MagnetonDexEntry::
 	dex
 
 _KoffingDexEntry::
-	text "Because it stores"
-	next "several kinds of"
-	next "toxic gases in"
-
-	page "its body, it is"
-	next "prone to exploding"
-	next "without warning"
+	text "PUG."
+	next "guards its pack."
+	next "Its poison power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _MankeyDexEntry::
@@ -502,13 +467,11 @@ _MankeyDexEntry::
 	dex
 
 _SeelDexEntry::
-	text "The protruding"
-	next "horn on its head"
-	next "is very hard."
-
-	page "It is used for"
-	next "bashing through"
-	next "thick ice"
+	text "GOLDEN RETRIEVER."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _DiglettDexEntry::
@@ -521,53 +484,45 @@ _DiglettDexEntry::
 	dex
 
 _TaurosDexEntry::
-	text "When it targets"
-	next "an enemy, it"
-	next "charges furiously"
-
-	page "while whipping its"
-	next "body with its"
-	next "long tails"
+	text "RHODESIAN"
+	next "RIDGEBACK."
+	next "guards its pack."
+	page "Its normal power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _FarfetchdDexEntry::
-	text "The sprig of"
-	next "green onions it"
-	next "holds is its"
-
-	page "weapon. It is"
-	next "used much like a"
-	next "metal sword"
+	text "SALUKI."
+	next "guards its pack."
+	next "Its flying power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _VenonatDexEntry::
-	text "Lives in the"
-	next "shadows of tall"
-	next "trees where it"
-
-	page "eats insects. It"
-	next "is attracted by"
-	next "light at night"
+	text "CHINESE CRESTED."
+	next "guards its pack."
+	next "Its bug power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _DragoniteDexEntry::
-	text "An extremely"
-	next "rarely seen"
-	next "marine #MON."
-
-	page "Its intelligence"
-	next "is said to match"
-	next "that of humans"
+	text "NORWEGIAN"
+	next "LUNDEHUND."
+	next "guards its pack."
+	page "Its dragon power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _DoduoDexEntry::
-	text "A bird that makes"
-	next "up for its poor"
-	next "flying with its"
-
-	page "fast foot speed."
-	next "Leaves giant"
-	next "footprints"
+	text "BORZOI."
+	next "guards its pack."
+	next "Its normal power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _PoliwagDexEntry::
@@ -621,13 +576,11 @@ _ZapdosDexEntry::
 	dex
 
 _DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
-
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	text "XOLOITZCUINTLI."
+	next "guards its pack."
+	next "Its ghost power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _MeowthDexEntry::
@@ -641,13 +594,12 @@ _MeowthDexEntry::
 	dex
 
 _KrabbyDexEntry::
-	text "Its pincers are"
-	next "not only powerful"
-	next "weapons, they are"
-
-	page "used for balance"
-	next "when walking"
-	next "sideways"
+	text "IRISH WATER"
+	next "SPANIEL."
+	next "guards its pack."
+	page "Its water power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _VulpixDexEntry::
@@ -689,23 +641,21 @@ _RaichuDexEntry::
 	dex
 
 _DratiniDexEntry::
-	text "Long considered a"
-	next "mythical #MON"
-	next "until recently"
-
-	page "when a small"
-	next "colony was found"
-	next "living underwater"
+	text "NORWEGIAN"
+	next "LUNDEHUND."
+	next "guards its pack."
+	page "Its dragon power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _DragonairDexEntry::
-	text "A mystical #MON"
-	next "that exudes a"
-	next "gentle aura."
-
-	page "Has the ability"
-	next "to change climate"
-	next "conditions"
+	text "NORWEGIAN"
+	next "LUNDEHUND."
+	next "guards its pack."
+	page "Its dragon power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _KabutoDexEntry::
@@ -729,23 +679,19 @@ _KabutopsDexEntry::
 	dex
 
 _HorseaDexEntry::
-	text "Known to shoot"
-	next "down flying bugs"
-	next "with precision"
-
-	page "blasts of ink"
-	next "from the surface"
-	next "of the water"
+	text "BARBET."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _SeadraDexEntry::
-	text "Capable of swim-"
-	next "ming backwards by"
-	next "rapidly flapping"
-
-	page "its wing-like"
-	next "pectoral fins and"
-	next "stout tail"
+	text "BARBET."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _SandshrewDexEntry::
@@ -876,13 +822,11 @@ _EkansDexEntry::
 	dex
 
 _ParasDexEntry::
-	text "Burrows to suck"
-	next "tree roots. The"
-	next "mushrooms on its"
-
-	page "back grow by draw-"
-	next "ing nutrients from"
-	next "the bug host"
+	text "BICHON FRISE."
+	next "guards its pack."
+	next "Its bug power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _PoliwhirlDexEntry::
@@ -933,13 +877,11 @@ _BeedrillDexEntry::
 	dex
 
 _DodrioDexEntry::
-	text "Uses its three"
-	next "brains to execute"
-	next "complex plans."
-
-	page "While two heads"
-	next "sleep, one head"
-	next "stays awake"
+	text "BORZOI."
+	next "guards its pack."
+	next "Its normal power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _PrimeapeDexEntry::
@@ -961,23 +903,19 @@ _DugtrioDexEntry::
 	dex
 
 _VenomothDexEntry::
-	text "The dust-like"
-	next "scales covering"
-	next "its wings are"
-
-	page "color coded to"
-	next "indicate the kinds"
-	next "of poison it has"
+	text "CHINESE CRESTED."
+	next "guards its pack."
+	next "Its bug power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _DewgongDexEntry::
-	text "Stores thermal"
-	next "energy in its"
-	next "body. Swims at a"
-
-	page "steady 8 knots"
-	next "even in intensely"
-	next "cold waters"
+	text "GOLDEN RETRIEVER."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _CaterpieDexEntry::
@@ -1018,13 +956,12 @@ _MachampDexEntry::
 	dex
 
 _GolduckDexEntry::
-	text "Often seen swim-"
-	next "ming elegantly by"
-	next "lake shores. It"
-
-	page "is often mistaken"
-	next "for the Japanese"
-	next "monster, Kappa"
+	text "LABRADOR"
+	next "RETRIEVER."
+	next "guards its pack."
+	page "Its water power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _HypnoDexEntry::
@@ -1057,13 +994,12 @@ _MewtwoDexEntry::
 	dex
 
 _SnorlaxDexEntry::
-	text "Very lazy. Just"
-	next "eats and sleeps."
-	next "As its rotund"
-
-	page "bulk builds, it"
-	next "becomes steadily"
-	next "more slothful"
+	text "NEAPOLITAN"
+	next "MASTIFF."
+	next "guards its pack."
+	page "Its normal power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _MagikarpDexEntry::
@@ -1078,33 +1014,29 @@ _MagikarpDexEntry::
 	dex
 
 _MukDexEntry::
-	text "Thickly covered"
-	next "with a filthy,"
-	next "vile sludge. It"
-
-	page "is so toxic, even"
-	next "its footprints"
-	next "contain poison"
+	text "SHAR PEI."
+	next "guards its pack."
+	next "Its poison power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _KinglerDexEntry::
-	text "The large pincer"
-	next "has 10000 hp of"
-	next "crushing power."
-
-	page "However, its huge"
-	next "size makes it"
-	next "unwieldy to use"
+	text "IRISH WATER"
+	next "SPANIEL."
+	next "guards its pack."
+	page "Its water power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _CloysterDexEntry::
-	text "When attacked, it"
-	next "launches its"
-	next "horns in quick"
-
-	page "volleys. Its"
-	next "innards have"
-	next "never been seen"
+	text "CHESAPEAKE BAY"
+	next "RETRIEVER."
+	next "guards its pack."
+	page "Its water power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _ElectrodeDexEntry::
@@ -1127,13 +1059,11 @@ _ClefableDexEntry::
 	dex
 
 _WeezingDexEntry::
-	text "Where two kinds"
-	next "of poison gases"
-	next "meet, 2 KOFFINGs"
-
-	page "can fuse into a"
-	next "WEEZING over many"
-	next "years"
+	text "PUG."
+	next "guards its pack."
+	next "Its poison power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _PersianDexEntry::
@@ -1156,13 +1086,11 @@ _MarowakDexEntry::
 	dex
 
 _HaunterDexEntry::
-	text "Because of its"
-	next "ability to slip"
-	next "through block"
-
-	page "walls, it is said"
-	next "to be from an-"
-	next "other dimension"
+	text "WEIMARANER."
+	next "guards its pack."
+	next "Its ghost power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _AbraDexEntry::
@@ -1231,53 +1159,45 @@ _VenusaurDexEntry::
 	dex
 
 _TentacruelDexEntry::
-	text "The tentacles are"
-	next "normally kept"
-	next "short. On hunts,"
-
-	page "they are extended"
-	next "to ensnare and"
-	next "immobilize prey"
+	text "SPANISH WATER DOG."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _GoldeenDexEntry::
-	text "Its tail fin"
-	next "billows like an"
-	next "elegant ballroom"
-
-	page "dress, giving it"
-	next "the nickname of"
-	next "the Water Queen"
+	text "AMERICAN WATER"
+	next "SPANIEL."
+	next "guards its pack."
+	page "Its water power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _SeakingDexEntry::
-	text "In the autumn"
-	next "spawning season,"
-	next "they can be seen"
-
-	page "swimming power-"
-	next "fully up rivers"
-	next "and creeks"
+	text "AMERICAN WATER"
+	next "SPANIEL."
+	next "guards its pack."
+	page "Its water power"
+	next "helps friends"
+	next "explore Kanto."
 	dex
 
 _PonytaDexEntry::
-	text "Its hooves are 10"
-	next "times harder than"
-	next "diamonds. It can"
-
-	page "trample anything"
-	next "completely flat"
-	next "in little time"
+	text "BASENJI."
+	next "guards its pack."
+	next "Its fire power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _RapidashDexEntry::
-	text "Very competitive,"
-	next "this #MON will"
-	next "chase anything"
-
-	page "that moves fast"
-	next "in the hopes of"
-	next "racing it"
+	text "BASENJI."
+	next "guards its pack."
+	next "Its fire power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _RattataDexEntry::

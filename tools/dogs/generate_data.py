@@ -113,7 +113,8 @@ for d in DOGS:
         text += f'\t{command} "{line}"\n'
     text += '\tdex\n\n'
     block("data/pokemon/dex_text.asm", '_'+label+"DexEntry", text)
-    replace("data/pokemon/menu_icons.asm", rf"^\tnybble \w+(\s*; {label})$", rf"\tnybble ICON_QUADRUPED\1")
+    icon_label = {'FARFETCHD': "Farfetch'd", 'MR_MIME': 'Mr.Mime'}.get(d['slot'], label)
+    replace("data/pokemon/menu_icons.asm", rf"^\tnybble \w+(\s*; {re.escape(icon_label)})$", rf"\tnybble ICON_QUADRUPED\1")
 
 for filename in ('evos_moves.asm', 'dex_text.asm', 'dex_entries.asm'):
     path = ROOT / 'data/pokemon' / filename

@@ -4107,19 +4107,19 @@
     "signature": "NUMB_POLLEN",
     "acquisition": {
       "method": "wild",
-      "map": "Route6",
+      "map": "SafariZoneCenter",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "cascade",
+      "gate": "poke_flute",
       "retry": null,
       "levels": [
-        15,
-        22
+        24,
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BICHON FRISE guards its pack. Its bug power helps friends explore Kanto."
   },
   {
@@ -4207,7 +4207,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BICHON FRISE guards its pack. Its bug power helps friends explore Kanto."
   },
   {
@@ -4307,7 +4307,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "CHINESE CRESTED guards its pack. Its bug power helps friends explore Kanto."
   },
   {
@@ -4398,7 +4398,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "CHINESE CRESTED guards its pack. Its bug power helps friends explore Kanto."
   },
   {
@@ -4838,19 +4838,19 @@
     "signature": "RIVER_RUSH",
     "acquisition": {
       "method": "wild",
-      "map": "Route6",
+      "map": "Route13",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "cascade",
+      "gate": "poke_flute",
       "retry": null,
       "levels": [
-        15,
-        22
+        24,
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "LABRADOR RETRIEVER guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -4933,7 +4933,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "LABRADOR RETRIEVER guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -6468,7 +6468,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "SPANISH WATER DOG guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -6556,7 +6556,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "SPANISH WATER DOG guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -6884,19 +6884,19 @@
     "signature": "CINDER_BARK",
     "acquisition": {
       "method": "wild",
-      "map": "Route16",
+      "map": "Route17",
       "terrain": "grass",
       "repeatable": true,
       "gate": "poke_flute",
       "retry": null,
       "levels": [
         24,
-        32
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BASENJI guards its pack. Its fire power helps friends explore Kanto."
   },
   {
@@ -6977,7 +6977,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BASENJI guards its pack. Its fire power helps friends explore Kanto."
   },
   {
@@ -7079,7 +7079,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BASSET HOUND guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -7172,7 +7172,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BASSET HOUND guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -7451,7 +7451,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "SALUKI guards its pack. Its flying power helps friends explore Kanto."
   },
   {
@@ -7539,19 +7539,19 @@
     "signature": "GALE_HOWL",
     "acquisition": {
       "method": "wild",
-      "map": "Route16",
+      "map": "Route17",
       "terrain": "grass",
       "repeatable": true,
       "gate": "poke_flute",
       "retry": null,
       "levels": [
         24,
-        32
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BORZOI guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -7641,7 +7641,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BORZOI guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -7743,7 +7743,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "GOLDEN RETRIEVER guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -7836,7 +7836,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "GOLDEN RETRIEVER guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -7926,7 +7926,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "SHAR PEI guards its pack. Its poison power helps friends explore Kanto."
   },
   {
@@ -8007,7 +8007,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "SHAR PEI guards its pack. Its poison power helps friends explore Kanto."
   },
   {
@@ -8096,19 +8096,19 @@
     "signature": "TIDE_GRIP",
     "acquisition": {
       "method": "wild",
-      "map": "SeafoamIslands1F",
-      "terrain": "grass",
+      "map": "Route19",
+      "terrain": "surf",
       "repeatable": true,
       "gate": "surf",
       "retry": null,
       "levels": [
         28,
-        36
+        30
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "CHESAPEAKE BAY RETRIEVER guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -8200,7 +8200,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "CHESAPEAKE BAY RETRIEVER guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -8291,7 +8291,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "WEIMARANER guards its pack. Its ghost power helps friends explore Kanto."
   },
   {
@@ -8375,7 +8375,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "WEIMARANER guards its pack. Its ghost power helps friends explore Kanto."
   },
   {
@@ -8457,7 +8457,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "WEIMARANER guards its pack. Its ghost power helps friends explore Kanto."
   },
   {
@@ -8806,19 +8806,19 @@
     "signature": "TIDE_PAW",
     "acquisition": {
       "method": "wild",
-      "map": "Route21",
+      "map": "Route19",
       "terrain": "surf",
       "repeatable": true,
       "gate": "surf",
       "retry": null,
       "levels": [
         28,
-        36
+        30
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "IRISH WATER SPANIEL guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -8904,7 +8904,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "IRISH WATER SPANIEL guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -9169,19 +9169,19 @@
     "signature": "MIND_GUARD",
     "acquisition": {
       "method": "wild",
-      "map": "Route23",
+      "map": "SafariZoneEast",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "all_badges",
+      "gate": "poke_flute",
       "retry": null,
       "levels": [
-        35,
-        42
+        24,
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BERNESE MOUNTAIN DOG guards its pack. Its grass power helps friends explore Kanto."
   },
   {
@@ -9274,7 +9274,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BERNESE MOUNTAIN DOG guards its pack. Its grass power helps friends explore Kanto."
   },
   {
@@ -9727,7 +9727,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "SAINT BERNARD guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -9821,7 +9821,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "PUG guards its pack. Its poison power helps friends explore Kanto."
   },
   {
@@ -9906,7 +9906,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "PUG guards its pack. Its poison power helps friends explore Kanto."
   },
   {
@@ -10004,7 +10004,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BULL TERRIER guards its pack. Its ground power helps friends explore Kanto."
   },
   {
@@ -10092,7 +10092,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BULL TERRIER guards its pack. Its ground power helps friends explore Kanto."
   },
   {
@@ -10185,7 +10185,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "CAVALIER KING CHARLES SPANIEL guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -10376,7 +10376,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "GREAT DANE guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -10478,7 +10478,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BARBET guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -10570,7 +10570,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BARBET guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -10653,19 +10653,19 @@
     "signature": "DOG_PADDLE",
     "acquisition": {
       "method": "wild",
-      "map": "Route20",
+      "map": "Route19",
       "terrain": "surf",
       "repeatable": true,
       "gate": "surf",
       "retry": null,
       "levels": [
         28,
-        36
+        30
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "AMERICAN WATER SPANIEL guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -10751,7 +10751,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "AMERICAN WATER SPANIEL guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -11027,7 +11027,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "LHASA APSO guards its pack. Its psychic power helps friends explore Kanto."
   },
   {
@@ -11125,7 +11125,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BELGIAN MALINOIS guards its pack. Its bug power helps friends explore Kanto."
   },
   {
@@ -11497,7 +11497,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "BORDER COLLIE guards its pack. Its grass power helps friends explore Kanto."
   },
   {
@@ -11595,7 +11595,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "RHODESIAN RIDGEBACK guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -11954,7 +11954,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "XOLOITZCUINTLI guards its pack. Its ghost power helps friends explore Kanto."
   },
   {
@@ -12984,20 +12984,21 @@
     "family": 73,
     "signature": "NAP_TIME",
     "acquisition": {
-      "method": "special",
-      "map": "Route12",
-      "terrain": "special",
-      "repeatable": false,
+      "method": "wild",
+      "map": "Route18",
+      "terrain": "grass",
+      "repeatable": true,
       "gate": "poke_flute",
-      "retry": "return after Hall of Fame if defeated or fled",
+      "retry": null,
       "levels": [
-        24,
-        32
-      ]
+        30,
+        30
+      ],
+      "note": "Also wakes with the Poke Flute on Routes 12 and 16; rare repeatable Route 18 fallback."
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "NEAPOLITAN MASTIFF guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -13367,7 +13368,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "NORWEGIAN LUNDEHUND guards its pack. Its dragon power helps friends explore Kanto."
   },
   {
@@ -13452,7 +13453,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "NORWEGIAN LUNDEHUND guards its pack. Its dragon power helps friends explore Kanto."
   },
   {
@@ -13534,7 +13535,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "NORWEGIAN LUNDEHUND guards its pack. Its dragon power helps friends explore Kanto."
   },
   {

@@ -1,16 +1,16 @@
 SeaRoutesWildMons:
-	def_grass_wildmons 0 ; encounter rate
+	def_grass_wildmons 0
 	end_grass_wildmons
 
-	def_water_wildmons 5 ; encounter rate
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACOOL
-	db 40, TENTACOOL
+	def_water_wildmons 10
+	db 28, SPANPUP
+	db 28, IRISPUP
+	db 28, CHESSPUP
+	db 28, BARBPUP
+	db 28, AMERPUP
+	db 29, SPANPUP
+	db 30, SPANTIDE
+	db 30, IRISTIDE
+	db 30, CHESSTIDE
+	db 30, BARBTIDE
 	end_water_wildmons

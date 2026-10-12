@@ -52,7 +52,7 @@ _WardensHouseWardenReceivedHM04Text::
 
 _WardensHouseWardenHM04ExplanationText::
 	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	line "teaches HAUL!"
 
 	para "It lets #MON"
 	line "move boulders"
@@ -67,7 +67,7 @@ _WardensHouseWardenHM04ExplanationText::
 	line "win an HM!"
 
 	para "I hear it's the"
-	line "rare SURF HM."
+	line "DOG PADDLE HM."
 	done
 
 _WardensHouseWardenHM04NoRoomText::

@@ -22,7 +22,8 @@ _SafariZoneSecretHouseFishingGuruReceivedHM03Text::
 	text_end
 
 _SafariZoneSecretHouseFishingGuruHM03ExplanationText::
-	text "HM03 is SURF!"
+	text "HM03 teaches"
+	line "DOG PADDLE!"
 
 	para "#MON will be"
 	line "able to ferry you"

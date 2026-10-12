@@ -120,7 +120,7 @@ FuchsiaCityLaprasSignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, LAPRAS
+	ld a, GOLDTIDE
 	call DisplayPokedex
 	jp TextScriptEnd
 

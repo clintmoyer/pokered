@@ -198,16 +198,16 @@ PokedexEntryPointers:
 ; text entry
 
 RhydonDexEntry:
-	db "DRILL@"
-	db 6,3
-	dw 2650
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _RhydonDexEntry
 	text_end
 
 KangaskhanDexEntry:
-	db "PARENT@"
-	db 7,3
-	dw 1760
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _KangaskhanDexEntry
 	text_end
 
@@ -247,9 +247,9 @@ NidokingDexEntry:
 	text_end
 
 SlowbroDexEntry:
-	db "HERMITCRAB@"
-	db 5,3
-	dw 1730
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _SlowbroDexEntry
 	text_end
 
@@ -261,37 +261,37 @@ IvysaurDexEntry:
 	text_end
 
 ExeggutorDexEntry:
-	db "COCONUT@"
-	db 6,7
-	dw 2650
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ExeggutorDexEntry
 	text_end
 
 LickitungDexEntry:
-	db "LICKING@"
-	db 3,11
-	dw 1440
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _LickitungDexEntry
 	text_end
 
 ExeggcuteDexEntry:
-	db "EGG@"
-	db 1,4
-	dw 60
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _ExeggcuteDexEntry
 	text_end
 
 GrimerDexEntry:
-	db "SLUDGE@"
-	db 2,11
-	dw 660
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _GrimerDexEntry
 	text_end
 
 GengarDexEntry:
-	db "SHADOW@"
-	db 4,11
-	dw 890
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _GengarDexEntry
 	text_end
 
@@ -317,9 +317,9 @@ CuboneDexEntry:
 	text_end
 
 RhyhornDexEntry:
-	db "SPIKES@"
-	db 3,3
-	dw 2540
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _RhyhornDexEntry
 	text_end
 
@@ -352,30 +352,30 @@ GyaradosDexEntry:
 	text_end
 
 ShellderDexEntry:
-	db "BIVALVE@"
+	db "PACK DOG@"
 	db 1,0
-	dw 90
+	dw 150
 	text_far _ShellderDexEntry
 	text_end
 
 TentacoolDexEntry:
-	db "JELLYFISH@"
-	db 2,11
-	dw 1000
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _TentacoolDexEntry
 	text_end
 
 GastlyDexEntry:
-	db "GAS@"
-	db 4,3
-	dw 2
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _GastlyDexEntry
 	text_end
 
 ScytherDexEntry:
-	db "MANTIS@"
-	db 4,11
-	dw 1230
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ScytherDexEntry
 	text_end
 
@@ -394,9 +394,9 @@ BlastoiseDexEntry:
 	text_end
 
 PinsirDexEntry:
-	db "STAGBEETLE@"
-	db 4,11
-	dw 1210
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _PinsirDexEntry
 	text_end
 
@@ -436,9 +436,9 @@ PidgeyDexEntry:
 	text_end
 
 SlowpokeDexEntry:
-	db "DOPEY@"
-	db 3,11
-	dw 790
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _SlowpokeDexEntry
 	text_end
 
@@ -457,9 +457,9 @@ GravelerDexEntry:
 	text_end
 
 ChanseyDexEntry:
-	db "EGG@"
-	db 3,7
-	dw 760
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ChanseyDexEntry
 	text_end
 
@@ -471,9 +471,9 @@ MachokeDexEntry:
 	text_end
 
 MrMimeDexEntry:
-	db "BARRIER@"
-	db 4,3
-	dw 1200
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _MrMimeDexEntry
 	text_end
 
@@ -499,16 +499,16 @@ ArbokDexEntry:
 	text_end
 
 ParasectDexEntry:
-	db "MUSHROOM@"
-	db 3,3
-	dw 650
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ParasectDexEntry
 	text_end
 
 PsyduckDexEntry:
-	db "DUCK@"
-	db 2,7
-	dw 430
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _PsyduckDexEntry
 	text_end
 
@@ -548,9 +548,9 @@ MagnetonDexEntry:
 	text_end
 
 KoffingDexEntry:
-	db "POISON GAS@"
-	db 2,0
-	dw 20
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _KoffingDexEntry
 	text_end
 
@@ -562,9 +562,9 @@ MankeyDexEntry:
 	text_end
 
 SeelDexEntry:
-	db "SEA LION@"
-	db 3,7
-	dw 1980
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _SeelDexEntry
 	text_end
 
@@ -576,37 +576,37 @@ DiglettDexEntry:
 	text_end
 
 TaurosDexEntry:
-	db "WILD BULL@"
-	db 4,7
-	dw 1950
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _TaurosDexEntry
 	text_end
 
 FarfetchdDexEntry:
-	db "WILD DUCK@"
-	db 2,7
-	dw 330
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _FarfetchdDexEntry
 	text_end
 
 VenonatDexEntry:
-	db "INSECT@"
-	db 3,3
-	dw 660
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _VenonatDexEntry
 	text_end
 
 DragoniteDexEntry:
-	db "DRAGON@"
-	db 7,3
-	dw 4630
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _DragoniteDexEntry
 	text_end
 
 DoduoDexEntry:
-	db "TWIN BIRD@"
-	db 4,7
-	dw 860
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _DoduoDexEntry
 	text_end
 
@@ -646,9 +646,9 @@ ZapdosDexEntry:
 	text_end
 
 DittoDexEntry:
-	db "TRANSFORM@"
-	db 1,0
-	dw 90
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _DittoDexEntry
 	text_end
 
@@ -660,9 +660,9 @@ MeowthDexEntry:
 	text_end
 
 KrabbyDexEntry:
-	db "RIVER CRAB@"
-	db 1,4
-	dw 140
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _KrabbyDexEntry
 	text_end
 
@@ -695,16 +695,16 @@ RaichuDexEntry:
 	text_end
 
 DratiniDexEntry:
-	db "DRAGON@"
-	db 5,11
-	dw 70
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _DratiniDexEntry
 	text_end
 
 DragonairDexEntry:
-	db "DRAGON@"
-	db 13,1
-	dw 360
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _DragonairDexEntry
 	text_end
 
@@ -723,16 +723,16 @@ KabutopsDexEntry:
 	text_end
 
 HorseaDexEntry:
-	db "DRAGON@"
-	db 1,4
-	dw 180
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _HorseaDexEntry
 	text_end
 
 SeadraDexEntry:
-	db "DRAGON@"
-	db 3,11
-	dw 550
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _SeadraDexEntry
 	text_end
 
@@ -828,9 +828,9 @@ EkansDexEntry:
 	text_end
 
 ParasDexEntry:
-	db "MUSHROOM@"
+	db "PACK DOG@"
 	db 1,0
-	dw 120
+	dw 150
 	text_far _ParasDexEntry
 	text_end
 
@@ -870,9 +870,9 @@ BeedrillDexEntry:
 	text_end
 
 DodrioDexEntry:
-	db "TRIPLEBIRD@"
-	db 5,11
-	dw 1880
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _DodrioDexEntry
 	text_end
 
@@ -891,16 +891,16 @@ DugtrioDexEntry:
 	text_end
 
 VenomothDexEntry:
-	db "POISONMOTH@"
-	db 4,11
-	dw 280
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _VenomothDexEntry
 	text_end
 
 DewgongDexEntry:
-	db "SEA LION@"
-	db 5,7
-	dw 2650
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _DewgongDexEntry
 	text_end
 
@@ -933,9 +933,9 @@ MachampDexEntry:
 	text_end
 
 GolduckDexEntry:
-	db "DUCK@"
-	db 5,7
-	dw 1690
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _GolduckDexEntry
 	text_end
 
@@ -961,9 +961,9 @@ MewtwoDexEntry:
 	text_end
 
 SnorlaxDexEntry:
-	db "SLEEPING@"
-	db 6,11
-	dw 10140
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _SnorlaxDexEntry
 	text_end
 
@@ -975,23 +975,23 @@ MagikarpDexEntry:
 	text_end
 
 MukDexEntry:
-	db "SLUDGE@"
-	db 3,11
-	dw 660
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _MukDexEntry
 	text_end
 
 KinglerDexEntry:
-	db "PINCER@"
-	db 4,3
-	dw 1320
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _KinglerDexEntry
 	text_end
 
 CloysterDexEntry:
-	db "BIVALVE@"
-	db 4,11
-	dw 2920
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _CloysterDexEntry
 	text_end
 
@@ -1010,9 +1010,9 @@ ClefableDexEntry:
 	text_end
 
 WeezingDexEntry:
-	db "POISON GAS@"
-	db 3,11
-	dw 210
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _WeezingDexEntry
 	text_end
 
@@ -1031,9 +1031,9 @@ MarowakDexEntry:
 	text_end
 
 HaunterDexEntry:
-	db "GAS@"
-	db 5,3
-	dw 2
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _HaunterDexEntry
 	text_end
 
@@ -1087,37 +1087,37 @@ VenusaurDexEntry:
 	text_end
 
 TentacruelDexEntry:
-	db "JELLYFISH@"
-	db 5,3
-	dw 1210
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _TentacruelDexEntry
 	text_end
 
 GoldeenDexEntry:
-	db "GOLDFISH@"
-	db 2,0
-	dw 330
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _GoldeenDexEntry
 	text_end
 
 SeakingDexEntry:
-	db "GOLDFISH@"
-	db 4,3
-	dw 860
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _SeakingDexEntry
 	text_end
 
 PonytaDexEntry:
-	db "FIRE HORSE@"
-	db 3,3
-	dw 660
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _PonytaDexEntry
 	text_end
 
 RapidashDexEntry:
-	db "FIRE HORSE@"
-	db 5,7
-	dw 2090
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _RapidashDexEntry
 	text_end
 

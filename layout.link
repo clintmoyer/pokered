@@ -177,6 +177,7 @@ ROMX $2B
 	"Pokédex Text"
 ROMX $2C
 	"Move Names"
+	"Dog Evolution"
 ROMX $2D
 	"Dog Pics 1"
 ROMX $2E
@@ -201,6 +202,18 @@ ROMX $37
 	"Dog Pics 11"
 ROMX $38
 	"Dog Pics 12"
+ROMX $39
+	"Dog Pics 13"
+ROMX $3A
+	"Dog Pics 14"
+ROMX $3B
+	"Dog Pics 15"
+ROMX $3C
+	"Dog Pics 16"
+ROMX $3D
+	"Dog Pics 17"
+ROMX $3E
+	"Dog Pics 18"
 WRAM0
 	"Audio RAM"
 	org $c100

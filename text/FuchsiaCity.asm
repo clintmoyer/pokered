@@ -22,9 +22,8 @@ _FuchsiaCityErikText::
 	done
 
 _FuchsiaCityYoungster2Text::
-	text "That item ball in"
-	line "there is really a"
-	cont "#MON."
+	text "That CHIPUP is"
+	line "tiny but bright!"
 	done
 
 _FuchsiaCityPokemonText::
@@ -62,44 +61,43 @@ _FuchsiaCityGymSignText::
 	done
 
 _FuchsiaCityChanseySignText::
-	text "Name: CHANSEY"
+	text "Name: CAVALIER"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "A gentle spaniel"
+	line "with silky ears."
 	prompt
 
 _FuchsiaCityVoltorbSignText::
-	text "Name: VOLTORB"
+	text "Name: CHIPUP"
 
-	para "The very image of"
-	line "a # BALL."
+	para "A tiny friend"
+	line "with a big spark!"
 	prompt
 
 _FuchsiaCityKangaskhanSignText::
-	text "Name: KANGASKHAN"
+	text "Name: GREATDANE"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "A tall guardian"
+	line "who protects"
+	cont "the whole pack."
 	prompt
 
 _FuchsiaCitySlowpokeSignText::
-	text "Name: SLOWPOKE"
+	text "Name: BASSPUP"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Its long ears"
+	line "follow the trail."
 	prompt
 
 _FuchsiaCityLaprasSignText::
-	text "Name: LAPRAS"
+	text "Name: GOLDTIDE"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "A golden swimmer"
+	line "who rescues pups."
 	prompt
 
 _FuchsiaCityFossilSignOmanyteText::
-	text "Name: OMANYTE"
+	text "Name: KEESPUP"
 
 	para "A #MON that"
 	line "was resurrected"
@@ -107,7 +105,7 @@ _FuchsiaCityFossilSignOmanyteText::
 	prompt
 
 _FuchsiaCityFossilSignKabutoText::
-	text "Name: KABUTO"
+	text "Name: ELKPUP"
 
 	para "A #MON that"
 	line "was resurrected"
