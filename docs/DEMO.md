@@ -18,6 +18,8 @@ The demo covers Pallet Town through Brock, then Route 3, Route 4, Mt. Moon, Ceru
 
 The starter families are Grass Groenendael (`GROENPUP`, `GROEN`, `GROENHOUND`), Fire Shiba Inu (`SHIBAPUP`, `SHIBA`, `SHIBLAZE`), and Water Newfoundland (`NEWFPUP`, `NEWFIE`, `NEWFTIDE`). Each evolves at levels 16 and 36. All final starters have 425 base-stat points across HP, Attack, Defense, Speed, and Special.
 
+All three Groenendael forms use a dedicated black and charcoal Super Game Boy palette for their front and back sprites, while retaining Grass typing. The original four-shade sprite artwork is unchanged.
+
 The opening wild roster uses Beagle, Papillon, and Boxer families. Boxer is available before Brock to support the Shiba route. The gym uses Rock Bulldog and Mastiff forms. Forty-eight dog forms across twenty breed families receive names, stats, Pokédex entries, learnsets, and front/back sprites. New families include Yorkshire Terrier, Whippet, Greyhound, Dachshund, Pomeranian, Jack Russell Terrier, Cocker Spaniel, Italian Greyhound, Lagotto Romagnolo, Poodle, Otterhound, and English Springer Spaniel.
 
 All 165 move slots now use the finalized dog move names and parameters, with existing effect and animation routines. HMs preserve their original IDs and field behavior. Dig, Teleport, and Softboiled field-menu labels are also renamed to match their new battle names. The remaining 103 dog forms are planned but unimplemented.

@@ -59,4 +59,5 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_BADGE     ; $22
 	const PAL_CAVE      ; $23
 	const PAL_GAMEFREAK ; $24
+	const PAL_GROENMON  ; $25
 DEF NUM_SGB_PALS EQU const_value
