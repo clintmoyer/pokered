@@ -15,10 +15,10 @@ _CeladonMart3FClerkReceivedTM18Text::
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "TM18 teaches"
+	line "RETORT PAW!"
+	cont "A well-timed reply"
+	cont "to a hard hit!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
@@ -41,21 +41,20 @@ _CeladonMart3FGameBoyKid2Text::
 
 	para "My buddy's going"
 	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	cont "SHEPHGUARD for my"
+	cont "BULLDOG!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Come on BULLDOG!"
 
-	para "I love GRAVELER!"
+	para "I love BULLDOG!"
 	line "I collect them!"
 
 	para "Huh?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "Training helps my"
+	line "dogs grow strong!"
 	done
 
 _CeladonMart3FLittleBoyText::

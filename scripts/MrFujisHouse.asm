@@ -56,7 +56,7 @@ MrFujisHouseLittleGirlText:
 MrFujisHousePsyduckText:
 	text_far _MrFujisHousePsyduckText
 	text_asm
-	ld a, PSYDUCK
+	ld a, PORTPUP
 	call PlayCry
 	jp TextScriptEnd
 

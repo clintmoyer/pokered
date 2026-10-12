@@ -31,7 +31,7 @@ _CyclingIsFunText::
 	prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
+	text "BEACON BARK"
 	line "lights the area!"
 	prompt
 
@@ -49,7 +49,7 @@ _CannotUseTeleportNowText::
 _CannotFlyHereText::
 	text_ram wNameBuffer
 	text " can't"
-	line "FLY here."
+	line "use SKYBOUND here."
 	prompt
 
 _NotHealthyEnoughText::

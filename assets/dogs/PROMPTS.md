@@ -34,3 +34,7 @@ Use case: stylized-concept. Asset type: production Game Boy dog battle sprite at
 # Lt. Surge additions
 
 The two Vermilion atlases and their exact built-in imagegen prompts are recorded in [SURGE_PROMPTS.md](SURGE_PROMPTS.md).
+
+# Erika additions
+
+The three new source atlases and their exact built-in imagegen prompts are recorded in [ERIKA_PROMPTS.md](ERIKA_PROMPTS.md).

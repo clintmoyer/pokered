@@ -19,23 +19,23 @@ _KangaskhanDexEntry::
 	dex
 
 _NidoranMDexEntry::
-	text "Stiffens its ears"
-	next "to sense danger."
-	next "The larger its"
-
-	page "horns, the more"
-	next "powerful its"
-	next "secreted venom"
+	text "AUSTRALIAN"
+	next "SHEPHERD."
+	next "Its bright eyes"
+	page "watch over the"
+	next "pack. It rounds up"
+	next "lost friends with"
+	page "swift turns."
 	dex
 
 _ClefairyDexEntry::
-	text "Its magical and"
-	next "cute appeal has"
-	next "many admirers."
-
-	page "It is rare and"
-	next "found only in"
-	next "certain areas"
+	text "SAMOYED."
+	next "Its snow-white"
+	next "coat stays cool in"
+	page "summer. Its gentle"
+	next "howl soothes"
+	next "frightened"
+	page "puppies."
 	dex
 
 _SpearowDexEntry::
@@ -57,13 +57,13 @@ _VoltorbDexEntry::
 	dex
 
 _NidokingDexEntry::
-	text "It uses its"
-	next "powerful tail in"
-	next "battle to smash,"
-
-	page "constrict, then"
-	next "break the prey's"
-	next "bones"
+	text "AUSTRALIAN"
+	next "SHEPHERD."
+	next "Its bright eyes"
+	page "watch over the"
+	next "pack. It rounds up"
+	next "lost friends with"
+	page "swift turns."
 	dex
 
 _SlowbroDexEntry::
@@ -136,33 +136,32 @@ _GengarDexEntry::
 	dex
 
 _NidoranFDexEntry::
-	text "Although small,"
-	next "its venomous"
-	next "barbs render this"
-
-	page "#MON dangerous."
-	next "The female has"
-	next "smaller horns"
+	text "AUSTRALIAN CATTLE"
+	next "DOG."
+	next "Its speckled coat"
+	page "hides in rocky"
+	next "grass. It guides"
+	next "its pack with firm"
+	page "and careful paws."
 	dex
 
 _NidoqueenDexEntry::
-	text "Its hard scales"
-	next "provide strong"
-	next "protection. It"
-
-	page "uses its hefty"
-	next "bulk to execute"
-	next "powerful moves"
+	text "AUSTRALIAN CATTLE"
+	next "DOG."
+	next "Its speckled coat"
+	page "hides in rocky"
+	next "grass. It guides"
+	next "its pack with firm"
+	page "and careful paws."
 	dex
 
 _CuboneDexEntry::
-	text "Because it never"
-	next "removes its skull"
-	next "helmet, no one"
-
-	page "has ever seen"
-	next "this #MON's"
-	next "real face"
+	text "SCOTTISH TERRIER."
+	next "Its short sturdy"
+	next "legs dig deep"
+	page "tunnels. Its sharp"
+	next "nose finds hidden"
+	next "stones."
 	dex
 
 _RhyhornDexEntry::
@@ -186,13 +185,12 @@ _LaprasDexEntry::
 	dex
 
 _ArcanineDexEntry::
-	text "A #MON that"
-	next "has been admired"
-	next "since the past"
-
-	page "for its beauty."
-	next "It runs agilely"
-	next "as if on wings"
+	text "AKITA."
+	next "Its thick coat"
+	next "stores gentle"
+	page "warmth. This loyal"
+	next "guardian protects"
+	next "its family."
 	dex
 
 _MewDexEntry::
@@ -285,23 +283,21 @@ _PinsirDexEntry::
 	dex
 
 _TangelaDexEntry::
-	text "The whole body is"
-	next "swathed with wide"
-	next "vines that are"
-
-	page "similar to sea-"
-	next "weed. Its vines"
-	next "shake as it walks"
+	text "KOMONDOR."
+	next "Its corded coat"
+	next "gathers soft"
+	page "leaves. It guards"
+	next "flower beds while"
+	next "the puppies rest."
 	dex
 
 _GrowlitheDexEntry::
-	text "Very protective"
-	next "of its territory."
-	next "It will bark and"
-
-	page "bite to repel"
-	next "intruders from"
-	next "its space"
+	text "AKITA."
+	next "Its thick coat"
+	next "stores gentle"
+	page "warmth. This loyal"
+	next "guardian protects"
+	next "its family."
 	dex
 
 _OnixDexEntry::
@@ -575,13 +571,13 @@ _DoduoDexEntry::
 	dex
 
 _PoliwagDexEntry::
-	text "Its newly grown"
-	next "legs prevent it"
-	next "from running. It"
-
-	page "appears to prefer"
-	next "swimming than"
-	next "trying to stand"
+	text "PORTUGUESE WATER"
+	next "DOG."
+	next "Its curly coat"
+	page "sheds river water."
+	next "It swims out to"
+	next "guide tired"
+	page "friends to shore."
 	dex
 
 _JynxDexEntry::
@@ -655,23 +651,21 @@ _KrabbyDexEntry::
 	dex
 
 _VulpixDexEntry::
-	text "At the time of"
-	next "birth, it has"
-	next "just one tail."
-
-	page "The tail splits"
-	next "from its tip as"
-	next "it grows older"
+	text "FINNISH SPITZ."
+	next "Its foxlike ears"
+	next "follow woodland"
+	page "sounds. Its bright"
+	next "bark carries warm"
+	next "sparks."
 	dex
 
 _NinetalesDexEntry::
-	text "Very smart and"
-	next "very vengeful."
-	next "Grabbing one of"
-
-	page "its many tails"
-	next "could result in a"
-	next "1000-year curse"
+	text "FINNISH SPITZ."
+	next "Its foxlike ears"
+	next "follow woodland"
+	page "sounds. Its bright"
+	next "bark carries warm"
+	next "sparks."
 	dex
 
 _PikachuDexEntry::
@@ -715,23 +709,23 @@ _DragonairDexEntry::
 	dex
 
 _KabutoDexEntry::
-	text "A #MON that"
-	next "was resurrected"
-	next "from a fossil"
-
-	page "found in what was"
-	next "once the ocean"
-	next "floor eons ago"
+	text "NORWEGIAN"
+	next "ELKHOUND."
+	next "Its strong paws"
+	page "grip rocky slopes."
+	next "Its bold howl"
+	next "guides friends"
+	page "through the hills."
 	dex
 
 _KabutopsDexEntry::
-	text "Its sleek shape is"
-	next "perfect for swim-"
-	next "ming. It slashes"
-
-	page "prey with its"
-	next "claws and drains"
-	next "the body fluids"
+	text "NORWEGIAN"
+	next "ELKHOUND."
+	next "Its strong paws"
+	page "grip rocky slopes."
+	next "Its bold howl"
+	next "guides friends"
+	page "through the hills."
 	dex
 
 _HorseaDexEntry::
@@ -775,23 +769,21 @@ _SandslashDexEntry::
 	dex
 
 _OmanyteDexEntry::
-	text "Although long"
-	next "extinct, in rare"
-	next "cases, it can be"
-
-	page "genetically"
-	next "resurrected from"
-	next "fossils"
+	text "KEESHOND."
+	next "Its fluffy gray"
+	next "coat sheds water."
+	page "It watches cave"
+	next "streams from"
+	next "sturdy rocks."
 	dex
 
 _OmastarDexEntry::
-	text "A prehistoric"
-	next "#MON that died"
-	next "out when its"
-
-	page "heavy shell made"
-	next "it impossible to"
-	next "catch prey"
+	text "KEESHOND."
+	next "Its fluffy gray"
+	next "coat sheds water."
+	page "It watches cave"
+	next "streams from"
+	next "sturdy rocks."
 	dex
 
 _JigglypuffDexEntry::
@@ -815,43 +807,43 @@ _WigglytuffDexEntry::
 	dex
 
 _EeveeDexEntry::
-	text "Its genetic code"
-	next "is irregular."
-	next "It may mutate if"
-
-	page "it is exposed to"
-	next "radiation from"
-	next "element STONEs"
+	text "BELGIAN TERVUREN."
+	next "Its watchful eyes"
+	next "follow every"
+	page "trail. Element"
+	next "stones reveal new"
+	next "powers in its long"
+	page "coat."
 	dex
 
 _FlareonDexEntry::
-	text "When storing"
-	next "thermal energy in"
-	next "its body, its"
-
-	page "temperature could"
-	next "soar to over 1600"
-	next "degrees"
+	text "BELGIAN TERVUREN."
+	next "Its watchful eyes"
+	next "follow every"
+	page "trail. Element"
+	next "stones reveal new"
+	next "powers in its long"
+	page "coat."
 	dex
 
 _JolteonDexEntry::
-	text "It accumulates"
-	next "negative ions in"
-	next "the atmosphere to"
-
-	page "blast out 10000-"
-	next "volt lightning"
-	next "bolts"
+	text "BELGIAN TERVUREN."
+	next "Its watchful eyes"
+	next "follow every"
+	page "trail. Element"
+	next "stones reveal new"
+	next "powers in its long"
+	page "coat."
 	dex
 
 _VaporeonDexEntry::
-	text "Lives close to"
-	next "water. Its long"
-	next "tail is ridged"
-
-	page "with a fin which"
-	next "is often mistaken"
-	next "for a mermaid's"
+	text "BELGIAN TERVUREN."
+	next "Its watchful eyes"
+	next "follow every"
+	page "trail. Element"
+	next "stones reveal new"
+	next "powers in its long"
+	page "coat."
 	dex
 
 _MachopDexEntry::
@@ -894,23 +886,23 @@ _ParasDexEntry::
 	dex
 
 _PoliwhirlDexEntry::
-	text "Capable of living"
-	next "in or out of"
-	next "water. When out"
-
-	page "of water, it"
-	next "sweats to keep"
-	next "its body slimy"
+	text "PORTUGUESE WATER"
+	next "DOG."
+	next "Its curly coat"
+	page "sheds river water."
+	next "It swims out to"
+	next "guide tired"
+	page "friends to shore."
 	dex
 
 _PoliwrathDexEntry::
-	text "An adept swimmer"
-	next "at both the front"
-	next "crawl and breast"
-
-	page "stroke. Easily"
-	next "overtakes the best"
-	next "human swimmers"
+	text "PORTUGUESE WATER"
+	next "DOG."
+	next "Its curly coat"
+	page "sheds river water."
+	next "It swims out to"
+	next "guide tired"
+	page "friends to shore."
 	dex
 
 _WeedleDexEntry::
@@ -1125,13 +1117,13 @@ _ElectrodeDexEntry::
 	dex
 
 _ClefableDexEntry::
-	text "A timid fairy"
-	next "#MON that is"
-	next "rarely seen. It"
-
-	page "will run and hide"
-	next "the moment it"
-	next "senses people"
+	text "SAMOYED."
+	next "Its snow-white"
+	next "coat stays cool in"
+	page "summer. Its gentle"
+	next "howl soothes"
+	next "frightened"
+	page "puppies."
 	dex
 
 _WeezingDexEntry::
@@ -1155,13 +1147,12 @@ _PersianDexEntry::
 	dex
 
 _MarowakDexEntry::
-	text "The bone it holds"
-	next "is its key weapon."
-	next "It throws the"
-
-	page "bone skillfully"
-	next "like a boomerang"
-	next "to KO targets"
+	text "SCOTTISH TERRIER."
+	next "Its short sturdy"
+	next "legs dig deep"
+	page "tunnels. Its sharp"
+	next "nose finds hidden"
+	next "stones."
 	dex
 
 _HaunterDexEntry::
@@ -1308,23 +1299,23 @@ _RaticateDexEntry::
 	dex
 
 _NidorinoDexEntry::
-	text "An aggressive"
-	next "#MON that is"
-	next "quick to attack."
-
-	page "The horn on its"
-	next "head secretes a"
-	next "powerful venom"
+	text "AUSTRALIAN"
+	next "SHEPHERD."
+	next "Its bright eyes"
+	page "watch over the"
+	next "pack. It rounds up"
+	next "lost friends with"
+	page "swift turns."
 	dex
 
 _NidorinaDexEntry::
-	text "The female's horn"
-	next "develops slowly."
-	next "Prefers physical"
-
-	page "attacks such as"
-	next "clawing and"
-	next "biting"
+	text "AUSTRALIAN CATTLE"
+	next "DOG."
+	next "Its speckled coat"
+	page "hides in rocky"
+	next "grass. It guides"
+	next "its pack with firm"
+	page "and careful paws."
 	dex
 
 _GeodudeDexEntry::
@@ -1337,13 +1328,13 @@ _GeodudeDexEntry::
 	dex
 
 _PorygonDexEntry::
-	text "A #MON that"
-	next "consists entirely"
-	next "of programming"
-
-	page "code. Capable of"
-	next "moving freely in"
-	next "cyberspace"
+	text "GERMAN SHEPHERD."
+	next "Its keen mind"
+	next "solves difficult"
+	page "tasks. It guides"
+	next "and protects every"
+	next "member of its"
+	page "pack."
 	dex
 
 _AerodactylDexEntry::
@@ -1438,31 +1429,31 @@ _VileplumeDexEntry::
 	dex
 
 _BellsproutDexEntry::
-	text "A carnivorous"
-	next "#MON that traps"
-	next "and eats bugs."
-
-	page "It uses its root"
-	next "feet to soak up"
-	next "needed moisture"
+	text "IRISH SETTER."
+	next "Its silky coat"
+	next "catches the"
+	page "sunset. It tends"
+	next "meadow flowers"
+	next "with warm leaf"
+	page "magic."
 	dex
 
 _WeepinbellDexEntry::
-	text "It spits out"
-	next "POISONPOWDER to"
-	next "immobilize the"
-
-	page "enemy and then"
-	next "finishes it with"
-	next "a spray of ACID"
+	text "IRISH SETTER."
+	next "Its silky coat"
+	next "catches the"
+	page "sunset. It tends"
+	next "meadow flowers"
+	next "with warm leaf"
+	page "magic."
 	dex
 
 _VictreebelDexEntry::
-	text "Said to live in"
-	next "huge colonies"
-	next "deep in jungles,"
-
-	page "although no one"
-	next "has ever returned"
-	next "from there"
+	text "IRISH SETTER."
+	next "Its silky coat"
+	next "catches the"
+	page "sunset. It tends"
+	next "meadow flowers"
+	next "with warm leaf"
+	page "magic."
 	dex

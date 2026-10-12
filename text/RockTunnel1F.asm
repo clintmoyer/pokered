@@ -9,8 +9,9 @@ _RockTunnel1FHiker1EndBattleText::
 	prompt
 
 _RockTunnel1FHiker1AfterBattleText::
-	text "Watch for ONIX!"
-	line "It can put the"
+	text "Watch for"
+	line "STONEMAST!"
+	cont "It can put the"
 	cont "squeeze on you!"
 	done
 
@@ -59,7 +60,7 @@ _RockTunnel1FSuperNerdEndBattleText::
 
 _RockTunnel1FSuperNerdAfterBattleText::
 	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	line "a IGPUP as I go!"
 	done
 
 _RockTunnel1FCooltrainerF1BattleText::

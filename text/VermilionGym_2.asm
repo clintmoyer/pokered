@@ -10,8 +10,12 @@ _VermilionGymLTSurgePostBattleAdviceText::
 	cont "type dogs!"
 
 	para "You earned three"
-	line "badges! This demo"
-	cont "ends here for now."
+	line "badges! Head east"
+	cont "from CERULEAN."
+
+	para "BRAMBLE BITE opens"
+	line "the trail to ROCK"
+	cont "TUNNEL to CELADON!"
 	done
 
 _VermilionGymLTSurgeThunderBadgeInfoText::

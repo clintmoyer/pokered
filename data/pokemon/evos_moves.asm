@@ -226,29 +226,31 @@ KangaskhanEvosMoves:
 	db 0
 
 NidoranMEvosMoves:
-; Evolutions
+; AUSSPUP: same breed, growing maturity.
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0
-; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 21, FOCUS_ENERGY
-	db 29, FURY_ATTACK
-	db 36, HORN_DRILL
-	db 43, DOUBLE_KICK
+	db 7, VENOM_DROOL
+	db 11, PAW_DASH
+	db 14, TOXIC_DANDER
+	db 18, VENOM_BARK
+	db 24, PACK_RUSH
+	db 27, PAW_COMBO
+	db 30, VENOM_MARK
+	db 38, VENOM_COAT
+	db 42, SPAR_RUSH
 	db 0
 
 ClefairyEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, CLEFABLE
+; SAMOPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, CLEFABLE
 	db 0
-; Learnset
-	db 13, SING
-	db 18, DOUBLESLAP
-	db 24, MINIMIZE
-	db 31, METRONOME
-	db 39, DEFENSE_CURL
-	db 48, LIGHT_SCREEN
+	db 7, FROST_PAW
+	db 11, PAW_DASH
+	db 14, FROST_COAT
+	db 18, POLAR_HOWL
+	db 24, PACK_RUSH
+	db 30, FROST_BARK
+	db 38, WHITEOUT_YIP
 	db 0
 
 SpearowEvosMoves:
@@ -280,12 +282,17 @@ VoltorbEvosMoves:
 	db 0
 
 NidokingEvosMoves:
-; Evolutions
+; AUSSGUARD: same breed, growing maturity.
 	db 0
-; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 23, THRASH
+	db 7, VENOM_DROOL
+	db 11, PAW_DASH
+	db 14, TOXIC_DANDER
+	db 18, VENOM_BARK
+	db 24, PACK_RUSH
+	db 27, PAW_COMBO
+	db 30, VENOM_MARK
+	db 38, VENOM_COAT
+	db 42, SPAR_RUSH
 	db 0
 
 SlowbroEvosMoves:
@@ -367,37 +374,45 @@ GengarEvosMoves:
 	db 0
 
 NidoranFEvosMoves:
-; Evolutions
+; CATTLEPUP: same breed, growing maturity.
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0
-; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
-	db 21, TAIL_WHIP
-	db 29, BITE
-	db 36, FURY_SWIPES
-	db 43, DOUBLE_KICK
+	db 7, VENOM_DROOL
+	db 11, PAW_DASH
+	db 14, TOXIC_DANDER
+	db 18, VENOM_BARK
+	db 24, PACK_RUSH
+	db 27, DUST_KICK
+	db 30, VENOM_MARK
+	db 38, VENOM_COAT
+	db 42, EARTH_STOMP
 	db 0
 
 NidoqueenEvosMoves:
-; Evolutions
+; CATTLEGARD: same breed, growing maturity.
 	db 0
-; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
-	db 23, BODY_SLAM
+	db 7, VENOM_DROOL
+	db 11, PAW_DASH
+	db 14, TOXIC_DANDER
+	db 18, VENOM_BARK
+	db 24, PACK_RUSH
+	db 27, DUST_KICK
+	db 30, VENOM_MARK
+	db 38, VENOM_COAT
+	db 42, EARTH_STOMP
 	db 0
 
 CuboneEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 28, MAROWAK
+; SCOTTPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, MAROWAK
 	db 0
-; Learnset
-	db 25, LEER
-	db 31, FOCUS_ENERGY
-	db 38, THRASH
-	db 43, BONEMERANG
-	db 46, RAGE
+	db 7, DUST_KICK
+	db 11, PAW_DASH
+	db 14, BONE_BASH
+	db 18, BURROW_RUSH
+	db 24, PACK_RUSH
+	db 30, BONE_FETCH
+	db 38, EARTH_STOMP
 	db 0
 
 RhyhornEvosMoves:
@@ -426,9 +441,15 @@ LaprasEvosMoves:
 	db 0
 
 ArcanineEvosMoves:
-; Evolutions
+; AKITAFIRE: same breed, growing maturity.
 	db 0
-; Learnset
+	db 7, CINDER_YIP
+	db 11, PAW_DASH
+	db 14, SOOT_SHAKE
+	db 18, EMBER_PAW
+	db 24, PACK_RUSH
+	db 30, CINDER_BARK
+	db 38, FLAME_POUNCE
 	db 0
 
 MewEvosMoves:
@@ -540,15 +561,16 @@ PinsirEvosMoves:
 	db 0
 
 TangelaEvosMoves:
-; Evolutions
+; KOMONDOR: same breed, growing maturity.
 	db 0
-; Learnset
-	db 29, ABSORB
-	db 32, POISONPOWDER
-	db 36, STUN_SPORE
-	db 39, SLEEP_POWDER
-	db 45, SLAM
-	db 49, GROWTH
+	db 7, LEAF_FANG
+	db 11, PAW_DASH
+	db 14, ROOT_SNARE
+	db 18, THORN_CLAW
+	db 24, PACK_RUSH
+	db 30, BRIAR_FANG
+	db 38, SUN_HOWL
+	db 42, DREAM_POLLEN
 	db 0
 
 MissingNo1FEvosMoves:
@@ -564,15 +586,16 @@ MissingNo20EvosMoves:
 	db 0
 
 GrowlitheEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, FIRE_STONE, 1, ARCANINE
+; AKIPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, ARCANINE
 	db 0
-; Learnset
-	db 18, EMBER
-	db 23, LEER
-	db 30, TAKE_DOWN
-	db 39, AGILITY
-	db 50, FLAMETHROWER
+	db 7, CINDER_YIP
+	db 11, PAW_DASH
+	db 14, SOOT_SHAKE
+	db 18, EMBER_PAW
+	db 24, PACK_RUSH
+	db 30, CINDER_BARK
+	db 38, FLAME_POUNCE
 	db 0
 
 OnixEvosMoves:
@@ -971,16 +994,18 @@ DoduoEvosMoves:
 	db 0
 
 PoliwagEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 25, POLIWHIRL
+; PORTPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 16, POLIWHIRL
 	db 0
-; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 25, DOUBLESLAP
-	db 31, BODY_SLAM
-	db 38, AMNESIA
-	db 45, HYDRO_PUMP
+	db 7, SPLASH_KICK
+	db 11, PAW_DASH
+	db 14, WATER_GUARD
+	db 18, WAKE_CHARGE
+	db 24, PACK_RUSH
+	db 27, PAW_COMBO
+	db 30, RIVER_RUSH
+	db 38, TIDAL_BARK
+	db 42, TIDE_PAW
 	db 0
 
 JynxEvosMoves:
@@ -1073,21 +1098,30 @@ MissingNo51EvosMoves:
 	db 0
 
 VulpixEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, FIRE_STONE, 1, NINETALES
+; SPITZPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, NINETALES
 	db 0
-; Learnset
-	db 16, QUICK_ATTACK
-	db 21, ROAR
-	db 28, CONFUSE_RAY
-	db 35, FLAMETHROWER
-	db 42, FIRE_SPIN
+	db 7, CINDER_YIP
+	db 11, PAW_DASH
+	db 14, SOOT_SHAKE
+	db 18, EMBER_PAW
+	db 24, PACK_RUSH
+	db 30, CINDER_BARK
+	db 38, FLAME_POUNCE
+	db 42, EMBER_CIRCLE
 	db 0
 
 NinetalesEvosMoves:
-; Evolutions
+; SUNSPITZ: same breed, growing maturity.
 	db 0
-; Learnset
+	db 7, CINDER_YIP
+	db 11, PAW_DASH
+	db 14, SOOT_SHAKE
+	db 18, EMBER_PAW
+	db 24, PACK_RUSH
+	db 30, CINDER_BARK
+	db 38, FLAME_POUNCE
+	db 42, EMBER_CIRCLE
 	db 0
 
 PikachuEvosMoves:
@@ -1152,24 +1186,32 @@ DragonairEvosMoves:
 	db 0
 
 KabutoEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 40, KABUTOPS
+; ELKPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, KABUTOPS
 	db 0
-; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 44, LEER
-	db 49, HYDRO_PUMP
+	db 7, BRACE
+	db 11, PAW_DASH
+	db 14, STONE_PAW
+	db 18, GUARD_HOWL
+	db 24, PACK_RUSH
+	db 27, PAW_COMBO
+	db 30, BOULDER_RUSH
+	db 38, HAUL
+	db 42, ROLL_PAW
 	db 0
 
 KabutopsEvosMoves:
-; Evolutions
+; ELKGUARD: same breed, growing maturity.
 	db 0
-; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 46, LEER
-	db 53, HYDRO_PUMP
+	db 7, BRACE
+	db 11, PAW_DASH
+	db 14, STONE_PAW
+	db 18, GUARD_HOWL
+	db 24, PACK_RUSH
+	db 27, PAW_COMBO
+	db 30, BOULDER_RUSH
+	db 38, HAUL
+	db 42, ROLL_PAW
 	db 0
 
 HorseaEvosMoves:
@@ -1233,24 +1275,32 @@ SandslashEvosMoves:
 	db 0
 
 OmanyteEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 40, OMASTAR
+; KEESPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, OMASTAR
 	db 0
-; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 46, SPIKE_CANNON
-	db 53, HYDRO_PUMP
+	db 7, BRACE
+	db 11, PAW_DASH
+	db 14, STONE_PAW
+	db 18, GUARD_HOWL
+	db 24, PACK_RUSH
+	db 27, SPLASH_KICK
+	db 30, BOULDER_RUSH
+	db 38, HAUL
+	db 42, RIVER_RUSH
 	db 0
 
 OmastarEvosMoves:
-; Evolutions
+; KEESTIDE: same breed, growing maturity.
 	db 0
-; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 44, SPIKE_CANNON
-	db 49, HYDRO_PUMP
+	db 7, BRACE
+	db 11, PAW_DASH
+	db 14, STONE_PAW
+	db 18, GUARD_HOWL
+	db 24, PACK_RUSH
+	db 27, SPLASH_KICK
+	db 30, BOULDER_RUSH
+	db 38, HAUL
+	db 42, RIVER_RUSH
 	db 0
 
 JigglypuffEvosMoves:
@@ -1281,58 +1331,58 @@ WigglytuffEvosMoves:
 	db 0
 
 EeveeEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
-	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
+; TERVPUP: same breed, growing maturity.
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
+	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
+	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
 	db 0
-; Learnset
-	db 27, QUICK_ATTACK
-	db 31, TAIL_WHIP
-	db 37, BITE
-	db 45, TAKE_DOWN
+	db 7, PAW_DASH
+	db 11, PAW_DASH
+	db 14, NIP_FANG
+	db 18, PACK_RUSH
+	db 24, PACK_RUSH
+	db 30, CRUSH_FANG
+	db 38, CLAW_RAKE
+	db 42, COPY_TRICK
 	db 0
 
 FlareonEvosMoves:
-; Evolutions
+; FLAMETERV: same breed, growing maturity.
 	db 0
-; Learnset
-	db 27, QUICK_ATTACK
-	db 31, EMBER
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, LEER
-	db 44, FIRE_SPIN
-	db 48, RAGE
-	db 54, FLAMETHROWER
+	db 7, CINDER_YIP
+	db 11, PAW_DASH
+	db 14, SOOT_SHAKE
+	db 18, EMBER_PAW
+	db 30, CINDER_BARK
+	db 38, FLAME_POUNCE
+	db 42, COPY_TRICK
+	db 42, FLAME_POUNCE
 	db 0
 
 JolteonEvosMoves:
-; Evolutions
+; SPARKTERV: same breed, growing maturity.
 	db 0
-; Learnset
-	db 27, QUICK_ATTACK
-	db 31, THUNDERSHOCK
-	db 37, TAIL_WHIP
-	db 40, THUNDER_WAVE
-	db 42, DOUBLE_KICK
-	db 44, AGILITY
-	db 48, PIN_MISSILE
-	db 54, THUNDER
+	db 7, SPARK_YIP
+	db 11, PAW_DASH
+	db 14, STATIC_COAT
+	db 18, VOLT_PAW
+	db 30, VOLT_BARK
+	db 38, STORM_HOWL
+	db 42, COPY_TRICK
+	db 42, STORM_HOWL
 	db 0
 
 VaporeonEvosMoves:
-; Evolutions
+; TIDETERV: same breed, growing maturity.
 	db 0
-; Learnset
-	db 27, QUICK_ATTACK
-	db 31, WATER_GUN
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, ACID_ARMOR
-	db 44, HAZE
-	db 48, MIST
-	db 54, HYDRO_PUMP
+	db 7, SPLASH_KICK
+	db 11, PAW_DASH
+	db 14, WATER_GUARD
+	db 18, WAKE_CHARGE
+	db 30, RIVER_RUSH
+	db 38, TIDAL_BARK
+	db 42, COPY_TRICK
+	db 42, TIDAL_BARK
 	db 0
 
 MachopEvosMoves:
@@ -1389,24 +1439,32 @@ ParasEvosMoves:
 	db 0
 
 PoliwhirlEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, WATER_STONE, 1, POLIWRATH
+; PORTWATER: same breed, growing maturity.
+	db EVOLVE_LEVEL, 32, POLIWRATH
 	db 0
-; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 26, DOUBLESLAP
-	db 33, BODY_SLAM
-	db 41, AMNESIA
-	db 49, HYDRO_PUMP
+	db 7, SPLASH_KICK
+	db 11, PAW_DASH
+	db 14, WATER_GUARD
+	db 18, WAKE_CHARGE
+	db 24, PACK_RUSH
+	db 27, PAW_COMBO
+	db 30, RIVER_RUSH
+	db 38, TIDAL_BARK
+	db 42, TIDE_PAW
 	db 0
 
 PoliwrathEvosMoves:
-; Evolutions
+; PORTGUARD: same breed, growing maturity.
 	db 0
-; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
+	db 7, SPLASH_KICK
+	db 11, PAW_DASH
+	db 14, WATER_GUARD
+	db 18, WAKE_CHARGE
+	db 24, PACK_RUSH
+	db 27, PAW_COMBO
+	db 30, RIVER_RUSH
+	db 38, TIDAL_BARK
+	db 42, TIDE_PAW
 	db 0
 
 WeedleEvosMoves:
@@ -1722,9 +1780,15 @@ ElectrodeEvosMoves:
 	db 0
 
 ClefableEvosMoves:
-; Evolutions
+; SAMOYED: same breed, growing maturity.
 	db 0
-; Learnset
+	db 7, FROST_PAW
+	db 11, PAW_DASH
+	db 14, FROST_COAT
+	db 18, POLAR_HOWL
+	db 24, PACK_RUSH
+	db 30, FROST_BARK
+	db 38, WHITEOUT_YIP
 	db 0
 
 WeezingEvosMoves:
@@ -1752,14 +1816,15 @@ PersianEvosMoves:
 	db 0
 
 MarowakEvosMoves:
-; Evolutions
+; SCOTTDIG: same breed, growing maturity.
 	db 0
-; Learnset
-	db 25, LEER
-	db 33, FOCUS_ENERGY
-	db 41, THRASH
-	db 48, BONEMERANG
-	db 55, RAGE
+	db 7, DUST_KICK
+	db 11, PAW_DASH
+	db 14, BONE_BASH
+	db 18, BURROW_RUSH
+	db 24, PACK_RUSH
+	db 30, BONE_FETCH
+	db 38, EARTH_STOMP
 	db 0
 
 MissingNo92EvosMoves:
@@ -1987,29 +2052,33 @@ RaticateEvosMoves:
 	db 0
 
 NidorinoEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, NIDOKING
+; AUSSIE: same breed, growing maturity.
+	db EVOLVE_LEVEL, 32, NIDOKING
 	db 0
-; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 23, FOCUS_ENERGY
-	db 32, FURY_ATTACK
-	db 41, HORN_DRILL
-	db 50, DOUBLE_KICK
+	db 7, VENOM_DROOL
+	db 11, PAW_DASH
+	db 14, TOXIC_DANDER
+	db 18, VENOM_BARK
+	db 24, PACK_RUSH
+	db 27, PAW_COMBO
+	db 30, VENOM_MARK
+	db 38, VENOM_COAT
+	db 42, SPAR_RUSH
 	db 0
 
 NidorinaEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, NIDOQUEEN
+; CATTLEDOG: same breed, growing maturity.
+	db EVOLVE_LEVEL, 32, NIDOQUEEN
 	db 0
-; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
-	db 23, TAIL_WHIP
-	db 32, BITE
-	db 41, FURY_SWIPES
-	db 50, DOUBLE_KICK
+	db 7, VENOM_DROOL
+	db 11, PAW_DASH
+	db 14, TOXIC_DANDER
+	db 18, VENOM_BARK
+	db 24, PACK_RUSH
+	db 27, DUST_KICK
+	db 30, VENOM_MARK
+	db 38, VENOM_COAT
+	db 42, EARTH_STOMP
 	db 0
 
 GeodudeEvosMoves:
@@ -2025,13 +2094,17 @@ GeodudeEvosMoves:
 	db 0
 
 PorygonEvosMoves:
-; Evolutions
+; SHEPHGUARD: same breed, growing maturity.
 	db 0
-; Learnset
-	db 23, PSYBEAM
-	db 28, RECOVER
-	db 35, AGILITY
-	db 42, TRI_ATTACK
+	db 7, PAW_DASH
+	db 11, PAW_DASH
+	db 14, NIP_FANG
+	db 18, PACK_RUSH
+	db 24, PACK_RUSH
+	db 27, BARK_ECHO
+	db 30, CRUSH_FANG
+	db 38, CLAW_RAKE
+	db 42, AURA_SHIFT
 	db 0
 
 AerodactylEvosMoves:
@@ -2206,38 +2279,45 @@ VileplumeEvosMoves:
 	db 0
 
 BellsproutEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 21, WEEPINBELL
+; SETTERPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 16, WEEPINBELL
 	db 0
-; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 26, ACID
-	db 33, RAZOR_LEAF
-	db 42, SLAM
+	db 7, LEAF_FANG
+	db 11, PAW_DASH
+	db 14, ROOT_SNARE
+	db 18, THORN_CLAW
+	db 24, PACK_RUSH
+	db 27, CINDER_YIP
+	db 30, BRIAR_FANG
+	db 38, SUN_HOWL
+	db 42, BLOOM_DANCE
 	db 0
 
 WeepinbellEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, LEAF_STONE, 1, VICTREEBEL
+; IRISHSET: same breed, growing maturity.
+	db EVOLVE_LEVEL, 32, VICTREEBEL
 	db 0
-; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 23, STUN_SPORE
-	db 29, ACID
-	db 38, RAZOR_LEAF
-	db 49, SLAM
+	db 7, LEAF_FANG
+	db 11, PAW_DASH
+	db 14, ROOT_SNARE
+	db 18, THORN_CLAW
+	db 24, PACK_RUSH
+	db 27, CINDER_YIP
+	db 30, BRIAR_FANG
+	db 38, SUN_HOWL
+	db 42, BLOOM_DANCE
 	db 0
 
 VictreebelEvosMoves:
-; Evolutions
+; SUNSETTER: same breed, growing maturity.
 	db 0
-; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
+	db 7, LEAF_FANG
+	db 11, PAW_DASH
+	db 14, ROOT_SNARE
+	db 18, THORN_CLAW
+	db 24, PACK_RUSH
+	db 27, CINDER_YIP
+	db 30, BRIAR_FANG
+	db 38, SUN_HOWL
+	db 42, BLOOM_DANCE
 	db 0

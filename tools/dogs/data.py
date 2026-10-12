@@ -6,6 +6,13 @@ ROOT = Path(__file__).resolve().parents[2]
 ROSTER = json.loads((ROOT / 'data/dogs/roster.json').read_text())
 MOVE_PLAN = json.loads((ROOT / 'data/dogs/moves.json').read_text())
 IMPLEMENTED = set(json.loads((ROOT / 'data/dogs/implemented.json').read_text()))
+
+def species_label(slot):
+    return ''.join(part.capitalize() for part in slot.split('_'))
+
+def sprite_filename(slot):
+    return 'mr.mime' if slot == 'MR_MIME' else slot.lower().replace('_', '')
+
 DOGS = []
 for record in ROSTER:
     if record['slot'] in IMPLEMENTED:

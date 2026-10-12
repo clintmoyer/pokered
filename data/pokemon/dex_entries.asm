@@ -212,16 +212,16 @@ KangaskhanDexEntry:
 	text_end
 
 NidoranMDexEntry:
-	db "POISON PIN@"
-	db 1,8
-	dw 200
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _NidoranMDexEntry
 	text_end
 
 ClefairyDexEntry:
-	db "FAIRY@"
-	db 2,0
-	dw 170
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _ClefairyDexEntry
 	text_end
 
@@ -240,9 +240,9 @@ VoltorbDexEntry:
 	text_end
 
 NidokingDexEntry:
-	db "DRILL@"
-	db 4,7
-	dw 1370
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _NidokingDexEntry
 	text_end
 
@@ -296,23 +296,23 @@ GengarDexEntry:
 	text_end
 
 NidoranFDexEntry:
-	db "POISON PIN@"
-	db 1,4
+	db "PACK DOG@"
+	db 1,0
 	dw 150
 	text_far _NidoranFDexEntry
 	text_end
 
 NidoqueenDexEntry:
-	db "DRILL@"
-	db 4,3
-	dw 1320
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _NidoqueenDexEntry
 	text_end
 
 CuboneDexEntry:
-	db "LONELY@"
-	db 1,4
-	dw 140
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _CuboneDexEntry
 	text_end
 
@@ -331,9 +331,9 @@ LaprasDexEntry:
 	text_end
 
 ArcanineDexEntry:
-	db "LEGENDARY@"
-	db 6,3
-	dw 3420
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ArcanineDexEntry
 	text_end
 
@@ -401,16 +401,16 @@ PinsirDexEntry:
 	text_end
 
 TangelaDexEntry:
-	db "VINE@"
-	db 3,3
-	dw 770
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _TangelaDexEntry
 	text_end
 
 GrowlitheDexEntry:
-	db "PUPPY@"
-	db 2,4
-	dw 420
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _GrowlitheDexEntry
 	text_end
 
@@ -611,9 +611,9 @@ DoduoDexEntry:
 	text_end
 
 PoliwagDexEntry:
-	db "TADPOLE@"
-	db 2,0
-	dw 270
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _PoliwagDexEntry
 	text_end
 
@@ -667,16 +667,16 @@ KrabbyDexEntry:
 	text_end
 
 VulpixDexEntry:
-	db "FOX@"
-	db 2,0
-	dw 220
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _VulpixDexEntry
 	text_end
 
 NinetalesDexEntry:
-	db "FOX@"
-	db 3,7
-	dw 440
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _NinetalesDexEntry
 	text_end
 
@@ -709,16 +709,16 @@ DragonairDexEntry:
 	text_end
 
 KabutoDexEntry:
-	db "SHELLFISH@"
-	db 1,8
-	dw 250
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _KabutoDexEntry
 	text_end
 
 KabutopsDexEntry:
-	db "SHELLFISH@"
-	db 4,3
-	dw 890
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _KabutopsDexEntry
 	text_end
 
@@ -751,16 +751,16 @@ SandslashDexEntry:
 	text_end
 
 OmanyteDexEntry:
-	db "SPIRAL@"
-	db 1,4
-	dw 170
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _OmanyteDexEntry
 	text_end
 
 OmastarDexEntry:
-	db "SPIRAL@"
-	db 3,3
-	dw 770
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _OmastarDexEntry
 	text_end
 
@@ -779,30 +779,30 @@ WigglytuffDexEntry:
 	text_end
 
 EeveeDexEntry:
-	db "EVOLUTION@"
+	db "PACK DOG@"
 	db 1,0
-	dw 140
+	dw 150
 	text_far _EeveeDexEntry
 	text_end
 
 FlareonDexEntry:
-	db "FLAME@"
-	db 2,11
-	dw 550
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _FlareonDexEntry
 	text_end
 
 JolteonDexEntry:
-	db "LIGHTNING@"
-	db 2,7
-	dw 540
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _JolteonDexEntry
 	text_end
 
 VaporeonDexEntry:
-	db "BUBBLE JET@"
-	db 3,3
-	dw 640
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _VaporeonDexEntry
 	text_end
 
@@ -835,16 +835,16 @@ ParasDexEntry:
 	text_end
 
 PoliwhirlDexEntry:
-	db "TADPOLE@"
-	db 3,3
-	dw 440
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _PoliwhirlDexEntry
 	text_end
 
 PoliwrathDexEntry:
-	db "TADPOLE@"
-	db 4,3
-	dw 1190
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _PoliwrathDexEntry
 	text_end
 
@@ -1003,9 +1003,9 @@ ElectrodeDexEntry:
 	text_end
 
 ClefableDexEntry:
-	db "FAIRY@"
-	db 4,3
-	dw 880
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ClefableDexEntry
 	text_end
 
@@ -1024,9 +1024,9 @@ PersianDexEntry:
 	text_end
 
 MarowakDexEntry:
-	db "BONEKEEPER@"
-	db 3,3
-	dw 990
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _MarowakDexEntry
 	text_end
 
@@ -1136,16 +1136,16 @@ RaticateDexEntry:
 	text_end
 
 NidorinoDexEntry:
-	db "POISON PIN@"
-	db 2,11
-	dw 430
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _NidorinoDexEntry
 	text_end
 
 NidorinaDexEntry:
-	db "POISON PIN@"
-	db 2,7
-	dw 440
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _NidorinaDexEntry
 	text_end
 
@@ -1157,9 +1157,9 @@ GeodudeDexEntry:
 	text_end
 
 PorygonDexEntry:
-	db "VIRTUAL@"
-	db 2,7
-	dw 800
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _PorygonDexEntry
 	text_end
 
@@ -1234,23 +1234,23 @@ VileplumeDexEntry:
 	text_end
 
 BellsproutDexEntry:
-	db "FLOWER@"
-	db 2,4
-	dw 90
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _BellsproutDexEntry
 	text_end
 
 WeepinbellDexEntry:
-	db "FLYCATCHER@"
-	db 3,3
-	dw 140
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _WeepinbellDexEntry
 	text_end
 
 VictreebelDexEntry:
-	db "FLYCATCHER@"
-	db 5,7
-	dw 340
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _VictreebelDexEntry
 	text_end
 

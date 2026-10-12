@@ -14,9 +14,9 @@ _Route16FlyHouseBrunetteGirlReceivedHM02Text::
 	text_end
 
 _Route16FlyHouseBrunetteGirlHM02ExplanationText::
-	text "HM02 is FLY."
+	text "HM02 is SKYBOUND."
 	line "It will take you"
-	cont "back to any town."
+	cont "to towns you know."
 
 	para "Put it to good"
 	line "use!"
@@ -28,5 +28,5 @@ _Route16FlyHouseBrunetteGirlHM02NoRoomText::
 	done
 
 _Route16FlyHouseFearowText::
-	text "FEAROW: Kyueen!"
+	text "GREYGALE: Awooo!"
 	done

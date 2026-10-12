@@ -2,14 +2,14 @@
 """Keep each dog's front/back pair in the same bank; grow beyond one sprite bank."""
 from pathlib import Path
 import re
-from data import DOGS
+from data import DOGS, species_label, sprite_filename
 
 ROOT = Path(__file__).resolve().parents[2]
 CHUNK = 8
 path = ROOT / 'gfx/pics.asm'
 source = re.sub(r'^SECTION "Dog Pics[^"\n]*", ROMX\n', '', path.read_text(), flags=re.M)
 for dog in DOGS:
-    label = dog['slot'].capitalize()
+    label = species_label(dog['slot'])
     for view in ('Front', 'Back'):
         source, count = re.subn(rf'^{label}Pic{view}::[^\n]*\n', '', source, flags=re.M)
         assert count == 1, (label, view, count)
@@ -21,7 +21,7 @@ for offset in range(0, len(DOGS), CHUNK):
     sections.append(f'ROMX ${0x2d + number - 1:X}\n\t"{section}"\n')
     source += f'SECTION "{section}", ROMX\n\n'
     for dog in DOGS[offset:offset + CHUNK]:
-        label, filename = dog['slot'].capitalize(), dog['slot'].lower()
+        label, filename = species_label(dog['slot']), sprite_filename(dog['slot'])
         source += f'{label}PicFront:: INCBIN "gfx/pokemon/front/{filename}.pic"\n'
         source += f'{label}PicBack:: INCBIN "gfx/pokemon/back/{filename}b.pic"\n'
     source += '\n'
@@ -34,7 +34,7 @@ path = ROOT / 'home/pics.asm'
 source = path.read_text()
 table = 'DogSpriteSpecies:\n'
 for dog in DOGS:
-    table += f"\tdb {dog['slot']}, BANK({dog['slot'].capitalize()}PicFront)\n"
+    table += f"\tdb {dog['slot']}, BANK({species_label(dog['slot'])}PicFront)\n"
 table += '\tdb -1\n'
 source, count = re.subn(r'DogSpriteSpecies:\n(?:\tdb [^\n]+\n)+', table, source)
 assert count == 1

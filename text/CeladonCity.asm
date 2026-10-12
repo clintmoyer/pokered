@@ -1,5 +1,5 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
+	text "I got my DACHSPUP"
 	line "in CINNABAR!"
 
 	para "It's nice, but it"
@@ -48,13 +48,10 @@ _CeladonCityGramps3ReceivedTM41Text::
 
 _CeladonCityGramps3TM41ExplanationText::
 	text "TM41 teaches"
-	line "SOFTBOILED!"
+	line "RESCUE REST!"
 
-	para "Only one #MON"
-	line "can use it!"
-
-	para "That #MON is"
-	line "CHANSEY!"
+	para "It helps caring"
+	line "dogs recover HP!"
 	done
 
 _CeladonCityGramps3TM41NoRoomText::
@@ -64,16 +61,16 @@ _CeladonCityGramps3TM41NoRoomText::
 
 _CeladonCityFisherText::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, PORTGUARD!"
 
-	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	para "It grew up from"
+	line "PORTWATER as we"
+	cont "trained together!"
 	done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
+	text "PORTGUARD: Woof!"
+	line "Woof-woof!@"
 	text_end
 
 _CeladonCityRocket1Text::

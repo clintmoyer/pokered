@@ -28,14 +28,14 @@ MonPartyData:
 	nybble ICON_QUADRUPED     ; Raichu
 	nybble ICON_QUADRUPED       ; Sandshrew
 	nybble ICON_QUADRUPED       ; Sandslash
-	nybble ICON_MON       ; NidoranF
-	nybble ICON_MON       ; Nidorina
-	nybble ICON_MON       ; Nidoqueen
-	nybble ICON_MON       ; NidoranM
-	nybble ICON_MON       ; Nidorino
-	nybble ICON_MON       ; Nidoking
-	nybble ICON_FAIRY     ; Clefairy
-	nybble ICON_FAIRY     ; Clefable
+	nybble ICON_QUADRUPED       ; NidoranF
+	nybble ICON_QUADRUPED       ; Nidorina
+	nybble ICON_QUADRUPED       ; Nidoqueen
+	nybble ICON_QUADRUPED       ; NidoranM
+	nybble ICON_QUADRUPED       ; Nidorino
+	nybble ICON_QUADRUPED       ; Nidoking
+	nybble ICON_QUADRUPED     ; Clefairy
+	nybble ICON_QUADRUPED     ; Clefable
 	nybble ICON_QUADRUPED ; Vulpix
 	nybble ICON_QUADRUPED ; Ninetales
 	nybble ICON_QUADRUPED     ; Jigglypuff
@@ -59,18 +59,18 @@ MonPartyData:
 	nybble ICON_QUADRUPED       ; Primeape
 	nybble ICON_QUADRUPED ; Growlithe
 	nybble ICON_QUADRUPED ; Arcanine
-	nybble ICON_MON       ; Poliwag
-	nybble ICON_MON       ; Poliwhirl
-	nybble ICON_MON       ; Poliwrath
+	nybble ICON_QUADRUPED       ; Poliwag
+	nybble ICON_QUADRUPED       ; Poliwhirl
+	nybble ICON_QUADRUPED       ; Poliwrath
 	nybble ICON_QUADRUPED       ; Abra
 	nybble ICON_QUADRUPED       ; Kadabra
 	nybble ICON_QUADRUPED       ; Alakazam
 	nybble ICON_QUADRUPED       ; Machop
 	nybble ICON_QUADRUPED       ; Machoke
 	nybble ICON_QUADRUPED       ; Machamp
-	nybble ICON_GRASS     ; Bellsprout
-	nybble ICON_GRASS     ; Weepinbell
-	nybble ICON_GRASS     ; Victreebel
+	nybble ICON_QUADRUPED     ; Bellsprout
+	nybble ICON_QUADRUPED     ; Weepinbell
+	nybble ICON_QUADRUPED     ; Victreebel
 	nybble ICON_WATER     ; Tentacool
 	nybble ICON_WATER     ; Tentacruel
 	nybble ICON_QUADRUPED       ; Geodude
@@ -103,8 +103,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED      ; Electrode
 	nybble ICON_GRASS     ; Exeggcute
 	nybble ICON_GRASS     ; Exeggutor
-	nybble ICON_MON       ; Cubone
-	nybble ICON_MON       ; Marowak
+	nybble ICON_QUADRUPED       ; Cubone
+	nybble ICON_QUADRUPED       ; Marowak
 	nybble ICON_MON       ; Hitmonlee
 	nybble ICON_MON       ; Hitmonchan
 	nybble ICON_MON       ; Lickitung
@@ -113,7 +113,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Rhyhorn
 	nybble ICON_MON       ; Rhydon
 	nybble ICON_FAIRY     ; Chansey
-	nybble ICON_GRASS     ; Tangela
+	nybble ICON_QUADRUPED     ; Tangela
 	nybble ICON_MON       ; Kangaskhan
 	nybble ICON_WATER     ; Horsea
 	nybble ICON_WATER     ; Seadra
@@ -136,11 +136,11 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Vaporeon
 	nybble ICON_QUADRUPED ; Jolteon
 	nybble ICON_QUADRUPED ; Flareon
-	nybble ICON_MON       ; Porygon
-	nybble ICON_HELIX     ; Omanyte
-	nybble ICON_HELIX     ; Omastar
-	nybble ICON_HELIX     ; Kabuto
-	nybble ICON_HELIX     ; Kabutops
+	nybble ICON_QUADRUPED       ; Porygon
+	nybble ICON_QUADRUPED     ; Omanyte
+	nybble ICON_QUADRUPED     ; Omastar
+	nybble ICON_QUADRUPED     ; Kabuto
+	nybble ICON_QUADRUPED     ; Kabutops
 	nybble ICON_BIRD      ; Aerodactyl
 	nybble ICON_MON       ; Snorlax
 	nybble ICON_BIRD      ; Articuno

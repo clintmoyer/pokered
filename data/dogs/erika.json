@@ -1,0 +1,1031 @@
+{
+  "wild": {
+    "Route9": [
+      [
+        15,
+        "CATTLEPUP"
+      ],
+      [
+        16,
+        "GREYPUP"
+      ],
+      [
+        17,
+        "BEAGPUP"
+      ],
+      [
+        18,
+        "CATTLEPUP"
+      ],
+      [
+        18,
+        "DACHSPUP"
+      ],
+      [
+        19,
+        "JACKPUP"
+      ],
+      [
+        20,
+        "CATTLEPUP"
+      ],
+      [
+        18,
+        "WHIPPET"
+      ],
+      [
+        22,
+        "CATTLEPUP"
+      ],
+      [
+        20,
+        "LAGOPUP"
+      ]
+    ],
+    "Route10": [
+      [
+        16,
+        "AUSSPUP"
+      ],
+      [
+        16,
+        "CHIPUP"
+      ],
+      [
+        15,
+        "PORTPUP"
+      ],
+      [
+        18,
+        "AUSSPUP"
+      ],
+      [
+        18,
+        "SAMOPUP"
+      ],
+      [
+        18,
+        "PORTPUP"
+      ],
+      [
+        20,
+        "AUSSPUP"
+      ],
+      [
+        20,
+        "SAMOPUP"
+      ],
+      [
+        22,
+        "SAMOPUP"
+      ],
+      [
+        22,
+        "AUSSPUP"
+      ]
+    ],
+    "RockTunnel1F": [
+      [
+        16,
+        "IGPUP"
+      ],
+      [
+        17,
+        "BULLPUP"
+      ],
+      [
+        17,
+        "SCOTTPUP"
+      ],
+      [
+        18,
+        "IGPUP"
+      ],
+      [
+        18,
+        "STAFFPUP"
+      ],
+      [
+        19,
+        "SCOTTPUP"
+      ],
+      [
+        20,
+        "BULLPUP"
+      ],
+      [
+        20,
+        "SCOTTPUP"
+      ],
+      [
+        21,
+        "STONEMAST"
+      ],
+      [
+        22,
+        "SCOTTPUP"
+      ]
+    ],
+    "RockTunnelB1F": [
+      [
+        17,
+        "IGPUP"
+      ],
+      [
+        18,
+        "BULLPUP"
+      ],
+      [
+        18,
+        "KEESPUP"
+      ],
+      [
+        18,
+        "ELKPUP"
+      ],
+      [
+        19,
+        "SCOTTPUP"
+      ],
+      [
+        20,
+        "KEESPUP"
+      ],
+      [
+        20,
+        "ELKPUP"
+      ],
+      [
+        21,
+        "STONEMAST"
+      ],
+      [
+        22,
+        "KEESPUP"
+      ],
+      [
+        22,
+        "ELKPUP"
+      ]
+    ],
+    "Route8": [
+      [
+        18,
+        "AKIPUP"
+      ],
+      [
+        18,
+        "SETTERPUP"
+      ],
+      [
+        19,
+        "BOSTPUP"
+      ],
+      [
+        19,
+        "WHIPPET"
+      ],
+      [
+        20,
+        "AKIPUP"
+      ],
+      [
+        20,
+        "SETTERPUP"
+      ],
+      [
+        21,
+        "AUSSPUP"
+      ],
+      [
+        22,
+        "SETTERPUP"
+      ],
+      [
+        22,
+        "SHEPHGUARD"
+      ],
+      [
+        24,
+        "SHEPHGUARD"
+      ]
+    ],
+    "Route7": [
+      [
+        18,
+        "TERVPUP"
+      ],
+      [
+        18,
+        "SPITZPUP"
+      ],
+      [
+        19,
+        "LAGOPUP"
+      ],
+      [
+        19,
+        "WHIPPET"
+      ],
+      [
+        20,
+        "TERVPUP"
+      ],
+      [
+        20,
+        "KOMONDOR"
+      ],
+      [
+        21,
+        "SPITZPUP"
+      ],
+      [
+        22,
+        "TERVPUP"
+      ],
+      [
+        22,
+        "KOMONDOR"
+      ],
+      [
+        22,
+        "SPITZPUP"
+      ]
+    ],
+    "Route16": [
+      [
+        20,
+        "GREYPUP"
+      ],
+      [
+        21,
+        "BEAGLE"
+      ],
+      [
+        20,
+        "WHIPPET"
+      ],
+      [
+        22,
+        "GREYPUP"
+      ],
+      [
+        21,
+        "BOSTPUP"
+      ],
+      [
+        22,
+        "JACKPUP"
+      ],
+      [
+        22,
+        "WHIPPET"
+      ],
+      [
+        23,
+        "BEAGLE"
+      ],
+      [
+        24,
+        "GREYGALE"
+      ],
+      [
+        24,
+        "BOSTON"
+      ]
+    ]
+  },
+  "rates": {
+    "Route9": 15,
+    "Route10": 15,
+    "RockTunnel1F": 15,
+    "RockTunnelB1F": 15,
+    "Route8": 15,
+    "Route7": 15,
+    "Route16": 15
+  },
+  "maps": [
+    "Route9",
+    "Route10",
+    "RockTunnel1F",
+    "RockTunnelB1F",
+    "Route8",
+    "Route16",
+    "CeladonGym",
+    "GameCorner"
+  ],
+  "erika": [
+    [
+      29,
+      "SUNSETTER"
+    ],
+    [
+      24,
+      "KOMONDOR"
+    ],
+    [
+      29,
+      "TRUFFHOUND"
+    ]
+  ],
+  "prizes": [
+    [
+      12,
+      "POODPUP",
+      180
+    ],
+    [
+      20,
+      "SAMOPUP",
+      500
+    ],
+    [
+      24,
+      "CATTLEDOG",
+      1200
+    ],
+    [
+      28,
+      "AKITAFIRE",
+      2500
+    ],
+    [
+      25,
+      "TERVPUP",
+      4000
+    ],
+    [
+      30,
+      "SHEPHGUARD",
+      6500
+    ]
+  ],
+  "palettes": {
+    "NIDORAN_F": "PAL_GRAYMON",
+    "NIDORINA": "PAL_GRAYMON",
+    "NIDOQUEEN": "PAL_GRAYMON",
+    "NIDORAN_M": "PAL_GRAYMON",
+    "NIDORINO": "PAL_GRAYMON",
+    "NIDOKING": "PAL_GRAYMON",
+    "CLEFAIRY": "PAL_GRAYMON",
+    "CLEFABLE": "PAL_GRAYMON",
+    "VULPIX": "PAL_BROWNMON",
+    "NINETALES": "PAL_BROWNMON",
+    "GROWLITHE": "PAL_BROWNMON",
+    "ARCANINE": "PAL_BROWNMON",
+    "POLIWAG": "PAL_GRAYMON",
+    "POLIWHIRL": "PAL_GRAYMON",
+    "POLIWRATH": "PAL_GRAYMON",
+    "BELLSPROUT": "PAL_BROWNMON",
+    "WEEPINBELL": "PAL_BROWNMON",
+    "VICTREEBEL": "PAL_BROWNMON",
+    "CUBONE": "PAL_GROENMON",
+    "MAROWAK": "PAL_GROENMON",
+    "TANGELA": "PAL_GRAYMON",
+    "EEVEE": "PAL_BROWNMON",
+    "VAPOREON": "PAL_CYANMON",
+    "JOLTEON": "PAL_YELLOWMON",
+    "FLAREON": "PAL_REDMON",
+    "PORYGON": "PAL_BROWNMON",
+    "OMANYTE": "PAL_GRAYMON",
+    "OMASTAR": "PAL_GRAYMON",
+    "KABUTO": "PAL_GRAYMON",
+    "KABUTOPS": "PAL_GRAYMON"
+  },
+  "trainers": {
+    "BugCatcherData": {
+      "13": [
+        [
+          19,
+          "YORKGUARD"
+        ],
+        [
+          19,
+          "YORKGUARD"
+        ]
+      ],
+      "14": [
+        [
+          20,
+          "PAPIPUP"
+        ],
+        [
+          20,
+          "YORKPUP"
+        ],
+        [
+          20,
+          "YORKPUP"
+        ]
+      ]
+    },
+    "LassData": {
+      "13": [
+        [
+          23,
+          "CATTLEPUP"
+        ],
+        [
+          23,
+          "CATTLEDOG"
+        ]
+      ],
+      "14": [
+        [
+          24,
+          "BOSTPUP"
+        ],
+        [
+          24,
+          "BOSTPUP"
+        ],
+        [
+          24,
+          "BOSTPUP"
+        ]
+      ],
+      "15": [
+        [
+          19,
+          "WHIPPUP"
+        ],
+        [
+          19,
+          "BEAGPUP"
+        ],
+        [
+          19,
+          "AUSSPUP"
+        ],
+        [
+          19,
+          "BOSTPUP"
+        ],
+        [
+          19,
+          "POMPUP"
+        ]
+      ],
+      "16": [
+        [
+          22,
+          "SAMOPUP"
+        ],
+        [
+          22,
+          "SAMOPUP"
+        ]
+      ],
+      "17": [
+        [
+          23,
+          "SETTERPUP"
+        ],
+        [
+          23,
+          "IRISHSET"
+        ]
+      ],
+      "18": [
+        [
+          23,
+          "LAGOPUP"
+        ],
+        [
+          23,
+          "LAGOTTO"
+        ]
+      ]
+    },
+    "JrTrainerMData": {
+      "7": [
+        [
+          21,
+          "AKIPUP"
+        ],
+        [
+          21,
+          "SHIBAPUP"
+        ]
+      ],
+      "8": [
+        [
+          19,
+          "BEAGPUP"
+        ],
+        [
+          19,
+          "BORDERPUP"
+        ],
+        [
+          19,
+          "DACHSPUP"
+        ],
+        [
+          19,
+          "JACKPUP"
+        ]
+      ]
+    },
+    "JrTrainerFData": {
+      "5": [
+        [
+          18,
+          "LAGOPUP"
+        ],
+        [
+          18,
+          "SETTERPUP"
+        ],
+        [
+          18,
+          "LAGOPUP"
+        ],
+        [
+          18,
+          "SETTERPUP"
+        ]
+      ],
+      "6": [
+        [
+          23,
+          "BOSTPUP"
+        ]
+      ],
+      "7": [
+        [
+          20,
+          "POMPUP"
+        ],
+        [
+          20,
+          "SAMOPUP"
+        ]
+      ],
+      "8": [
+        [
+          21,
+          "WHIPPUP"
+        ],
+        [
+          21,
+          "WHIPPET"
+        ]
+      ],
+      "9": [
+        [
+          21,
+          "COCKERPUP"
+        ],
+        [
+          21,
+          "WHIPPUP"
+        ],
+        [
+          21,
+          "BOSTPUP"
+        ]
+      ],
+      "10": [
+        [
+          22,
+          "LAGOPUP"
+        ],
+        [
+          22,
+          "GROENPUP"
+        ]
+      ],
+      "11": [
+        [
+          24,
+          "GROENPUP"
+        ],
+        [
+          24,
+          "GROEN"
+        ]
+      ],
+      "17": [
+        [
+          22,
+          "SETTERPUP"
+        ],
+        [
+          22,
+          "SAMOPUP"
+        ]
+      ],
+      "18": [
+        [
+          20,
+          "BOSTPUP"
+        ],
+        [
+          20,
+          "LAGOPUP"
+        ],
+        [
+          20,
+          "WHIPPUP"
+        ]
+      ],
+      "19": [
+        [
+          19,
+          "WHIPPUP"
+        ],
+        [
+          19,
+          "BEAGPUP"
+        ],
+        [
+          19,
+          "BEAGPUP"
+        ],
+        [
+          19,
+          "SETTERPUP"
+        ]
+      ]
+    },
+    "PokemaniacData": {
+      "1": [
+        [
+          25,
+          "BULLDOG"
+        ],
+        [
+          25,
+          "COCKER"
+        ]
+      ],
+      "2": [
+        [
+          20,
+          "SCOTTPUP"
+        ],
+        [
+          20,
+          "OTTERPUP"
+        ]
+      ],
+      "3": [
+        [
+          20,
+          "OTTERPUP"
+        ],
+        [
+          20,
+          "OTTERPUP"
+        ],
+        [
+          20,
+          "OTTERPUP"
+        ]
+      ],
+      "4": [
+        [
+          22,
+          "SHIBAPUP"
+        ],
+        [
+          22,
+          "SCOTTPUP"
+        ]
+      ],
+      "5": [
+        [
+          25,
+          "OTTERPUP"
+        ]
+      ],
+      "7": [
+        [
+          23,
+          "SCOTTPUP"
+        ],
+        [
+          23,
+          "OTTERPUP"
+        ]
+      ]
+    },
+    "SuperNerdData": {
+      "3": [
+        [
+          20,
+          "CHIPUP"
+        ],
+        [
+          20,
+          "DACHSPUP"
+        ],
+        [
+          20,
+          "CHIPUP"
+        ],
+        [
+          20,
+          "SCHNAUPUP"
+        ]
+      ],
+      "4": [
+        [
+          22,
+          "DACHSPUP"
+        ],
+        [
+          22,
+          "DACHSHUND"
+        ],
+        [
+          22,
+          "DACHSPUP"
+        ]
+      ],
+      "5": [
+        [
+          26,
+          "DACHSPUP"
+        ]
+      ]
+    },
+    "HikerData": {
+      "5": [
+        [
+          21,
+          "BULLPUP"
+        ],
+        [
+          21,
+          "STONEMAST"
+        ]
+      ],
+      "6": [
+        [
+          20,
+          "BULLPUP"
+        ],
+        [
+          20,
+          "STAFFPUP"
+        ],
+        [
+          20,
+          "BULLPUP"
+        ]
+      ],
+      "7": [
+        [
+          21,
+          "BULLPUP"
+        ],
+        [
+          21,
+          "STONEMAST"
+        ]
+      ],
+      "8": [
+        [
+          19,
+          "STONEMAST"
+        ],
+        [
+          19,
+          "BULLDOG"
+        ]
+      ],
+      "9": [
+        [
+          21,
+          "BULLPUP"
+        ],
+        [
+          21,
+          "BULLPUP"
+        ],
+        [
+          21,
+          "BULLDOG"
+        ]
+      ],
+      "10": [
+        [
+          25,
+          "BULLPUP"
+        ]
+      ],
+      "11": [
+        [
+          20,
+          "STAFFPUP"
+        ],
+        [
+          20,
+          "STONEMAST"
+        ]
+      ],
+      "12": [
+        [
+          19,
+          "BULLPUP"
+        ],
+        [
+          19,
+          "STAFFPUP"
+        ],
+        [
+          19,
+          "BULLPUP"
+        ],
+        [
+          19,
+          "BULLPUP"
+        ]
+      ],
+      "13": [
+        [
+          20,
+          "STONEMAST"
+        ],
+        [
+          20,
+          "STONEMAST"
+        ],
+        [
+          20,
+          "BULLPUP"
+        ]
+      ],
+      "14": [
+        [
+          21,
+          "BULLPUP"
+        ],
+        [
+          21,
+          "BULLDOG"
+        ]
+      ]
+    },
+    "BikerData": {
+      "5": [
+        [
+          29,
+          "DACHSPUP"
+        ],
+        [
+          29,
+          "DACHSPUP"
+        ]
+      ],
+      "6": [
+        [
+          33,
+          "DACHSHUND"
+        ]
+      ],
+      "7": [
+        [
+          26,
+          "DACHSPUP"
+        ],
+        [
+          26,
+          "DACHSPUP"
+        ],
+        [
+          26,
+          "DACHSPUP"
+        ],
+        [
+          26,
+          "DACHSPUP"
+        ]
+      ]
+    },
+    "CueBallData": {
+      "1": [
+        [
+          28,
+          "STAFFPUP"
+        ],
+        [
+          28,
+          "BOXPUP"
+        ],
+        [
+          28,
+          "STAFFPUP"
+        ]
+      ],
+      "2": [
+        [
+          29,
+          "BOXPUP"
+        ],
+        [
+          29,
+          "STAFFPUP"
+        ]
+      ],
+      "3": [
+        [
+          33,
+          "STAFFPUP"
+        ]
+      ]
+    },
+    "GamblerData": {
+      "5": [
+        [
+          22,
+          "PORTPUP"
+        ],
+        [
+          22,
+          "PORTPUP"
+        ],
+        [
+          22,
+          "PORTWATER"
+        ]
+      ],
+      "7": [
+        [
+          24,
+          "AKIPUP"
+        ],
+        [
+          24,
+          "SPITZPUP"
+        ]
+      ]
+    },
+    "BeautyData": {
+      "1": [
+        [
+          21,
+          "LAGOPUP"
+        ],
+        [
+          21,
+          "SETTERPUP"
+        ],
+        [
+          21,
+          "LAGOPUP"
+        ],
+        [
+          21,
+          "SETTERPUP"
+        ]
+      ],
+      "2": [
+        [
+          24,
+          "SETTERPUP"
+        ],
+        [
+          24,
+          "SETTERPUP"
+        ]
+      ],
+      "3": [
+        [
+          26,
+          "KOMONDOR"
+        ]
+      ]
+    },
+    "RocketData": {
+      "7": [
+        [
+          20,
+          "BEAGLE"
+        ],
+        [
+          20,
+          "IGPUP"
+        ]
+      ]
+    },
+    "CooltrainerFData": {
+      "1": [
+        [
+          24,
+          "IRISHSET"
+        ],
+        [
+          24,
+          "LAGOTTO"
+        ],
+        [
+          24,
+          "GROEN"
+        ]
+      ]
+    }
+  }
+}

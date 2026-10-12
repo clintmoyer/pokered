@@ -2554,7 +2554,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "AUSTRALIAN CATTLE DOG guards its pack. Its poison power helps friends explore Kanto."
+    "dex_description": "AUSTRALIAN CATTLE DOG. Its speckled coat hides in rocky grass. It guides its pack with firm and careful paws."
   },
   {
     "slot": "NIDORINA",
@@ -2648,7 +2648,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "AUSTRALIAN CATTLE DOG guards its pack. Its poison power helps friends explore Kanto."
+    "dex_description": "AUSTRALIAN CATTLE DOG. Its speckled coat hides in rocky grass. It guides its pack with firm and careful paws."
   },
   {
     "slot": "NIDOQUEEN",
@@ -2739,7 +2739,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "AUSTRALIAN CATTLE DOG guards its pack. Its poison power helps friends explore Kanto."
+    "dex_description": "AUSTRALIAN CATTLE DOG. Its speckled coat hides in rocky grass. It guides its pack with firm and careful paws."
   },
   {
     "slot": "NIDORAN_M",
@@ -2840,7 +2840,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "AUSTRALIAN SHEPHERD guards its pack. Its poison power helps friends explore Kanto."
+    "dex_description": "AUSTRALIAN SHEPHERD. Its bright eyes watch over the pack. It rounds up lost friends with swift turns."
   },
   {
     "slot": "NIDORINO",
@@ -2934,7 +2934,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "AUSTRALIAN SHEPHERD guards its pack. Its poison power helps friends explore Kanto."
+    "dex_description": "AUSTRALIAN SHEPHERD. Its bright eyes watch over the pack. It rounds up lost friends with swift turns."
   },
   {
     "slot": "NIDOKING",
@@ -3025,7 +3025,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "AUSTRALIAN SHEPHERD guards its pack. Its poison power helps friends explore Kanto."
+    "dex_description": "AUSTRALIAN SHEPHERD. Its bright eyes watch over the pack. It rounds up lost friends with swift turns."
   },
   {
     "slot": "CLEFAIRY",
@@ -3103,20 +3103,20 @@
     "signature": "POLAR_HOWL",
     "acquisition": {
       "method": "wild",
-      "map": "Route11",
+      "map": "Route10",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "celadon",
+      "gate": "cascade",
       "retry": null,
       "levels": [
         18,
-        26
+        22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "SAMOYED guards its pack. Its ice power helps friends explore Kanto."
+    "dex_description": "SAMOYED. Its snow-white coat stays cool in summer. Its gentle howl soothes frightened puppies."
   },
   {
     "slot": "CLEFABLE",
@@ -3198,7 +3198,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "SAMOYED guards its pack. Its ice power helps friends explore Kanto."
+    "dex_description": "SAMOYED. Its snow-white coat stays cool in summer. Its gentle howl soothes frightened puppies."
   },
   {
     "slot": "VULPIX",
@@ -3286,13 +3286,13 @@
       "retry": null,
       "levels": [
         18,
-        26
+        22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "FINNISH SPITZ guards its pack. Its fire power helps friends explore Kanto."
+    "dex_description": "FINNISH SPITZ. Its foxlike ears follow woodland sounds. Its bright bark carries warm sparks."
   },
   {
     "slot": "NINETALES",
@@ -3377,7 +3377,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "FINNISH SPITZ guards its pack. Its fire power helps friends explore Kanto."
+    "dex_description": "FINNISH SPITZ. Its foxlike ears follow woodland sounds. Its bright bark carries warm sparks."
   },
   {
     "slot": "JIGGLYPUFF",
@@ -5189,13 +5189,13 @@
       "retry": null,
       "levels": [
         18,
-        26
+        22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "AKITA guards its pack. Its fire power helps friends explore Kanto."
+    "dex_description": "AKITA. Its thick coat stores gentle warmth. This loyal guardian protects its family."
   },
   {
     "slot": "ARCANINE",
@@ -5277,7 +5277,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "AKITA guards its pack. Its fire power helps friends explore Kanto."
+    "dex_description": "AKITA. Its thick coat stores gentle warmth. This loyal guardian protects its family."
   },
   {
     "slot": "POLIWAG",
@@ -5379,7 +5379,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "PORTUGUESE WATER DOG guards its pack. Its water power helps friends explore Kanto."
+    "dex_description": "PORTUGUESE WATER DOG. Its curly coat sheds river water. It swims out to guide tired friends to shore."
   },
   {
     "slot": "POLIWHIRL",
@@ -5474,7 +5474,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "PORTUGUESE WATER DOG guards its pack. Its water power helps friends explore Kanto."
+    "dex_description": "PORTUGUESE WATER DOG. Its curly coat sheds river water. It swims out to guide tired friends to shore."
   },
   {
     "slot": "POLIWRATH",
@@ -5566,7 +5566,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "PORTUGUESE WATER DOG guards its pack. Its water power helps friends explore Kanto."
+    "dex_description": "PORTUGUESE WATER DOG. Its curly coat sheds river water. It swims out to guide tired friends to shore."
   },
   {
     "slot": "ABRA",
@@ -6175,20 +6175,20 @@
     "signature": "BLOOM_DANCE",
     "acquisition": {
       "method": "wild",
-      "map": "Route12",
+      "map": "Route8",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "poke_flute",
+      "gate": "celadon",
       "retry": null,
       "levels": [
-        24,
-        32
+        18,
+        22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "IRISH SETTER guards its pack. Its grass power helps friends explore Kanto."
+    "dex_description": "IRISH SETTER. Its silky coat catches the sunset. It tends meadow flowers with warm leaf magic."
   },
   {
     "slot": "WEEPINBELL",
@@ -6281,7 +6281,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "IRISH SETTER guards its pack. Its grass power helps friends explore Kanto."
+    "dex_description": "IRISH SETTER. Its silky coat catches the sunset. It tends meadow flowers with warm leaf magic."
   },
   {
     "slot": "VICTREEBEL",
@@ -6372,7 +6372,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "IRISH SETTER guards its pack. Its grass power helps friends explore Kanto."
+    "dex_description": "IRISH SETTER. Its silky coat catches the sunset. It tends meadow flowers with warm leaf magic."
   },
   {
     "slot": "TENTACOOL",
@@ -9367,7 +9367,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "SCOTTISH TERRIER guards its pack. Its ground power helps friends explore Kanto."
+    "dex_description": "SCOTTISH TERRIER. Its short sturdy legs dig deep tunnels. Its sharp nose finds hidden stones."
   },
   {
     "slot": "MAROWAK",
@@ -9449,7 +9449,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "SCOTTISH TERRIER guards its pack. Its ground power helps friends explore Kanto."
+    "dex_description": "SCOTTISH TERRIER. Its short sturdy legs dig deep tunnels. Its sharp nose finds hidden stones."
   },
   {
     "slot": "HITMONLEE",
@@ -10265,20 +10265,20 @@
     "signature": "DREAM_POLLEN",
     "acquisition": {
       "method": "wild",
-      "map": "Route21",
+      "map": "Route7",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "none",
+      "gate": "celadon",
       "retry": null,
       "levels": [
-        3,
-        8
+        20,
+        22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "KOMONDOR guards its pack. Its grass power helps friends explore Kanto."
+    "dex_description": "KOMONDOR. Its corded coat gathers soft leaves. It guards flower beds while the puppies rest."
   },
   {
     "slot": "KANGASKHAN",
@@ -12041,7 +12041,7 @@
       "retry": null,
       "levels": [
         18,
-        26
+        22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -12064,7 +12064,7 @@
         "target": "FLAREON"
       }
     ],
-    "dex_description": "BELGIAN TERVUREN guards its pack. Its normal power helps friends explore Kanto."
+    "dex_description": "BELGIAN TERVUREN. Its watchful eyes follow every trail. Element stones reveal new powers in its long coat."
   },
   {
     "slot": "VAPOREON",
@@ -12152,7 +12152,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BELGIAN TERVUREN guards its pack. Its water power helps friends explore Kanto."
+    "dex_description": "BELGIAN TERVUREN. Its watchful eyes follow every trail. Element stones reveal new powers in its long coat."
   },
   {
     "slot": "JOLTEON",
@@ -12240,7 +12240,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BELGIAN TERVUREN guards its pack. Its electric power helps friends explore Kanto."
+    "dex_description": "BELGIAN TERVUREN. Its watchful eyes follow every trail. Element stones reveal new powers in its long coat."
   },
   {
     "slot": "FLAREON",
@@ -12327,7 +12327,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BELGIAN TERVUREN guards its pack. Its fire power helps friends explore Kanto."
+    "dex_description": "BELGIAN TERVUREN. Its watchful eyes follow every trail. Element stones reveal new powers in its long coat."
   },
   {
     "slot": "PORYGON",
@@ -12413,20 +12413,20 @@
     "signature": "AURA_SHIFT",
     "acquisition": {
       "method": "wild",
-      "map": "Route18",
+      "map": "Route8",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "poke_flute",
+      "gate": "celadon",
       "retry": null,
       "levels": [
-        24,
-        32
+        22,
+        24
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "GERMAN SHEPHERD guards its pack. Its normal power helps friends explore Kanto."
+    "dex_description": "GERMAN SHEPHERD. Its keen mind solves difficult tasks. It guides and protects every member of its pack."
   },
   {
     "slot": "OMANYTE",
@@ -12527,7 +12527,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "KEESHOND guards its pack. Its rock power helps friends explore Kanto."
+    "dex_description": "KEESHOND. Its fluffy gray coat sheds water. It watches cave streams from sturdy rocks."
   },
   {
     "slot": "OMASTAR",
@@ -12618,7 +12618,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "KEESHOND guards its pack. Its rock power helps friends explore Kanto."
+    "dex_description": "KEESHOND. Its fluffy gray coat sheds water. It watches cave streams from sturdy rocks."
   },
   {
     "slot": "KABUTO",
@@ -12719,7 +12719,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "NORWEGIAN ELKHOUND guards its pack. Its rock power helps friends explore Kanto."
+    "dex_description": "NORWEGIAN ELKHOUND. Its strong paws grip rocky slopes. Its bold howl guides friends through the hills."
   },
   {
     "slot": "KABUTOPS",
@@ -12810,7 +12810,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "NORWEGIAN ELKHOUND guards its pack. Its rock power helps friends explore Kanto."
+    "dex_description": "NORWEGIAN ELKHOUND. Its strong paws grip rocky slopes. Its bold howl guides friends through the hills."
   },
   {
     "slot": "AERODACTYL",

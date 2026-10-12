@@ -193,6 +193,14 @@ ROMX $33
 	"Dog Pics 7"
 ROMX $34
 	"Dog Pics 8"
+ROMX $35
+	"Dog Pics 9"
+ROMX $36
+	"Dog Pics 10"
+ROMX $37
+	"Dog Pics 11"
+ROMX $38
+	"Dog Pics 12"
 WRAM0
 	"Audio RAM"
 	org $c100

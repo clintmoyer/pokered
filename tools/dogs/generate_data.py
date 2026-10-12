@@ -3,7 +3,7 @@
 from pathlib import Path
 import re
 import textwrap
-from data import DOGS, MOVES
+from data import DOGS, MOVES, species_label, sprite_filename
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -41,7 +41,7 @@ if 'INCLUDE "constants/dog_constants.asm"' not in p.read_text():
 
 for d in DOGS:
     slot, name = d['slot'], d['name']
-    lower, label = slot.lower(), slot.capitalize()
+    lower, label = sprite_filename(slot), species_label(slot)
     # Names table uses internal IDs, icons use Pokédex order.
     constants = (ROOT / "constants/pokemon_constants.asm").read_text()
     # There are unused internal species IDs, so use the explicit hexadecimal ID.
@@ -66,8 +66,11 @@ for d in DOGS:
 \ttmhm {', '.join(d['tms'])}
 \tdb 0
 '''
-    (ROOT / f"data/pokemon/base_stats/{lower}.asm").write_text(data)
+    (ROOT / f"data/pokemon/base_stats/{slot.lower().replace('_', '')}.asm").write_text(data)
     evos = f"\tdb EVOLVE_LEVEL, {d['evolution'][0]}, {d['evolution'][1]}\n" if d['evolution'] else ''
+    for branch in d.get('branch_evolutions', []):
+        assert branch['method'] == 'stone'
+        evos += f"\tdb EVOLVE_ITEM, {branch['item']}, 1, {branch['target']}\n"
     learns = ''.join(f"\tdb {level}, {move}\n" for level, move in d['learnset'])
     block("data/pokemon/evos_moves.asm", label+"EvosMoves", f"{label}EvosMoves:\n; {name}: same breed, growing maturity.\n{evos}\tdb 0\n{learns}\tdb 0\n\n")
     block("data/pokemon/dex_entries.asm", label+"DexEntry", f'''{label}DexEntry:
@@ -111,6 +114,10 @@ for d in DOGS:
     text += '\tdex\n\n'
     block("data/pokemon/dex_text.asm", '_'+label+"DexEntry", text)
     replace("data/pokemon/menu_icons.asm", rf"^\tnybble \w+(\s*; {label})$", rf"\tnybble ICON_QUADRUPED\1")
+
+for filename in ('evos_moves.asm', 'dex_text.asm', 'dex_entries.asm'):
+    path = ROOT / 'data/pokemon' / filename
+    path.write_text(path.read_text().rstrip()+'\n')
 
 # HM menu names have a separate table and an explicit left-edge coordinate.
 for alias in ('BRAMBLE_BITE','SKYBOUND','DOG_PADDLE','HAUL','BEACON_BARK','BURROW_RUSH','HOMEBOUND','RESCUE_REST'):

@@ -13,7 +13,7 @@ _CeladonGymErikaPreBattleText::
 
 	para "I teach the art of"
 	line "flower arranging."
-	cont "My #MON are of"
+	cont "My dogs are of"
 	cont "the grass-type."
 
 	para "Oh, I'm sorry, I"
@@ -37,14 +37,14 @@ _CeladonGymErikaReceivedRainbowBadgeText::
 	prompt
 
 _CeladonGymErikaPostBattleAdviceText::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "Four badges! Your"
+	line "pack is blooming."
 
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	para "This demo ends"
+	line "here for now."
+
+	para "Keep exploring and"
+	line "meet more dogs!"
 	done
 
 _CeladonGymRainbowBadgeInfoText::
@@ -54,7 +54,7 @@ _CeladonGymRainbowBadgeInfoText::
 
 	para "It also allows"
 	line "#MON to use"
-	cont "STRENGTH in and"
+	cont "HAUL in and"
 	cont "out of battle."
 
 	para "Please also take"
@@ -72,7 +72,7 @@ _TM21ExplanationText::
 	text_start
 
 	para "TM21 contains"
-	line "MEGA DRAIN."
+	line "BRIAR FANG."
 
 	para "Half the damage"
 	line "it inflicts is"
