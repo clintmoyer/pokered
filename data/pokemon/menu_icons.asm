@@ -1,17 +1,17 @@
 MonPartyData:
 	nybble_array
-	nybble ICON_GRASS     ; Bulbasaur
-	nybble ICON_GRASS     ; Ivysaur
-	nybble ICON_GRASS     ; Venusaur
-	nybble ICON_MON       ; Charmander
-	nybble ICON_MON       ; Charmeleon
-	nybble ICON_MON       ; Charizard
-	nybble ICON_WATER     ; Squirtle
-	nybble ICON_WATER     ; Wartortle
-	nybble ICON_WATER     ; Blastoise
-	nybble ICON_BUG       ; Caterpie
-	nybble ICON_BUG       ; Metapod
-	nybble ICON_BUG       ; Butterfree
+	nybble ICON_QUADRUPED     ; Bulbasaur
+	nybble ICON_QUADRUPED     ; Ivysaur
+	nybble ICON_QUADRUPED     ; Venusaur
+	nybble ICON_QUADRUPED       ; Charmander
+	nybble ICON_QUADRUPED       ; Charmeleon
+	nybble ICON_QUADRUPED       ; Charizard
+	nybble ICON_QUADRUPED     ; Squirtle
+	nybble ICON_QUADRUPED     ; Wartortle
+	nybble ICON_QUADRUPED     ; Blastoise
+	nybble ICON_QUADRUPED       ; Caterpie
+	nybble ICON_QUADRUPED       ; Metapod
+	nybble ICON_QUADRUPED       ; Butterfree
 	nybble ICON_BUG       ; Weedle
 	nybble ICON_BUG       ; Kakuna
 	nybble ICON_BUG       ; Beedrill
@@ -55,8 +55,8 @@ MonPartyData:
 	nybble ICON_MON       ; Persian
 	nybble ICON_MON       ; Psyduck
 	nybble ICON_MON       ; Golduck
-	nybble ICON_MON       ; Mankey
-	nybble ICON_MON       ; Primeape
+	nybble ICON_QUADRUPED       ; Mankey
+	nybble ICON_QUADRUPED       ; Primeape
 	nybble ICON_QUADRUPED ; Growlithe
 	nybble ICON_QUADRUPED ; Arcanine
 	nybble ICON_MON       ; Poliwag
@@ -73,9 +73,9 @@ MonPartyData:
 	nybble ICON_GRASS     ; Victreebel
 	nybble ICON_WATER     ; Tentacool
 	nybble ICON_WATER     ; Tentacruel
-	nybble ICON_MON       ; Geodude
-	nybble ICON_MON       ; Graveler
-	nybble ICON_MON       ; Golem
+	nybble ICON_QUADRUPED       ; Geodude
+	nybble ICON_QUADRUPED       ; Graveler
+	nybble ICON_QUADRUPED       ; Golem
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_QUADRUPED ; Slowpoke
@@ -94,7 +94,7 @@ MonPartyData:
 	nybble ICON_MON       ; Gastly
 	nybble ICON_MON       ; Haunter
 	nybble ICON_MON       ; Gengar
-	nybble ICON_SNAKE     ; Onix
+	nybble ICON_QUADRUPED     ; Onix
 	nybble ICON_MON       ; Drowzee
 	nybble ICON_MON       ; Hypno
 	nybble ICON_WATER     ; Krabby

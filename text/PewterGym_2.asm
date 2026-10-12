@@ -7,9 +7,12 @@ _PewterGymBrockPostBattleAdviceText::
 	line "very gifted as a"
 	cont "#MON trainer!"
 
-	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	para "Your pack earned"
+	line "its first badge!"
+	cont "Demo complete!"
+
+	para "Keep training for"
+	line "our next adventure!"
 	done
 
 _PewterGymBrockWaitTakeThisText::
@@ -38,7 +41,7 @@ _TM34ExplanationText::
 	cont "carefully!"
 
 	para "TM34 contains"
-	line "BIDE!"
+	line "GUARD HOWL!"
 
 	para "Your #MON will"
 	line "absorb damage in"
@@ -75,8 +78,8 @@ _PewterGymBrockBoulderBadgeInfoText::
 	cont "more powerful!"
 
 	para "The technique"
-	line "FLASH can now be"
-	cont "used any time!"
+	line "BEACON BARK can"
+	cont "now light caves!"
 	prompt
 
 _PewterGymCooltrainerMBattleText::

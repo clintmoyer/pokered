@@ -14,13 +14,13 @@ _ViridianForestYoungster2BattleText::
 
 _ViridianForestYoungster2EndBattleText::
 	text "No!"
-	line "CATERPIE can't"
+	line "PAPIPUP can't"
 	cont "cut it!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
 	text "Ssh! You'll scare"
-	line "the bugs away!"
+	line "the pups away!"
 	done
 
 _ViridianForestYoungster3BattleText::
@@ -81,9 +81,11 @@ _ViridianForestTrainerTips1Text::
 	done
 
 _ViridianForestUseAntidoteSignText::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "TRAINER TIPS"
+
+	para "BOXPUP lives on"
+	line "ROUTE 22. Its paws"
+	cont "can break rocks!"
 	done
 
 _ViridianForestTrainerTips2Text::

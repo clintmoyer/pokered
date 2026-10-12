@@ -1,7 +1,7 @@
 TrainerNames::
 	list_start TRAINER_NAME_LENGTH - 1
 	li "YOUNGSTER"
-	li "BUG CATCHER"
+	li "PACK SCOUT"
 	li "LASS"
 	li "SAILOR"
 	li "JR.TRAINER♂"

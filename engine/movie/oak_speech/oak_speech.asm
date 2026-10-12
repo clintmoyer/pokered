@@ -72,7 +72,7 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld a, NIDORINO
+	ld a, GROENPUP
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetMonHeader

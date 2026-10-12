@@ -254,9 +254,9 @@ SlowbroDexEntry:
 	text_end
 
 IvysaurDexEntry:
-	db "SEED@"
-	db 3,3
-	dw 290
+	db "SHEEPDOG@"
+	db 1,7
+	dw 400
 	text_far _IvysaurDexEntry
 	text_end
 
@@ -387,9 +387,9 @@ StaryuDexEntry:
 	text_end
 
 BlastoiseDexEntry:
-	db "SHELLFISH@"
-	db 5,3
-	dw 1890
+	db "RESCUE DOG@"
+	db 2,4
+	dw 1350
 	text_far _BlastoiseDexEntry
 	text_end
 
@@ -415,9 +415,9 @@ GrowlitheDexEntry:
 	text_end
 
 OnixDexEntry:
-	db "ROCK SNAKE@"
-	db 28,10
-	dw 4630
+	db "ROCK DOG@"
+	db 2,6
+	dw 1800
 	text_far _OnixDexEntry
 	text_end
 
@@ -450,9 +450,9 @@ KadabraDexEntry:
 	text_end
 
 GravelerDexEntry:
-	db "ROCK@"
-	db 3,3
-	dw 2320
+	db "ROCK DOG@"
+	db 1,4
+	dw 500
 	text_far _GravelerDexEntry
 	text_end
 
@@ -520,9 +520,9 @@ DrowzeeDexEntry:
 	text_end
 
 GolemDexEntry:
-	db "MEGATON@"
-	db 4,7
-	dw 6620
+	db "ROCK DOG@"
+	db 1,8
+	dw 750
 	text_far _GolemDexEntry
 	text_end
 
@@ -555,9 +555,9 @@ KoffingDexEntry:
 	text_end
 
 MankeyDexEntry:
-	db "PIG MONKEY@"
-	db 1,8
-	dw 620
+	db "SPAR DOG@"
+	db 1,0
+	dw 150
 	text_far _MankeyDexEntry
 	text_end
 
@@ -877,9 +877,9 @@ DodrioDexEntry:
 	text_end
 
 PrimeapeDexEntry:
-	db "PIG MONKEY@"
-	db 3,3
-	dw 710
+	db "SPAR DOG@"
+	db 2,0
+	dw 650
 	text_far _PrimeapeDexEntry
 	text_end
 
@@ -905,23 +905,23 @@ DewgongDexEntry:
 	text_end
 
 CaterpieDexEntry:
-	db "WORM@"
+	db "WING DOG@"
 	db 1,0
-	dw 60
+	dw 150
 	text_far _CaterpieDexEntry
 	text_end
 
 MetapodDexEntry:
-	db "COCOON@"
-	db 2,4
-	dw 220
+	db "WING DOG@"
+	db 1,0
+	dw 150
 	text_far _MetapodDexEntry
 	text_end
 
 ButterfreeDexEntry:
-	db "BUTTERFLY@"
-	db 3,7
-	dw 710
+	db "WING DOG@"
+	db 1,0
+	dw 100
 	text_far _ButterfreeDexEntry
 	text_end
 
@@ -1073,16 +1073,16 @@ StarmieDexEntry:
 	text_end
 
 BulbasaurDexEntry:
-	db "SEED@"
-	db 2,4
+	db "SHEEPDOG@"
+	db 1,0
 	dw 150
 	text_far _BulbasaurDexEntry
 	text_end
 
 VenusaurDexEntry:
-	db "SEED@"
-	db 6,7
-	dw 2210
+	db "SHEEPDOG@"
+	db 2,0
+	dw 650
 	text_far _VenusaurDexEntry
 	text_end
 
@@ -1122,16 +1122,16 @@ RapidashDexEntry:
 	text_end
 
 RattataDexEntry:
-	db "RAT@"
+	db "HOUND@"
 	db 1,0
-	dw 80
+	dw 150
 	text_far _RattataDexEntry
 	text_end
 
 RaticateDexEntry:
-	db "RAT@"
-	db 2,4
-	dw 410
+	db "HOUND@"
+	db 1,3
+	dw 250
 	text_far _RaticateDexEntry
 	text_end
 
@@ -1150,9 +1150,9 @@ NidorinaDexEntry:
 	text_end
 
 GeodudeDexEntry:
-	db "ROCK@"
-	db 1,4
-	dw 440
+	db "ROCK DOG@"
+	db 1,0
+	dw 150
 	text_far _GeodudeDexEntry
 	text_end
 
@@ -1178,37 +1178,37 @@ MagnemiteDexEntry:
 	text_end
 
 CharmanderDexEntry:
-	db "LIZARD@"
-	db 2,0
-	dw 190
+	db "FIRE DOG@"
+	db 1,0
+	dw 150
 	text_far _CharmanderDexEntry
 	text_end
 
 SquirtleDexEntry:
-	db "TINYTURTLE@"
-	db 1,8
-	dw 200
+	db "RESCUE DOG@"
+	db 1,0
+	dw 150
 	text_far _SquirtleDexEntry
 	text_end
 
 CharmeleonDexEntry:
-	db "FLAME@"
-	db 3,7
-	dw 420
+	db "FIRE DOG@"
+	db 1,1
+	dw 230
 	text_far _CharmeleonDexEntry
 	text_end
 
 WartortleDexEntry:
-	db "TURTLE@"
-	db 3,3
-	dw 500
+	db "RESCUE DOG@"
+	db 1,10
+	dw 800
 	text_far _WartortleDexEntry
 	text_end
 
 CharizardDexEntry:
-	db "FLAME@"
-	db 5,7
-	dw 2000
+	db "FIRE DOG@"
+	db 1,4
+	dw 350
 	text_far _CharizardDexEntry
 	text_end
 

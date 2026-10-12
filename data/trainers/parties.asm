@@ -81,10 +81,10 @@ YoungsterData:
 	db 17, SPEAROW, RATTATA, RATTATA, SPEAROW, 0
 
 BugCatcherData:
-; Viridian Forest
-	db 6, WEEDLE, CATERPIE, 0
-	db 7, WEEDLE, KAKUNA, WEEDLE, 0
-	db 9, WEEDLE, 0
+; Viridian Forest: puppy handlers
+	db 6, PAPIPUP, BEAGPUP, 0
+	db 7, PAPIPUP, PAPILLON, BEAGPUP, 0
+	db 9, PAPIPUP, 0
 ; Route 3
 	db 10, CATERPIE, WEEDLE, CATERPIE, 0
 	db 9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
@@ -146,8 +146,8 @@ SailorData:
 	db 21, PIKACHU, PIKACHU, 0
 
 JrTrainerMData:
-; Pewter Gym
-	db 11, DIGLETT, SANDSHREW, 0
+; Pewter Gym: rock dogs
+	db 9, BULLPUP, BULLPUP, 0
 ; Route 24/Route 25
 	db 14, RATTATA, EKANS, 0
 ; Route 24
@@ -489,9 +489,9 @@ Rival1Data:
 	db 5, BULBASAUR, 0
 	db 5, CHARMANDER, 0
 ; Route 22
-	db $FF, 9, PIDGEY, 8, SQUIRTLE, 0
-	db $FF, 9, PIDGEY, 8, BULBASAUR, 0
-	db $FF, 9, PIDGEY, 8, CHARMANDER, 0
+	db $FF, 9, BEAGPUP, 8, SQUIRTLE, 0
+	db $FF, 9, BEAGPUP, 8, BULBASAUR, 0
+	db $FF, 9, BEAGPUP, 8, CHARMANDER, 0
 ; Cerulean City
 	db $FF, 18, PIDGEOTTO, 15, ABRA, 15, RATTATA, 17, SQUIRTLE, 0
 	db $FF, 18, PIDGEOTTO, 15, ABRA, 15, RATTATA, 17, BULBASAUR, 0
@@ -641,7 +641,7 @@ BrunoData:
 	db $FF, 53, ONIX, 55, HITMONCHAN, 55, HITMONLEE, 56, ONIX, 58, MACHAMP, 0
 
 BrockData:
-	db $FF, 12, GEODUDE, 14, ONIX, 0
+	db $FF, 12, BULLPUP, 14, STONEMAST, 0
 
 MistyData:
 	db $FF, 18, STARYU, 21, STARMIE, 0

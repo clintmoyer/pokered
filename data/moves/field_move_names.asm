@@ -1,11 +1,11 @@
 ; see also FieldMoveDisplayData
 FieldMoveNames:
-	db "CUT@"
-	db "FLY@"
+	db "BRAMBLE BITE@"
+	db "SKYBOUND@"
 	db "@"
-	db "SURF@"
-	db "STRENGTH@"
-	db "FLASH@"
+	db "DOG PADDLE@"
+	db "HAUL@"
+	db "BEACON BARK@"
 	db "DIG@"
 	db "TELEPORT@"
 	db "SOFTBOILED@"

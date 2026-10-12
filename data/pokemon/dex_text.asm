@@ -79,13 +79,13 @@ _SlowbroDexEntry::
 	dex
 
 _IvysaurDexEntry::
-	text "When the bulb on"
-	next "its back grows"
-	next "large, it appears"
+	text "GROENENDAEL."
+	next "A leaf-coated dog"
+	next "guards its pack."
 
-	page "to lose the"
-	next "ability to stand"
-	next "on its hind legs"
+	page "Its keen hearing"
+	next "finds lost friends"
+	next "in the tall grass."
 	dex
 
 _ExeggutorDexEntry::
@@ -269,13 +269,13 @@ _StaryuDexEntry::
 	dex
 
 _BlastoiseDexEntry::
-	text "A brutal #MON"
-	next "with pressurized"
-	next "water jets on its"
+	text "NEWFOUNDLAND."
+	next "A strong swimmer"
+	next "with a wave coat."
 
-	page "shell. They are"
-	next "used for high"
-	next "speed tackles"
+	page "It carries tired"
+	next "friends to safety"
+	next "across deep water."
 	dex
 
 _PinsirDexEntry::
@@ -309,13 +309,13 @@ _GrowlitheDexEntry::
 	dex
 
 _OnixDexEntry::
-	text "As it grows, the"
-	next "stone portions of"
-	next "its body harden"
+	text "MASTIFF."
+	next "A mighty guardian"
+	next "with a stone mane."
 
-	page "to become similar"
-	next "to a diamond, but"
-	next "colored black"
+	page "Its booming howl"
+	next "echoes through the"
+	next "hills of PEWTER."
 	dex
 
 _FearowDexEntry::
@@ -359,13 +359,13 @@ _KadabraDexEntry::
 	dex
 
 _GravelerDexEntry::
-	text "Rolls down slopes"
-	next "to move. It rolls"
-	next "over any obstacle"
+	text "BULLDOG."
+	next "Its stone coat"
+	next "protects its pack."
 
-	page "without slowing"
-	next "or changing its"
-	next "direction"
+	page "It plants its paws"
+	next "and holds the line"
+	next "against its foes."
 	dex
 
 _ChanseyDexEntry::
@@ -459,13 +459,13 @@ _DrowzeeDexEntry::
 	dex
 
 _GolemDexEntry::
-	text "Its boulder-like"
-	next "body is extremely"
-	next "hard. It can"
+	text "BULLDOG."
+	next "Its stone coat"
+	next "protects its pack."
 
-	page "easily withstand"
-	next "dynamite blasts"
-	next "without damage"
+	page "It plants its paws"
+	next "and holds the line"
+	next "against its foes."
 	dex
 
 _MagmarDexEntry::
@@ -509,13 +509,13 @@ _KoffingDexEntry::
 	dex
 
 _MankeyDexEntry::
-	text "Extremely quick to"
-	next "anger. It could"
-	next "be docile one"
+	text "BOXER."
+	next "It trains its paws"
+	next "in playful spars."
 
-	page "moment then"
-	next "thrashing away"
-	next "the next instant"
+	page "Its quick footwork"
+	next "helps its friends"
+	next "stand up to rocks."
 	dex
 
 _SeelDexEntry::
@@ -969,13 +969,13 @@ _DodrioDexEntry::
 	dex
 
 _PrimeapeDexEntry::
-	text "Always furious"
-	next "and tenacious to"
-	next "boot. It will not"
+	text "BOXER."
+	next "It trains its paws"
+	next "in playful spars."
 
-	page "abandon chasing"
-	next "its quarry until"
-	next "it is caught"
+	page "Its quick footwork"
+	next "helps its friends"
+	next "stand up to rocks."
 	dex
 
 _DugtrioDexEntry::
@@ -1009,33 +1009,33 @@ _DewgongDexEntry::
 	dex
 
 _CaterpieDexEntry::
-	text "Its short feet"
-	next "are tipped with"
-	next "suction pads that"
+	text "PAPILLON."
+	next "Its silky ears"
+	next "flutter like wings"
 
-	page "enable it to"
-	next "tirelessly climb"
-	next "slopes and walls"
+	page "It scatters pollen"
+	next "as it dances over"
+	next "forest flowers."
 	dex
 
 _MetapodDexEntry::
-	text "This #MON is"
-	next "vulnerable to"
-	next "attack while its"
+	text "PAPILLON."
+	next "Its silky ears"
+	next "flutter like wings"
 
-	page "shell is soft,"
-	next "exposing its weak"
-	next "and tender body"
+	page "It scatters pollen"
+	next "as it dances over"
+	next "forest flowers."
 	dex
 
 _ButterfreeDexEntry::
-	text "In battle, it"
-	next "flaps its wings"
-	next "at high speed to"
+	text "PAPILLON."
+	next "Its silky ears"
+	next "flutter like wings"
 
-	page "release highly"
-	next "toxic dust into"
-	next "the air"
+	page "It scatters pollen"
+	next "as it dances over"
+	next "forest flowers."
 	dex
 
 _MachampDexEntry::
@@ -1249,23 +1249,23 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "GROENENDAEL."
+	next "A leaf-coated dog"
+	next "guards its pack."
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "Its keen hearing"
+	next "finds lost friends"
+	next "in the tall grass."
 	dex
 
 _VenusaurDexEntry::
-	text "The plant blooms"
-	next "when it is"
-	next "absorbing solar"
+	text "GROENENDAEL."
+	next "A leaf-coated dog"
+	next "guards its pack."
 
-	page "energy. It stays"
-	next "on the move to"
-	next "seek sunlight"
+	page "Its keen hearing"
+	next "finds lost friends"
+	next "in the tall grass."
 	dex
 
 _TentacruelDexEntry::
@@ -1319,23 +1319,23 @@ _RapidashDexEntry::
 	dex
 
 _RattataDexEntry::
-	text "Bites anything"
-	next "when it attacks."
-	next "Small and very"
+	text "BEAGLE."
+	next "Its clever nose"
+	next "finds lost trails."
 
-	page "quick, it is a"
-	next "common sight in"
-	next "many places"
+	page "It follows scents"
+	next "and calls its pack"
+	next "with a happy howl."
 	dex
 
 _RaticateDexEntry::
-	text "It uses its whis-"
-	next "kers to maintain"
-	next "its balance."
+	text "BEAGLE."
+	next "Its clever nose"
+	next "finds lost trails."
 
-	page "It apparently"
-	next "slows down if"
-	next "they are cut off"
+	page "It follows scents"
+	next "and calls its pack"
+	next "with a happy howl."
 	dex
 
 _NidorinoDexEntry::
@@ -1359,13 +1359,13 @@ _NidorinaDexEntry::
 	dex
 
 _GeodudeDexEntry::
-	text "Found in fields"
-	next "and mountains."
-	next "Mistaking them"
+	text "BULLDOG."
+	next "Its stone coat"
+	next "protects its pack."
 
-	page "for boulders,"
-	next "people often step"
-	next "or trip on them"
+	page "It plants its paws"
+	next "and holds the line"
+	next "against its foes."
 	dex
 
 _PorygonDexEntry::
@@ -1399,53 +1399,53 @@ _MagnemiteDexEntry::
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "SHIBA INU."
+	next "Its curled tail"
+	next "glows with embers."
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "This bold partner"
+	next "leaps through heat"
+	next "to help its pack."
 	dex
 
 _SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
+	text "NEWFOUNDLAND."
+	next "A strong swimmer"
+	next "with a wave coat."
 
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
+	page "It carries tired"
+	next "friends to safety"
+	next "across deep water."
 	dex
 
 _CharmeleonDexEntry::
-	text "When it swings"
-	next "its burning tail,"
-	next "it elevates the"
+	text "SHIBA INU."
+	next "Its curled tail"
+	next "glows with embers."
 
-	page "temperature to"
-	next "unbearably high"
-	next "levels"
+	page "This bold partner"
+	next "leaps through heat"
+	next "to help its pack."
 	dex
 
 _WartortleDexEntry::
-	text "Often hides in"
-	next "water to stalk"
-	next "unwary prey. For"
+	text "NEWFOUNDLAND."
+	next "A strong swimmer"
+	next "with a wave coat."
 
-	page "swimming fast, it"
-	next "moves its ears to"
-	next "maintain balance"
+	page "It carries tired"
+	next "friends to safety"
+	next "across deep water."
 	dex
 
 _CharizardDexEntry::
-	text "Spits fire that"
-	next "is hot enough to"
-	next "melt boulders."
+	text "SHIBA INU."
+	next "Its curled tail"
+	next "glows with embers."
 
-	page "Known to cause"
-	next "forest fires"
-	next "unintentionally"
+	page "This bold partner"
+	next "leaps through heat"
+	next "to help its pack."
 	dex
 
 _OddishDexEntry::
