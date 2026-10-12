@@ -80,5 +80,5 @@ DOGS = [
     dog("GEODUDE", "BULLPUP", "BULLDOG", "ROCK DOG", (55,80,65,25,60), ("ROCK","ROCK"), BULLDOG, (25,"GRAVELER"), tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","BRACE"), catch=100, exp=90),
     dog("GRAVELER", "BULLDOG", "BULLDOG", "ROCK DOG", (75,85,95,30,75), ("ROCK","ROCK"), BULLDOG, (36,"GOLEM"), tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","BRACE"), height=(1,4), weight=500, catch=100, exp=140, stage=1),
     dog("GOLEM", "BULLGUARD", "BULLDOG", "ROCK DOG", (95,95,100,35,85), ("ROCK","ROCK"), BULLDOG, tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","BRACE"), height=(1,8), weight=750, catch=75, exp=200, stage=2),
-    dog("ONIX", "STONEMAST", "MASTIFF", "ROCK DOG", (85,100,95,50,60), ("ROCK","ROCK"), MASTIFF, tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","WARN_BARK"), height=(2,6), weight=1800, catch=75, exp=150, stage=2),
+    dog("ONIX", "STONEMAST", "MASTIFF", "ROCK DOG", (75,80,95,40,40), ("ROCK","ROCK"), MASTIFF, tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","WARN_BARK"), height=(2,6), weight=1800, catch=75, exp=150, stage=2),
 ]

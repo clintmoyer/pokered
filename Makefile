@@ -52,6 +52,7 @@ RGBGFXFLAGS  ?= -Weverything
 .SECONDARY:
 .PHONY: \
 	all \
+	demo \
 	red \
 	blue \
 	blue_debug \

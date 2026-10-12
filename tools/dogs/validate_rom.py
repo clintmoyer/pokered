@@ -61,5 +61,13 @@ for dog in DOGS:
         assert im.size == size, (name,view,im.size)
         assert set(im.tobytes()) <= {0,85,170,255}, (name,view)
 
-assert rom[0x134:0x13f] == b'POKEMON RED\x00', 'Unexpected cartridge title'
+allowed_species={species_ids[d['slot']] for d in DOGS}
+for route in ['Route1','Route2','Route22','ViridianForest']:
+    position=offset(route+'WildMons')
+    encounters=rom[position+1:position+21]
+    assert all(sid in allowed_species for sid in encounters[1::2]), (route,encounters)
+    assert species_ids['MANKEY'] in encounters[1::2], 'Every opening area should offer the Boxer support route.'
+assert set(rom[offset('TitleMons'):offset('TitleMons')+16]) <= allowed_species
+
+assert rom[0x134:0x13f] == b'POKEMON RED', 'Unexpected cartridge title'
 print(f'PASS: {len(DOGS)} compiled dog records, evolutions, name-table alignment, {len(MOVES)} move records, and sprite encoding.')

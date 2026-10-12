@@ -40,3 +40,16 @@ python3 -m venv .venv
 ```
 
 Emulator tests use temporary save files and record screenshots under `build/qa/`.
+
+```sh
+.venv/bin/python tools/dogs/validate_rom.py
+.venv/bin/python tools/dogs/test_emulator.py
+```
+
+The emulator replay starts a new game, selects all three starters, checks their full breed names, and completes the tutorial rival battles. Brock checks use a scripted warp and trained-party fixtures: level-14 Groenendael and Newfoundland puppies, and a level-12 Boxer leading a level-14 Shiba team. They exercise the actual battle, badge, and TM reward scripts. Save/load uses the game's Save menu and Continue in a fresh emulator. Evolution checks use Rare Candy fixtures at levels 15 and 35.
+
+## Art and remaining work
+
+Original draft artwork was generated with the built-in imagegen tool. The two source atlases and exact prompts are in `assets/dogs/`; conversion instructions are in `tools/dogs/convert_sprites.py`. Battle sprites and the shared dog menu icon use the original four-shade format. The title's random species list now contains only demo dogs; the original animated opening and logo remain for a later art pass.
+
+New moves reuse upstream effect and animation routines. Other breeds, later encounters, broader balance work, custom move animations, and new sound design remain future work. The demo does not change the name buffers or save-file layout.

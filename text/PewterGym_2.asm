@@ -12,7 +12,7 @@ _PewterGymBrockPostBattleAdviceText::
 	cont "Demo complete!"
 
 	para "Keep training for"
-	line "our next adventure!"
+	line "the next chapter!"
 	done
 
 _PewterGymBrockWaitTakeThisText::

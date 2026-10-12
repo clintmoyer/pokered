@@ -24,9 +24,8 @@ _ViridianCityGambler1GymLeaderReturnedText::
 
 _ViridianCityYoungster2YouWantToKnowAboutText::
 	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	line "about our forest"
+	cont "and sparring dogs?"
 	done
 
 ViridianCityYoungster2OkThenText::
@@ -34,12 +33,12 @@ ViridianCityYoungster2OkThenText::
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "PAPIPUP has silky"
+	line "ears. BOXPUP has"
+	cont "powerful paws."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "Train a BOXPUP to"
+	line "handle rock dogs!"
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
