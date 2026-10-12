@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Replay starter selection and rival fights, then exercise Brock with level-14 fixtures.
+"""Replay starter selection and rival fights, then exercise Brock with level-16 fixtures.
 
 The Brock fixture uses a scripted warp and a trained party, avoiding hours of grinding.
 It does not bypass the battle, badge script, TM reward, or actual save/load routines.
@@ -133,10 +133,12 @@ def brock_fixture(start,name,slots,levels,attack_index):
     for _ in range(180):
         if read('wObtainedBadges')&1 and read('wIsInBattle')==0: break
         screen=text()
-        if 'YES' in screen and 'NO' in screen:
+        if 'Abandon learning' in screen:
+            press('a')
+        elif 'YES' in screen and 'NO' in screen:
             press('b') # Keep the current lead when Brock sends his second dog.
-        elif 'FNT' in screen and 'SHIBAPUP' in screen and 'TYPE/' not in screen:
-            if not any(('\u25b2' in row or '\u25b7' in row) and 'SHIBAPUP' in row for row in screen.splitlines()):
+        elif 'FNT' in screen and 'SHIBA' in screen and 'TYPE/' not in screen:
+            if not any(('\u25b2' in row or '\u25b7' in row) and 'SHIBA' in row for row in screen.splitlines()):
                 press('down',wait=30)
             press('a',wait=240)
         elif 'FIGHT' in screen and 'TYPE/' not in screen:
@@ -175,7 +177,7 @@ def start_option(label):
     else: raise AssertionError('Start menu selection failed: '+text())
     press('a')
 
-def save_reload(value):
+def save_reload(value,expected_map=0x36,expected_badges=1):
     global gb
     restore(value)
     start_option('SAVE')
@@ -188,7 +190,7 @@ def save_reload(value):
     gb.tick(2000); press('start',wait=330)
     assert 'CONTINUE' in text(), text()
     press('a',wait=600)
-    assert read('wCurMap')==0x36 and read('wObtainedBadges')&1
+    assert read('wCurMap')==expected_map and read('wObtainedBadges')&expected_badges==expected_badges
     photo('saved-continue')
     print('PASS: in-game save and fresh-emulator Continue preserve the badge and gym location.',flush=True)
 
@@ -206,23 +208,27 @@ def evolution_check(value,slot,level,target):
     photo(expected.lower()+'-evolution')
     print(f'PASS: {slot} evolves into {target} at level {level+1}, with its new default name.',flush=True)
 
-try:
-    if '--brock-only' in sys.argv:
-        starts={name:(QA/(name.lower()+'-after-rival.state')).read_bytes() for name in ['GROENPUP','SHIBAPUP','NEWFPUP']}
-    elif '--from-snapshot' in sys.argv:
-        lab=(QA/'lab-choice.state').read_bytes()
-    else: lab=bootstrap()
-    if '--brock-only' not in sys.argv:
-        starts={}
-        for x,name,breed,pair in [(8,'GROENPUP','GROENENDAEL',('BULBASAUR','CHARMANDER')),(6,'SHIBAPUP','SHIBA INU',('CHARMANDER','SQUIRTLE')),(7,'NEWFPUP','NEWFOUNDLAND',('SQUIRTLE','BULBASAUR'))]:
-            restore(lab); starts[name]=choose_starter(x,name,breed,pair)
-            (QA/(name.lower()+'-after-rival.state')).write_bytes(starts[name])
-    completed={}
-    for name,slots,levels,index in [('groen',['BULBASAUR'],[14],1),('shiba',['MANKEY','CHARMANDER'],[12,14],2),('newf',['SQUIRTLE'],[14],1)]:
-        completed[name]=brock_fixture(starts[{'groen':'GROENPUP','shiba':'SHIBAPUP','newf':'NEWFPUP'}[name]],name,slots,levels,index)
-    save_reload(completed['newf'])
-    for slot,level,target in [('BULBASAUR',15,'IVYSAUR'),('IVYSAUR',35,'VENUSAUR'),('CHARMANDER',15,'CHARMELEON'),('CHARMELEON',35,'CHARIZARD'),('SQUIRTLE',15,'WARTORTLE'),('WARTORTLE',35,'BLASTOISE')]:
-        evolution_check(completed['newf'],slot,level,target)
-    (QA/'emulator-results.json').write_text(json.dumps({'starters':list(starts),'brock':['groen','shiba','newf'],'brock_fixture':'trained level-14 party; Shiba supported by level-12 Boxer','save_load':True,'starter_evolutions':6},indent=2)+'\n')
-finally:
-    gb.stop(); tmp.cleanup()
+def main():
+    try:
+        if '--brock-only' in sys.argv:
+            starts={name:(QA/(name.lower()+'-after-rival.state')).read_bytes() for name in ['GROENPUP','SHIBAPUP','NEWFPUP']}
+        elif '--from-snapshot' in sys.argv:
+            lab=(QA/'lab-choice.state').read_bytes()
+        else: lab=bootstrap()
+        if '--brock-only' not in sys.argv:
+            starts={}
+            for x,name,breed,pair in [(8,'GROENPUP','GROENENDAEL',('BULBASAUR','CHARMANDER')),(6,'SHIBAPUP','SHIBA INU',('CHARMANDER','SQUIRTLE')),(7,'NEWFPUP','NEWFOUNDLAND',('SQUIRTLE','BULBASAUR'))]:
+                restore(lab); starts[name]=choose_starter(x,name,breed,pair)
+                (QA/(name.lower()+'-after-rival.state')).write_bytes(starts[name])
+        completed={}
+        for name,slots,levels,index in [('groen',['IVYSAUR'],[16],1),('shiba',['MANKEY','CHARMELEON'],[14,16],2),('newf',['WARTORTLE'],[16],1)]:
+            completed[name]=brock_fixture(starts[{'groen':'GROENPUP','shiba':'SHIBAPUP','newf':'NEWFPUP'}[name]],name,slots,levels,index)
+        save_reload(completed['newf'])
+        for slot,level,target in [('BULBASAUR',15,'IVYSAUR'),('IVYSAUR',35,'VENUSAUR'),('CHARMANDER',15,'CHARMELEON'),('CHARMELEON',35,'CHARIZARD'),('SQUIRTLE',15,'WARTORTLE'),('WARTORTLE',35,'BLASTOISE')]:
+            evolution_check(completed['newf'],slot,level,target)
+        (QA/'emulator-results.json').write_text(json.dumps({'starters':list(starts),'brock':['groen','shiba','newf'],'brock_fixture':'trained level-16 adolescent starter; Shiba supported by level-14 Boxer','save_load':True,'starter_evolutions':6},indent=2)+'\n')
+    finally:
+        gb.stop(); tmp.cleanup()
+
+if __name__ == "__main__":
+    main()
