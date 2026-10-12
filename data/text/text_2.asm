@@ -165,7 +165,7 @@ _ViridianCityPokecenterGuyText::
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
-	para "When JIGGLYPUFF"
+	para "When COCKER"
 	line "sings, #MON"
 	cont "get drowsy..."
 
