@@ -3,7 +3,7 @@
 from pathlib import Path
 import re
 from PIL import Image
-from data import DOGS, MOVES
+from data import DOGS, MOVES, species_label, sprite_filename
 
 ROOT=Path(__file__).resolve().parents[2]
 rom=(ROOT/'pokered.gbc').read_bytes()
@@ -20,6 +20,7 @@ species_ids=constants('constants/pokemon_constants.asm')
 move_ids=constants('constants/move_constants.asm')
 type_ids=constants('constants/type_constants.asm')
 effect_ids=constants('constants/move_effect_constants.asm')
+item_ids=constants('constants/item_constants.asm')
 charmap={}
 for character,value in re.findall(r'^\s*charmap "([^"\n]+)",\s*\$([0-9a-fA-F]+)',(ROOT/'constants/charmap.asm').read_text(),re.M):
     charmap.setdefault(int(value,16),character) # English glyphs precede unused Japanese aliases.
@@ -46,8 +47,8 @@ for dog in DOGS:
     assert tuple(record[6:8]) == tuple(type_ids[t] for t in dog['types']), name
     expected_base=[move_ids[MOVES[m][0]] for m in dog['base']]
     assert list(record[15:19]) == expected_base+[0]*(4-len(expected_base)), name
-    front= symbols[dog['slot'].capitalize()+'PicFront']
-    back= symbols[dog['slot'].capitalize()+'PicBack']
+    front= symbols[species_label(dog['slot'])+'PicFront']
+    back= symbols[species_label(dog['slot'])+'PicBack']
     assert front[0] == back[0] and front[0] >= 0x2d, (name,front,back)
     assert int.from_bytes(record[11:13],'little') == front[1], name
     assert int.from_bytes(record[13:15],'little') == back[1], name
@@ -58,6 +59,9 @@ for dog in DOGS:
     if dog['evolution']:
         assert tuple(rom[position:position+3]) == (1,dog['evolution'][0],species_ids[dog['evolution'][1]]), name
         position += 3
+    for branch in dog.get('branch_evolutions', []):
+        assert tuple(rom[position:position+4]) == (2,item_ids[branch['item']],1,species_ids[branch['target']]),name
+        position += 4
     assert rom[position] == 0, name
     position += 1
     learned=[]
@@ -67,7 +71,7 @@ for dog in DOGS:
         learned.append((level,move)); position+=2
     assert learned == [(level,move_ids[MOVES[move][0]]) for level,move in dog['learnset']], (name,learned)
     for view,size in [('front',(56,56)),('back',(32,32))]:
-        im=Image.open(ROOT/f'gfx/pokemon/{view}'/(dog['slot'].lower()+('b' if view == 'back' else '')+'.png')).convert('L')
+        im=Image.open(ROOT/f'gfx/pokemon/{view}'/(sprite_filename(dog['slot'])+('b' if view == 'back' else '')+'.png')).convert('L')
         assert im.size == size, (name,view,im.size)
         assert set(im.tobytes()) <= {0,85,170,255}, (name,view)
 
@@ -86,7 +90,7 @@ while rom[pos] != 255:
     bank_table[rom[pos]]=rom[pos+1]; pos+=2
 assert set(bank_table)==allowed_species
 for dog in DOGS:
-    assert bank_table[species_ids[dog['slot']]] == symbols[dog['slot'].capitalize()+'PicFront'][0]
+    assert bank_table[species_ids[dog['slot']]] == symbols[species_label(dog['slot'])+'PicFront'][0]
 
 import json
 misty=json.loads((ROOT/'data/dogs/misty.json').read_text())
@@ -188,4 +192,38 @@ for slot in ('BULBASAUR','CHARMANDER','RATTATA'):
     dog=next(d for d in DOGS if d['slot']==slot)
     pos=offset('BaseStats')+(dog['dex']-1)*28+20
     assert rom[pos+50//8] & 1 << (50%8),slot
-print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} complete move records, eleven chapter encounter tables, {checked} chapter trainer parties, three ship rival teams, five dog trades, Cut compatibility, and sprite encoding.')
+erika=json.loads((ROOT/'data/dogs/erika.json').read_text())
+for route,encounters in erika['wild'].items():
+    pos=offset(route+'WildMons')
+    assert rom[pos] == erika['rates'][route],route
+    assert list(rom[pos+1:pos+21]) == [v for level,name in encounters for v in (level,name_to_id[name])],route
+    assert rom[pos+21] == 0,route
+assert {'KEESPUP','ELKPUP'} <= {name for _,name in erika['wild']['RockTunnelB1F']}
+assert 'TERVPUP' in {name for _,name in erika['wild']['Route7']}
+for label,parties in erika['trainers'].items():
+    for index,members in parties.items():
+        assert trainer_party(label,int(index)) == [(level,name_to_id[name]) for level,name in members],(label,index)
+assert trainer_party('ErikaData',1) == [(level,name_to_id[name]) for level,name in erika['erika']]
+for route in erika['maps']:
+    objects=(ROOT/f'data/maps/objects/{route}.asm').read_text()
+    for trainer,index in re.findall(r'object_event[^\n]+, (OPP_\w+), (\d+)',objects):
+        assert {sid for _,sid in trainer_party(classes[trainer],int(index))} <= allowed_species,(route,trainer,index)
+        checked+=1
+for slot,palette in erika['palettes'].items():
+    dog=next(d for d in DOGS if d['slot']==slot)
+    assert rom[offset('MonsterPalettes')+dog['dex']] == palette_ids[palette],slot
+for group,members in enumerate([erika['prizes'][:3],erika['prizes'][3:]],1):
+    pos=offset(f'PrizeMenuMon{group}Entries')
+    assert list(rom[pos:pos+4]) == [name_to_id[name] for _,name,_ in members]+[0x50]
+    pos=offset(f'PrizeMenuMon{group}Cost')
+    expected=b''.join(bytes.fromhex(f'{price:04d}') for _,_,price in members)+b'\x50'
+    assert rom[pos:pos+7] == expected
+pos=offset('PrizeMonLevelDictionary')
+assert list(rom[pos:pos+12]) == [v for level,name,_ in erika['prizes'] for v in (name_to_id[name],level)]
+pos=offset('CeladonMart4FClerkText')
+assert list(rom[pos:pos+8]) == [0xfe,5,item_ids['POKE_DOLL'],item_ids['FIRE_STONE'],item_ids['THUNDER_STONE'],item_ids['WATER_STONE'],item_ids['LEAF_STONE'],0xff]
+for slot,move in [('PIKACHU','FLASH'),('FEAROW','FLY')]:
+    dog=next(d for d in DOGS if d['slot']==slot)
+    flag=tmhm_order.index(move);pos=offset('BaseStats')+(dog['dex']-1)*28+20
+    assert rom[pos+flag//8] & 1 << (flag%8),slot
+print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} move records, eighteen chapter encounter tables, {checked} trainer placements, three ship rival teams, five trades, six prizes, three stone branches, and Cut/Flash/Fly compatibility.')

@@ -187,7 +187,7 @@ def surge_fixture(base,name,slots,levels):
     close_text()
     assert E.read('wObtainedBadges')&7==7
     assert M.event('EVENT_BEAT_LT_SURGE') and M.event('EVENT_GOT_TM24') and has_item(0xe0),bag()
-    E.press('a');E.advance_until(lambda:'This demo' in E.text());E.photo(name+'-surge-complete');close_text()
+    E.press('a');E.advance_until(lambda:'Head east' in E.text());E.photo(name+'-surge-complete');close_text()
     print('PASS: '+name+' defeats Surge, earns the Thunder Badge and TM24 VOLT BARK.',flush=True)
     return E.state()
 
@@ -215,7 +215,7 @@ def main():
         ships={};cut={};completed={}
         routes=[('groen',['IVYSAUR','GYARADOS'],[22,22],'BULBASAUR','CHARMANDER'),
                 ('shiba',['GLOOM','CHARMELEON','PIKACHU'],[22,22,22],'CHARMANDER','SQUIRTLE'),
-                ('newf',['WARTORTLE','SPEAROW'],[22,22],'SQUIRTLE','BULBASAUR')]
+                ('newf',['WARTORTLE','FEAROW'],[22,22],'SQUIRTLE','BULBASAUR')]
         for name,slots,levels,starter,rival in routes:
             if '--from-captains' in sys.argv:ships[name]=load_checkpoint(name+'-surge-captain')
             else:

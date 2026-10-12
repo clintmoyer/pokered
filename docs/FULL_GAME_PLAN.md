@@ -96,9 +96,9 @@ Their field-menu labels and explanatory text must match the redesigned names.
    Supply Grass and Electric counters before the gym and access to all starters
    on Route 25. Remove Brock's demo-ending text.
 2. Extend through Vermilion and Erika, implementing Cut, Flash, and Fly along the
-   way. The current demo reaches Lt. Surge with 61 forms, the S.S. Anne, and Cut.
-   Continue through Rock Tunnel, Celadon, and Erika, finishing further families,
-   trainer teams, trades, gifts, and both fossil families' repeatable sources.
+   way. The current demo reaches Erika with 91 forms, Rock Tunnel, Celadon,
+   Cut, Flash, Fly, three Tervuren stone branches, and repeatable sources for
+   both fossil families. Continue with the Rocket Hideout and Tower story.
 3. Extend through Fuchsia, Saffron, Cinnabar, and Viridian, with Surf, Strength,
    Safari encounters, Tower events, sleeping dogs, and late-game progression.
 4. Finish Elite Four, Champion, legendary retries, Cerulean Cave, and collection
