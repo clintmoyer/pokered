@@ -63,6 +63,9 @@ RGBGFXFLAGS  ?= -Weverything
 	tools
 
 all: $(roms)
+demo: pokered.gbc
+	@mkdir -p build
+	cp pokered.gbc build/pokedogs-demo.gb
 red:        pokered.gbc
 blue:       pokeblue.gbc
 blue_debug: pokeblue_debug.gbc

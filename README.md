@@ -1,4 +1,10 @@
-# Pokémon Red and Blue [![Build Status][ci-badge]][ci]
+# Pokedogs
+
+A local dog-themed Pokémon Red mod. The first milestone is a playable opening through Brock, with Groenendael, Shiba Inu, and Newfoundland starter lines, new stats and moves, and original dog sprites.
+
+Build with RGBDS 1.0.4 using `make -j4 demo`, then load `build/pokedogs-demo.gb` in a Game Boy emulator. See [the demo specification](docs/DEMO.md) for scope and verification instructions. Development stays local; changes are recorded as Git commits.
+
+## Upstream Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
 This is a disassembly of Pokémon Red and Blue.
 

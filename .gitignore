@@ -29,3 +29,8 @@
 *.sn*
 *.sa*
 *.sg1
+
+# Local development and demo output
+.venv/
+build/
+__pycache__/
