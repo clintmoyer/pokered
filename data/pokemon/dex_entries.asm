@@ -233,9 +233,9 @@ SpearowDexEntry:
 	text_end
 
 VoltorbDexEntry:
-	db "BALL@"
-	db 1,8
-	dw 230
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _VoltorbDexEntry
 	text_end
 
@@ -464,9 +464,9 @@ ChanseyDexEntry:
 	text_end
 
 MachokeDexEntry:
-	db "SUPERPOWER@"
-	db 4,11
-	dw 1550
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _MachokeDexEntry
 	text_end
 
@@ -513,9 +513,9 @@ PsyduckDexEntry:
 	text_end
 
 DrowzeeDexEntry:
-	db "HYPNOSIS@"
-	db 3,3
-	dw 710
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _DrowzeeDexEntry
 	text_end
 
@@ -541,9 +541,9 @@ ElectabuzzDexEntry:
 	text_end
 
 MagnetonDexEntry:
-	db "MAGNET@"
-	db 3,3
-	dw 1320
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _MagnetonDexEntry
 	text_end
 
@@ -569,9 +569,9 @@ SeelDexEntry:
 	text_end
 
 DiglettDexEntry:
-	db "MOLE@"
-	db 0,8
-	dw 20
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _DiglettDexEntry
 	text_end
 
@@ -653,9 +653,9 @@ DittoDexEntry:
 	text_end
 
 MeowthDexEntry:
-	db "SCRATCHCAT@"
-	db 1,4
-	dw 90
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _MeowthDexEntry
 	text_end
 
@@ -807,9 +807,9 @@ VaporeonDexEntry:
 	text_end
 
 MachopDexEntry:
-	db "SUPERPOWER@"
-	db 2,7
-	dw 430
+	db "PACK DOG@"
+	db 1,0
+	dw 150
 	text_far _MachopDexEntry
 	text_end
 
@@ -884,9 +884,9 @@ PrimeapeDexEntry:
 	text_end
 
 DugtrioDexEntry:
-	db "MOLE@"
-	db 2,4
-	dw 730
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _DugtrioDexEntry
 	text_end
 
@@ -926,9 +926,9 @@ ButterfreeDexEntry:
 	text_end
 
 MachampDexEntry:
-	db "SUPERPOWER@"
-	db 5,3
-	dw 2870
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _MachampDexEntry
 	text_end
 
@@ -940,9 +940,9 @@ GolduckDexEntry:
 	text_end
 
 HypnoDexEntry:
-	db "HYPNOSIS@"
-	db 5,3
-	dw 1670
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _HypnoDexEntry
 	text_end
 
@@ -996,9 +996,9 @@ CloysterDexEntry:
 	text_end
 
 ElectrodeDexEntry:
-	db "BALL@"
-	db 3,11
-	dw 1470
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ElectrodeDexEntry
 	text_end
 
@@ -1017,9 +1017,9 @@ WeezingDexEntry:
 	text_end
 
 PersianDexEntry:
-	db "CLASSY CAT@"
-	db 3,3
-	dw 710
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _PersianDexEntry
 	text_end
 
@@ -1171,9 +1171,9 @@ AerodactylDexEntry:
 	text_end
 
 MagnemiteDexEntry:
-	db "MAGNET@"
+	db "PACK DOG@"
 	db 1,0
-	dw 130
+	dw 150
 	text_far _MagnemiteDexEntry
 	text_end
 

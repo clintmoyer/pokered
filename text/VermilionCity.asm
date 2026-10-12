@@ -2,9 +2,9 @@ _VermilionCityBeautyText::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "DACHSPUP warns us"
+	line "about toxic sludge"
+	cont "with a sharp bark!"
 	done
 
 _VermilionCityGambler1DidYouSeeText::
@@ -67,14 +67,14 @@ _VermilionCityGambler2Text::
 	done
 
 _VermilionCityMachopText::
-	text "MACHOP: Guoh!"
-	line "Gogogoh!@"
+	text "STAFFPUP: Woof!"
+	line "Woof-woof!@"
 	text_end
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
 
-	para "A MACHOP is"
+	para "A STAFFPUP is"
 	line "stomping the land"
 	cont "flat."
 	done

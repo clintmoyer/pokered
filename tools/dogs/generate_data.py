@@ -101,7 +101,7 @@ for d in DOGS:
         'ENGLISH SPRINGER SPANIEL': ('Its springy paws', 'splash over streams', 'It fetches lost', 'items from water', 'with a happy bark'),
     }
     breed_lines = textwrap.wrap(d['breed']+'.', 18, break_long_words=False)
-    prose = ' '.join(descriptors[d['breed']]) if d['breed'] in descriptors else d['dex_description'].removeprefix(d['breed']+' ')
+    prose = ' '.join(descriptors[d['breed']]) if d['breed'] in descriptors else d['dex_description'].removeprefix(d['breed']+' ').removeprefix(d['breed']+'. ')
     lines = breed_lines + textwrap.wrap(prose, 18, break_long_words=False)
     assert all(len(line) <= 18 for line in lines), lines
     text = f'_{label}DexEntry::\n'

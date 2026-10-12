@@ -9,6 +9,8 @@ COMPANIONS = [('rattata','raticate','caterpie'), ('metapod','butterfree','mankey
 MISTY_A = [('weedle','kakuna','beedrill'), ('pidgey','pidgeotto','pidgeot'), ('spearow','fearow','ekans'), ('arbok','pikachu','raichu')]
 MISTY_B = [('sandshrew','sandslash','jigglypuff'), ('wigglytuff','zubat','golbat'), ('oddish','gloom','vileplume'), ('abra','kadabra','alakazam')]
 MISTY_C = [('magikarp','gyarados','staryu'), ('starmie',None,None), (None,None,None), (None,None,None)]
+SURGE_A = [('diglett','dugtrio','meowth'), ('persian','machop','machoke'), ('machamp','drowzee','hypno')]
+SURGE_B = [('magnemite','magneton'), ('voltorb','electrode')]
 
 def encode(image, size, content):
     image = image.convert('RGBA')
@@ -30,12 +32,13 @@ def atlas(path, roster, row_bounds=None):
     if row_bounds is None:
         row_bounds = [round(source.height*i/len(roster)) for i in range(len(roster)+1)]
     for row, species_list in enumerate(roster):
+        columns = len(species_list) * 2
         for pair, species in enumerate(species_list):
             if species is None:
                 continue
             for view in range(2):
                 col = pair*2 + view
-                crop = source.crop((round(source.width*col/6), row_bounds[row], round(source.width*(col+1)/6), row_bounds[row+1]))
+                crop = source.crop((round(source.width*col/columns), row_bounds[row], round(source.width*(col+1)/columns), row_bounds[row+1]))
                 size = 32 if view else 56
                 content = 28 if view else (42,48,52)[pair] if roster == STARTERS else 50
                 result = encode(crop, size, content)
@@ -51,6 +54,11 @@ for name, roster in [('a',MISTY_A),('b',MISTY_B),('c',MISTY_C)]:
     if source.exists():
         bounds = {'a':[0,257,506,758,1024], 'b':[0,256,511,750,1024], 'c':[0,281,600,800,1024]}
         atlas(source, roster, bounds[name])
+
+for name, roster, bounds in [('a',SURGE_A,[0,537,855,1254]), ('b',SURGE_B,[0,623,1254])]:
+    source = ROOT/f'assets/dogs/surge-{name}-source.png'
+    if source.exists():
+        atlas(source, roster, bounds)
 
 # The quadruped menu icon stores two 8x16 halves in an 8x32 strip.
 icon = Image.open(ROOT/'gfx/pokemon/front/bulbasaur.png').crop((10,6,46,42)).resize((16,16), Image.Resampling.NEAREST)

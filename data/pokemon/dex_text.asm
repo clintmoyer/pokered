@@ -48,13 +48,12 @@ _SpearowDexEntry::
 	dex
 
 _VoltorbDexEntry::
-	text "Usually found in"
-	next "power plants."
-	next "Easily mistaken"
-
-	page "for a # BALL,"
-	next "they have zapped"
-	next "many people"
+	text "CHIHUAHUA."
+	next "Its tiny paws"
+	next "store lively"
+	page "sparks. Its brave"
+	next "bark warns much"
+	next "larger dogs."
 	dex
 
 _NidokingDexEntry::
@@ -372,13 +371,13 @@ _ChanseyDexEntry::
 	dex
 
 _MachokeDexEntry::
-	text "Its muscular body"
-	next "is so powerful, it"
-	next "must wear a power"
-
-	page "save belt to be"
-	next "able to regulate"
-	next "its motions"
+	text "STAFFORDSHIRE BULL"
+	next "TERRIER."
+	next "Its sturdy paws"
+	page "train in friendly"
+	next "spars. It protects"
+	next "smaller dogs from"
+	page "danger."
 	dex
 
 _MrMimeDexEntry::
@@ -441,13 +440,12 @@ _PsyduckDexEntry::
 	dex
 
 _DrowzeeDexEntry::
-	text "Puts enemies to"
-	next "sleep then eats"
-	next "their dreams."
-
-	page "Occasionally gets"
-	next "sick from eating"
-	next "bad dreams"
+	text "BLOODHOUND."
+	next "Its long ears"
+	next "gather faint"
+	page "scents. It follows"
+	next "trails with a calm"
+	next "and focused mind."
 	dex
 
 _GolemDexEntry::
@@ -480,13 +478,12 @@ _ElectabuzzDexEntry::
 	dex
 
 _MagnetonDexEntry::
-	text "Formed by several"
-	next "MAGNEMITEs linked"
-	next "together. They"
-
-	page "frequently appear"
-	next "when sunspots"
-	next "flare up"
+	text "SCHNAUZER."
+	next "Its wiry beard"
+	next "crackles with"
+	page "sparks. It guards"
+	next "its pack with an"
+	next "electric bark."
 	dex
 
 _KoffingDexEntry::
@@ -519,13 +516,12 @@ _SeelDexEntry::
 	dex
 
 _DiglettDexEntry::
-	text "Lives about one"
-	next "yard underground"
-	next "where it feeds on"
-
-	page "plant roots. It"
-	next "sometimes appears"
-	next "above ground"
+	text "BORDER TERRIER."
+	next "Its rough coat"
+	next "resists cave dust."
+	page "It digs safe"
+	next "tunnels for lost"
+	next "puppies."
 	dex
 
 _TaurosDexEntry::
@@ -639,13 +635,13 @@ _DittoDexEntry::
 	dex
 
 _MeowthDexEntry::
-	text "Adores circular"
-	next "objects. Wanders"
-	next "the streets on a"
-
-	page "nightly basis to"
-	next "look for dropped"
-	next "loose change"
+	text "BOSTON TERRIER."
+	next "Its bright eyes"
+	next "watch every trail."
+	page "This lively dog"
+	next "greets friends"
+	next "with a playful"
+	page "dash."
 	dex
 
 _KrabbyDexEntry::
@@ -859,13 +855,13 @@ _VaporeonDexEntry::
 	dex
 
 _MachopDexEntry::
-	text "Loves to build"
-	next "its muscles."
-	next "It trains in all"
-
-	page "styles of martial"
-	next "arts to become"
-	next "even stronger"
+	text "STAFFORDSHIRE BULL"
+	next "TERRIER."
+	next "Its sturdy paws"
+	page "train in friendly"
+	next "spars. It protects"
+	next "smaller dogs from"
+	page "danger."
 	dex
 
 _ZubatDexEntry::
@@ -964,13 +960,12 @@ _PrimeapeDexEntry::
 	dex
 
 _DugtrioDexEntry::
-	text "A team of DIGLETT"
-	next "triplets."
-	next "It triggers huge"
-
-	page "earthquakes by"
-	next "burrowing 60 miles"
-	next "underground"
+	text "BORDER TERRIER."
+	next "Its rough coat"
+	next "resists cave dust."
+	page "It digs safe"
+	next "tunnels for lost"
+	next "puppies."
 	dex
 
 _VenomothDexEntry::
@@ -1021,13 +1016,13 @@ _ButterfreeDexEntry::
 	dex
 
 _MachampDexEntry::
-	text "Using its heavy"
-	next "muscles, it throws"
-	next "powerful punches"
-
-	page "that can send the"
-	next "victim clear over"
-	next "the horizon"
+	text "STAFFORDSHIRE BULL"
+	next "TERRIER."
+	next "Its sturdy paws"
+	page "train in friendly"
+	next "spars. It protects"
+	next "smaller dogs from"
+	page "danger."
 	dex
 
 _GolduckDexEntry::
@@ -1041,13 +1036,12 @@ _GolduckDexEntry::
 	dex
 
 _HypnoDexEntry::
-	text "When it locks eyes"
-	next "with an enemy, it"
-	next "will use a mix of"
-
-	page "PSI moves such as"
-	next "HYPNOSIS and"
-	next "CONFUSION"
+	text "BLOODHOUND."
+	next "Its long ears"
+	next "gather faint"
+	page "scents. It follows"
+	next "trails with a calm"
+	next "and focused mind."
 	dex
 
 _GolbatDexEntry::
@@ -1122,13 +1116,12 @@ _CloysterDexEntry::
 	dex
 
 _ElectrodeDexEntry::
-	text "It stores electric"
-	next "energy under very"
-	next "high pressure."
-
-	page "It often explodes"
-	next "with little or no"
-	next "provocation"
+	text "CHIHUAHUA."
+	next "Its tiny paws"
+	next "store lively"
+	page "sparks. Its brave"
+	next "bark warns much"
+	next "larger dogs."
 	dex
 
 _ClefableDexEntry::
@@ -1152,13 +1145,13 @@ _WeezingDexEntry::
 	dex
 
 _PersianDexEntry::
-	text "Although its fur"
-	next "has many admirers,"
-	next "it is tough to"
-
-	page "raise as a pet"
-	next "because of its"
-	next "fickle meanness"
+	text "BOSTON TERRIER."
+	next "Its bright eyes"
+	next "watch every trail."
+	page "This lively dog"
+	next "greets friends"
+	next "with a playful"
+	page "dash."
 	dex
 
 _MarowakDexEntry::
@@ -1364,13 +1357,12 @@ _AerodactylDexEntry::
 	dex
 
 _MagnemiteDexEntry::
-	text "Uses anti-gravity"
-	next "to stay suspended."
-	next "Appears without"
-
-	page "warning and uses"
-	next "THUNDER WAVE and"
-	next "similar moves"
+	text "SCHNAUZER."
+	next "Its wiry beard"
+	next "crackles with"
+	page "sparks. It guards"
+	next "its pack with an"
+	next "electric bark."
 	dex
 
 _CharmanderDexEntry::

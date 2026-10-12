@@ -7,7 +7,11 @@ _VermilionGymLTSurgePostBattleAdviceText::
 
 	para "But, it's useless"
 	line "against ground-"
-	cont "type #MON!"
+	cont "type dogs!"
+
+	para "You earned three"
+	line "badges! This demo"
+	cont "ends here for now."
 	done
 
 _VermilionGymLTSurgeThunderBadgeInfoText::
@@ -15,9 +19,9 @@ _VermilionGymLTSurgeThunderBadgeInfoText::
 	line "cranks up your"
 	cont "#MON's SPEED!"
 
-	para "It also lets your"
-	line "#MON FLY any"
-	cont "time, kid!"
+	para "It also unlocks"
+	line "SKYBOUND outside"
+	cont "battle, kid!"
 
 	para "You're special,"
 	line "kid! Take this!"
@@ -34,10 +38,10 @@ _TM24ExplanationText::
 	text_start
 
 	para "TM24 contains"
-	line "THUNDERBOLT!"
+	line "VOLT BARK!"
 
 	para "Teach it to an"
-	line "electric #MON!"
+	line "electric dogs!"
 	done
 
 _VermilionGymLTSurgeTM24NoRoomText::
@@ -124,12 +128,16 @@ _VermilionGymGymGuideChampInMakingText::
 	cont "American!"
 
 	para "He's an expert on"
-	line "electric #MON!"
+	line "electric dogs!"
 
-	para "Birds and water"
-	line "#MON are at"
-	cont "risk! Beware of"
+	para "Flying and water"
+	line "dogs are at risk!"
+	cont "Beware of"
 	cont "paralysis too!"
+
+	para "BORDERPUP in the"
+	line "nearby cave can"
+	cont "help your pack!"
 
 	para "LT.SURGE is very"
 	line "cautious!"

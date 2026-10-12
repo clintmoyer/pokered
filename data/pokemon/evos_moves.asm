@@ -267,15 +267,16 @@ SpearowEvosMoves:
 	db 0
 
 VoltorbEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 30, ELECTRODE
+; CHIPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, ELECTRODE
 	db 0
-; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
-	db 36, SWIFT
-	db 43, EXPLOSION
+	db 7, SPARK_YIP
+	db 11, PAW_DASH
+	db 14, STATIC_COAT
+	db 18, VOLT_PAW
+	db 24, PACK_RUSH
+	db 30, VOLT_BARK
+	db 38, STORM_HOWL
 	db 0
 
 NidokingEvosMoves:
@@ -665,15 +666,16 @@ ChanseyEvosMoves:
 	db 0
 
 MachokeEvosMoves:
-; Evolutions
-	db EVOLVE_TRADE, 1, MACHAMP
+; STAFFORD: same breed, growing maturity.
+	db EVOLVE_LEVEL, 32, MACHAMP
 	db 0
-; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 7, PAW_COMBO
+	db 11, PAW_DASH
+	db 14, SCENT_LOCK
+	db 18, BOXING_PAW
+	db 24, PACK_RUSH
+	db 30, SPAR_RUSH
+	db 38, SKY_PAW
 	db 0
 
 MrMimeEvosMoves:
@@ -745,16 +747,17 @@ PsyduckEvosMoves:
 	db 0
 
 DrowzeeEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 26, HYPNO
+; BLOODPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, HYPNO
 	db 0
-; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 29, POISON_GAS
-	db 32, PSYCHIC_M
-	db 37, MEDITATE
+	db 7, BARK_ECHO
+	db 11, PAW_DASH
+	db 14, CALM_POSE
+	db 18, MIND_YIP
+	db 24, PACK_RUSH
+	db 30, MIND_HOWL
+	db 38, AURA_COAT
+	db 42, LULL_STARE
 	db 0
 
 GolemEvosMoves:
@@ -804,15 +807,16 @@ ElectabuzzEvosMoves:
 	db 0
 
 MagnetonEvosMoves:
-; Evolutions
+; SCHNAUZER: same breed, growing maturity.
 	db 0
-; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 38, THUNDER_WAVE
-	db 46, SWIFT
-	db 54, SCREECH
+	db 7, SPARK_YIP
+	db 11, PAW_DASH
+	db 14, STATIC_COAT
+	db 18, VOLT_PAW
+	db 24, PACK_RUSH
+	db 27, BRACE
+	db 30, VOLT_BARK
+	db 38, STORM_HOWL
 	db 0
 
 KoffingEvosMoves:
@@ -858,15 +862,17 @@ SeelEvosMoves:
 	db 0
 
 DiglettEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 26, DUGTRIO
+; BORDERPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, DUGTRIO
 	db 0
-; Learnset
-	db 15, GROWL
-	db 19, DIG
-	db 24, SAND_ATTACK
-	db 31, SLASH
-	db 40, EARTHQUAKE
+	db 7, DUST_KICK
+	db 11, PAW_DASH
+	db 14, BONE_BASH
+	db 18, BURROW_RUSH
+	db 24, PACK_RUSH
+	db 30, BONE_FETCH
+	db 38, EARTH_STOMP
+	db 42, FAULT_FANG
 	db 0
 
 TaurosEvosMoves:
@@ -1023,15 +1029,17 @@ DittoEvosMoves:
 	db 0
 
 MeowthEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 28, PERSIAN
+; BOSTPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, PERSIAN
 	db 0
-; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
-	db 24, SCREECH
-	db 33, FURY_SWIPES
-	db 44, SLASH
+	db 7, PAW_DASH
+	db 11, PAW_DASH
+	db 14, NIP_FANG
+	db 18, PACK_RUSH
+	db 24, PACK_RUSH
+	db 30, CRUSH_FANG
+	db 38, CLAW_RAKE
+	db 42, HEAD_BUMP
 	db 0
 
 KrabbyEvosMoves:
@@ -1328,15 +1336,16 @@ VaporeonEvosMoves:
 	db 0
 
 MachopEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 28, MACHOKE
+; STAFFPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 16, MACHOKE
 	db 0
-; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 32, FOCUS_ENERGY
-	db 39, SEISMIC_TOSS
-	db 46, SUBMISSION
+	db 7, PAW_COMBO
+	db 11, PAW_DASH
+	db 14, SCENT_LOCK
+	db 18, BOXING_PAW
+	db 24, PACK_RUSH
+	db 30, SPAR_RUSH
+	db 38, SKY_PAW
 	db 0
 
 ZubatEvosMoves:
@@ -1474,14 +1483,16 @@ PrimeapeEvosMoves:
 	db 0
 
 DugtrioEvosMoves:
-; Evolutions
+; BORDERDIG: same breed, growing maturity.
 	db 0
-; Learnset
-	db 15, GROWL
-	db 19, DIG
-	db 24, SAND_ATTACK
-	db 35, SLASH
-	db 47, EARTHQUAKE
+	db 7, DUST_KICK
+	db 11, PAW_DASH
+	db 14, BONE_BASH
+	db 18, BURROW_RUSH
+	db 24, PACK_RUSH
+	db 30, BONE_FETCH
+	db 38, EARTH_STOMP
+	db 42, FAULT_FANG
 	db 0
 
 VenomothEvosMoves:
@@ -1555,14 +1566,15 @@ ButterfreeEvosMoves:
 	db 0
 
 MachampEvosMoves:
-; Evolutions
+; STAFFGUARD: same breed, growing maturity.
 	db 0
-; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 7, PAW_COMBO
+	db 11, PAW_DASH
+	db 14, SCENT_LOCK
+	db 18, BOXING_PAW
+	db 24, PACK_RUSH
+	db 30, SPAR_RUSH
+	db 38, SKY_PAW
 	db 0
 
 MissingNo7FEvosMoves:
@@ -1583,15 +1595,16 @@ GolduckEvosMoves:
 	db 0
 
 HypnoEvosMoves:
-; Evolutions
+; BLOODHOUND: same breed, growing maturity.
 	db 0
-; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 33, POISON_GAS
-	db 37, PSYCHIC_M
-	db 43, MEDITATE
+	db 7, BARK_ECHO
+	db 11, PAW_DASH
+	db 14, CALM_POSE
+	db 18, MIND_YIP
+	db 24, PACK_RUSH
+	db 30, MIND_HOWL
+	db 38, AURA_COAT
+	db 42, LULL_STARE
 	db 0
 
 GolbatEvosMoves:
@@ -1697,14 +1710,15 @@ MissingNo8CEvosMoves:
 	db 0
 
 ElectrodeEvosMoves:
-; Evolutions
+; CHISPARK: same breed, growing maturity.
 	db 0
-; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
-	db 40, SWIFT
-	db 50, EXPLOSION
+	db 7, SPARK_YIP
+	db 11, PAW_DASH
+	db 14, STATIC_COAT
+	db 18, VOLT_PAW
+	db 24, PACK_RUSH
+	db 30, VOLT_BARK
+	db 38, STORM_HOWL
 	db 0
 
 ClefableEvosMoves:
@@ -1725,14 +1739,16 @@ WeezingEvosMoves:
 	db 0
 
 PersianEvosMoves:
-; Evolutions
+; BOSTON: same breed, growing maturity.
 	db 0
-; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
-	db 24, SCREECH
-	db 37, FURY_SWIPES
-	db 51, SLASH
+	db 7, PAW_DASH
+	db 11, PAW_DASH
+	db 14, NIP_FANG
+	db 18, PACK_RUSH
+	db 24, PACK_RUSH
+	db 30, CRUSH_FANG
+	db 38, CLAW_RAKE
+	db 42, HEAD_BUMP
 	db 0
 
 MarowakEvosMoves:
@@ -2035,16 +2051,17 @@ MissingNoACEvosMoves:
 	db 0
 
 MagnemiteEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 30, MAGNETON
+; SCHNAUPUP: same breed, growing maturity.
+	db EVOLVE_LEVEL, 24, MAGNETON
 	db 0
-; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 35, THUNDER_WAVE
-	db 41, SWIFT
-	db 47, SCREECH
+	db 7, SPARK_YIP
+	db 11, PAW_DASH
+	db 14, STATIC_COAT
+	db 18, VOLT_PAW
+	db 24, PACK_RUSH
+	db 27, BRACE
+	db 30, VOLT_BARK
+	db 38, STORM_HOWL
 	db 0
 
 MissingNoAEEvosMoves:

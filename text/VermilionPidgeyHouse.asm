@@ -1,12 +1,12 @@
 _VermilionPidgeyHouseYoungsterText::
 	text "I'm getting my"
-	line "PIDGEY to fly a"
+	line "WHIPPUP to fly a"
 	cont "letter to SAFFRON"
 	cont "in the north!"
 	done
 
 _VermilionPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
+	text "WHIPPUP: Yip-yip!@"
 	text_end
 
 _VermilionPidgeyHouseLetterText::

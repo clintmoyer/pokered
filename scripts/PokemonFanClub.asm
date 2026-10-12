@@ -85,7 +85,7 @@ PokemonFanClubSeelText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, SEEL
+	ld a, NEWFPUP
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

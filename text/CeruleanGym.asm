@@ -25,8 +25,12 @@ _CeruleanGymMistyTM11ExplanationText::
 	line "aquatic dog!"
 
 	para "Your pack has two"
-	line "badges! This demo"
-	cont "ends here for now."
+	line "badges! Head south"
+	cont "to VERMILION."
+
+	para "The S.S.ANNE's"
+	line "CAPTAIN can teach"
+	cont "you BRAMBLE BITE!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::

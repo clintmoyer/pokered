@@ -1,0 +1,667 @@
+{
+  "wild": {
+    "Route5": [
+      [
+        13,
+        "LAGOPUP"
+      ],
+      [
+        14,
+        "WHIPPUP"
+      ],
+      [
+        13,
+        "BOSTPUP"
+      ],
+      [
+        15,
+        "BOSTPUP"
+      ],
+      [
+        14,
+        "BOXPUP"
+      ],
+      [
+        15,
+        "BEAGPUP"
+      ],
+      [
+        16,
+        "BOSTPUP"
+      ],
+      [
+        15,
+        "COCKERPUP"
+      ],
+      [
+        16,
+        "JACKPUP"
+      ],
+      [
+        17,
+        "LAGOPUP"
+      ]
+    ],
+    "Route6": [
+      [
+        14,
+        "BOSTPUP"
+      ],
+      [
+        14,
+        "WHIPPUP"
+      ],
+      [
+        15,
+        "LAGOPUP"
+      ],
+      [
+        14,
+        "SCHNAUPUP"
+      ],
+      [
+        14,
+        "CHIPUP"
+      ],
+      [
+        15,
+        "BOXPUP"
+      ],
+      [
+        16,
+        "SCHNAUPUP"
+      ],
+      [
+        16,
+        "CHIPUP"
+      ],
+      [
+        17,
+        "BOSTPUP"
+      ],
+      [
+        17,
+        "SCHNAUPUP"
+      ]
+    ],
+    "Route11": [
+      [
+        16,
+        "BLOODPUP"
+      ],
+      [
+        16,
+        "STAFFPUP"
+      ],
+      [
+        15,
+        "JACKPUP"
+      ],
+      [
+        15,
+        "GREYPUP"
+      ],
+      [
+        14,
+        "BLOODPUP"
+      ],
+      [
+        16,
+        "DACHSPUP"
+      ],
+      [
+        18,
+        "BLOODPUP"
+      ],
+      [
+        17,
+        "STAFFPUP"
+      ],
+      [
+        19,
+        "STAFFPUP"
+      ],
+      [
+        17,
+        "JACKPUP"
+      ]
+    ],
+    "DiglettsCave": [
+      [
+        18,
+        "BORDERPUP"
+      ],
+      [
+        19,
+        "BORDERPUP"
+      ],
+      [
+        17,
+        "BORDERPUP"
+      ],
+      [
+        20,
+        "BORDERPUP"
+      ],
+      [
+        16,
+        "BORDERPUP"
+      ],
+      [
+        15,
+        "BORDERPUP"
+      ],
+      [
+        21,
+        "BORDERPUP"
+      ],
+      [
+        22,
+        "BORDERPUP"
+      ],
+      [
+        24,
+        "BORDERDIG"
+      ],
+      [
+        26,
+        "BORDERDIG"
+      ]
+    ]
+  },
+  "rates": {
+    "Route5": 15,
+    "Route6": 15,
+    "Route11": 15,
+    "DiglettsCave": 20
+  },
+  "trainers": {
+    "YoungsterData": {
+      "8": [
+        [
+          21,
+          "BOXPUP"
+        ]
+      ],
+      "9": [
+        [
+          21,
+          "DACHSPUP"
+        ]
+      ],
+      "10": [
+        [
+          19,
+          "JACKPUP"
+        ],
+        [
+          19,
+          "IGPUP"
+        ]
+      ],
+      "11": [
+        [
+          17,
+          "BEAGPUP"
+        ],
+        [
+          17,
+          "BEAGPUP"
+        ],
+        [
+          17,
+          "BEAGLE"
+        ]
+      ],
+      "12": [
+        [
+          18,
+          "BOXPUP"
+        ],
+        [
+          18,
+          "BOXER"
+        ]
+      ]
+    },
+    "BugCatcherData": {
+      "10": [
+        [
+          16,
+          "YORKPUP"
+        ],
+        [
+          16,
+          "PAPIPUP"
+        ],
+        [
+          16,
+          "YORKPUP"
+        ]
+      ],
+      "11": [
+        [
+          20,
+          "PAPIFLY"
+        ]
+      ]
+    },
+    "LassData": {
+      "11": [
+        [
+          18,
+          "WHIPPUP"
+        ],
+        [
+          18,
+          "COCKERPUP"
+        ]
+      ],
+      "12": [
+        [
+          18,
+          "BEAGPUP"
+        ],
+        [
+          18,
+          "POMPUP"
+        ]
+      ]
+    },
+    "SailorData": {
+      "1": [
+        [
+          18,
+          "STAFFPUP"
+        ],
+        [
+          18,
+          "SPRINGPUP"
+        ]
+      ],
+      "2": [
+        [
+          17,
+          "STAFFPUP"
+        ],
+        [
+          17,
+          "OTTERPUP"
+        ]
+      ],
+      "3": [
+        [
+          21,
+          "SPRINGPUP"
+        ]
+      ],
+      "4": [
+        [
+          17,
+          "NEWFPUP"
+        ],
+        [
+          17,
+          "SPRINGPUP"
+        ],
+        [
+          17,
+          "OTTERPUP"
+        ]
+      ],
+      "5": [
+        [
+          18,
+          "OTTERPUP"
+        ],
+        [
+          18,
+          "OTTERPUP"
+        ]
+      ],
+      "6": [
+        [
+          17,
+          "NEWFPUP"
+        ],
+        [
+          17,
+          "NEWFPUP"
+        ],
+        [
+          17,
+          "NEWFPUP"
+        ]
+      ],
+      "7": [
+        [
+          20,
+          "STAFFPUP"
+        ]
+      ],
+      "8": [
+        [
+          21,
+          "POMPUP"
+        ],
+        [
+          21,
+          "POMPUP"
+        ]
+      ]
+    },
+    "JrTrainerMData": {
+      "4": [
+        [
+          20,
+          "NEWFPUP"
+        ]
+      ],
+      "5": [
+        [
+          16,
+          "GREYPUP"
+        ],
+        [
+          16,
+          "BEAGLE"
+        ]
+      ]
+    },
+    "JrTrainerFData": {
+      "2": [
+        [
+          16,
+          "BEAGPUP"
+        ],
+        [
+          16,
+          "POMPUP"
+        ]
+      ],
+      "3": [
+        [
+          16,
+          "WHIPPUP"
+        ],
+        [
+          16,
+          "WHIPPUP"
+        ],
+        [
+          16,
+          "WHIPPUP"
+        ]
+      ]
+    },
+    "EngineerData": {
+      "2": [
+        [
+          21,
+          "SCHNAUPUP"
+        ]
+      ],
+      "3": [
+        [
+          18,
+          "SCHNAUPUP"
+        ],
+        [
+          18,
+          "SCHNAUPUP"
+        ],
+        [
+          18,
+          "SCHNAUZER"
+        ]
+      ]
+    },
+    "FisherData": {
+      "1": [
+        [
+          17,
+          "OTTERPUP"
+        ],
+        [
+          17,
+          "OTTERPUP"
+        ],
+        [
+          17,
+          "OTTERPUP"
+        ]
+      ],
+      "2": [
+        [
+          17,
+          "OTTERPUP"
+        ],
+        [
+          17,
+          "OTTERPUP"
+        ],
+        [
+          17,
+          "SPRINGPUP"
+        ]
+      ]
+    },
+    "GamblerData": {
+      "1": [
+        [
+          18,
+          "OTTERPUP"
+        ],
+        [
+          18,
+          "NEWFPUP"
+        ]
+      ],
+      "2": [
+        [
+          18,
+          "LAGOPUP"
+        ],
+        [
+          18,
+          "LAGOPUP"
+        ]
+      ],
+      "3": [
+        [
+          18,
+          "CHIPUP"
+        ],
+        [
+          18,
+          "SCHNAUPUP"
+        ]
+      ],
+      "4": [
+        [
+          18,
+          "SHIBAPUP"
+        ],
+        [
+          18,
+          "SHIBAPUP"
+        ]
+      ]
+    },
+    "RockerData": {
+      "1": [
+        [
+          20,
+          "CHIPUP"
+        ],
+        [
+          20,
+          "SCHNAUPUP"
+        ],
+        [
+          20,
+          "CHIPUP"
+        ]
+      ]
+    },
+    "GentlemanData": {
+      "1": [
+        [
+          18,
+          "SHIBAPUP"
+        ],
+        [
+          18,
+          "SHIBAPUP"
+        ]
+      ],
+      "2": [
+        [
+          19,
+          "BOXPUP"
+        ],
+        [
+          19,
+          "COCKERPUP"
+        ]
+      ],
+      "3": [
+        [
+          23,
+          "POMPUP"
+        ]
+      ],
+      "5": [
+        [
+          17,
+          "SHIBAPUP"
+        ],
+        [
+          17,
+          "SHIBA"
+        ]
+      ]
+    }
+  },
+  "rival": [
+    [
+      [
+        19,
+        "WHIPPET"
+      ],
+      [
+        18,
+        "BEAGLE"
+      ],
+      [
+        20,
+        "POODLE"
+      ],
+      [
+        22,
+        "NEWFIE"
+      ]
+    ],
+    [
+      [
+        19,
+        "WHIPPET"
+      ],
+      [
+        18,
+        "BEAGLE"
+      ],
+      [
+        20,
+        "POODLE"
+      ],
+      [
+        22,
+        "GROEN"
+      ]
+    ],
+    [
+      [
+        19,
+        "WHIPPET"
+      ],
+      [
+        18,
+        "BEAGLE"
+      ],
+      [
+        20,
+        "POODLE"
+      ],
+      [
+        22,
+        "SHIBA"
+      ]
+    ]
+  ],
+  "lt_surge": [
+    [
+      21,
+      "SCHNAUPUP"
+    ],
+    [
+      21,
+      "CHIPUP"
+    ],
+    [
+      24,
+      "POMSPARK"
+    ]
+  ],
+  "maps": [
+    "Route6",
+    "Route11",
+    "SSAnne1FRooms",
+    "SSAnne2FRooms",
+    "SSAnneB1FRooms",
+    "SSAnneBow",
+    "VermilionGym"
+  ],
+  "palettes": {
+    "DIGLETT": "PAL_BROWNMON",
+    "DUGTRIO": "PAL_BROWNMON",
+    "MEOWTH": "PAL_GRAYMON",
+    "PERSIAN": "PAL_GRAYMON",
+    "MACHOP": "PAL_GRAYMON",
+    "MACHOKE": "PAL_GRAYMON",
+    "MACHAMP": "PAL_GRAYMON",
+    "MAGNEMITE": "PAL_GRAYMON",
+    "MAGNETON": "PAL_GRAYMON",
+    "DROWZEE": "PAL_BROWNMON",
+    "HYPNO": "PAL_BROWNMON",
+    "VOLTORB": "PAL_BROWNMON",
+    "ELECTRODE": "PAL_BROWNMON"
+  },
+  "trades": {
+    "TRADE_FOR_TERRY": [
+      "BOSTPUP",
+      "STAFFPUP",
+      "TERRY"
+    ],
+    "TRADE_FOR_MARCEL": [
+      "POODPUP",
+      "BLOODPUP",
+      "MARCEL"
+    ],
+    "TRADE_FOR_DUX": [
+      "GREYPUP",
+      "BORDERPUP",
+      "DUX"
+    ],
+    "TRADE_FOR_LOLA": [
+      "OTTERPUP",
+      "LAGOPUP",
+      "LOLA"
+    ],
+    "TRADE_FOR_SPOT": [
+      "BEAGPUP",
+      "BOSTPUP",
+      "SPOT"
+    ]
+  }
+}

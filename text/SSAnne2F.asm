@@ -49,14 +49,15 @@ _SSAnne2FRivalVictoryText::
 
 _SSAnne2FRivalCutMasterText::
 	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	line "the CAPTAIN knows"
+	cont "BRAMBLE BITE."
 
 	para "But, he was just a"
 	line "seasick, old man!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "Your dogs can use"
+	line "it to clear small"
+	cont "bushes on trails!"
 
 	para "You should go see"
 	line "him! Smell ya!"

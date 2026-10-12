@@ -49,10 +49,10 @@ MonPartyData:
 	nybble ICON_BUG       ; Parasect
 	nybble ICON_BUG       ; Venonat
 	nybble ICON_BUG       ; Venomoth
-	nybble ICON_MON       ; Diglett
-	nybble ICON_MON       ; Dugtrio
-	nybble ICON_MON       ; Meowth
-	nybble ICON_MON       ; Persian
+	nybble ICON_QUADRUPED       ; Diglett
+	nybble ICON_QUADRUPED       ; Dugtrio
+	nybble ICON_QUADRUPED       ; Meowth
+	nybble ICON_QUADRUPED       ; Persian
 	nybble ICON_MON       ; Psyduck
 	nybble ICON_MON       ; Golduck
 	nybble ICON_QUADRUPED       ; Mankey
@@ -65,9 +65,9 @@ MonPartyData:
 	nybble ICON_QUADRUPED       ; Abra
 	nybble ICON_QUADRUPED       ; Kadabra
 	nybble ICON_QUADRUPED       ; Alakazam
-	nybble ICON_MON       ; Machop
-	nybble ICON_MON       ; Machoke
-	nybble ICON_MON       ; Machamp
+	nybble ICON_QUADRUPED       ; Machop
+	nybble ICON_QUADRUPED       ; Machoke
+	nybble ICON_QUADRUPED       ; Machamp
 	nybble ICON_GRASS     ; Bellsprout
 	nybble ICON_GRASS     ; Weepinbell
 	nybble ICON_GRASS     ; Victreebel
@@ -80,8 +80,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_QUADRUPED ; Slowpoke
 	nybble ICON_MON       ; Slowbro
-	nybble ICON_BALL      ; Magnemite
-	nybble ICON_BALL      ; Magneton
+	nybble ICON_QUADRUPED      ; Magnemite
+	nybble ICON_QUADRUPED      ; Magneton
 	nybble ICON_BIRD      ; Farfetch'd
 	nybble ICON_BIRD      ; Doduo
 	nybble ICON_BIRD      ; Dodrio
@@ -95,12 +95,12 @@ MonPartyData:
 	nybble ICON_MON       ; Haunter
 	nybble ICON_MON       ; Gengar
 	nybble ICON_QUADRUPED     ; Onix
-	nybble ICON_MON       ; Drowzee
-	nybble ICON_MON       ; Hypno
+	nybble ICON_QUADRUPED       ; Drowzee
+	nybble ICON_QUADRUPED       ; Hypno
 	nybble ICON_WATER     ; Krabby
 	nybble ICON_WATER     ; Kingler
-	nybble ICON_BALL      ; Voltorb
-	nybble ICON_BALL      ; Electrode
+	nybble ICON_QUADRUPED      ; Voltorb
+	nybble ICON_QUADRUPED      ; Electrode
 	nybble ICON_GRASS     ; Exeggcute
 	nybble ICON_GRASS     ; Exeggutor
 	nybble ICON_MON       ; Cubone

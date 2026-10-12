@@ -16,8 +16,8 @@ _SSAnne2FRoomsGentleman4Text::
 	done
 
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "BRAMBLE BITE can"
+	line "clear small bushes"
 	done
 
 _SSAnne2FRoomsGentleman5Text::

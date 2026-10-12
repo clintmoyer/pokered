@@ -17,7 +17,8 @@ _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
 	cont "feel much better!"
 
 	para "You want to see"
-	line "my CUT technique?"
+	line "my BRAMBLE BITE"
+	cont "technique?"
 
 	para "I could show you"
 	line "if I wasn't ill..."
@@ -26,9 +27,12 @@ _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
 	line "have this!"
 
 	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "any time!"
+	line "dogs and they can"
+	cont "clear small bushes"
+
+	para "You need MISTY's"
+	line "CASCADEBADGE to"
+	cont "use it on a trail."
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::

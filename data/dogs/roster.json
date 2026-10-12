@@ -4495,7 +4495,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BORDER TERRIER guards its pack. Its ground power helps friends explore Kanto."
+    "dex_description": "BORDER TERRIER. Its rough coat resists cave dust. It digs safe tunnels for lost puppies."
   },
   {
     "slot": "DUGTRIO",
@@ -4581,7 +4581,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BORDER TERRIER guards its pack. Its ground power helps friends explore Kanto."
+    "dex_description": "BORDER TERRIER. Its rough coat resists cave dust. It digs safe tunnels for lost puppies."
   },
   {
     "slot": "MEOWTH",
@@ -4668,14 +4668,14 @@
       "gate": "cascade",
       "retry": null,
       "levels": [
-        15,
-        22
+        13,
+        17
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BOSTON TERRIER guards its pack. Its normal power helps friends explore Kanto."
+    "dex_description": "BOSTON TERRIER. Its bright eyes watch every trail. This lively dog greets friends with a playful dash."
   },
   {
     "slot": "PERSIAN",
@@ -4759,7 +4759,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BOSTON TERRIER guards its pack. Its normal power helps friends explore Kanto."
+    "dex_description": "BOSTON TERRIER. Its bright eyes watch every trail. This lively dog greets friends with a playful dash."
   },
   {
     "slot": "PSYDUCK",
@@ -5911,17 +5911,17 @@
       "map": "Route11",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "celadon",
+      "gate": "cascade",
       "retry": null,
       "levels": [
-        18,
-        26
+        16,
+        19
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "STAFFORDSHIRE BULL TERRIER guards its pack. Its fighting power helps friends explore Kanto."
+    "dex_description": "STAFFORDSHIRE BULL TERRIER. Its sturdy paws train in friendly spars. It protects smaller dogs from danger."
   },
   {
     "slot": "MACHOKE",
@@ -6006,7 +6006,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "STAFFORDSHIRE BULL TERRIER guards its pack. Its fighting power helps friends explore Kanto."
+    "dex_description": "STAFFORDSHIRE BULL TERRIER. Its sturdy paws train in friendly spars. It protects smaller dogs from danger."
   },
   {
     "slot": "MACHAMP",
@@ -6088,7 +6088,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "STAFFORDSHIRE BULL TERRIER guards its pack. Its fighting power helps friends explore Kanto."
+    "dex_description": "STAFFORDSHIRE BULL TERRIER. Its sturdy paws train in friendly spars. It protects smaller dogs from danger."
   },
   {
     "slot": "BELLSPROUT",
@@ -7259,20 +7259,20 @@
     "signature": "VOLT_BARK",
     "acquisition": {
       "method": "wild",
-      "map": "PowerPlant",
+      "map": "Route6",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "surf",
+      "gate": "cascade",
       "retry": null,
       "levels": [
-        28,
-        36
+        14,
+        17
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "SCHNAUZER guards its pack. Its electric power helps friends explore Kanto."
+    "dex_description": "SCHNAUZER. Its wiry beard crackles with sparks. It guards its pack with an electric bark."
   },
   {
     "slot": "MAGNETON",
@@ -7361,7 +7361,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "SCHNAUZER guards its pack. Its electric power helps friends explore Kanto."
+    "dex_description": "SCHNAUZER. Its wiry beard crackles with sparks. It guards its pack with an electric bark."
   },
   {
     "slot": "FARFETCHD",
@@ -8628,17 +8628,17 @@
       "map": "Route11",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "celadon",
+      "gate": "cascade",
       "retry": null,
       "levels": [
-        18,
-        26
+        14,
+        18
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BLOODHOUND guards its pack. Its psychic power helps friends explore Kanto."
+    "dex_description": "BLOODHOUND. Its long ears gather faint scents. It follows trails with a calm and focused mind."
   },
   {
     "slot": "HYPNO",
@@ -8724,7 +8724,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "BLOODHOUND guards its pack. Its psychic power helps friends explore Kanto."
+    "dex_description": "BLOODHOUND. Its long ears gather faint scents. It follows trails with a calm and focused mind."
   },
   {
     "slot": "KRABBY",
@@ -8984,20 +8984,20 @@
     "signature": "STORM_HOWL",
     "acquisition": {
       "method": "wild",
-      "map": "PowerPlant",
+      "map": "Route6",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "surf",
+      "gate": "cascade",
       "retry": null,
       "levels": [
-        28,
-        36
+        14,
+        17
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "CHIHUAHUA guards its pack. Its electric power helps friends explore Kanto."
+    "dex_description": "CHIHUAHUA. Its tiny paws store lively sparks. Its brave bark warns much larger dogs."
   },
   {
     "slot": "ELECTRODE",
@@ -9080,7 +9080,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "CHIHUAHUA guards its pack. Its electric power helps friends explore Kanto."
+    "dex_description": "CHIHUAHUA. Its tiny paws store lively sparks. Its brave bark warns much larger dogs."
   },
   {
     "slot": "EXEGGCUTE",

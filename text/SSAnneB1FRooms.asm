@@ -1,6 +1,6 @@
 _SSAnneB1FRoomsMachokeText::
-	text "MACHOKE: Gwoh!"
-	line "Goggoh!@"
+	text "STAFFORD: Woof!"
+	line "Woof-woof!@"
 	text_end
 
 _SSAnneB1FRoomsSailor1BattleText::
@@ -105,10 +105,10 @@ _SSAnneB1FRoomsFisherAfterBattleText::
 	done
 
 _SSAnneB1FRoomsSuperNerdText::
-	text "My buddy, MACHOKE,"
+	text "My buddy STAFFORD"
 	line "is super strong!"
 
 	para "He has enough"
-	line "STRENGTH to move"
+	line "HAUL to move"
 	cont "big rocks!"
 	done

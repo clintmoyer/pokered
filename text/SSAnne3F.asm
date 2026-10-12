@@ -3,5 +3,6 @@ _SSAnne3FSailorText::
 	line "sword master!"
 
 	para "He even teaches"
-	line "CUT to #MON!"
+	line "BRAMBLE BITE to"
+	cont "your dogs!"
 	done
