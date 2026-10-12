@@ -1,4 +1,4 @@
-# Pokedogs: two-gym demo
+# Pokedogs: three-gym demo
 
 This is a development fork of pret/pokered on the `dogs` branch of the existing clintmoyer/pokered repository. Make local commits at useful milestones and push this branch when requested. Do not create a new GitHub repository.
 
@@ -14,19 +14,25 @@ This is a development fork of pret/pokered on the `dogs` branch of the existing 
 
 Keep the 15 Gen 1 types and the original battle rules, including one combined Special stat. Species names remain at most ten characters; the full breed name appears in Pokédex prose. Keep internal species and move IDs stable so existing scripts and field-move hooks continue to work.
 
-The demo covers Pallet Town through Brock, then Route 3, Route 4, Mt. Moon, Cerulean City, Routes 24 and 25, Bill, and Misty. Later areas are unfinished and retain upstream species and story content. The complete planned roster is documented in [FULL_GAME_PLAN.md](FULL_GAME_PLAN.md).
+The demo covers Pallet Town through Brock, Mt. Moon, Cerulean City, the northern routes and Bill, Misty, Routes 5 and 6, Vermilion City, the S.S. Anne, Route 11, Diglett's Cave, and Lt. Surge. Later areas are unfinished and retain upstream species and story content. The complete planned roster is documented in [FULL_GAME_PLAN.md](FULL_GAME_PLAN.md).
 
 The starter families are Grass Groenendael (`GROENPUP`, `GROEN`, `GROENHOUND`), Fire Shiba Inu (`SHIBAPUP`, `SHIBA`, `SHIBLAZE`), and Water Newfoundland (`NEWFPUP`, `NEWFIE`, `NEWFTIDE`). Each evolves at levels 16 and 36. All final starters have 425 base-stat points across HP, Attack, Defense, Speed, and Special.
 
 All three Groenendael forms use a dedicated black and charcoal Super Game Boy palette for their front and back sprites, while retaining Grass typing. The original four-shade sprite artwork is unchanged.
 
-The opening wild roster uses Beagle, Papillon, and Boxer families. Boxer is available before Brock to support the Shiba route. The gym uses Rock Bulldog and Mastiff forms. Forty-eight dog forms across twenty breed families receive names, stats, Pokédex entries, learnsets, and front/back sprites. New families include Yorkshire Terrier, Whippet, Greyhound, Dachshund, Pomeranian, Jack Russell Terrier, Cocker Spaniel, Italian Greyhound, Lagotto Romagnolo, Poodle, Otterhound, and English Springer Spaniel.
+The opening wild roster uses Beagle, Papillon, and Boxer families. Boxer is available before Brock to support the Shiba route. The gym uses Rock Bulldog and Mastiff forms. Sixty-one dog forms across twenty-six breed families receive names, stats, Pokédex entries, learnsets, and front/back sprites. The Vermilion chapter adds Border Terrier, Boston Terrier, Staffordshire Bull Terrier, Schnauzer, Bloodhound, and Chihuahua families.
 
-All 165 move slots now use the finalized dog move names and parameters, with existing effect and animation routines. HMs preserve their original IDs and field behavior. Dig, Teleport, and Softboiled field-menu labels are also renamed to match their new battle names. The remaining 103 dog forms are planned but unimplemented.
+All 165 move slots now use the finalized dog move names and parameters, with existing effect and animation routines. HMs preserve their original IDs and field behavior. Dig, Teleport, and Softboiled field-menu labels are also renamed to match their new battle names. The remaining 90 dog forms are planned but unimplemented.
 
 The seven new wild tables are version-independent. Route 25 offers all three starter puppies (approximately 10% Groenendael, 5% Shiba Inu, and 5% Newfoundland) at level 10. Route 24 supplies Grass Lagotto puppies; Mt. Moon supplies Electric Pomeranian puppies. The Lagotto puppy and adolescent remain pure Grass to serve as Water counters; the adult gains Ground typing.
 
 Misty uses level-18 OTTERPUP and level-21 OTTERMIND, awards the Cascade Badge, and gives TM11 WAKE CHARGE. Her dialogue explains the preserved HM01 unlock. The Mt. Moon seller gives SPRINGPUP; Route 4 also supplies it as a repeatable wild encounter. Bill's separation sequence, S.S. Ticket, and PC previews remain functional with dog art and entries.
+
+Routes 5 and 6 offer Boston Terrier puppies, with Electric Schnauzer and Chihuahua puppies on Route 6. Route 11 offers Bloodhound and Staffordshire Bull Terrier puppies. Diglett's Cave supplies Ground Border Terriers, including adults at levels 24 and 26. All four new wild tables are version-independent and supply repeatable sources for the new families.
+
+The S.S. Ticket gate, ship trainers, three rival variants, captain's HM01 reward, and departure sequence retain the original story scripts. HM01 teaches BRAMBLE BITE, preserves its Cut function, remains reusable, and requires the Cascade Badge to remove bushes. Groenendael and Shiba can learn it; Newfoundland players can use an early Beagle or another compatible companion. The nearby in-game trades now use chapter dogs, with repeatable wild sources for both sides. The fan club's Bicycle Voucher and the Old Rod reward remain available; the Old Rod encounters SPRINGPUP through its stable species slot.
+
+Lt. Surge uses level-21 SCHNAUPUP, level-21 CHIPUP, and level-24 POMSPARK. The original tree barrier and trash-can locks remain functional. Victory grants the Thunder Badge and TM24 VOLT BARK, and preserves the badge's future SKYBOUND field unlock. Surge's advice marks the current demo endpoint.
 
 ## Build
 
@@ -51,12 +57,15 @@ Emulator tests use temporary save files and record screenshots under `build/qa/`
 .venv/bin/python tools/dogs/validate_rom.py
 .venv/bin/python tools/dogs/test_emulator.py
 .venv/bin/python tools/dogs/test_misty.py
+.venv/bin/python tools/dogs/test_surge.py
 .venv/bin/python tools/dogs/validate_plan.py
 ```
 
 The emulator replay starts a new game, selects all three starters, checks their full breed names, and completes the tutorial rival battles. Brock checks use a scripted warp and trained-party fixtures: level-16 Groenendael and Newfoundland adolescents, and a level-14 Boxer leading a level-16 Shiba team. They exercise the actual battle, badge, and TM reward scripts. Save/load uses the game's Save menu and Continue in a fresh emulator. Evolution checks use Rare Candy fixtures at levels 15 and 35.
 
 The Misty replay uses trained level-20 parties and map warps. It exercises all three Cerulean rival teams, the three starter routes against Misty (Grass/Electric companions support Fire/Water), both badge and TM reward flags, the real purchase and Bill scripts, Bill's dog PC previews, two-badge save/load, and five additional evolutions. Optional gym trainers are marked beaten in boss fixtures; compiled checks independently inspect all 41 chapter trainer parties. These checks do not replace a continuous playthrough or prove natural difficulty.
+
+The Surge replay earns Bill's ticket and both preceding badges through their actual scripts, then tests ticket rejection and admission, all three ship rival teams with trained level-22 parties, the captain's HM01 reward, HM teaching without consumption, Cascade Badge gating, actual tree removal and gym entry, both trash-can lock scripts, all three starter routes against Surge with a trained Ground companion, ship departure, three-badge save/load, and seven new evolutions. Map warps isolate chapter checks; optional gym trainers are marked beaten. The test reads the randomized lock locations without changing them, then interacts with the correct cans. Compiled checks inspect all 77 chapter trainer parties, eleven encounter tables, the three ship rival teams, five trades, palettes, and Cut compatibility.
 
 ## Regeneration
 
@@ -65,6 +74,7 @@ The finalized JSON files feed the implementation through `data/dogs/implemented.
 ```sh
 .venv/bin/python tools/dogs/generate_data.py
 .venv/bin/python tools/dogs/generate_misty.py
+.venv/bin/python tools/dogs/generate_surge.py
 .venv/bin/python tools/dogs/convert_sprites.py
 .venv/bin/python tools/dogs/generate_sprite_banks.py
 .venv/bin/python tools/dogs/export_plan.py
@@ -77,4 +87,4 @@ Sprite pairs are packed eight species per bank. A banked lookup returns each pai
 
 Original draft artwork was generated with the built-in imagegen tool. The source atlases and exact prompts are in `assets/dogs/`; conversion instructions are in `tools/dogs/convert_sprites.py`. Battle sprites, the shared dog menu icon, and the six-frame generic overworld dog use the original four-shade format. The title's random species list now contains only demo dogs; the original animated opening and logo remain for a later art pass.
 
-New moves reuse upstream effect and animation routines. The remaining 103 forms, later encounters, collection-source and legendary-retry implementation, continuous playthroughs, broader balance work, custom move animations, and new sound design remain future work. The demo does not change the name buffers or save-file layout.
+New moves reuse upstream effect and animation routines. The remaining 90 forms, later encounters, collection-source and legendary-retry implementation, continuous playthroughs, broader balance work, custom move animations, and new sound design remain future work. The demo does not change the name buffers or save-file layout.

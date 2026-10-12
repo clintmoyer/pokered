@@ -134,4 +134,58 @@ for route in chapter:
 assert checked >= 30,checked
 
 assert rom[0x134:0x13f] == b'POKEMON RED', 'Unexpected cartridge title'
-print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} complete move records, seven Misty encounter tables, {checked} chapter trainer parties, all starter catches, and sprite encoding.')
+surge=json.loads((ROOT/'data/dogs/surge.json').read_text())
+for route, encounters in surge['wild'].items():
+    pos=offset(route+'WildMons')
+    assert rom[pos] == surge['rates'][route], route
+    assert list(rom[pos+1:pos+21]) == [v for level,name in encounters for v in (level,name_to_id[name])], route
+    assert rom[pos+21] == 0, route
+assert 'BORDERPUP' in {name for _,name in surge['wild']['DiglettsCave']}
+for root in ('BOSTPUP','STAFFPUP','SCHNAUPUP','BLOODPUP','CHIPUP'):
+    assert root in {name for encounters in surge['wild'].values() for _,name in encounters},root
+
+def trainer_party(label,index):
+    pos=offset(label)
+    for _ in range(index):
+        variable=rom[pos]==255; level=rom[pos];pos+=1
+        party=[]
+        while rom[pos]:
+            if variable:level=rom[pos];pos+=1
+            party.append((level,rom[pos]));pos+=1
+        pos+=1
+    return party
+
+for label,parties in surge['trainers'].items():
+    for index,members in parties.items():
+        assert trainer_party(label,int(index)) == [(level,name_to_id[name]) for level,name in members],(label,index)
+for index,members in enumerate(surge['rival'],1):
+    assert trainer_party('Rival2Data',index) == [(level,name_to_id[name]) for level,name in members]
+assert trainer_party('LtSurgeData',1) == [(level,name_to_id[name]) for level,name in surge['lt_surge']]
+for route in surge['maps']:
+    objects=(ROOT/f'data/maps/objects/{route}.asm').read_text()
+    for trainer,index in re.findall(r'object_event[^\n]+, (OPP_\w+), (\d+)',objects):
+        assert {sid for _,sid in trainer_party(classes[trainer],int(index))} <= allowed_species,(route,trainer,index)
+        checked+=1
+
+trade_ids=['TRADE_FOR_TERRY','TRADE_FOR_MARCEL','UNUSED','TRADE_FOR_SAILOR','TRADE_FOR_DUX','TRADE_FOR_MARC','TRADE_FOR_LOLA','TRADE_FOR_DORIS','TRADE_FOR_CRINKLES','TRADE_FOR_SPOT']
+for trade,(give,receive,nickname) in surge['trades'].items():
+    pos=offset('TradeMons')+trade_ids.index(trade)*14
+    assert list(rom[pos:pos+2]) == [name_to_id[give],name_to_id[receive]],trade
+    assert rom[pos+2] == 0,trade # casual dialogue, no obsolete trade-evolution claim
+    assert decode(rom[pos+3:pos+14]) == nickname,trade
+palette_ids=constants('constants/palette_constants.asm')
+for slot,palette in surge['palettes'].items():
+    dog=next(d for d in DOGS if d['slot']==slot)
+    assert rom[offset('MonsterPalettes')+dog['dex']] == palette_ids[palette],slot
+for dex in (1,2,3):
+    assert rom[offset('MonsterPalettes')+dex] == palette_ids['PAL_GROENMON']
+
+# Cut remains a reusable HM with its stable move ID and compatible early dogs.
+tmhm_source=(ROOT/'constants/item_constants.asm').read_text()
+tmhm_order=re.findall(r'^\s*add_tm (\w+)',tmhm_source,re.M)+re.findall(r'^\s*add_hm (\w+)',tmhm_source,re.M)
+assert tmhm_order.index('CUT') == 50
+for slot in ('BULBASAUR','CHARMANDER','RATTATA'):
+    dog=next(d for d in DOGS if d['slot']==slot)
+    pos=offset('BaseStats')+(dog['dex']-1)*28+20
+    assert rom[pos+50//8] & 1 << (50%8),slot
+print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} complete move records, eleven chapter encounter tables, {checked} chapter trainer parties, three ship rival teams, five dog trades, Cut compatibility, and sprite encoding.')
