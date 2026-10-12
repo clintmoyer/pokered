@@ -1,6 +1,6 @@
 _BillsHouseBillImNotAPokemonText::
 	text "Hiya! I'm a"
-	line "#MON..."
+	line "a dog..."
 	cont "...No I'm not!"
 
 	para "Call me BILL!"
@@ -13,7 +13,7 @@ _BillsHouseBillImNotAPokemonText::
 	line "you, I screwed up"
 	cont "an experiment and"
 	cont "got combined with"
-	cont "a #MON!"
+	cont "a dog!"
 
 	para "So, how about it?"
 	line "Help me out here!"

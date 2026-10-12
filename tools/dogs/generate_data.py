@@ -2,6 +2,7 @@
 """Regenerate the demo's assembly data from data.py; leave numeric IDs intact."""
 from pathlib import Path
 import re
+import textwrap
 from data import DOGS, MOVES
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -86,18 +87,36 @@ for d in DOGS:
         'BOXER': ('It trains its paws', 'in playful spars.', 'Its quick footwork', 'helps its friends', 'stand up to rocks.'),
         'BULLDOG': ('Its stone coat', 'protects its pack.', 'It plants its paws', 'and holds the line', 'against its foes.'),
         'MASTIFF': ('A mighty guardian', 'with a stone mane.', 'Its booming howl', 'echoes through the', 'hills of PEWTER.'),
+        'YORKSHIRE TERRIER': ('Its silky coat', 'hides tiny barbs.', 'It scouts ahead', 'and calls the pack', 'with sharp yips.'),
+        'WHIPPET': ('Its swift paws', 'ride on the wind.', 'It races ahead', 'to guide friends', 'along safe trails.'),
+        'GREYHOUND': ('Its long legs', 'outrun the breeze.', 'It circles its', 'pack to keep every', 'friend together.'),
+        'DACHSHUND': ('Its low body', 'slips into dens.', 'It marks a trail', 'with venom scents', 'to warn its pack.'),
+        'POMERANIAN': ('Its fluffy coat', 'crackles with sparks', 'It lights a path', 'for friends with', 'an electric yip.'),
+        'JACK RUSSELL TERRIER': ('Its nimble paws', 'dig narrow tunnels', 'It searches the', 'ground for hidden', 'treasures to share'),
+        'COCKER SPANIEL': ('Its soft ears', 'muffle loud sounds', 'Its soothing howl', 'helps tired friends', 'settle down to nap'),
+        'ITALIAN GREYHOUND': ('Its slender paws', 'skim the cave floor', 'It follows echoes', 'through dark halls', 'to find lost pups.'),
+        'LAGOTTO ROMAGNOLO': ('Its curly coat', 'hides leafy tufts.', 'It finds truffles', 'and shares them', 'with hungry pups.'),
+        'POODLE': ('Its clever mind', 'solves pack puzzles', 'It reads a friend', 'with a quiet gaze', 'and a gentle bark'),
+        'OTTERHOUND': ('Its shaggy coat', 'keeps water away.', 'It follows river', 'scents to rescue', 'friends in trouble'),
+        'ENGLISH SPRINGER SPANIEL': ('Its springy paws', 'splash over streams', 'It fetches lost', 'items from water', 'with a happy bark'),
     }
-    lines = (d['breed']+'.',) + descriptors[d['breed']]
+    breed_lines = textwrap.wrap(d['breed']+'.', 18, break_long_words=False)
+    prose = ' '.join(descriptors[d['breed']]) if d['breed'] in descriptors else d['dex_description'].removeprefix(d['breed']+' ')
+    lines = breed_lines + textwrap.wrap(prose, 18, break_long_words=False)
     assert all(len(line) <= 18 for line in lines), lines
-    text = f'_{label}DexEntry::\n\ttext "{lines[0]}"\n\tnext "{lines[1]}"\n\tnext "{lines[2]}"\n\n\tpage "{lines[3]}"\n\tnext "{lines[4]}"\n\tnext "{lines[5]}"\n\tdex\n\n'
+    text = f'_{label}DexEntry::\n'
+    for index, line in enumerate(lines):
+        command = 'text' if index == 0 else 'page' if index % 3 == 0 else 'next'
+        text += f'\t{command} "{line}"\n'
+    text += '\tdex\n\n'
     block("data/pokemon/dex_text.asm", '_'+label+"DexEntry", text)
     replace("data/pokemon/menu_icons.asm", rf"^\tnybble \w+(\s*; {label})$", rf"\tnybble ICON_QUADRUPED\1")
 
 # HM menu names have a separate table and an explicit left-edge coordinate.
-for alias in ('BRAMBLE_BITE','SKYBOUND','DOG_PADDLE','HAUL','BEACON_BARK'):
+for alias in ('BRAMBLE_BITE','SKYBOUND','DOG_PADDLE','HAUL','BEACON_BARK','BURROW_RUSH','HOMEBOUND','RESCUE_REST'):
     slot, name, *_ = MOVES[alias]
     # Replace by row number, making regeneration independent of previous names.
-    index = ['CUT','FLY','UNUSED','SURF','STRENGTH','FLASH'].index(slot)
+    index = ['CUT','FLY','UNUSED','SURF','STRENGTH','FLASH','DIG','TELEPORT','SOFTBOILED'].index(slot)
     p = ROOT / 'data/moves/field_move_names.asm'
     lines = p.read_text().splitlines(keepends=True)
     positions = [i for i, line in enumerate(lines) if line.startswith('\tdb "')]

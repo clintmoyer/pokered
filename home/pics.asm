@@ -16,20 +16,13 @@ UncompressMonSprite::
 ; $4A ≤ index < $74:       bank $B ("Pics 3")
 ; $74 ≤ index < $99:       bank $C ("Pics 4")
 ; $99 ≤ index:             bank $D ("Pics 5")
+	; Dog metadata lives in ROMX so a larger roster does not consume ROM0.
+	farcall GetDogSpriteBank
+	ld a, d ; Bankswitch restores A/BC; return the sprite bank in D.
+	and a
+	jp nz, UncompressSpriteData
 	ld a, [wCurPartySpecies]
 	ld b, a
-	; Dog sprites live together in their own bank; numeric species IDs stay stable.
-	ld hl, DogSpriteSpecies
-.checkDog
-	ld a, [hli]
-	cp -1
-	jr z, .originalBanks
-	cp b
-	jr nz, .checkDog
-	ld a, BANK("Dog Pics")
-	jp UncompressSpriteData
-.originalBanks
-	ld a, b
 	cp MEW
 	ld a, BANK(MewPicFront)
 	jr z, .GotBank
@@ -57,11 +50,80 @@ UncompressMonSprite::
 .GotBank
 	jp UncompressSpriteData
 
+PUSHS
+SECTION "Dog Sprite Banks", ROMX
+
+GetDogSpriteBank:
+	ld a, [wCurPartySpecies]
+	ld b, a
+	ld hl, DogSpriteSpecies
+.checkDog
+	ld a, [hli]
+	cp -1
+	jr z, .originalBank
+	cp b
+	jr nz, .nextDog
+	ld d, [hl]
+	ret
+.nextDog
+	inc hl
+	jr .checkDog
+.originalBank
+	ld d, 0
+	ret
+
 DogSpriteSpecies:
-	db BULBASAUR, IVYSAUR, VENUSAUR, CHARMANDER, CHARMELEON, CHARIZARD
-	db SQUIRTLE, WARTORTLE, BLASTOISE, RATTATA, RATICATE
-	db CATERPIE, METAPOD, BUTTERFREE, MANKEY, PRIMEAPE
-	db GEODUDE, GRAVELER, GOLEM, ONIX, -1
+	db BULBASAUR, BANK(BulbasaurPicFront)
+	db IVYSAUR, BANK(IvysaurPicFront)
+	db VENUSAUR, BANK(VenusaurPicFront)
+	db CHARMANDER, BANK(CharmanderPicFront)
+	db CHARMELEON, BANK(CharmeleonPicFront)
+	db CHARIZARD, BANK(CharizardPicFront)
+	db SQUIRTLE, BANK(SquirtlePicFront)
+	db WARTORTLE, BANK(WartortlePicFront)
+	db BLASTOISE, BANK(BlastoisePicFront)
+	db CATERPIE, BANK(CaterpiePicFront)
+	db METAPOD, BANK(MetapodPicFront)
+	db BUTTERFREE, BANK(ButterfreePicFront)
+	db WEEDLE, BANK(WeedlePicFront)
+	db KAKUNA, BANK(KakunaPicFront)
+	db BEEDRILL, BANK(BeedrillPicFront)
+	db PIDGEY, BANK(PidgeyPicFront)
+	db PIDGEOTTO, BANK(PidgeottoPicFront)
+	db PIDGEOT, BANK(PidgeotPicFront)
+	db RATTATA, BANK(RattataPicFront)
+	db RATICATE, BANK(RaticatePicFront)
+	db SPEAROW, BANK(SpearowPicFront)
+	db FEAROW, BANK(FearowPicFront)
+	db EKANS, BANK(EkansPicFront)
+	db ARBOK, BANK(ArbokPicFront)
+	db PIKACHU, BANK(PikachuPicFront)
+	db RAICHU, BANK(RaichuPicFront)
+	db SANDSHREW, BANK(SandshrewPicFront)
+	db SANDSLASH, BANK(SandslashPicFront)
+	db JIGGLYPUFF, BANK(JigglypuffPicFront)
+	db WIGGLYTUFF, BANK(WigglytuffPicFront)
+	db ZUBAT, BANK(ZubatPicFront)
+	db GOLBAT, BANK(GolbatPicFront)
+	db ODDISH, BANK(OddishPicFront)
+	db GLOOM, BANK(GloomPicFront)
+	db VILEPLUME, BANK(VileplumePicFront)
+	db MANKEY, BANK(MankeyPicFront)
+	db PRIMEAPE, BANK(PrimeapePicFront)
+	db ABRA, BANK(AbraPicFront)
+	db KADABRA, BANK(KadabraPicFront)
+	db ALAKAZAM, BANK(AlakazamPicFront)
+	db GEODUDE, BANK(GeodudePicFront)
+	db GRAVELER, BANK(GravelerPicFront)
+	db GOLEM, BANK(GolemPicFront)
+	db ONIX, BANK(OnixPicFront)
+	db STARYU, BANK(StaryuPicFront)
+	db STARMIE, BANK(StarmiePicFront)
+	db MAGIKARP, BANK(MagikarpPicFront)
+	db GYARADOS, BANK(GyaradosPicFront)
+	db -1
+
+POPS
 
 ; de: destination location
 LoadMonFrontSprite::

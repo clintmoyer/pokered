@@ -12,22 +12,22 @@ MonPartyData:
 	nybble ICON_QUADRUPED       ; Caterpie
 	nybble ICON_QUADRUPED       ; Metapod
 	nybble ICON_QUADRUPED       ; Butterfree
-	nybble ICON_BUG       ; Weedle
-	nybble ICON_BUG       ; Kakuna
-	nybble ICON_BUG       ; Beedrill
-	nybble ICON_BIRD      ; Pidgey
-	nybble ICON_BIRD      ; Pidgeotto
-	nybble ICON_BIRD      ; Pidgeot
+	nybble ICON_QUADRUPED       ; Weedle
+	nybble ICON_QUADRUPED       ; Kakuna
+	nybble ICON_QUADRUPED       ; Beedrill
+	nybble ICON_QUADRUPED      ; Pidgey
+	nybble ICON_QUADRUPED      ; Pidgeotto
+	nybble ICON_QUADRUPED      ; Pidgeot
 	nybble ICON_QUADRUPED ; Rattata
 	nybble ICON_QUADRUPED ; Raticate
-	nybble ICON_BIRD      ; Spearow
-	nybble ICON_BIRD      ; Fearow
-	nybble ICON_SNAKE     ; Ekans
-	nybble ICON_SNAKE     ; Arbok
-	nybble ICON_FAIRY     ; Pikachu
-	nybble ICON_FAIRY     ; Raichu
-	nybble ICON_MON       ; Sandshrew
-	nybble ICON_MON       ; Sandslash
+	nybble ICON_QUADRUPED      ; Spearow
+	nybble ICON_QUADRUPED      ; Fearow
+	nybble ICON_QUADRUPED     ; Ekans
+	nybble ICON_QUADRUPED     ; Arbok
+	nybble ICON_QUADRUPED     ; Pikachu
+	nybble ICON_QUADRUPED     ; Raichu
+	nybble ICON_QUADRUPED       ; Sandshrew
+	nybble ICON_QUADRUPED       ; Sandslash
 	nybble ICON_MON       ; NidoranF
 	nybble ICON_MON       ; Nidorina
 	nybble ICON_MON       ; Nidoqueen
@@ -38,13 +38,13 @@ MonPartyData:
 	nybble ICON_FAIRY     ; Clefable
 	nybble ICON_QUADRUPED ; Vulpix
 	nybble ICON_QUADRUPED ; Ninetales
-	nybble ICON_FAIRY     ; Jigglypuff
-	nybble ICON_FAIRY     ; Wigglytuff
-	nybble ICON_MON       ; Zubat
-	nybble ICON_MON       ; Golbat
-	nybble ICON_GRASS     ; Oddish
-	nybble ICON_GRASS     ; Gloom
-	nybble ICON_GRASS     ; Vileplume
+	nybble ICON_QUADRUPED     ; Jigglypuff
+	nybble ICON_QUADRUPED     ; Wigglytuff
+	nybble ICON_QUADRUPED       ; Zubat
+	nybble ICON_QUADRUPED       ; Golbat
+	nybble ICON_QUADRUPED     ; Oddish
+	nybble ICON_QUADRUPED     ; Gloom
+	nybble ICON_QUADRUPED     ; Vileplume
 	nybble ICON_BUG       ; Paras
 	nybble ICON_BUG       ; Parasect
 	nybble ICON_BUG       ; Venonat
@@ -62,9 +62,9 @@ MonPartyData:
 	nybble ICON_MON       ; Poliwag
 	nybble ICON_MON       ; Poliwhirl
 	nybble ICON_MON       ; Poliwrath
-	nybble ICON_MON       ; Abra
-	nybble ICON_MON       ; Kadabra
-	nybble ICON_MON       ; Alakazam
+	nybble ICON_QUADRUPED       ; Abra
+	nybble ICON_QUADRUPED       ; Kadabra
+	nybble ICON_QUADRUPED       ; Alakazam
 	nybble ICON_MON       ; Machop
 	nybble ICON_MON       ; Machoke
 	nybble ICON_MON       ; Machamp
@@ -119,8 +119,8 @@ MonPartyData:
 	nybble ICON_WATER     ; Seadra
 	nybble ICON_WATER     ; Goldeen
 	nybble ICON_WATER     ; Seaking
-	nybble ICON_HELIX     ; Staryu
-	nybble ICON_HELIX     ; Starmie
+	nybble ICON_QUADRUPED     ; Staryu
+	nybble ICON_QUADRUPED     ; Starmie
 	nybble ICON_MON       ; Mr.Mime
 	nybble ICON_BUG       ; Scyther
 	nybble ICON_MON       ; Jynx
@@ -128,8 +128,8 @@ MonPartyData:
 	nybble ICON_MON       ; Magmar
 	nybble ICON_BUG       ; Pinsir
 	nybble ICON_QUADRUPED ; Tauros
-	nybble ICON_WATER     ; Magikarp
-	nybble ICON_SNAKE     ; Gyarados
+	nybble ICON_QUADRUPED     ; Magikarp
+	nybble ICON_QUADRUPED     ; Gyarados
 	nybble ICON_WATER     ; Lapras
 	nybble ICON_MON       ; Ditto
 	nybble ICON_QUADRUPED ; Eevee

@@ -178,7 +178,17 @@ ROMX $2B
 ROMX $2C
 	"Move Names"
 ROMX $2D
-	"Dog Pics"
+	"Dog Pics 1"
+ROMX $2E
+	"Dog Pics 2"
+ROMX $2F
+	"Dog Pics 3"
+ROMX $30
+	"Dog Pics 4"
+ROMX $31
+	"Dog Pics 5"
+ROMX $32
+	"Dog Pics 6"
 WRAM0
 	"Audio RAM"
 	org $c100

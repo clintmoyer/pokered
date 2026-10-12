@@ -98,16 +98,13 @@ BillsHousePokemonList::
 	bit B_PAD_B, a
 	jr nz, .cancel
 	ld a, [wCurrentMenuItem]
-	add EEVEE
-	cp EEVEE
-	jr z, .displayPokedex
-	cp FLAREON
-	jr z, .displayPokedex
-	cp JOLTEON
-	jr z, .displayPokedex
-	cp VAPOREON
-	jr z, .displayPokedex
-	jr .cancel
+	cp 4
+	jr nc, .cancel
+	ld e, a
+	ld d, 0
+	ld hl, BillsDogSpecies
+	add hl, de
+	ld a, [hl]
 .displayPokedex
 	call DisplayPokedex
 	call LoadScreenTilesFromBuffer2
@@ -123,11 +120,14 @@ BillsHousePokemonListText1:
 	text_end
 
 BillsMonListText:
-	db   "EEVEE"
-	next "FLAREON"
-	next "JOLTEON"
-	next "VAPOREON"
+	db   "GROENPUP"
+	next "SHIBAPUP"
+	next "NEWFPUP"
+	next "POMPUP"
 	next "CANCEL@"
+
+BillsDogSpecies:
+	db GROENPUP, SHIBAPUP, NEWFPUP, POMPUP
 
 BillsHousePokemonListText2:
 	text_far _BillsHousePokemonListText2

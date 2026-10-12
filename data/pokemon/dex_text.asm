@@ -39,13 +39,12 @@ _ClefairyDexEntry::
 	dex
 
 _SpearowDexEntry::
-	text "Eats bugs in"
-	next "grassy areas. It"
-	next "has to flap its"
-
-	page "short wings at"
-	next "high speed to"
-	next "stay airborne"
+	text "GREYHOUND."
+	next "Its long legs"
+	next "outrun the breeze."
+	page "It circles its"
+	next "pack to keep every"
+	next "friend together."
 	dex
 
 _VoltorbDexEntry::
@@ -82,7 +81,6 @@ _IvysaurDexEntry::
 	text "GROENENDAEL."
 	next "A leaf-coated dog"
 	next "guards its pack."
-
 	page "Its keen hearing"
 	next "finds lost friends"
 	next "in the tall grass."
@@ -209,13 +207,14 @@ _MewDexEntry::
 	dex
 
 _GyaradosDexEntry::
-	text "Rarely seen in"
-	next "the wild. Huge"
-	next "and vicious, it"
-
-	page "is capable of"
-	next "destroying entire"
-	next "cities in a rage"
+	text "ENGLISH SPRINGER"
+	next "SPANIEL."
+	next "Its springy paws"
+	page "splash over"
+	next "streams It fetches"
+	next "lost items from"
+	page "water with a happy"
+	next "bark"
 	dex
 
 _ShellderDexEntry::
@@ -259,20 +258,18 @@ _ScytherDexEntry::
 	dex
 
 _StaryuDexEntry::
-	text "An enigmatic"
-	next "#MON that can"
-	next "effortlessly"
-
-	page "regenerate any"
-	next "appendage it"
-	next "loses in battle"
+	text "OTTERHOUND."
+	next "Its shaggy coat"
+	next "keeps water away."
+	page "It follows river"
+	next "scents to rescue"
+	next "friends in trouble"
 	dex
 
 _BlastoiseDexEntry::
 	text "NEWFOUNDLAND."
 	next "A strong swimmer"
 	next "with a wave coat."
-
 	page "It carries tired"
 	next "friends to safety"
 	next "across deep water."
@@ -312,30 +309,27 @@ _OnixDexEntry::
 	text "MASTIFF."
 	next "A mighty guardian"
 	next "with a stone mane."
-
 	page "Its booming howl"
 	next "echoes through the"
 	next "hills of PEWTER."
 	dex
 
 _FearowDexEntry::
-	text "With its huge and"
-	next "magnificent wings,"
-	next "it can keep aloft"
-
-	page "without ever"
-	next "having to land"
-	next "for rest"
+	text "GREYHOUND."
+	next "Its long legs"
+	next "outrun the breeze."
+	page "It circles its"
+	next "pack to keep every"
+	next "friend together."
 	dex
 
 _PidgeyDexEntry::
-	text "A common sight in"
-	next "forests and woods."
-	next "It flaps its"
-
-	page "wings at ground"
-	next "level to kick up"
-	next "blinding sand"
+	text "WHIPPET."
+	next "Its swift paws"
+	next "ride on the wind."
+	page "It races ahead to"
+	next "guide friends"
+	next "along safe trails."
 	dex
 
 _SlowpokeDexEntry::
@@ -349,20 +343,19 @@ _SlowpokeDexEntry::
 	dex
 
 _KadabraDexEntry::
-	text "It emits special"
-	next "alpha waves from"
-	next "its body that"
-
-	page "induce headaches"
-	next "just by being"
-	next "close by"
+	text "POODLE."
+	next "Its clever mind"
+	next "solves pack"
+	page "puzzles It reads a"
+	next "friend with a"
+	next "quiet gaze and a"
+	page "gentle bark"
 	dex
 
 _GravelerDexEntry::
 	text "BULLDOG."
 	next "Its stone coat"
 	next "protects its pack."
-
 	page "It plants its paws"
 	next "and holds the line"
 	next "against its foes."
@@ -419,13 +412,12 @@ _HitmonchanDexEntry::
 	dex
 
 _ArbokDexEntry::
-	text "It is rumored that"
-	next "the ferocious"
-	next "warning markings"
-
-	page "on its belly"
-	next "differ from area"
-	next "to area"
+	text "DACHSHUND."
+	next "Its low body slips"
+	next "into dens. It"
+	page "marks a trail with"
+	next "venom scents to"
+	next "warn its pack."
 	dex
 
 _ParasectDexEntry::
@@ -462,7 +454,6 @@ _GolemDexEntry::
 	text "BULLDOG."
 	next "Its stone coat"
 	next "protects its pack."
-
 	page "It plants its paws"
 	next "and holds the line"
 	next "against its foes."
@@ -512,7 +503,6 @@ _MankeyDexEntry::
 	text "BOXER."
 	next "It trains its paws"
 	next "in playful spars."
-
 	page "Its quick footwork"
 	next "helps its friends"
 	next "stand up to rocks."
@@ -689,23 +679,23 @@ _NinetalesDexEntry::
 	dex
 
 _PikachuDexEntry::
-	text "When several of"
-	next "these #MON"
-	next "gather, their"
-
-	page "electricity could"
-	next "build and cause"
-	next "lightning storms"
+	text "POMERANIAN."
+	next "Its fluffy coat"
+	next "crackles with"
+	page "sparks It lights a"
+	next "path for friends"
+	next "with an electric"
+	page "yip."
 	dex
 
 _RaichuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
-
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	text "POMERANIAN."
+	next "Its fluffy coat"
+	next "crackles with"
+	page "sparks It lights a"
+	next "path for friends"
+	next "with an electric"
+	page "yip."
 	dex
 
 _DratiniDexEntry::
@@ -769,23 +759,23 @@ _SeadraDexEntry::
 	dex
 
 _SandshrewDexEntry::
-	text "Burrows deep"
-	next "underground in"
-	next "arid locations"
-
-	page "far from water."
-	next "It only emerges"
-	next "to hunt for food"
+	text "JACK RUSSELL"
+	next "TERRIER."
+	next "Its nimble paws"
+	page "dig narrow tunnels"
+	next "It searches the"
+	next "ground for hidden"
+	page "treasures to share"
 	dex
 
 _SandslashDexEntry::
-	text "Curls up into a"
-	next "spiny ball when"
-	next "threatened. It"
-
-	page "can roll while"
-	next "curled up to"
-	next "attack or escape"
+	text "JACK RUSSELL"
+	next "TERRIER."
+	next "Its nimble paws"
+	page "dig narrow tunnels"
+	next "It searches the"
+	next "ground for hidden"
+	page "treasures to share"
 	dex
 
 _OmanyteDexEntry::
@@ -809,23 +799,23 @@ _OmastarDexEntry::
 	dex
 
 _JigglypuffDexEntry::
-	text "When its huge eyes"
-	next "light up, it sings"
-	next "a mysteriously"
-
-	page "soothing melody"
-	next "that lulls its"
-	next "enemies to sleep"
+	text "COCKER SPANIEL."
+	next "Its soft ears"
+	next "muffle loud sounds"
+	page "Its soothing howl"
+	next "helps tired"
+	next "friends settle"
+	page "down to nap"
 	dex
 
 _WigglytuffDexEntry::
-	text "The body is soft"
-	next "and rubbery. When"
-	next "angered, it will"
-
-	page "suck in air and"
-	next "inflate itself to"
-	next "an enormous size"
+	text "COCKER SPANIEL."
+	next "Its soft ears"
+	next "muffle loud sounds"
+	page "Its soothing howl"
+	next "helps tired"
+	next "friends settle"
+	page "down to nap"
 	dex
 
 _EeveeDexEntry::
@@ -879,23 +869,22 @@ _MachopDexEntry::
 	dex
 
 _ZubatDexEntry::
-	text "Forms colonies in"
-	next "perpetually dark"
-	next "places. Uses"
-
-	page "ultrasonic waves"
-	next "to identify and"
-	next "approach targets"
+	text "ITALIAN GREYHOUND."
+	next "Its slender paws"
+	next "skim the cave"
+	page "floor It follows"
+	next "echoes through"
+	next "dark halls to find"
+	page "lost pups."
 	dex
 
 _EkansDexEntry::
-	text "Moves silently"
-	next "and stealthily."
-	next "Eats the eggs of"
-
-	page "birds, such as"
-	next "PIDGEY and"
-	next "SPEAROW, whole"
+	text "DACHSHUND."
+	next "Its low body slips"
+	next "into dens. It"
+	page "marks a trail with"
+	next "venom scents to"
+	next "warn its pack."
 	dex
 
 _ParasDexEntry::
@@ -929,33 +918,30 @@ _PoliwrathDexEntry::
 	dex
 
 _WeedleDexEntry::
-	text "Often found in"
-	next "forests, eating"
-	next "leaves."
-
-	page "It has a sharp"
-	next "venomous stinger"
-	next "on its head"
+	text "YORKSHIRE TERRIER."
+	next "Its silky coat"
+	next "hides tiny barbs."
+	page "It scouts ahead"
+	next "and calls the pack"
+	next "with sharp yips."
 	dex
 
 _KakunaDexEntry::
-	text "Almost incapable"
-	next "of moving, this"
-	next "#MON can only"
-
-	page "harden its shell"
-	next "to protect itself"
-	next "from predators"
+	text "YORKSHIRE TERRIER."
+	next "Its silky coat"
+	next "hides tiny barbs."
+	page "It scouts ahead"
+	next "and calls the pack"
+	next "with sharp yips."
 	dex
 
 _BeedrillDexEntry::
-	text "Flies at high"
-	next "speed and attacks"
-	next "using its large"
-
-	page "venomous stingers"
-	next "on its forelegs"
-	next "and tail"
+	text "YORKSHIRE TERRIER."
+	next "Its silky coat"
+	next "hides tiny barbs."
+	page "It scouts ahead"
+	next "and calls the pack"
+	next "with sharp yips."
 	dex
 
 _DodrioDexEntry::
@@ -972,7 +958,6 @@ _PrimeapeDexEntry::
 	text "BOXER."
 	next "It trains its paws"
 	next "in playful spars."
-
 	page "Its quick footwork"
 	next "helps its friends"
 	next "stand up to rocks."
@@ -1012,7 +997,6 @@ _CaterpieDexEntry::
 	text "PAPILLON."
 	next "Its silky ears"
 	next "flutter like wings"
-
 	page "It scatters pollen"
 	next "as it dances over"
 	next "forest flowers."
@@ -1022,7 +1006,6 @@ _MetapodDexEntry::
 	text "PAPILLON."
 	next "Its silky ears"
 	next "flutter like wings"
-
 	page "It scatters pollen"
 	next "as it dances over"
 	next "forest flowers."
@@ -1032,7 +1015,6 @@ _ButterfreeDexEntry::
 	text "PAPILLON."
 	next "Its silky ears"
 	next "flutter like wings"
-
 	page "It scatters pollen"
 	next "as it dances over"
 	next "forest flowers."
@@ -1069,13 +1051,13 @@ _HypnoDexEntry::
 	dex
 
 _GolbatDexEntry::
-	text "Once it strikes,"
-	next "it will not stop"
-	next "draining energy"
-
-	page "from the victim"
-	next "even if it gets"
-	next "too heavy to fly"
+	text "ITALIAN GREYHOUND."
+	next "Its slender paws"
+	next "skim the cave"
+	page "floor It follows"
+	next "echoes through"
+	next "dark halls to find"
+	page "lost pups."
 	dex
 
 _MewtwoDexEntry::
@@ -1099,13 +1081,14 @@ _SnorlaxDexEntry::
 	dex
 
 _MagikarpDexEntry::
-	text "In the distant"
-	next "past, it was"
-	next "somewhat stronger"
-
-	page "than the horribly"
-	next "weak descendants"
-	next "that exist today"
+	text "ENGLISH SPRINGER"
+	next "SPANIEL."
+	next "Its springy paws"
+	page "splash over"
+	next "streams It fetches"
+	next "lost items from"
+	page "water with a happy"
+	next "bark"
 	dex
 
 _MukDexEntry::
@@ -1199,60 +1182,56 @@ _HaunterDexEntry::
 	dex
 
 _AbraDexEntry::
-	text "Using its ability"
-	next "to read minds, it"
-	next "will identify"
-
-	page "impending danger"
-	next "and TELEPORT to"
-	next "safety"
+	text "POODLE."
+	next "Its clever mind"
+	next "solves pack"
+	page "puzzles It reads a"
+	next "friend with a"
+	next "quiet gaze and a"
+	page "gentle bark"
 	dex
 
 _AlakazamDexEntry::
-	text "Its brain can out-"
-	next "perform a super-"
-	next "computer."
-
-	page "Its intelligence"
-	next "quotient is said"
-	next "to be 5,000"
+	text "POODLE."
+	next "Its clever mind"
+	next "solves pack"
+	page "puzzles It reads a"
+	next "friend with a"
+	next "quiet gaze and a"
+	page "gentle bark"
 	dex
 
 _PidgeottoDexEntry::
-	text "Very protective"
-	next "of its sprawling"
-	next "territorial area,"
-
-	page "this #MON will"
-	next "fiercely peck at"
-	next "any intruder"
+	text "WHIPPET."
+	next "Its swift paws"
+	next "ride on the wind."
+	page "It races ahead to"
+	next "guide friends"
+	next "along safe trails."
 	dex
 
 _PidgeotDexEntry::
-	text "When hunting, it"
-	next "skims the surface"
-	next "of water at high"
-
-	page "speed to pick off"
-	next "unwary prey such"
-	next "as MAGIKARP"
+	text "WHIPPET."
+	next "Its swift paws"
+	next "ride on the wind."
+	page "It races ahead to"
+	next "guide friends"
+	next "along safe trails."
 	dex
 
 _StarmieDexEntry::
-	text "Its central core"
-	next "glows with the"
-	next "seven colors of"
-
-	page "the rainbow. Some"
-	next "people value the"
-	next "core as a gem"
+	text "OTTERHOUND."
+	next "Its shaggy coat"
+	next "keeps water away."
+	page "It follows river"
+	next "scents to rescue"
+	next "friends in trouble"
 	dex
 
 _BulbasaurDexEntry::
 	text "GROENENDAEL."
 	next "A leaf-coated dog"
 	next "guards its pack."
-
 	page "Its keen hearing"
 	next "finds lost friends"
 	next "in the tall grass."
@@ -1262,7 +1241,6 @@ _VenusaurDexEntry::
 	text "GROENENDAEL."
 	next "A leaf-coated dog"
 	next "guards its pack."
-
 	page "Its keen hearing"
 	next "finds lost friends"
 	next "in the tall grass."
@@ -1322,7 +1300,6 @@ _RattataDexEntry::
 	text "BEAGLE."
 	next "Its clever nose"
 	next "finds lost trails."
-
 	page "It follows scents"
 	next "and calls its pack"
 	next "with a happy howl."
@@ -1332,7 +1309,6 @@ _RaticateDexEntry::
 	text "BEAGLE."
 	next "Its clever nose"
 	next "finds lost trails."
-
 	page "It follows scents"
 	next "and calls its pack"
 	next "with a happy howl."
@@ -1362,7 +1338,6 @@ _GeodudeDexEntry::
 	text "BULLDOG."
 	next "Its stone coat"
 	next "protects its pack."
-
 	page "It plants its paws"
 	next "and holds the line"
 	next "against its foes."
@@ -1402,7 +1377,6 @@ _CharmanderDexEntry::
 	text "SHIBA INU."
 	next "Its curled tail"
 	next "glows with embers."
-
 	page "This bold partner"
 	next "leaps through heat"
 	next "to help its pack."
@@ -1412,7 +1386,6 @@ _SquirtleDexEntry::
 	text "NEWFOUNDLAND."
 	next "A strong swimmer"
 	next "with a wave coat."
-
 	page "It carries tired"
 	next "friends to safety"
 	next "across deep water."
@@ -1422,7 +1395,6 @@ _CharmeleonDexEntry::
 	text "SHIBA INU."
 	next "Its curled tail"
 	next "glows with embers."
-
 	page "This bold partner"
 	next "leaps through heat"
 	next "to help its pack."
@@ -1432,7 +1404,6 @@ _WartortleDexEntry::
 	text "NEWFOUNDLAND."
 	next "A strong swimmer"
 	next "with a wave coat."
-
 	page "It carries tired"
 	next "friends to safety"
 	next "across deep water."
@@ -1442,40 +1413,36 @@ _CharizardDexEntry::
 	text "SHIBA INU."
 	next "Its curled tail"
 	next "glows with embers."
-
 	page "This bold partner"
 	next "leaps through heat"
 	next "to help its pack."
 	dex
 
 _OddishDexEntry::
-	text "During the day,"
-	next "it keeps its face"
-	next "buried in the"
-
-	page "ground. At night,"
-	next "it wanders around"
-	next "sowing its seeds"
+	text "LAGOTTO ROMAGNOLO."
+	next "Its curly coat"
+	next "hides leafy tufts."
+	page "It finds truffles"
+	next "and shares them"
+	next "with hungry pups."
 	dex
 
 _GloomDexEntry::
-	text "The fluid that"
-	next "oozes from its"
-	next "mouth isn't drool."
-
-	page "It is a nectar"
-	next "that is used to"
-	next "attract prey"
+	text "LAGOTTO ROMAGNOLO."
+	next "Its curly coat"
+	next "hides leafy tufts."
+	page "It finds truffles"
+	next "and shares them"
+	next "with hungry pups."
 	dex
 
 _VileplumeDexEntry::
-	text "The larger its"
-	next "petals, the more"
-	next "toxic pollen it"
-
-	page "contains. Its big"
-	next "head is heavy and"
-	next "hard to hold up"
+	text "LAGOTTO ROMAGNOLO."
+	next "Its curly coat"
+	next "hides leafy tufts."
+	page "It finds truffles"
+	next "and shares them"
+	next "with hungry pups."
 	dex
 
 _BellsproutDexEntry::

@@ -96,7 +96,7 @@ _Route25CooltrainerF2EndBattleText::
 _Route25CooltrainerF2AfterBattleText::
 	text "You came from MT."
 	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	cont "a POMPUP?"
 	done
 
 _Route25Hiker1BattleText::
@@ -112,7 +112,7 @@ _Route25Hiker1EndBattleText::
 
 _Route25Hiker1AfterBattleText::
 	text "Drat!"
-	line "A ZUBAT bit me"
+	line "An IGPUP nipped me"
 	cont "back in there."
 	done
 

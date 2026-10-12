@@ -6,6 +6,9 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[2]
 STARTERS = [('bulbasaur','ivysaur','venusaur'), ('charmander','charmeleon','charizard'), ('squirtle','wartortle','blastoise')]
 COMPANIONS = [('rattata','raticate','caterpie'), ('metapod','butterfree','mankey'), ('primeape','geodude','graveler'), ('golem','onix',None)]
+MISTY_A = [('weedle','kakuna','beedrill'), ('pidgey','pidgeotto','pidgeot'), ('spearow','fearow','ekans'), ('arbok','pikachu','raichu')]
+MISTY_B = [('sandshrew','sandslash','jigglypuff'), ('wigglytuff','zubat','golbat'), ('oddish','gloom','vileplume'), ('abra','kadabra','alakazam')]
+MISTY_C = [('magikarp','gyarados','staryu'), ('starmie',None,None), (None,None,None), (None,None,None)]
 
 def encode(image, size, content):
     image = image.convert('RGBA')
@@ -43,6 +46,11 @@ atlas(ROOT/'assets/dogs/starters-source.png', STARTERS, [0,380,674,1024])
 companion_source = ROOT/'assets/dogs/companions-source.png'
 if companion_source.exists():
     atlas(companion_source, COMPANIONS, [0,280,510,750,1024])
+for name, roster in [('a',MISTY_A),('b',MISTY_B),('c',MISTY_C)]:
+    source = ROOT/f'assets/dogs/misty-{name}-source.png'
+    if source.exists():
+        bounds = {'a':[0,257,506,758,1024], 'b':[0,256,511,750,1024], 'c':[0,281,600,800,1024]}
+        atlas(source, roster, bounds[name])
 
 # The quadruped menu icon stores two 8x16 halves in an 8x32 strip.
 icon = Image.open(ROOT/'gfx/pokemon/front/bulbasaur.png').crop((10,6,46,42)).resize((16,16), Image.Resampling.NEAREST)
@@ -50,6 +58,18 @@ strip = Image.new('L',(8,32),255)
 strip.paste(icon.crop((0,0,8,16)),(0,0))
 strip.paste(icon.crop((8,0,16,16)),(0,16))
 strip.save(ROOT/'gfx/icons/quadruped.png')
+
+# Generic overworld monsters (Bill, the Cerulean companion, and other NPCs).
+# Sprite layout is standing down/up/left, then walking down/up/left.
+source = ROOT/'assets/dogs/overworld-source.png'
+if source.exists():
+    sheet = Image.open(source)
+    strip = Image.new('L',(16,96),255)
+    for frame in range(6):
+        row,col=divmod(frame,3)
+        crop=sheet.crop((sheet.width*col//3,sheet.height*row//2,sheet.width*(col+1)//3,sheet.height*(row+1)//2))
+        strip.paste(encode(crop,16,14),(0,frame*16))
+    strip.save(ROOT/'gfx/sprites/monster.png')
 
 from data import DOGS
 preview = Image.new('RGB',(600, len(DOGS)*84),'#f5f1e8')
@@ -65,4 +85,14 @@ for index, dog in enumerate(DOGS):
         preview.paste(im,(x,y+6))
 (ROOT/'build/qa').mkdir(parents=True,exist_ok=True)
 preview.save(ROOT/'build/qa/sprite-preview.png')
+grid = Image.new('RGB',(960, ((len(DOGS)+5)//6)*104),'#f5f1e8')
+draw = ImageDraw.Draw(grid)
+for index, dog in enumerate(DOGS):
+    x,y=(index%6)*160,(index//6)*104
+    draw.text((x+4,y+3),dog['name'],fill='black')
+    for view,dx in [('front',4),('back',84)]:
+        filename=dog['slot'].lower()+('b' if view=='back' else '')+'.png'
+        im=Image.open(ROOT/f'gfx/pokemon/{view}'/filename).convert('RGB')
+        grid.paste(im,(x+dx,y+20))
+grid.save(ROOT/'build/qa/sprite-grid.png')
 print('Converted starter sprites'+(' and companion sprites.' if companion_source.exists() else '.'))

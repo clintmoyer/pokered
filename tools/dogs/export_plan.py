@@ -20,13 +20,13 @@ def export():
     roster = json.loads((ROOT / 'data/dogs/roster.json').read_text())
     moves = json.loads((ROOT / 'data/dogs/moves.json').read_text())
     with (ROOT / 'docs/ROSTER.csv').open('w', newline='') as stream:
-        writer = csv.writer(stream)
+        writer = csv.writer(stream, lineterminator='\n')
         writer.writerow(['dex', 'original_slot', 'short_name', 'full_breed', 'types', 'hp', 'attack', 'defense', 'speed', 'special', 'evolution', 'obtain', 'signature', 'initial_moves', 'level_up', 'tm_hm_slots'])
         for d in roster:
             evolution = f"L{d['evolution'][0]} -> {d['evolution'][1]}" if d['evolution'] else '; '.join(f"{e['item']} -> {e['target']}" for e in d.get('branch_evolutions', []))
             writer.writerow([d['dex'], d['slot'], d['name'], d['breed'], '/'.join(dict.fromkeys(d['types'])), *d['stats'], evolution, acquisition_text(d['acquisition']), d['signature'], '; '.join(d['base']), '; '.join(f'{level}:{move}' for level, move in d['learnset']), '; '.join(d['tms'])])
     with (ROOT / 'docs/MOVES.csv').open('w', newline='') as stream:
-        writer = csv.writer(stream)
+        writer = csv.writer(stream, lineterminator='\n')
         writer.writerow(['id', 'original_slot', 'dog_move', 'type', 'power', 'accuracy', 'pp', 'effect', 'hm_function', 'animation'])
         for m in moves:
             writer.writerow([m['id'], m['slot'], m['name'], m['type'], m['power'], m['accuracy'], m['pp'], m['effect'], m['hm'] or '', m['animation']])

@@ -7,8 +7,7 @@ _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
 
 	para "They stole a TM"
 	line "for teaching"
-	cont "#MON how to"
-	cont "DIG holes!"
+	cont "BURROW RUSH!"
 
 	para "That cost me a"
 	line "bundle, it did!"
@@ -18,9 +17,9 @@ _CeruleanTrashedHouseFishingGuruWhatsLostIsLostText::
 	text "I figure what's"
 	line "lost is lost!"
 
-	para "I decided to teach"
-	line "DIGLETT how to"
-	cont "DIG without a TM!"
+	para "My JACKPUP learns"
+	line "BURROW RUSH as it"
+	cont "grows up, anyway!"
 	done
 
 _CeruleanTrashedHouseGirlText::

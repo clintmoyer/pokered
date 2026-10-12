@@ -22,7 +22,7 @@ _MtMoonPokecenterMagikarpSalesmanIGotADealText::
 	cont "just for you!"
 
 	para "I'll let you have"
-	line "a swell MAGIKARP"
+	line "a sweet SPRINGPUP"
 	cont "for just ¥500!"
 	cont "What do you say?"
 	done
@@ -39,8 +39,11 @@ _MtMoonPokecenterMagikarpSalesmanNoMoneyText::
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoRefundsText::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "MAN: Take care of"
+	line "your new friend!"
+
+	para "More SPRINGPUP"
+	line "play on ROUTE 4."
 	done
 
 _MtMoonPokecenterClipboardText::

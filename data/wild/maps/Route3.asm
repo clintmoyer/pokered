@@ -1,16 +1,16 @@
 Route3WildMons:
-	def_grass_wildmons 20 ; encounter rate
-	db  6, PIDGEY
-	db  5, SPEAROW
-	db  7, PIDGEY
-	db  6, SPEAROW
-	db  7, SPEAROW
-	db  8, PIDGEY
-	db  8, SPEAROW
-	db  3, JIGGLYPUFF
-	db  5, JIGGLYPUFF
-	db  7, JIGGLYPUFF
+	def_grass_wildmons 20
+	db  6, WHIPPUP
+	db  7, WHIPPUP
+	db  6, GREYPUP
+	db  8, GREYPUP
+	db  8, BEAGPUP
+	db  7, YORKPUP
+	db  8, YORKPUP
+	db  9, YORKIE
+	db  8, COCKERPUP
+	db  9, COCKERPUP
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 0
 	end_water_wildmons

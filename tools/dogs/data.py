@@ -1,84 +1,21 @@
-"""Authoritative first-gym dog roster. Original IDs remain stable."""
+"""Load the finalized design and select the forms implemented in this ROM slice."""
+import json
+from pathlib import Path
 
-# alias: original move ID, display name, effect, power, type, accuracy, PP
+ROOT = Path(__file__).resolve().parents[2]
+ROSTER = json.loads((ROOT / 'data/dogs/roster.json').read_text())
+MOVE_PLAN = json.loads((ROOT / 'data/dogs/moves.json').read_text())
+IMPLEMENTED = set(json.loads((ROOT / 'data/dogs/implemented.json').read_text()))
+DOGS = []
+for record in ROSTER:
+    if record['slot'] in IMPLEMENTED:
+        dog = dict(record)
+        for field in ('stats', 'types', 'base', 'tms', 'height'):
+            dog[field] = tuple(dog[field])
+        DOGS.append(dog)
+
+# alias: stable original move slot, display name, effect, power, type, accuracy, PP
 MOVES = {
-    "PAW_TAP": ("TACKLE", "PAW TAP", "NO_ADDITIONAL_EFFECT", 40, "NORMAL", 100, 35),
-    "WARN_BARK": ("GROWL", "WARN BARK", "ATTACK_DOWN1_EFFECT", 0, "NORMAL", 100, 40),
-    "TAIL_WAG": ("TAIL_WHIP", "TAIL WAG", "DEFENSE_DOWN1_EFFECT", 0, "NORMAL", 100, 30),
-    "PAW_DASH": ("QUICK_ATTACK", "PAW DASH", "NO_ADDITIONAL_EFFECT", 40, "NORMAL", 100, 30),
-    "PACK_FOCUS": ("GROWTH", "PACK FOCUS", "SPECIAL_UP1_EFFECT", 0, "NORMAL", 100, 25),
-    "PACK_HOWL": ("SWORDS_DANCE", "PACK HOWL", "ATTACK_UP2_EFFECT", 0, "NORMAL", 100, 20),
-    "LEAF_FANG": ("VINE_WHIP", "LEAF FANG", "NO_ADDITIONAL_EFFECT", 40, "GRASS", 100, 25),
-    "ROOT_SNARE": ("LEECH_SEED", "ROOT SNARE", "LEECH_SEED_EFFECT", 0, "GRASS", 90, 10),
-    "BRIAR_FANG": ("MEGA_DRAIN", "BRIAR FANG", "DRAIN_HP_EFFECT", 75, "GRASS", 95, 15),
-    "SUN_HOWL": ("SOLARBEAM", "SUN HOWL", "CHARGE_EFFECT", 110, "GRASS", 100, 10),
-    "CINDER_YIP": ("EMBER", "CINDER YIP", "BURN_SIDE_EFFECT1", 40, "FIRE", 100, 25),
-    "CINDER_BARK": ("FLAMETHROWER", "CINDER BARK", "BURN_SIDE_EFFECT1", 80, "FIRE", 100, 15),
-    "FLAME_POUNCE": ("FIRE_BLAST", "FLAME POUNCE", "BURN_SIDE_EFFECT2", 110, "FIRE", 85, 5),
-    "SPLASH_KICK": ("WATER_GUN", "SPLASH KICK", "NO_ADDITIONAL_EFFECT", 40, "WATER", 100, 25),
-    "WAKE_CHARGE": ("BUBBLEBEAM", "WAKE CHARGE", "SPEED_DOWN_SIDE_EFFECT", 80, "WATER", 100, 15),
-    "TIDAL_BARK": ("HYDRO_PUMP", "TIDAL BARK", "NO_ADDITIONAL_EFFECT", 110, "WATER", 85, 5),
-    "PAW_COMBO": ("DOUBLE_KICK", "PAW COMBO", "ATTACK_TWICE_EFFECT", 20, "FIGHTING", 100, 25),
-    "BOXING_PAW": ("KARATE_CHOP", "BOXING PAW", "NO_ADDITIONAL_EFFECT", 50, "FIGHTING", 100, 20),
-    "SPAR_RUSH": ("SUBMISSION", "SPAR RUSH", "RECOIL_EFFECT", 75, "FIGHTING", 90, 20),
-    "CLAW_RAKE": ("SLASH", "CLAW RAKE", "NO_ADDITIONAL_EFFECT", 70, "NORMAL", 100, 20),
-    "SCENT_LOCK": ("LEER", "SCENT LOCK", "DEFENSE_DOWN1_EFFECT", 0, "NORMAL", 100, 30),
-    "DUST_KICK": ("SAND_ATTACK", "DUST KICK", "ACCURACY_DOWN1_EFFECT", 0, "GROUND", 100, 15),
-    "SILK_SLOW": ("STRING_SHOT", "SILK SLOW", "SPEED_DOWN1_EFFECT", 0, "BUG", 95, 30),
-    "WING_PAW": ("WING_ATTACK", "WING PAW", "NO_ADDITIONAL_EFFECT", 45, "FLYING", 100, 25),
-    "DREAM_HOWL": ("SING", "DREAM HOWL", "SLEEP_EFFECT", 0, "NORMAL", 65, 15),
-    "POLLEN_PUFF": ("SLEEP_POWDER", "POLLEN PUFF", "SLEEP_EFFECT", 0, "GRASS", 70, 15),
-    "BARK_ECHO": ("CONFUSION", "BARK ECHO", "CONFUSION_SIDE_EFFECT", 50, "PSYCHIC_TYPE", 100, 20),
-    "BRACE": ("HARDEN", "BRACE", "DEFENSE_UP1_EFFECT", 0, "NORMAL", 100, 30),
-    "STONE_PAW": ("ROCK_THROW", "STONE PAW", "NO_ADDITIONAL_EFFECT", 50, "ROCK", 100, 15),
-    "BOULDER_RUSH": ("ROCK_SLIDE", "BOULDER RUSH", "NO_ADDITIONAL_EFFECT", 75, "ROCK", 90, 10),
-    "GUARD_HOWL": ("BIDE", "GUARD HOWL", "BIDE_EFFECT", 0, "NORMAL", 100, 10),
-    "NAP_TIME": ("REST", "NAP TIME", "HEAL_EFFECT", 0, "PSYCHIC_TYPE", 100, 10),
-    "SNUGGLE": ("RECOVER", "SNUGGLE", "HEAL_EFFECT", 0, "NORMAL", 100, 10),
-    "PACK_RUSH": ("BODY_SLAM", "PACK RUSH", "PARALYZE_SIDE_EFFECT2", 75, "NORMAL", 100, 15),
-    "BRAMBLE_BITE": ("CUT", "BRAMBLE BITE", "NO_ADDITIONAL_EFFECT", 50, "NORMAL", 100, 30),
-    "SKYBOUND": ("FLY", "SKYBOUND", "FLY_EFFECT", 70, "FLYING", 95, 15),
-    "DOG_PADDLE": ("SURF", "DOG PADDLE", "NO_ADDITIONAL_EFFECT", 80, "WATER", 100, 20),
-    "HAUL": ("STRENGTH", "HAUL", "NO_ADDITIONAL_EFFECT", 80, "NORMAL", 100, 15),
-    "BEACON_BARK": ("FLASH", "BEACON BARK", "ACCURACY_DOWN1_EFFECT", 0, "NORMAL", 100, 20),
-    "DECOY_PUP": ("SUBSTITUTE", "DECOY PUP", "SUBSTITUTE_EFFECT", 0, "NORMAL", 100, 10),
-    "LAST_GASP": ("STRUGGLE", "LAST GASP", "RECOIL_EFFECT", 50, "NORMAL", 100, 10),
+    m['alias']: (m['slot'], m['name'], m['effect'], m['power'], m['type'], m['accuracy'], m['pp'])
+    for m in MOVE_PLAN
 }
-
-GRASS = [(7, "LEAF_FANG"), (10, "PAW_DASH"), (13, "ROOT_SNARE"), (18, "PACK_FOCUS"), (24, "PACK_RUSH"), (30, "BRIAR_FANG"), (38, "SUN_HOWL")]
-FIRE = [(7, "CINDER_YIP"), (10, "PAW_COMBO"), (13, "PAW_DASH"), (18, "SCENT_LOCK"), (24, "PACK_RUSH"), (30, "CINDER_BARK"), (38, "FLAME_POUNCE")]
-WATER = [(7, "SPLASH_KICK"), (10, "BRACE"), (13, "PAW_COMBO"), (18, "PACK_FOCUS"), (24, "PACK_RUSH"), (30, "WAKE_CHARGE"), (38, "TIDAL_BARK")]
-BEAGLE = [(7, "PAW_DASH"), (11, "SCENT_LOCK"), (15, "DREAM_HOWL"), (22, "PACK_RUSH"), (28, "CLAW_RAKE"), (34, "PACK_HOWL")]
-PAPILLON = [(6, "SILK_SLOW"), (9, "WING_PAW"), (12, "BARK_ECHO"), (16, "POLLEN_PUFF"), (22, "PAW_DASH"), (28, "SNUGGLE")]
-BOXER = [(7, "PAW_COMBO"), (11, "SCENT_LOCK"), (15, "BOXING_PAW"), (22, "PACK_HOWL"), (28, "SPAR_RUSH"), (34, "CLAW_RAKE")]
-BULLDOG = [(8, "BRACE"), (11, "STONE_PAW"), (15, "GUARD_HOWL"), (22, "PACK_RUSH"), (30, "BOULDER_RUSH"), (36, "HAUL")]
-MASTIFF = [(8, "BRACE"), (11, "STONE_PAW"), (15, "GUARD_HOWL"), (22, "PACK_RUSH"), (30, "BOULDER_RUSH"), (36, "PACK_HOWL")]
-
-def dog(slot, name, breed, category, stats, types, learnset, evolution=None, base=("PAW_TAP", "WARN_BARK"), tms=(), height=(1, 0), weight=150, catch=190, exp=70, stage=0):
-    return dict(slot=slot, name=name, breed=breed, category=category, stats=stats, types=types,
-                learnset=learnset, evolution=evolution, base=base, tms=tms, height=height,
-                weight=weight, catch=catch, exp=exp, stage=stage)
-
-COMMON_TMS = ("BIDE", "REST", "SUBSTITUTE", "BODY_SLAM")
-DOGS = [
-    dog("BULBASAUR", "GROENPUP", "GROENENDAEL", "SHEEPDOG", (45,45,40,65,55), ("GRASS","GRASS"), GRASS, (16,"IVYSAUR"), tms=COMMON_TMS+("MEGA_DRAIN","SOLARBEAM","CUT"), catch=45),
-    dog("IVYSAUR", "GROEN", "GROENENDAEL", "SHEEPDOG", (60,60,55,80,70), ("GRASS","GRASS"), GRASS, (36,"VENUSAUR"), tms=COMMON_TMS+("MEGA_DRAIN","SOLARBEAM","CUT"), height=(1,7), weight=400, catch=45, exp=130, stage=1),
-    dog("VENUSAUR", "GROENHOUND", "GROENENDAEL", "SHEEPDOG", (75,85,70,105,90), ("GRASS","GRASS"), GRASS, tms=COMMON_TMS+("MEGA_DRAIN","SOLARBEAM","CUT"), height=(2,0), weight=650, catch=45, exp=208, stage=2),
-    dog("CHARMANDER", "SHIBAPUP", "SHIBA INU", "FIRE DOG", (45,45,40,60,60), ("FIRE","FIRE"), FIRE, (16,"CHARMELEON"), tms=COMMON_TMS+("SWORDS_DANCE","FIRE_BLAST","CUT"), catch=45),
-    dog("CHARMELEON", "SHIBA", "SHIBA INU", "FIRE DOG", (60,65,55,75,70), ("FIRE","FIRE"), FIRE, (36,"CHARIZARD"), tms=COMMON_TMS+("SWORDS_DANCE","FIRE_BLAST","CUT"), height=(1,1), weight=230, catch=45, exp=130, stage=1),
-    dog("CHARIZARD", "SHIBLAZE", "SHIBA INU", "FIRE DOG", (70,85,70,95,105), ("FIRE","FIRE"), FIRE, tms=COMMON_TMS+("SWORDS_DANCE","FIRE_BLAST","CUT","STRENGTH"), height=(1,4), weight=350, catch=45, exp=208, stage=2),
-    dog("SQUIRTLE", "NEWFPUP", "NEWFOUNDLAND", "RESCUE DOG", (60,40,55,35,60), ("WATER","WATER"), WATER, (16,"WARTORTLE"), tms=COMMON_TMS+("WATER_GUN","BUBBLEBEAM","SURF","STRENGTH"), catch=45),
-    dog("WARTORTLE", "NEWFIE", "NEWFOUNDLAND", "RESCUE DOG", (75,55,75,45,75), ("WATER","WATER"), WATER, (36,"BLASTOISE"), tms=COMMON_TMS+("WATER_GUN","BUBBLEBEAM","SURF","STRENGTH"), height=(1,10), weight=800, catch=45, exp=130, stage=1),
-    dog("BLASTOISE", "NEWFTIDE", "NEWFOUNDLAND", "RESCUE DOG", (100,75,100,55,95), ("WATER","WATER"), WATER, tms=COMMON_TMS+("WATER_GUN","BUBBLEBEAM","SURF","STRENGTH"), height=(2,4), weight=1350, catch=45, exp=208, stage=2),
-    dog("RATTATA", "BEAGPUP", "BEAGLE", "HOUND", (50,50,40,60,40), ("NORMAL","NORMAL"), BEAGLE, (18,"RATICATE"), tms=COMMON_TMS+("CUT",)),
-    dog("RATICATE", "BEAGLE", "BEAGLE", "HOUND", (80,75,65,85,45), ("NORMAL","NORMAL"), BEAGLE, tms=COMMON_TMS+("CUT","STRENGTH"), height=(1,3), weight=250, exp=130, stage=2),
-    dog("CATERPIE", "PAPIPUP", "PAPILLON", "WING DOG", (40,35,35,50,50), ("BUG","BUG"), PAPILLON, (9,"METAPOD"), tms=COMMON_TMS+("FLASH",), catch=220, exp=55),
-    dog("METAPOD", "PAPILLON", "PAPILLON", "WING DOG", (50,45,50,60,65), ("BUG","BUG"), PAPILLON, (14,"BUTTERFREE"), tms=COMMON_TMS+("FLASH",), catch=200, exp=90, stage=1),
-    dog("BUTTERFREE", "PAPIFLY", "PAPILLON", "WING DOG", (60,60,60,85,90), ("BUG","FLYING"), PAPILLON, tms=COMMON_TMS+("FLASH","FLY"), height=(1,0), weight=100, exp=150, stage=2),
-    dog("MANKEY", "BOXPUP", "BOXER", "SPAR DOG", (45,65,45,55,40), ("FIGHTING","FIGHTING"), BOXER, (24,"PRIMEAPE"), tms=COMMON_TMS+("SWORDS_DANCE","SUBMISSION","STRENGTH")),
-    dog("PRIMEAPE", "BOXER", "BOXER", "SPAR DOG", (75,80,60,85,55), ("FIGHTING","FIGHTING"), BOXER, tms=COMMON_TMS+("SWORDS_DANCE","SUBMISSION","STRENGTH"), height=(2,0), weight=650, exp=150, stage=2),
-    dog("GEODUDE", "BULLPUP", "BULLDOG", "ROCK DOG", (55,80,65,25,60), ("ROCK","ROCK"), BULLDOG, (25,"GRAVELER"), tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","BRACE"), catch=100, exp=90),
-    dog("GRAVELER", "BULLDOG", "BULLDOG", "ROCK DOG", (75,85,95,30,75), ("ROCK","ROCK"), BULLDOG, (36,"GOLEM"), tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","BRACE"), height=(1,4), weight=500, catch=100, exp=140, stage=1),
-    dog("GOLEM", "BULLGUARD", "BULLDOG", "ROCK DOG", (95,95,100,35,85), ("ROCK","ROCK"), BULLDOG, tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","BRACE"), height=(1,8), weight=750, catch=75, exp=200, stage=2),
-    dog("ONIX", "STONEMAST", "MASTIFF", "ROCK DOG", (75,80,95,40,40), ("ROCK","ROCK"), MASTIFF, tms=COMMON_TMS+("ROCK_SLIDE","STRENGTH"), base=("PAW_TAP","WARN_BARK"), height=(2,6), weight=1800, catch=75, exp=150, stage=2),
-]

@@ -1109,7 +1109,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "YORKSHIRE TERRIER guards its pack. Its bug power helps friends explore Kanto."
   },
   {
@@ -1201,7 +1201,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "YORKSHIRE TERRIER guards its pack. Its bug power helps friends explore Kanto."
   },
   {
@@ -1291,7 +1291,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "YORKSHIRE TERRIER guards its pack. Its bug power helps friends explore Kanto."
   },
   {
@@ -1392,7 +1392,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "WHIPPET guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -1486,7 +1486,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "WHIPPET guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -1577,7 +1577,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "WHIPPET guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -1841,7 +1841,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "GREYHOUND guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -1932,7 +1932,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "GREYHOUND guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -2022,7 +2022,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "DACHSHUND guards its pack. Its poison power helps friends explore Kanto."
   },
   {
@@ -2103,7 +2103,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "DACHSHUND guards its pack. Its poison power helps friends explore Kanto."
   },
   {
@@ -2195,7 +2195,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "POMERANIAN guards its pack. Its electric power helps friends explore Kanto."
   },
   {
@@ -2278,7 +2278,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "POMERANIAN guards its pack. Its electric power helps friends explore Kanto."
   },
   {
@@ -2370,7 +2370,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "JACK RUSSELL TERRIER guards its pack. Its ground power helps friends explore Kanto."
   },
   {
@@ -2452,7 +2452,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "JACK RUSSELL TERRIER guards its pack. Its ground power helps friends explore Kanto."
   },
   {
@@ -3470,7 +3470,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "COCKER SPANIEL guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -3554,7 +3554,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "COCKER SPANIEL guards its pack. Its normal power helps friends explore Kanto."
   },
   {
@@ -3654,7 +3654,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "ITALIAN GREYHOUND guards its pack. Its flying power helps friends explore Kanto."
   },
   {
@@ -3745,7 +3745,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "ITALIAN GREYHOUND guards its pack. Its flying power helps friends explore Kanto."
   },
   {
@@ -3762,7 +3762,7 @@
     ],
     "types": [
       "GRASS",
-      "GROUND"
+      "GRASS"
     ],
     "learnset": [
       [
@@ -3843,7 +3843,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "LAGOTTO ROMAGNOLO guards its pack. Its grass power helps friends explore Kanto."
   },
   {
@@ -3860,7 +3860,7 @@
     ],
     "types": [
       "GRASS",
-      "GROUND"
+      "GRASS"
     ],
     "learnset": [
       [
@@ -3934,7 +3934,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "LAGOTTO ROMAGNOLO guards its pack. Its grass power helps friends explore Kanto."
   },
   {
@@ -4022,7 +4022,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "LAGOTTO ROMAGNOLO guards its pack. Its grass power helps friends explore Kanto."
   },
   {
@@ -5658,7 +5658,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "POODLE guards its pack. Its psychic power helps friends explore Kanto."
   },
   {
@@ -5744,7 +5744,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "POODLE guards its pack. Its psychic power helps friends explore Kanto."
   },
   {
@@ -5828,7 +5828,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "POODLE guards its pack. Its psychic power helps friends explore Kanto."
   },
   {
@@ -8909,8 +8909,8 @@
   },
   {
     "slot": "VOLTORB",
-    "name": "PINSPUP",
-    "breed": "MINIATURE PINSCHER",
+    "name": "CHIPUP",
+    "breed": "CHIHUAHUA",
     "category": "PACK DOG",
     "stats": [
       34,
@@ -8997,12 +8997,12 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "MINIATURE PINSCHER guards its pack. Its electric power helps friends explore Kanto."
+    "dex_description": "CHIHUAHUA guards its pack. Its electric power helps friends explore Kanto."
   },
   {
     "slot": "ELECTRODE",
-    "name": "PINSHOCK",
-    "breed": "MINIATURE PINSCHER",
+    "name": "CHISPARK",
+    "breed": "CHIHUAHUA",
     "category": "PACK DOG",
     "stats": [
       60,
@@ -9080,7 +9080,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "MINIATURE PINSCHER guards its pack. Its electric power helps friends explore Kanto."
+    "dex_description": "CHIHUAHUA guards its pack. Its electric power helps friends explore Kanto."
   },
   {
     "slot": "EXEGGCUTE",
@@ -10849,7 +10849,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "OTTERHOUND guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -10938,7 +10938,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "OTTERHOUND guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -11405,24 +11405,24 @@
   },
   {
     "slot": "PINSIR",
-    "name": "KERRYBLUE",
-    "breed": "KERRY BLUE TERRIER",
+    "name": "COLLIEMIND",
+    "breed": "BORDER COLLIE",
     "category": "PACK DOG",
     "stats": [
-      75,
-      90,
-      75,
-      90,
-      75
+      70,
+      65,
+      60,
+      110,
+      100
     ],
     "types": [
-      "BUG",
-      "BUG"
+      "GRASS",
+      "PSYCHIC_TYPE"
     ],
     "learnset": [
       [
         7,
-        "SILK_SLOW"
+        "LEAF_FANG"
       ],
       [
         11,
@@ -11430,23 +11430,27 @@
       ],
       [
         14,
-        "SILK_FANG"
+        "ROOT_SNARE"
       ],
       [
         18,
-        "NUMB_POLLEN"
+        "PACK_FOCUS"
       ],
       [
         24,
         "PACK_RUSH"
       ],
       [
+        27,
+        "BARK_ECHO"
+      ],
+      [
         30,
-        "THREAD_RUSH"
+        "BRIAR_FANG"
       ],
       [
         38,
-        "SILK_COMBO"
+        "SUN_HOWL"
       ]
     ],
     "evolution": null,
@@ -11459,8 +11463,14 @@
       "REST",
       "SUBSTITUTE",
       "BODY_SLAM",
-      "TOXIC",
-      "FLASH"
+      "MEGA_DRAIN",
+      "SOLARBEAM",
+      "CUT",
+      "PSYCHIC_M",
+      "REFLECT",
+      "FLASH",
+      "PSYWAVE",
+      "SWIFT"
     ],
     "height": [
       2,
@@ -11472,7 +11482,7 @@
     "stage": 2,
     "dex": 127,
     "family": 63,
-    "signature": "SILK_FANG",
+    "signature": "PACK_FOCUS",
     "acquisition": {
       "method": "wild",
       "map": "SafariZoneNorth",
@@ -11488,7 +11498,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "KERRY BLUE TERRIER guards its pack. Its bug power helps friends explore Kanto."
+    "dex_description": "BORDER COLLIE guards its pack. Its grass power helps friends explore Kanto."
   },
   {
     "slot": "TAUROS",
@@ -11676,7 +11686,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "ENGLISH SPRINGER SPANIEL guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -11758,7 +11768,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "ENGLISH SPRINGER SPANIEL guards its pack. Its water power helps friends explore Kanto."
   },
   {
@@ -12321,8 +12331,8 @@
   },
   {
     "slot": "PORYGON",
-    "name": "CANAAN",
-    "breed": "CANAAN DOG",
+    "name": "SHEPHGUARD",
+    "breed": "GERMAN SHEPHERD",
     "category": "PACK DOG",
     "stats": [
       75,
@@ -12416,7 +12426,7 @@
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
     "art_status": "planned",
-    "dex_description": "CANAAN DOG guards its pack. Its normal power helps friends explore Kanto."
+    "dex_description": "GERMAN SHEPHERD guards its pack. Its normal power helps friends explore Kanto."
   },
   {
     "slot": "OMANYTE",

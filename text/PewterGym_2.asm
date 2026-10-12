@@ -9,10 +9,10 @@ _PewterGymBrockPostBattleAdviceText::
 
 	para "Your pack earned"
 	line "its first badge!"
-	cont "Demo complete!"
 
-	para "Keep training for"
-	line "the next chapter!"
+	para "Head through MT."
+	line "MOON to CERULEAN!"
+	cont "MISTY awaits you!"
 	done
 
 _PewterGymBrockWaitTakeThisText::

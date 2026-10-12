@@ -68,7 +68,7 @@ YoungsterData:
 	db 14, RATTATA, EKANS, ZUBAT, 0
 ; Route 25
 	db 15, RATTATA, SPEAROW, 0
-	db 17, SLOWPOKE, 0
+	db 17, OTTERPUP, 0
 	db 14, EKANS, SANDSHREW, 0
 ; SS Anne 1F Rooms
 	db 21, NIDORAN_M, 0
@@ -106,18 +106,18 @@ BugCatcherData:
 LassData:
 ; Route 3
 	db 9, PIDGEY, PIDGEY, 0
-	db 10, RATTATA, NIDORAN_M, 0
+	db 10, RATTATA, BEAGPUP, 0
 	db 14, JIGGLYPUFF, 0
 ; Route 4
-	db 31, PARAS, PARAS, PARASECT, 0
+	db $FF, 12, LAGOPUP, 14, LAGOPUP, 16, LAGOTTO, 0
 ; Mt. Moon 1F
-	db 11, ODDISH, BELLSPROUT, 0
-	db 14, CLEFAIRY, 0
+	db 11, ODDISH, LAGOPUP, 0
+	db 14, POMPUP, 0
 ; Route 24
-	db 16, PIDGEY, NIDORAN_F, 0
-	db 14, PIDGEY, NIDORAN_F, 0
+	db 16, PIDGEY, BOXPUP, 0
+	db 14, PIDGEY, BOXPUP, 0
 ; Route 25
-	db 15, NIDORAN_M, NIDORAN_F, 0
+	db 15, BEAGPUP, BOXPUP, 0
 	db 13, ODDISH, PIDGEY, ODDISH, 0
 ; SS Anne 1F Rooms
 	db 18, PIDGEY, NIDORAN_F, 0
@@ -165,7 +165,7 @@ JrTrainerMData:
 
 JrTrainerFData:
 ; Cerulean Gym
-	db 19, GOLDEEN, 0
+	db 19, OTTERPUP, 0
 ; Route 6
 	db 16, RATTATA, PIKACHU, 0
 	db 16, PIDGEY, PIDGEY, PIDGEY, 0
@@ -216,9 +216,9 @@ PokemaniacData:
 
 SuperNerdData:
 ; Mt. Moon 1F
-	db 11, MAGNEMITE, VOLTORB, 0
+	db 11, POMPUP, POMPUP, 0
 ; Mt. Moon B2F
-	db 12, GRIMER, VOLTORB, KOFFING, 0
+	db 12, DACHSPUP, POMPUP, DACHSPUP, 0
 ; Route 8
 	db 20, VOLTORB, KOFFING, VOLTORB, MAGNEMITE, 0
 	db 22, GRIMER, MUK, GRIMER, 0
@@ -237,8 +237,8 @@ HikerData:
 ; Mt. Moon 1F
 	db 10, GEODUDE, GEODUDE, ONIX, 0
 ; Route 25
-	db 15, MACHOP, GEODUDE, 0
-	db 13, GEODUDE, GEODUDE, MACHOP, GEODUDE, 0
+	db 15, BOXPUP, GEODUDE, 0
+	db 13, GEODUDE, GEODUDE, BOXPUP, GEODUDE, 0
 	db 17, ONIX, 0
 ; Route 9
 	db 21, GEODUDE, ONIX, 0
@@ -333,7 +333,7 @@ FisherData:
 
 SwimmerData:
 ; Cerulean Gym
-	db 16, HORSEA, SHELLDER, 0
+	db 16, NEWFPUP, SPRINGPUP, 0
 ; Route 19
 	db 30, TENTACOOL, SHELLDER, 0
 	db 29, GOLDEEN, HORSEA, STARYU, 0
@@ -493,9 +493,9 @@ Rival1Data:
 	db $FF, 9, BEAGPUP, 8, BULBASAUR, 0
 	db $FF, 9, BEAGPUP, 8, CHARMANDER, 0
 ; Cerulean City
-	db $FF, 18, PIDGEOTTO, 15, ABRA, 15, RATTATA, 17, SQUIRTLE, 0
-	db $FF, 18, PIDGEOTTO, 15, ABRA, 15, RATTATA, 17, BULBASAUR, 0
-	db $FF, 18, PIDGEOTTO, 15, ABRA, 15, RATTATA, 17, CHARMANDER, 0
+	db $FF, 18, WHIPPET, 15, POODPUP, 15, BEAGPUP, 17, NEWFIE, 0
+	db $FF, 18, WHIPPET, 15, POODPUP, 15, BEAGPUP, 17, GROEN, 0
+	db $FF, 18, WHIPPET, 15, POODPUP, 15, BEAGPUP, 17, SHIBA, 0
 
 ProfOakData:
 ; Unused
@@ -548,7 +548,7 @@ RocketData:
 	db 12, ZUBAT, EKANS, 0
 	db 16, RATICATE, 0
 ; Cerulean City
-	db 17, MACHOP, DROWZEE, 0
+	db 17, BOXPUP, POODPUP, 0
 ; Route 24
 	db 15, EKANS, ZUBAT, 0
 ; Game Corner
@@ -644,7 +644,7 @@ BrockData:
 	db $FF, 12, BULLPUP, 14, STONEMAST, 0
 
 MistyData:
-	db $FF, 18, STARYU, 21, STARMIE, 0
+	db $FF, 18, OTTERPUP, 21, OTTERMIND, 0
 
 LtSurgeData:
 	db $FF, 21, VOLTORB, 18, PIKACHU, 24, RAICHU, 0

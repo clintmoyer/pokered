@@ -8,7 +8,7 @@ FieldMoveDisplayData:
 	db SURF,       4, $08
 	db STRENGTH,   5, $0C
 	db FLASH,      6, $07
-	db DIG,        7, $0C
-	db TELEPORT,   8, $0A
-	db SOFTBOILED, 9, $08
+	db DIG,        7, $07
+	db TELEPORT,   8, $09
+	db SOFTBOILED, 9, $07
 	db -1 ; end
