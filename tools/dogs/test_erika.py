@@ -64,6 +64,7 @@ def navigate(filename,target,cleared=()):
     source=(E.ROOT/f'data/maps/objects/{filename}.asm').read_text()
     blocked={(int(x),int(y)) for x,y in re.findall(r'object_event\s+(\d+),\s*(\d+)',source)}
     blocked|={(int(x),int(y)) for x,y in re.findall(r'warp_event\s+(\d+),\s*(\d+)',source) if (int(x),int(y))!=target}
+    blocked-=set(cleared) # removed objects and changed floor blocks after real scripts
     walkable|=set(cleared)|{target}
     directions=[('up',(0,-1)),('down',(0,1)),('left',(-1,0)),('right',(1,0))]
     for _ in range(1600):
@@ -224,7 +225,7 @@ def erika_fixture(base,name,slots,levels,carrier):
     S.close_text()
     assert E.read('wObtainedBadges')&0x0f==0x0f
     assert M.event('EVENT_BEAT_ERIKA') and M.event('EVENT_GOT_TM21') and S.has_item(ITEMS['TM21'])
-    E.press('a');E.advance_until(lambda:'This demo ends' in E.text());E.photo(name+'-erika-complete');S.close_text()
+    E.press('a');E.advance_until(lambda:'Check the poster' in E.text());E.photo(name+'-erika-complete');S.close_text()
     print('PASS: '+name+' clears the gym tree, beats Erika, and earns the Rainbow Badge and TM21 BRIAR FANG.',flush=True)
     return E.state()
 
@@ -244,8 +245,9 @@ def main():
         flown=fly_fixture(lit);S.checkpoint('erika-flown')
         gift=gift_fixture(flown);stones_fixture(gift);prize_fixture(flown)
         completed={}
-        for name,slots,levels,carrier in [('groen',['FEAROW','IVYSAUR'],[28,28],1),('shiba',['CHARMELEON','FEAROW','BEEDRILL'],[28,28,28],0),('newf',['FEAROW','WARTORTLE','RATICATE'],[28,28,26],2)]:
+        for name,slots,levels,carrier in [('groen',['FEAROW','IVYSAUR','BEEDRILL'],[28,28,28],1),('shiba',['CHARMELEON','FEAROW','BEEDRILL'],[28,28,28],0),('newf',['FEAROW','WARTORTLE','RATICATE'],[28,28,26],2)]:
             completed[name]=erika_fixture(flown,name,slots,levels,carrier)
+        E.restore(completed['newf']);S.checkpoint('erika-complete')
         E.save_reload(completed['newf'],expected_map=0x86,expected_badges=0x0f)
         for slot,level,target in [('NIDORAN_F',15,'NIDORINA'),('NIDORINA',31,'NIDOQUEEN'),('NIDORAN_M',15,'NIDORINO'),('NIDORINO',31,'NIDOKING'),('CLEFAIRY',23,'CLEFABLE'),('VULPIX',23,'NINETALES'),('GROWLITHE',23,'ARCANINE'),('POLIWAG',15,'POLIWHIRL'),('POLIWHIRL',31,'POLIWRATH'),('BELLSPROUT',15,'WEEPINBELL'),('WEEPINBELL',31,'VICTREEBEL'),('CUBONE',23,'MAROWAK'),('OMANYTE',23,'OMASTAR'),('KABUTO',23,'KABUTOPS')]:E.evolution_check(completed['newf'],slot,level,target)
         (E.QA/'erika-results.json').write_text(json.dumps({'rom_sha256':hashlib.sha256(E.ROM).hexdigest(),'flash_reward_and_boulder_gate':True,'rock_tunnel_full_traversal':True,'cut_to_fly_house':True,'fly_reward_and_thunder_gate':True,'fly_visited_town':True,'tervpup_gift':True,'repeat_stone_purchases':True,'stone_branches':3,'coin_case_and_prize':True,'erika':['groen','shiba','newf'],'save_load_four_badges':True,'level_evolutions':14,'fixture':'trained parties and map warps; capture-count and money fixtures; cave/gym trainers marked beaten; repeated Repel during traversal'},indent=2)+'\n')

@@ -8282,7 +8282,7 @@
       "map": "PokemonTower3F",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "celadon",
+      "gate": "silph_scope",
       "retry": null,
       "levels": [
         18,

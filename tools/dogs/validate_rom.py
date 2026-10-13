@@ -226,4 +226,47 @@ for slot,move in [('PIKACHU','FLASH'),('FEAROW','FLY')]:
     dog=next(d for d in DOGS if d['slot']==slot)
     flag=tmhm_order.index(move);pos=offset('BaseStats')+(dog['dex']-1)*28+20
     assert rom[pos+flag//8] & 1 << (flag%8),slot
-print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} move records, eighteen chapter encounter tables, {checked} trainer placements, three ship rival teams, five trades, six prizes, three stone branches, and Cut/Flash/Fly compatibility.')
+koga=json.loads((ROOT/'data/dogs/koga.json').read_text())
+for route in koga['wild'].keys() | koga['water'].keys():
+    pos=offset(route+'WildMons')
+    for key,rates in [('wild','rates'),('water','water_rates')]:
+        encounters=koga[key].get(route,[])
+        assert rom[pos] == koga[rates].get(route,0),route
+        pos+=1
+        if encounters:
+            assert list(rom[pos:pos+20]) == [v for level,name in encounters for v in (level,name_to_id[name])],route
+            pos+=20
+# Check the actual map pointers as well as the generated encounter bytes.
+map_ids={name:int(value,16) for name,value in re.findall(r'^\s*map_const (\w+),[^;]+; \$([\dA-F]+)',(ROOT/'constants/map_constants.asm').read_text(),re.M)}
+for code in ('ROUTE_19','ROUTE_20'):
+    pos=offset('WildDataPointers')+map_ids[code]*2
+    assert int.from_bytes(rom[pos:pos+2],'little') == symbols['SeaRoutesWildMons'][1],code
+for label,parties in koga['trainers'].items():
+    for index,members in parties.items():
+        assert trainer_party(label,int(index)) == [(level,name_to_id[name]) for level,name in members],(label,index)
+for route in koga['maps']:
+    objects=(ROOT/f'data/maps/objects/{route}.asm').read_text()
+    for trainer,index in re.findall(r'object_event[^\n]+, (OPP_\w+), (\d+)',objects):
+        assert {sid for _,sid in trainer_party(classes[trainer],int(index))} <= allowed_species,(route,trainer,index)
+        checked+=1
+for slot,palette in koga['palettes'].items():
+    dog=next(d for d in DOGS if d['slot']==slot)
+    assert rom[offset('MonsterPalettes')+dog['dex']] == palette_ids[palette],slot
+pos=offset('GoodRodMons')
+assert list(rom[pos:pos+4]) == [v for level,name in koga['good_rod'] for v in (level,name_to_id[name])]
+for group,members in koga['super_rod'].items():
+    pos=offset('SuperRodData.Group'+group)
+    assert list(rom[pos:pos+1+len(members)*2]) == [len(members)]+[v for level,name in members for v in (level,name_to_id[name])],group
+# Each newly implemented family has a repeatable root in the current ROM.
+sources={name for encounters in list(koga['wild'].values())+list(koga['water'].values()) for _,name in encounters}
+for slot in koga['new_forms']:
+    dog=next(d for d in DOGS if d['slot']==slot)
+    if dog['acquisition']['method']=='wild':assert dog['name'] in sources,dog['name']
+assert 'NEOMAST' in {name for _,name in koga['wild']['Route18']}
+for slot,move in [('WARTORTLE','SURF'),('RATICATE','STRENGTH')]:
+    dog=next(d for d in DOGS if d['slot']==slot)
+    flag=tmhm_order.index(move);pos=offset('BaseStats')+(dog['dex']-1)*28+20
+    assert rom[pos+flag//8] & 1 << (flag%8),slot
+assert symbols['EvolutionAfterBattle'][0] == symbols['EvosMovesPointerTable'][0]
+assert symbols['EvolutionAfterBattle'][0] != symbols['BaseStats'][0]
+print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 34 chapter encounter tables, {checked} trainer placements, all fishing groups, new repeatable collection roots, three stone branches, and all five HM carriers.')

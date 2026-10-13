@@ -20,7 +20,12 @@ EVENTS={}; value=0
 for line in (E.ROOT/'constants/event_constants.asm').read_text().splitlines():
     code=line.split(';')[0].strip()
     if code=='const_def': value=0
-    elif code.startswith('const_next '): value=int(code.split()[1].replace('$','0x'),0)
+    elif code.startswith('const_next '):
+        # Tower flags begin at "$F0 - 2"; include the full offset expression.
+        expression=code.removeprefix('const_next ').replace(' ','')
+        terms=re.findall(r'[+-]?(?:\$[\dA-Fa-f]+|\d+)',expression)
+        assert ''.join(terms)==expression,expression
+        value=sum((-1 if term.startswith('-') else 1)*int(term.lstrip('+-').replace('$','0x'),0) for term in terms)
     elif code.startswith('const_skip'): value+=int(code.split()[1]) if len(code.split())>1 else 1
     elif code.startswith('const '): EVENTS[code.split()[1]]=value;value+=1
 
@@ -95,7 +100,12 @@ def fight_until(done,name,limit=240):
             living=[DOG_BY_ID[E.read(f'wPartyMon{i}Species')]['name'] for i in range(1,E.read('wPartyCount')+1) if word(f'wPartyMon{i}HP')]
             assert living,(name,'party fainted',screen)
             select_row(living[0],party=True);E.press('a',wait=240)
-        elif 'FIGHT' in screen and 'TYPE/' not in screen:E.press('a',wait=90)
+        elif 'FIGHT' in screen and 'TYPE/' not in screen:
+            rows=screen.splitlines()
+            cursor=next(((x,y) for y,row in enumerate(rows) for x,ch in enumerate(row) if ch=='▲'),None)
+            if cursor and cursor[0]>=15:E.press('left',8,45)
+            if cursor and cursor[1]>=16:E.press('up',8,45)
+            E.press('a',wait=90)
         elif 'TYPE/' in screen:
             address=E.SYMS['wBattleMonMoves'][1]
             available={MOVE_BY_ID[mid][1] for mid in E.gb.memory[address:address+4] if mid}
@@ -202,7 +212,7 @@ def main():
         for name,slots,levels,starter,rival in [
             ('groen',['IVYSAUR','GYARADOS'],[20,20],'BULBASAUR','CHARMANDER'),
             ('shiba',['CHARMELEON','PIKACHU'],[20,20],'CHARMANDER','SQUIRTLE'),
-            ('newf',['WARTORTLE','SPEAROW'],[20,20],'SQUIRTLE','BULBASAUR')]:
+            ('newf',['WARTORTLE','BUTTERFREE','BEEDRILL'],[20,20,20],'SQUIRTLE','BULBASAUR')]:
             rival_fixture(base,name,slots,levels,starter,rival)
         completed={}
         for name,slots,levels in [

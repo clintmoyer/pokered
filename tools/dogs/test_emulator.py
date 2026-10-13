@@ -205,6 +205,14 @@ def evolution_check(value,slot,level,target):
     nickname=''.join(CHARS.get(b,'?') for b in gb.memory[addr:addr+11] if b!=0x50)
     expected=next(d['name'] for d in DOGS if d['slot']==target)
     assert nickname==expected, (nickname,expected)
+    # Evolution code now lives outside the base-stat bank. Check the actual
+    # recalculated stats, including the combined Special stat, after that read.
+    dog=next(d for d in DOGS if d['slot']==target)
+    new_level=level+1
+    expected_stats=[dog['stats'][0]*2*new_level//100+new_level+10]+[(v+8)*2*new_level//100+5 for v in dog['stats'][1:]]
+    address=SYMS['wPartyMon1MaxHP'][1]
+    actual=[int.from_bytes(bytes(gb.memory[address+i*2:address+i*2+2]),'big') for i in range(5)]
+    assert actual==expected_stats,(expected,actual,expected_stats)
     photo(expected.lower()+'-evolution')
     print(f'PASS: {slot} evolves into {target} at level {level+1}, with its new default name.',flush=True)
 
