@@ -355,4 +355,44 @@ start=offset('HallOfFameResetEventsAndSaveScript');end=offset('RetryUncaughtFros
 for label in ('RetryUncaughtFrostmaul','RetryUncaughtStormlaek'):
     assert b'\xcd'+symbols[label][1].to_bytes(2,'little') in rom[start:end],label
 assert MOVES['FAULT_FANG'][0] == 'FISSURE' and MOVES['FAULT_FANG'][2] == 'OHKO_EFFECT'
-print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 45 chapter encounter tables, {checked} trainer placements, six Route 22 rival teams, nine Power Plant static dogs, both guardian retry hooks, trades and quiz answers, and all five HMs.')
+league=json.loads((ROOT/'data/dogs/league.json').read_text())
+for route,encounters in league['wild'].items():
+    pos=offset(route+'WildMons')
+    assert rom[pos] == league['rates'][route],route
+    assert list(rom[pos+1:pos+21]) == [v for level,name in encounters for v in (level,name_to_id[name])],route
+    assert rom[pos+21] == 0,route
+for label,parties in league['trainers'].items():
+    for index,members in parties.items():
+        assert trainer_party(label,int(index)) == [(level,name_to_id[name]) for level,name in members],(label,index)
+for route in league['maps']:
+    objects=(ROOT/f'data/maps/objects/{route}.asm').read_text()
+    for trainer,index in re.findall(r'object_event[^\n]+, (OPP_\w+), (\d+)',objects):
+        assert {sid for _,sid in trainer_party(classes[trainer],int(index))} <= allowed_species,(route,trainer,index)
+        checked+=1
+start_reader=offset('ReadTrainer');end_reader=offset('ReadTrainer.AddTeamMove')
+assert b'\x21'+(symbols['wEnemyMon1Moves'][1]+2).to_bytes(2,'little') in rom[start_reader:end_reader], 'Gym move overrides retain their original third slot'
+pos=offset('TeamMoves')
+expected=[]
+for trainer,move in league['boss_moves'].items():
+    expected += [order.index(trainer)+1,move_ids[MOVES[move][0]]]
+    label=classes['OPP_'+trainer];level,name=league['trainers'][label]['1'][4]
+    dog=next(d for d in DOGS if d['name']==name)
+    assert move in list(dog['base'])+[m for l,m in dog['learnset'] if l<=level] or MOVES[move][0] in dog['tms'],(trainer,move)
+assert list(rom[pos:pos+9]) == expected+[255]
+# All three Champion aces have their own legal learned signature.
+for index,key in [(1,'water'),(2,'grass'),(3,'fire')]:
+    level,name=league['trainers']['Rival3Data'][str(index)][5]
+    dog=next(d for d in DOGS if d['name']==name)
+    assert league['champion_moves'][key] in [m for l,m in dog['learnset'] if l<=level]
+assert symbols['RetryUncaughtSunmast'][0] == symbols['HallOfFameResetEventsAndSaveScript'][0]
+assert b'\xcd'+symbols['RetryUncaughtSunmast'][1].to_bytes(2,'little') in rom[start:end]
+dog=next(d for d in DOGS if d['slot']=='MOLTRES')
+assert rom[offset('MonsterPalettes')+dog['dex']] == palette_ids[league['palettes']['MOLTRES']]
+pos=offset('VictoryRoad2F_Object')+1
+warps=rom[pos];pos+=1+warps*4
+signs=rom[pos];pos+=1+signs*3
+assert rom[pos] == 13
+pos+=1+5*8
+assert tuple(rom[pos+6:pos+8]) == (name_to_id['SUNMAST'],50)
+assert 'SPRITE_MONSTER, STAY, UP, TEXT_VICTORYROAD2F_MOLTRES, SUNMAST, 50' in (ROOT/'data/maps/objects/VictoryRoad2F.asm').read_text()
+print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 49 chapter encounter tables, {checked} trainer placements, three Champion variants and legal ace moves, three guardian retry hooks, trades and quiz answers, and all five HMs.')
