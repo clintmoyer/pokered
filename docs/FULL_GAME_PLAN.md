@@ -102,9 +102,9 @@ Their field-menu labels and explanatory text must match the redesigned names.
    and repeatable sources for both fossil families.
 3. Extend through Fuchsia, Saffron, Cinnabar, and Viridian, with Surf, Strength,
    Safari encounters, Tower events, sleeping dogs, and late-game progression.
-   The current demo reaches Blaine with 146 forms, all five HMs, the earlier
-   quests, Saffron, Silph, Seafoam, Cinnabar, the Mansion, fossil revival and
-   the first guardian. Viridian remains.
+   The current demo reaches Giovanni and the late Route 22 rival with 148
+   forms, all eight badges, all five HMs, the earlier quests, Saffron, Silph,
+   Seafoam, Cinnabar, fossil revival, the Power Plant and two guardians.
 4. Finish Elite Four, Champion, legendary retries, Cerulean Cave, and collection
    completion. Add the remaining presentation assets and sound pass.
 

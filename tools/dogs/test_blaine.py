@@ -165,7 +165,7 @@ def blaine_fixture(base,name,starter):
     M.fight_until(lambda:bool(E.read('wObtainedBadges')&64),name+'-blaine');S.close_text()
     assert E.read('wObtainedBadges')==0x7f and M.event('EVENT_BEAT_BLAINE') and M.event('EVENT_GOT_TM38')
     assert A.item_count(ITEMS['TM38'])==1
-    E.press('up',4,20);E.press('a');E.advance_until(lambda:'This demo ends' in E.text());S.close_text()
+    E.press('up',4,20);E.press('a');E.advance_until(lambda:'VIRIDIAN GYM' in E.text());S.close_text()
     assert all(M.event(f'EVENT_BEAT_CINNABAR_GYM_TRAINER_{i}') for i in range(7))
     E.photo(name+'-blaine-complete')
     print('PASS: '+name+' wins the Volcano Badge and TM38 FLAME POUNCE.',flush=True)

@@ -48,6 +48,7 @@ HallOfFameResetEventsAndSaveScript:
 	ld a, PALLET_TOWN
 	ld [wLastBlackoutMap], a
 	call RetryUncaughtFrostmaul
+	call RetryUncaughtStormlaek
 	farcall SaveGameData
 	ld b, 5
 .delayLoop
@@ -70,6 +71,21 @@ RetryUncaughtFrostmaul:
 	ret nz
 	ResetEvent EVENT_BEAT_ARTICUNO
 	ld a, TOGGLE_ARTICUNO
+	ld [wToggleableObjectIndex], a
+	predef_jump ShowObject
+
+RetryUncaughtStormlaek:
+; A caught guardian stays gone, including after release. An uncaught guardian
+; defeated or fled from can be challenged again after this Hall of Fame entry.
+	ld hl, wPokedexOwned
+	ld b, FLAG_TEST
+	ld c, DEX_ZAPDOS - 1
+	predef FlagActionPredef
+	ld a, c
+	and a
+	ret nz
+	ResetEvent EVENT_BEAT_ZAPDOS
+	ld a, TOGGLE_ZAPDOS
 	ld [wToggleableObjectIndex], a
 	predef_jump ShowObject
 

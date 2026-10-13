@@ -1,7 +1,8 @@
 _PowerPlantVoltorbBattleText::
-	text "Bzzzt!"
+	text "A dog was curled"
+	line "around the ball!"
 	done
 
 _PowerPlantZapdosBattleText::
-	text "Gyaoo!@"
+	text "Rrrooo!@"
 	text_end

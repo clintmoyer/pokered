@@ -862,14 +862,16 @@ MissingNo34EvosMoves:
 	db 0
 
 ElectabuzzEvosMoves:
-; Evolutions
+; DALMSPARK: same breed, growing maturity.
 	db 0
-; Learnset
-	db 34, THUNDERSHOCK
-	db 37, SCREECH
-	db 42, THUNDERPUNCH
-	db 49, LIGHT_SCREEN
-	db 54, THUNDER
+	db 7, SPARK_YIP
+	db 11, PAW_DASH
+	db 14, STATIC_COAT
+	db 18, VOLT_PAW
+	db 24, PACK_RUSH
+	db 30, VOLT_BARK
+	db 38, STORM_HOWL
+	db 42, HOMING_NIP
 	db 0
 
 MagnetonEvosMoves:
@@ -1102,12 +1104,16 @@ ArticunoEvosMoves:
 	db 0
 
 ZapdosEvosMoves:
-; Evolutions
+; STORMLAEK: same breed, growing maturity.
 	db 0
-; Learnset
-	db 51, THUNDER
-	db 55, AGILITY
-	db 60, LIGHT_SCREEN
+	db 7, SPARK_YIP
+	db 11, PAW_DASH
+	db 14, STATIC_COAT
+	db 18, VOLT_PAW
+	db 24, PACK_RUSH
+	db 27, AIR_NIP
+	db 30, VOLT_BARK
+	db 38, STORM_HOWL
 	db 0
 
 DittoEvosMoves:

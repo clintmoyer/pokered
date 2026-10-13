@@ -24,10 +24,11 @@ _CinnabarGymBlaineReceivedVolcanoBadgeText::
 _CinnabarGymBlainePostBattleAdviceText::
 	text "Seven badges! Your"
 	line "pack burns bright."
-	para "This demo ends"
-	line "here for now."
-	para "Keep exploring and"
-	line "meet more dogs!"
+	para "VIRIDIAN GYM is"
+	line "open again!"
+	para "Surf ROUTE 10 to"
+	line "the POWER PLANT"
+	cont "for storm dogs!"
 	done
 
 _CinnabarGymBlaineVolcanoBadgeInfoText::

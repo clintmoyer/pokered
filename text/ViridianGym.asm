@@ -69,8 +69,9 @@ _ViridianGymGiovanniReceivedTM27Text::
 _ViridianGymGiovanniTM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
-	line "It will take out"
+	para "TM27 teaches"
+	line "FAULT FANG!"
+	para "It will take out"
 	cont "#MON with just"
 	cont "one hit!"
 
@@ -181,14 +182,14 @@ _ViridianGymHiker3AfterBattleText::
 	done
 
 _ViridianGymRocker2BattleText::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "Our dogs train"
+	line "hard together!"
+	cont "Show us your bond!"
 	done
 
 _ViridianGymRocker2EndBattleText::
 	text "Yowch!"
-	line "Whiplash!"
+	line "What teamwork!"
 	prompt
 
 _ViridianGymRocker2AfterBattleText::
@@ -234,7 +235,12 @@ _ViridianGymGuidePreBattleText::
 	done
 
 _ViridianGymGuidePostBattleText::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	text "Eight badges! Your"
+	line "pack did it!"
+	para "Your rival waits"
+	line "on ROUTE 22."
+	para "This demo ends"
+	line "after that battle."
+	para "The LEAGUE comes"
+	line "in a later build!"
 	done

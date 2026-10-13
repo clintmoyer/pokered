@@ -1,0 +1,321 @@
+{
+  "maps": [
+    "ViridianGym",
+    "Route22"
+  ],
+  "wild": {
+    "PowerPlant": [
+      [
+        28,
+        "CHIPUP"
+      ],
+      [
+        28,
+        "SCHNAUPUP"
+      ],
+      [
+        30,
+        "POMSPARK"
+      ],
+      [
+        32,
+        "CHISPARK"
+      ],
+      [
+        30,
+        "SCHNAUZER"
+      ],
+      [
+        32,
+        "CHISPARK"
+      ],
+      [
+        34,
+        "SCHNAUZER"
+      ],
+      [
+        28,
+        "DALMSPARK"
+      ],
+      [
+        32,
+        "DALMSPARK"
+      ],
+      [
+        36,
+        "DALMSPARK"
+      ]
+    ]
+  },
+  "rates": {
+    "PowerPlant": 10
+  },
+  "water": {},
+  "water_rates": {},
+  "trainers": {
+    "GiovanniData": {
+      "3": [
+        [
+          45,
+          "BULLTANK"
+        ],
+        [
+          42,
+          "BORDERDIG"
+        ],
+        [
+          44,
+          "CATTLEGARD"
+        ],
+        [
+          45,
+          "AUSSGUARD"
+        ],
+        [
+          50,
+          "BULLTANK"
+        ]
+      ]
+    },
+    "CooltrainerMData": {
+      "1": [
+        [
+          39,
+          "AUSSGUARD"
+        ],
+        [
+          39,
+          "AUSSGUARD"
+        ]
+      ],
+      "9": [
+        [
+          39,
+          "JACKDIG"
+        ],
+        [
+          39,
+          "BORDERDIG"
+        ]
+      ],
+      "10": [
+        [
+          43,
+          "BULLTANK"
+        ]
+      ]
+    },
+    "BlackbeltData": {
+      "6": [
+        [
+          40,
+          "STAFFGUARD"
+        ],
+        [
+          40,
+          "STAFFGUARD"
+        ]
+      ],
+      "7": [
+        [
+          43,
+          "STAFFGUARD"
+        ]
+      ],
+      "8": [
+        [
+          38,
+          "STAFFGUARD"
+        ],
+        [
+          38,
+          "STAFFGUARD"
+        ],
+        [
+          38,
+          "STAFFGUARD"
+        ]
+      ]
+    },
+    "TamerData": {
+      "3": [
+        [
+          43,
+          "BULLTANK"
+        ]
+      ],
+      "4": [
+        [
+          39,
+          "DACHSHUND"
+        ],
+        [
+          39,
+          "RIDGEBACK"
+        ]
+      ]
+    },
+    "Rival1Data": {
+      "4": [
+        [
+          9,
+          "BEAGPUP"
+        ],
+        [
+          8,
+          "NEWFPUP"
+        ]
+      ],
+      "5": [
+        [
+          9,
+          "BEAGPUP"
+        ],
+        [
+          8,
+          "GROENPUP"
+        ]
+      ],
+      "6": [
+        [
+          9,
+          "BEAGPUP"
+        ],
+        [
+          8,
+          "SHIBAPUP"
+        ]
+      ]
+    },
+    "Rival2Data": {
+      "10": [
+        [
+          47,
+          "WINDWHIP"
+        ],
+        [
+          45,
+          "BULLTANK"
+        ],
+        [
+          45,
+          "AKITAFIRE"
+        ],
+        [
+          47,
+          "BERNBLOOM"
+        ],
+        [
+          50,
+          "POODMIND"
+        ],
+        [
+          53,
+          "NEWFTIDE"
+        ]
+      ],
+      "11": [
+        [
+          47,
+          "WINDWHIP"
+        ],
+        [
+          45,
+          "BULLTANK"
+        ],
+        [
+          45,
+          "SPRINGTIDE"
+        ],
+        [
+          47,
+          "AKITAFIRE"
+        ],
+        [
+          50,
+          "POODMIND"
+        ],
+        [
+          53,
+          "GROENHOUND"
+        ]
+      ],
+      "12": [
+        [
+          47,
+          "WINDWHIP"
+        ],
+        [
+          45,
+          "BULLTANK"
+        ],
+        [
+          45,
+          "BERNBLOOM"
+        ],
+        [
+          47,
+          "SPRINGTIDE"
+        ],
+        [
+          50,
+          "POODMIND"
+        ],
+        [
+          53,
+          "SHIBLAZE"
+        ]
+      ]
+    }
+  },
+  "new_forms": [
+    "ELECTABUZZ",
+    "ZAPDOS"
+  ],
+  "palettes": {
+    "ELECTABUZZ": "PAL_GROENMON",
+    "ZAPDOS": "PAL_BROWNMON"
+  },
+  "repeatable_sources": {
+    "DALMSPARK": "PowerPlant"
+  },
+  "guardian": [
+    "PowerPlant",
+    50,
+    "STORMLAEK"
+  ],
+  "static_encounters": [
+    [
+      40,
+      "CHIPUP"
+    ],
+    [
+      40,
+      "CHIPUP"
+    ],
+    [
+      40,
+      "CHIPUP"
+    ],
+    [
+      43,
+      "CHISPARK"
+    ],
+    [
+      40,
+      "CHIPUP"
+    ],
+    [
+      40,
+      "CHIPUP"
+    ],
+    [
+      43,
+      "CHISPARK"
+    ],
+    [
+      40,
+      "CHIPUP"
+    ]
+  ]
+}

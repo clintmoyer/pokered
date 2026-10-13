@@ -11315,8 +11315,8 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "DALMATIAN guards its pack. Its electric power helps friends explore Kanto."
+    "art_status": "implemented",
+    "dex_description": "DALMATIAN trots for miles beside its pack. Its spotted coat crackles when storms approach."
   },
   {
     "slot": "MAGMAR",
@@ -13188,8 +13188,8 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "BELGIAN LAEKENOIS guards its pack. Its electric power helps friends explore Kanto."
+    "art_status": "implemented",
+    "dex_description": "BELGIAN LAEKENOIS guards the plant. Its wiry coat gathers sparks from passing storm clouds."
   },
   {
     "slot": "MOLTRES",

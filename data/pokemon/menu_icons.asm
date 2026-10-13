@@ -124,7 +124,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED       ; Mr.Mime
 	nybble ICON_QUADRUPED       ; Scyther
 	nybble ICON_QUADRUPED       ; Jynx
-	nybble ICON_MON       ; Electabuzz
+	nybble ICON_QUADRUPED       ; Electabuzz
 	nybble ICON_QUADRUPED       ; Magmar
 	nybble ICON_QUADRUPED       ; Pinsir
 	nybble ICON_QUADRUPED ; Tauros
@@ -144,7 +144,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED      ; Aerodactyl
 	nybble ICON_QUADRUPED       ; Snorlax
 	nybble ICON_QUADRUPED      ; Articuno
-	nybble ICON_BIRD      ; Zapdos
+	nybble ICON_QUADRUPED      ; Zapdos
 	nybble ICON_BIRD      ; Moltres
 	nybble ICON_QUADRUPED     ; Dratini
 	nybble ICON_QUADRUPED     ; Dragonair

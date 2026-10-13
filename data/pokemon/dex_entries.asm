@@ -534,9 +534,9 @@ MagmarDexEntry:
 	text_end
 
 ElectabuzzDexEntry:
-	db "ELECTRIC@"
-	db 3,7
-	dw 660
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ElectabuzzDexEntry
 	text_end
 
@@ -639,9 +639,9 @@ ArticunoDexEntry:
 	text_end
 
 ZapdosDexEntry:
-	db "ELECTRIC@"
-	db 5,3
-	dw 1160
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ZapdosDexEntry
 	text_end
 

@@ -424,13 +424,12 @@ _MagmarDexEntry::
 	dex
 
 _ElectabuzzDexEntry::
-	text "Normally found"
-	next "near power plants,"
-	next "they can wander"
-
-	page "away and cause"
-	next "major blackouts"
-	next "in cities"
+	text "DALMATIAN."
+	next "trots for miles"
+	next "beside its pack."
+	page "Its spotted coat"
+	next "crackles when"
+	next "storms approach."
 	dex
 
 _MagnetonDexEntry::
@@ -557,13 +556,12 @@ _ArticunoDexEntry::
 	dex
 
 _ZapdosDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear"
-
-	page "from clouds while"
-	next "dropping enormous"
-	next "lightning bolts"
+	text "BELGIAN LAEKENOIS."
+	next "guards the plant."
+	next "Its wiry coat"
+	page "gathers sparks"
+	next "from passing storm"
+	next "clouds."
 	dex
 
 _DittoDexEntry::
