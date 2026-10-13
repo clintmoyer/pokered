@@ -289,4 +289,36 @@ end=offset('SilphCo7FSilphWorkerM1Text.saved_silph')
 level,name=sabrina['gifts']['silph']
 assert bytes([1,level,name_to_id[name]]) in rom[pos:end], 'Silph gift species/level'
 assert {'DOBERGUARD','ROTTGUARD'} == {name for _,name in sabrina['gifts']['dojo']}
-print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 34 chapter encounter tables, {checked} trainer placements, six later rival variants, repeatable collection sources, and all five HMs.')
+blaine=json.loads((ROOT/'data/dogs/blaine.json').read_text())
+for route in blaine['wild'].keys() | blaine['water'].keys():
+    pos=offset(route+'WildMons')
+    for key,rates in [('wild','rates'),('water','water_rates')]:
+        encounters=blaine[key].get(route,[])
+        assert rom[pos] == blaine[rates].get(route,0),route
+        pos+=1
+        if encounters:
+            assert list(rom[pos:pos+20]) == [v for level,name in encounters for v in (level,name_to_id[name])],(route,key)
+            pos+=20
+for label,parties in blaine['trainers'].items():
+    for index,members in parties.items():
+        assert trainer_party(label,int(index)) == [(level,name_to_id[name]) for level,name in members],(label,index)
+for route in blaine['maps']:
+    objects=(ROOT/f'data/maps/objects/{route}.asm').read_text()
+    for trainer,index in re.findall(r'object_event[^\n]+, (OPP_\w+), (\d+)',objects):
+        assert {sid for _,sid in trainer_party(classes[trainer],int(index))} <= allowed_species,(route,trainer,index)
+        checked+=1
+for slot,palette in blaine['palettes'].items():
+    dog=next(d for d in DOGS if d['slot']==slot)
+    assert rom[offset('MonsterPalettes')+dog['dex']] == palette_ids[palette],slot
+for name,source in blaine['repeatable_sources'].items():
+    assert name in {dog for _,dog in blaine['wild'][source]},name
+for trade,(give,receive,nickname) in blaine['trades'].items():
+    pos=offset('TradeMons')+trade_ids.index(trade)*14
+    assert list(rom[pos:pos+3]) == [name_to_id[give],name_to_id[receive],0],trade
+    assert decode(rom[pos+3:pos+14]) == nickname,trade
+guardian=(ROOT/'data/maps/objects/SeafoamIslandsB4F.asm').read_text()
+assert 'FROSTMAUL, 50' in guardian and 'SPRITE_MONSTER' in guardian
+assert symbols['RetryUncaughtFrostmaul'][0] == symbols['HallOfFameResetEventsAndSaveScript'][0]
+quiz=(ROOT/'data/events/hidden_events.asm').read_text().split('hidden_events_for CINNABAR_GYM')[1].split('\tdb -1')[0]
+assert [0 if value=='FALSE' else 1 for value in re.findall(r'PrintCinnabarQuiz, \((FALSE|TRUE)\s*<< 4\)',quiz)] == blaine['quiz_answers']
+print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 44 chapter encounter tables, {checked} trainer placements, dog trades and quiz answers, repeatable sources, guardian retry hook, and all five HMs.')

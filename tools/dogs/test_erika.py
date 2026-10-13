@@ -49,25 +49,32 @@ def field_move(name,index=0):
     E.start_option('POKéMON');S.choose_party(index)
     E.advance_until(lambda:name in E.text());M.select_row(name);E.press('a')
 
-def navigate(filename,target,cleared=(),stop_on_warp=False):
+def navigate(filename,target,cleared=(),stop_on_warp=False,live_blocks=False,allowed_tiles=(),blocked_tiles=()):
     header=(E.ROOT/f'data/maps/headers/{filename}.asm').read_text()
     code,tileset=re.search(r'map_header \w+, (\w+), (\w+)',header).groups()
     map_id,width,height=MAPS[code]
     assert E.read('wCurMap')==map_id,(filename,E.read('wCurMap'))
     blocks=(E.ROOT/f'maps/{filename}.blk').read_bytes()
+    if live_blocks:
+        # Switches replace blocks in the loaded map, inside a three-block border.
+        stride=width//2+6;address=E.SYMS['wOverworldMap'][1]+3*stride+3
+        blocks=bytes(E.gb.memory[address+y*stride+x] for y in range(height//2) for x in range(width//2))
     # Read compiled tables: Dojo and Gym share a blockset, and several other
     # tilesets also have aliases rather than a matching .bst filename.
     label=''.join(part.capitalize() for part in tileset.split('_'))
     pos=E.rom_offset(label+'_Block');tiles=E.ROM[pos:pos+4096]
     pos=E.rom_offset(label+'_Coll');allowed=set(E.ROM[pos:E.ROM.index(255,pos)])
+    allowed.update(allowed_tiles)
     walkable={(x,y) for y in range(height) for x in range(width)
               if tiles[blocks[(y//2)*(width//2)+x//2]*16+(y%2)*8+(x%2)*2+4] in allowed}
     source=(E.ROOT/f'data/maps/objects/{filename}.asm').read_text()
     blocked={(int(x),int(y)) for x,y in re.findall(r'object_event\s+(\d+),\s*(\d+)',source)}
     blocked|={(int(x),int(y)) for x,y in re.findall(r'warp_event\s+(\d+),\s*(\d+)',source) if (int(x),int(y))!=target}
     blocked-=set(cleared) # removed objects and changed floor blocks after real scripts
+    blocked|=set(blocked_tiles)
     walkable|=set(cleared)|{target}
     directions=[('up',(0,-1)),('down',(0,1)),('left',(-1,0)),('right',(1,0))]
+    blocked_edges=set()
     for _ in range(1600):
         current=(E.read('wXCoord'),E.read('wYCoord'))
         if current==target:return
@@ -76,7 +83,7 @@ def navigate(filename,target,cleared=(),stop_on_warp=False):
             x,y=queue.popleft()
             for button,(dx,dy) in directions:
                 step=(x+dx,y+dy)
-                if step in walkable and step not in blocked and step not in paths:
+                if step in walkable and step not in blocked and step not in paths and ((x,y),step) not in blocked_edges:
                     paths[step]=paths[(x,y)]+[(button,step)];queue.append(step)
         assert target in paths,('No map path',filename,current,target)
         button,step=paths[target][0]
@@ -87,7 +94,9 @@ def navigate(filename,target,cleared=(),stop_on_warp=False):
         if E.read('wCurMap')!=map_id:
             E.gb.tick(180);return
         after=(E.read('wXCoord'),E.read('wYCoord'))
-        if after==current:blocked.add(step)
+        if after==current:
+            if live_blocks:blocked_edges.add((current,step)) # cave cliffs depend on the tile pair, not just the destination
+            else:blocked.add(step)
     raise AssertionError(('Map navigation',filename,target))
 
 def flash_fixture(base):

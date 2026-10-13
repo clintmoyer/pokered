@@ -228,7 +228,7 @@ def sabrina_fixture(base,name,starter):
     pads=maze();talk('SaffronGym',(9,9),'up');E.advance_until(lambda:E.read('wIsInBattle')==2)
     M.fight_until(lambda:bool(E.read('wObtainedBadges')&32),name+'-sabrina');S.close_text()
     assert E.read('wObtainedBadges')==0x3f and M.event('EVENT_BEAT_SABRINA') and M.event('EVENT_GOT_TM46') and S.has_item(ITEMS['TM46'])
-    E.press('up',4,20);E.press('a');E.advance_until(lambda:'This demo ends' in E.text());S.close_text()
+    E.press('up',4,20);E.press('a');E.advance_until(lambda:'Surf to CINNABAR' in E.text());S.close_text()
     E.photo(name+'-sabrina-complete')
     print(f'PASS: {name} crosses {pads} real gym pads and earns the Marsh Badge and TM46 AURA PULSE.',flush=True)
     return E.state()
