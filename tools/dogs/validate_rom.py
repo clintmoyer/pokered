@@ -321,4 +321,38 @@ assert 'FROSTMAUL, 50' in guardian and 'SPRITE_MONSTER' in guardian
 assert symbols['RetryUncaughtFrostmaul'][0] == symbols['HallOfFameResetEventsAndSaveScript'][0]
 quiz=(ROOT/'data/events/hidden_events.asm').read_text().split('hidden_events_for CINNABAR_GYM')[1].split('\tdb -1')[0]
 assert [0 if value=='FALSE' else 1 for value in re.findall(r'PrintCinnabarQuiz, \((FALSE|TRUE)\s*<< 4\)',quiz)] == blaine['quiz_answers']
-print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 44 chapter encounter tables, {checked} trainer placements, dog trades and quiz answers, repeatable sources, guardian retry hook, and all five HMs.')
+giovanni=json.loads((ROOT/'data/dogs/giovanni.json').read_text())
+for route,encounters in giovanni['wild'].items():
+    pos=offset(route+'WildMons')
+    assert rom[pos] == giovanni['rates'][route],route
+    assert list(rom[pos+1:pos+21]) == [v for level,name in encounters for v in (level,name_to_id[name])],route
+    assert rom[pos+21] == 0,route
+for label,parties in giovanni['trainers'].items():
+    for index,members in parties.items():
+        assert trainer_party(label,int(index)) == [(level,name_to_id[name]) for level,name in members],(label,index)
+for route in giovanni['maps']:
+    objects=(ROOT/f'data/maps/objects/{route}.asm').read_text()
+    for trainer,index in re.findall(r'object_event[^\n]+, (OPP_\w+), (\d+)',objects):
+        assert {sid for _,sid in trainer_party(classes[trainer],int(index))} <= allowed_species,(route,trainer,index)
+        checked+=1
+for slot,palette in giovanni['palettes'].items():
+    dog=next(d for d in DOGS if d['slot']==slot)
+    assert rom[offset('MonsterPalettes')+dog['dex']] == palette_ids[palette],slot
+assert 'DALMSPARK' in {name for _,name in giovanni['wild']['PowerPlant']}
+# Parse the compiled map object records, including the eight item-disguised dogs.
+pos=offset('PowerPlant_Object')+1
+warps=rom[pos];pos+=1+warps*4
+signs=rom[pos];pos+=1+signs*3
+assert rom[pos] == 14
+pos+=1
+for level,name in giovanni['static_encounters']:
+    assert rom[pos+5]&0x40 and tuple(rom[pos+6:pos+8]) == (name_to_id[name],level)
+    pos+=8
+assert tuple(rom[pos+6:pos+8]) == (name_to_id['STORMLAEK'],50)
+assert 'SPRITE_MONSTER, STAY, UP, TEXT_POWERPLANT_ZAPDOS, STORMLAEK, 50' in (ROOT/'data/maps/objects/PowerPlant.asm').read_text()
+assert symbols['RetryUncaughtStormlaek'][0] == symbols['HallOfFameResetEventsAndSaveScript'][0]
+start=offset('HallOfFameResetEventsAndSaveScript');end=offset('RetryUncaughtFrostmaul')
+for label in ('RetryUncaughtFrostmaul','RetryUncaughtStormlaek'):
+    assert b'\xcd'+symbols[label][1].to_bytes(2,'little') in rom[start:end],label
+assert MOVES['FAULT_FANG'][0] == 'FISSURE' and MOVES['FAULT_FANG'][2] == 'OHKO_EFFECT'
+print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 45 chapter encounter tables, {checked} trainer placements, six Route 22 rival teams, nine Power Plant static dogs, both guardian retry hooks, trades and quiz answers, and all five HMs.')

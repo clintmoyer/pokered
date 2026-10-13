@@ -216,7 +216,7 @@ def maze():
     return len(paths[goal])
 
 def sabrina_fixture(base,name,starter):
-    E.restore(base);S.train(['BEEDRILL','PARASECT',starter],[44]*3)
+    E.restore(base);S.train(['BEEDRILL','PARASECT',starter],[48,48,44])
     beaten('EVENT_BEAT_SAFFRON_GYM_TRAINER_',7)
     M.warp(mid('SILPH_CO_1F'),0,last_map=mid('SAFFRON_CITY'))
     E.walk('up',1)

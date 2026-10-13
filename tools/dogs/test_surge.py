@@ -24,7 +24,8 @@ def load_checkpoint(name):
 
 def bag():
     address=E.SYMS['wBagItems'][1]
-    return list(E.gb.memory[address:address+E.read('wNumBagItems')*2])
+    count=E.read('wNumBagItems')
+    return list(E.gb.memory[address:address+count*2]) if count else []
 
 def has_item(item):return item in bag()[::2]
 
