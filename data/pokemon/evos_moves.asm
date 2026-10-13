@@ -1082,12 +1082,16 @@ JynxEvosMoves:
 	db 0
 
 MoltresEvosMoves:
-; Evolutions
+; SUNMAST: same breed, growing maturity.
 	db 0
-; Learnset
-	db 51, LEER
-	db 55, AGILITY
-	db 60, SKY_ATTACK
+	db 7, CINDER_YIP
+	db 11, PAW_DASH
+	db 14, SOOT_SHAKE
+	db 18, EMBER_PAW
+	db 24, PACK_RUSH
+	db 27, AIR_NIP
+	db 30, CINDER_BARK
+	db 38, FLAME_POUNCE
 	db 0
 
 ArticunoEvosMoves:

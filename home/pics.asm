@@ -218,6 +218,7 @@ DogSpriteSpecies:
 	db SNORLAX, BANK(SnorlaxPicFront)
 	db ARTICUNO, BANK(ArticunoPicFront)
 	db ZAPDOS, BANK(ZapdosPicFront)
+	db MOLTRES, BANK(MoltresPicFront)
 	db DRATINI, BANK(DratiniPicFront)
 	db DRAGONAIR, BANK(DragonairPicFront)
 	db DRAGONITE, BANK(DragonitePicFront)

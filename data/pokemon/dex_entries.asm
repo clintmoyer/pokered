@@ -625,9 +625,9 @@ JynxDexEntry:
 	text_end
 
 MoltresDexEntry:
-	db "FLAME@"
-	db 6,7
-	dw 1320
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _MoltresDexEntry
 	text_end
 

@@ -1,0 +1,548 @@
+{
+  "maps": [
+    "VictoryRoad1F",
+    "VictoryRoad2F",
+    "VictoryRoad3F",
+    "LoreleisRoom",
+    "BrunosRoom",
+    "AgathasRoom",
+    "LancesRoom"
+  ],
+  "wild": {
+    "Route23": [
+      [
+        40,
+        "DACHSHUND"
+      ],
+      [
+        40,
+        "XOLO"
+      ],
+      [
+        40,
+        "GREYGALE"
+      ],
+      [
+        42,
+        "GREYGALE"
+      ],
+      [
+        42,
+        "XOLO"
+      ],
+      [
+        44,
+        "GREYGALE"
+      ],
+      [
+        42,
+        "JACKDIG"
+      ],
+      [
+        44,
+        "XOLO"
+      ],
+      [
+        44,
+        "GREYGALE"
+      ],
+      [
+        46,
+        "GREYGALE"
+      ]
+    ],
+    "VictoryRoad1F": [
+      [
+        40,
+        "STAFFORD"
+      ],
+      [
+        40,
+        "BULLPUP"
+      ],
+      [
+        38,
+        "IGGALE"
+      ],
+      [
+        42,
+        "STONEMAST"
+      ],
+      [
+        44,
+        "STONEMAST"
+      ],
+      [
+        46,
+        "STONEMAST"
+      ],
+      [
+        42,
+        "BULLDOG"
+      ],
+      [
+        42,
+        "IGGALE"
+      ],
+      [
+        44,
+        "STAFFGUARD"
+      ],
+      [
+        44,
+        "SCOTTDIG"
+      ]
+    ],
+    "VictoryRoad2F": [
+      [
+        40,
+        "STAFFORD"
+      ],
+      [
+        40,
+        "BULLPUP"
+      ],
+      [
+        40,
+        "IGGALE"
+      ],
+      [
+        42,
+        "STONEMAST"
+      ],
+      [
+        44,
+        "STONEMAST"
+      ],
+      [
+        46,
+        "STONEMAST"
+      ],
+      [
+        44,
+        "STAFFGUARD"
+      ],
+      [
+        42,
+        "IGGALE"
+      ],
+      [
+        44,
+        "SCOTTDIG"
+      ],
+      [
+        44,
+        "BULLDOG"
+      ]
+    ],
+    "VictoryRoad3F": [
+      [
+        42,
+        "STAFFORD"
+      ],
+      [
+        42,
+        "BULLDOG"
+      ],
+      [
+        40,
+        "IGGALE"
+      ],
+      [
+        44,
+        "STONEMAST"
+      ],
+      [
+        42,
+        "CRESTWING"
+      ],
+      [
+        46,
+        "STONEMAST"
+      ],
+      [
+        44,
+        "BULLDOG"
+      ],
+      [
+        44,
+        "IGGALE"
+      ],
+      [
+        44,
+        "STAFFGUARD"
+      ],
+      [
+        46,
+        "STAFFGUARD"
+      ]
+    ]
+  },
+  "rates": {
+    "Route23": 10,
+    "VictoryRoad1F": 15,
+    "VictoryRoad2F": 10,
+    "VictoryRoad3F": 15
+  },
+  "water": {},
+  "water_rates": {},
+  "trainers": {
+    "CooltrainerMData": {
+      "2": [
+        [
+          43,
+          "BERNBLOOM"
+        ],
+        [
+          43,
+          "CHESSTIDE"
+        ],
+        [
+          43,
+          "AKITAFIRE"
+        ]
+      ],
+      "3": [
+        [
+          43,
+          "IRISTIDE"
+        ],
+        [
+          43,
+          "SPANTIDE"
+        ],
+        [
+          43,
+          "NEWFTIDE"
+        ]
+      ],
+      "5": [
+        [
+          42,
+          "GROENHOUND"
+        ],
+        [
+          42,
+          "NEWFTIDE"
+        ],
+        [
+          42,
+          "SHIBLAZE"
+        ],
+        [
+          42,
+          "SHIBLAZE"
+        ]
+      ]
+    },
+    "CooltrainerFData": {
+      "2": [
+        [
+          43,
+          "SUNSETTER"
+        ],
+        [
+          43,
+          "SUNSETTER"
+        ],
+        [
+          43,
+          "SUNSETTER"
+        ]
+      ],
+      "3": [
+        [
+          43,
+          "BICHOBLOOM"
+        ],
+        [
+          43,
+          "GOLDTIDE"
+        ],
+        [
+          43,
+          "CAVALIER"
+        ]
+      ],
+      "5": [
+        [
+          44,
+          "BOSTON"
+        ],
+        [
+          44,
+          "SUNSPITZ"
+        ]
+      ]
+    },
+    "BlackbeltData": {
+      "9": [
+        [
+          43,
+          "STAFFGUARD"
+        ],
+        [
+          43,
+          "STAFFGUARD"
+        ],
+        [
+          43,
+          "STAFFGUARD"
+        ]
+      ]
+    },
+    "JugglerData": {
+      "2": [
+        [
+          41,
+          "BLOODHOUND"
+        ],
+        [
+          41,
+          "BLOODHOUND"
+        ],
+        [
+          41,
+          "POODMIND"
+        ],
+        [
+          41,
+          "POODMIND"
+        ]
+      ],
+      "5": [
+        [
+          48,
+          "LHASA"
+        ]
+      ]
+    },
+    "TamerData": {
+      "5": [
+        [
+          44,
+          "BOSTON"
+        ],
+        [
+          44,
+          "LABRADOR"
+        ]
+      ]
+    },
+    "PokemaniacData": {
+      "6": [
+        [
+          40,
+          "SHIBLAZE"
+        ],
+        [
+          40,
+          "LEONTIDE"
+        ],
+        [
+          40,
+          "STBERNARD"
+        ]
+      ]
+    },
+    "LoreleiData": {
+      "1": [
+        [
+          54,
+          "GOLDTIDE"
+        ],
+        [
+          53,
+          "CHESSTIDE"
+        ],
+        [
+          54,
+          "BASSET"
+        ],
+        [
+          56,
+          "HUSKY"
+        ],
+        [
+          56,
+          "LEONTIDE"
+        ]
+      ]
+    },
+    "BrunoData": {
+      "1": [
+        [
+          53,
+          "STONEMAST"
+        ],
+        [
+          55,
+          "ROTTGUARD"
+        ],
+        [
+          55,
+          "DOBERGUARD"
+        ],
+        [
+          56,
+          "STONEMAST"
+        ],
+        [
+          58,
+          "STAFFGUARD"
+        ]
+      ]
+    },
+    "AgathaData": {
+      "1": [
+        [
+          56,
+          "WEIMWRAITH"
+        ],
+        [
+          56,
+          "IGGALE"
+        ],
+        [
+          55,
+          "XOLO"
+        ],
+        [
+          58,
+          "DACHSHUND"
+        ],
+        [
+          60,
+          "WEIMWRAITH"
+        ]
+      ]
+    },
+    "LanceData": {
+      "1": [
+        [
+          58,
+          "BARBTIDE"
+        ],
+        [
+          56,
+          "LUNDEWYRM"
+        ],
+        [
+          56,
+          "LUNDEWYRM"
+        ],
+        [
+          60,
+          "WOLFGALE"
+        ],
+        [
+          62,
+          "LUNDEWYRM"
+        ]
+      ]
+    },
+    "Rival3Data": {
+      "1": [
+        [
+          61,
+          "WINDWHIP"
+        ],
+        [
+          59,
+          "POODMIND"
+        ],
+        [
+          61,
+          "BULLTANK"
+        ],
+        [
+          61,
+          "AKITAFIRE"
+        ],
+        [
+          63,
+          "BERNBLOOM"
+        ],
+        [
+          65,
+          "NEWFTIDE"
+        ]
+      ],
+      "2": [
+        [
+          61,
+          "WINDWHIP"
+        ],
+        [
+          59,
+          "POODMIND"
+        ],
+        [
+          61,
+          "BULLTANK"
+        ],
+        [
+          61,
+          "SPRINGTIDE"
+        ],
+        [
+          63,
+          "AKITAFIRE"
+        ],
+        [
+          65,
+          "GROENHOUND"
+        ]
+      ],
+      "3": [
+        [
+          61,
+          "WINDWHIP"
+        ],
+        [
+          59,
+          "POODMIND"
+        ],
+        [
+          61,
+          "BULLTANK"
+        ],
+        [
+          61,
+          "BERNBLOOM"
+        ],
+        [
+          63,
+          "SPRINGTIDE"
+        ],
+        [
+          65,
+          "SHIBLAZE"
+        ]
+      ]
+    }
+  },
+  "new_forms": [
+    "MOLTRES"
+  ],
+  "palettes": {
+    "MOLTRES": "PAL_BROWNMON"
+  },
+  "guardian": [
+    "VictoryRoad2F",
+    50,
+    "SUNMAST"
+  ],
+  "boss_moves": {
+    "LORELEI": "WHITEOUT_YIP",
+    "BRUNO": "SKY_PAW",
+    "AGATHA": "VENOM_MARK",
+    "LANCE": "WYRM_BARK"
+  },
+  "champion_moves": {
+    "lead": "GALE_FANG",
+    "grass": "SUN_HOWL",
+    "fire": "FLAME_POUNCE",
+    "water": "TIDAL_BARK"
+  }
+}

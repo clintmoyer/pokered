@@ -13,13 +13,10 @@ LoneMoves:
 	db 3, FIRE_BLAST
 	db 4, FISSURE
 
-; unique moves for elite 4
-; all trainers in this class are given this move automatically
-; (unrelated to LoneMoves)
+; League aces: trainer class, fourth move for the fifth dog.
 TeamMoves:
-	; trainer, move
-	db LORELEI, BLIZZARD
-	db BRUNO,   FISSURE
-	db AGATHA,  TOXIC
-	db LANCE,   BARRIER
+	db LORELEI, WHITEOUT_YIP
+	db BRUNO, SKY_PAW
+	db AGATHA, VENOM_MARK
+	db LANCE, WYRM_BARK
 	db -1 ; end

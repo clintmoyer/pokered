@@ -25,4 +25,13 @@ _HallOfFameOakText::
 	line "<PLAYER>, you and"
 	cont "your #MON are"
 	cont "HALL OF FAMERs!"
+
+	para "Your pack is now"
+	line "in the HALL OF"
+	cont "FAME!"
+	para "This demo reaches"
+	line "the CHAMPION."
+	para "Two special dogs"
+	line "await a later"
+	cont "CAVE adventure!"
 	done

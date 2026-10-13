@@ -13280,8 +13280,8 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "TIBETAN MASTIFF guards its pack. Its fire power helps friends explore Kanto."
+    "art_status": "implemented",
+    "dex_description": "TIBETAN MASTIFF watches the road. Its thick mane shelters lost travelers from cold winds."
   },
   {
     "slot": "DRATINI",

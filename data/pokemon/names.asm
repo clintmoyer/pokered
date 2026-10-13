@@ -72,7 +72,7 @@ MonsterNames::
 	dname "BORZPUP"
 	dname "PORTPUP"
 	dname "HUSKY"
-	dname "MOLTRES"
+	dname "SUNMAST"
 	dname "FROSTMAUL"
 	dname "STORMLAEK"
 	dname "XOLO"

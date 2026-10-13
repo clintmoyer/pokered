@@ -4,8 +4,6 @@ SECTION "Pics 1", ROMX
 
 SECTION "Pics 2", ROMX
 
-MoltresPicFront::     INCBIN "gfx/pokemon/front/moltres.pic"
-MoltresPicBack::      INCBIN "gfx/pokemon/back/moltresb.pic"
 
 
 SECTION "Pics 3", ROMX
@@ -424,6 +422,8 @@ SECTION "Dog Pics 19", ROMX
 
 ZapdosPicFront:: INCBIN "gfx/pokemon/front/zapdos.pic"
 ZapdosPicBack:: INCBIN "gfx/pokemon/back/zapdosb.pic"
+MoltresPicFront:: INCBIN "gfx/pokemon/front/moltres.pic"
+MoltresPicBack:: INCBIN "gfx/pokemon/back/moltresb.pic"
 DratiniPicFront:: INCBIN "gfx/pokemon/front/dratini.pic"
 DratiniPicBack:: INCBIN "gfx/pokemon/back/dratinib.pic"
 DragonairPicFront:: INCBIN "gfx/pokemon/front/dragonair.pic"

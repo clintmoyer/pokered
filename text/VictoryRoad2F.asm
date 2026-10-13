@@ -1,5 +1,5 @@
 _VictoryRoad2FMoltresBattleText::
-	text "Gyaoo!@"
+	text "Rrrooo!@"
 	text_end
 
 _VictoryRoad2FHikerBattleText::

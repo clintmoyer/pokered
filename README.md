@@ -1,6 +1,6 @@
 # Pokedogs
 
-A dog-themed Pokémon Red mod. The current demo runs through Giovanni and the late Route 22 rival, with Groenendael, Shiba Inu, and Newfoundland starters, 148 dog forms, all 165 redesigned move entries, original dog sprites, and all five working HMs. The Power Plant and Viridian Gym join Seafoam, Cinnabar, Saffron, Silph Co. and the earlier chapters. All eight badges are available; the League and final three forms remain future work.
+A dog-themed Pokémon Red mod. The current demo runs through the Elite Four and Champion, with Groenendael, Shiba Inu, and Newfoundland starters, 149 dog forms, all 165 redesigned move entries, original dog sprites, and all five working HMs. Route 23, Victory Road and Indigo Plateau join the Power Plant, Viridian Gym and the earlier chapters. All eight badges and the complete League challenge are available; the final two postgame forms remain future work.
 
 Build with RGBDS 1.0.4 using `make -j4 demo`, then load `build/pokedogs-demo.gb` in a Game Boy emulator. See [the demo specification](docs/DEMO.md) for scope and verification instructions. Changes are recorded as Git commits on the [`dogs` branch of clintmoyer/pokered](https://github.com/clintmoyer/pokered/tree/dogs).
 

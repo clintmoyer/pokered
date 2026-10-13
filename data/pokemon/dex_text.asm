@@ -537,13 +537,12 @@ _JynxDexEntry::
 	dex
 
 _MoltresDexEntry::
-	text "Known as the"
-	next "legendary bird of"
-	next "fire. Every flap"
-
-	page "of its wings"
-	next "creates a dazzling"
-	next "flash of flames"
+	text "TIBETAN MASTIFF."
+	next "watches the road."
+	next "Its thick mane"
+	page "shelters lost"
+	next "travelers from"
+	next "cold winds."
 	dex
 
 _ArticunoDexEntry::

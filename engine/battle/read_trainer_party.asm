@@ -121,26 +121,26 @@ ReadTrainer:
 	jr .FinishUp ; nope
 .GiveTeamMoves
 	ld a, [hl]
-	ld [wEnemyMon5Moves + 2], a
+	ld [wEnemyMon5Moves + 3], a
 	jr .FinishUp
 .ChampionRival ; give moves to his team
 
-; pidgeot
-	ld a, SKY_ATTACK
-	ld [wEnemyMon1Moves + 2], a
+; Windwhip: retain its learned Flying signature.
+	ld a, GALE_FANG
+	ld [wEnemyMon1Moves + 3], a
 
 ; starter
 	ld a, [wRivalStarter]
 	cp STARTER3
-	ld b, MEGA_DRAIN
+	ld b, SUN_HOWL
 	jr z, .GiveStarterMove
 	cp STARTER1
-	ld b, FIRE_BLAST
+	ld b, FLAME_POUNCE
 	jr z, .GiveStarterMove
-	ld b, BLIZZARD ; must be squirtle
+	ld b, TIDAL_BARK ; Newfoundland starter
 .GiveStarterMove
 	ld a, b
-	ld [wEnemyMon6Moves + 2], a
+	ld [wEnemyMon6Moves + 3], a
 .FinishUp
 ; clear wAmountMoneyWon addresses
 	xor a

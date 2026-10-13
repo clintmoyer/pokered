@@ -189,7 +189,7 @@ def giovanni_fixture(base,name,starter,rival):
     assert (E.read('wXCoord'),E.read('wYCoord'))==(17,2)
     E.press('right',8,960);assert (E.read('wXCoord'),E.read('wYCoord'))==(18,11)
     talk('ViridianGym',(16,14),'down',cleared=[(2,1)])
-    E.advance_until(lambda:'This demo ends' in E.text());S.close_text()
+    E.advance_until(lambda:'Then cross ROUTE' in E.text());S.close_text()
     assert A.item_count(ITEMS['TM27'])==1
     print('PASS: '+name+' wins Earth Badge/TM27, triggers the late rival, and sees Giovanni depart.',flush=True)
     return E.state()
