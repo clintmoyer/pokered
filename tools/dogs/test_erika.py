@@ -49,16 +49,17 @@ def field_move(name,index=0):
     E.start_option('POKéMON');S.choose_party(index)
     E.advance_until(lambda:name in E.text());M.select_row(name);E.press('a')
 
-def navigate(filename,target,cleared=()):
+def navigate(filename,target,cleared=(),stop_on_warp=False):
     header=(E.ROOT/f'data/maps/headers/{filename}.asm').read_text()
     code,tileset=re.search(r'map_header \w+, (\w+), (\w+)',header).groups()
     map_id,width,height=MAPS[code]
     assert E.read('wCurMap')==map_id,(filename,E.read('wCurMap'))
     blocks=(E.ROOT/f'maps/{filename}.blk').read_bytes()
-    tiles=(E.ROOT/f'gfx/blocksets/{tileset.lower()}.bst').read_bytes()
-    collisions=(E.ROOT/'data/tilesets/collision_tile_ids.asm').read_text()
-    collision_line=re.search(rf'{tileset.capitalize()}_Coll::[\s\S]*?coll_tiles ([^\n]+)',collisions)[1]
-    allowed={int(v,16) for v in re.findall(r'\$([\da-f]+)',collision_line)}
+    # Read compiled tables: Dojo and Gym share a blockset, and several other
+    # tilesets also have aliases rather than a matching .bst filename.
+    label=''.join(part.capitalize() for part in tileset.split('_'))
+    pos=E.rom_offset(label+'_Block');tiles=E.ROM[pos:pos+4096]
+    pos=E.rom_offset(label+'_Coll');allowed=set(E.ROM[pos:E.ROM.index(255,pos)])
     walkable={(x,y) for y in range(height) for x in range(width)
               if tiles[blocks[(y//2)*(width//2)+x//2]*16+(y%2)*8+(x%2)*2+4] in allowed}
     source=(E.ROOT/f'data/maps/objects/{filename}.asm').read_text()
@@ -81,6 +82,8 @@ def navigate(filename,target,cleared=()):
         button,step=paths[target][0]
         E.write('wRepelRemainingSteps',250) # isolate traversal from random wild fights
         E.press(button,8,45)
+        if stop_on_warp and step==target:
+            E.gb.tick(240);return # also handle warp pads whose destination is the same map
         if E.read('wCurMap')!=map_id:
             E.gb.tick(180);return
         after=(E.read('wXCoord'),E.read('wYCoord'))
@@ -240,7 +243,7 @@ def main():
             M.bill_fixture(misty);S.close_text();boarded=S.boarding_fixture(E.state())
             captain=S.ship_fixture(boarded,'erika-base',['WARTORTLE','FEAROW'],[22,22],'SQUIRTLE','BULBASAUR')
             gym=S.cut_fixture(captain,'erika-base',['WARTORTLE','RATTATA'],[22,18],1)
-            base=S.surge_fixture(gym,'erika-base',['DIGLETT','WARTORTLE'],[24,24]);S.checkpoint('erika-surge-base')
+            base=S.surge_fixture(gym,'erika-base',['DUGTRIO','WARTORTLE'],[24,24]);S.checkpoint('erika-surge-base')
         lit=flash_fixture(base);S.checkpoint('erika-lit-tunnel')
         flown=fly_fixture(lit);S.checkpoint('erika-flown')
         gift=gift_fixture(flown);stones_fixture(gift);prize_fixture(flown)

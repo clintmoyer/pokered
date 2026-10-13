@@ -225,7 +225,7 @@ def main():
         for name,slots,levels,carrier in [('groen',['IVYSAUR'],[22],0),('shiba',['CHARMELEON'],[22],0),('newf',['WARTORTLE','RATTATA'],[22,18],1)]:
             cut[name]=cut_fixture(ships[name],name,slots,levels,carrier,check_badge=name=='groen')
         for name,starter in [('groen','IVYSAUR'),('shiba','CHARMELEON'),('newf','WARTORTLE')]:
-            completed[name]=surge_fixture(cut[name],name,['DIGLETT',starter],[24,24])
+            completed[name]=surge_fixture(cut[name],name,['DUGTRIO',starter],[24,24])
         E.save_reload(completed['newf'],expected_map=0x5c,expected_badges=7)
         for slot,level,target in [('DIGLETT',23,'DUGTRIO'),('MEOWTH',23,'PERSIAN'),('MACHOP',15,'MACHOKE'),('MACHOKE',31,'MACHAMP'),('MAGNEMITE',23,'MAGNETON'),('DROWZEE',23,'HYPNO'),('VOLTORB',23,'ELECTRODE')]:
             E.evolution_check(completed['newf'],slot,level,target)

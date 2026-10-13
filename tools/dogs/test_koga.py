@@ -213,7 +213,7 @@ def koga_fixture(base,name,starter):
     talk('FuchsiaGym',(4,11),'up');E.advance_until(lambda:E.read('wIsInBattle')==2)
     M.fight_until(lambda:bool(E.read('wObtainedBadges')&16),name+'-koga');S.close_text()
     assert E.read('wObtainedBadges')==0x1f and M.event('EVENT_BEAT_KOGA') and M.event('EVENT_GOT_TM06') and S.has_item(ITEMS['TM06'])
-    E.press('a');E.advance_until(lambda:'This demo ends' in E.text());S.close_text();E.photo(name+'-koga-complete')
+    E.press('a');E.advance_until(lambda:'Visit SAFFRON' in E.text());S.close_text();E.photo(name+'-koga-complete')
     print('PASS: '+name+' earns the Soul Badge and TM06 VENOM MARK.',flush=True)
     return E.state()
 
@@ -249,6 +249,7 @@ def main():
         else:flute_fixture(tower,16);opened=flute_fixture(tower,12);S.checkpoint('koga-route12')
         safari=safari_fixture(opened);S.checkpoint('koga-safari')
         completed={name:koga_fixture(safari,name,starter) for name,starter in [('groen','VENUSAUR'),('shiba','CHARIZARD'),('newf','BLASTOISE')]}
+        E.restore(completed['newf']);S.checkpoint('koga-complete')
         surf_fixture(safari,completed['newf']);E.save_reload(completed['newf'],expected_map=mid('FUCHSIA_GYM'),expected_badges=0x1f)
         for slot in json.loads((E.ROOT/'data/dogs/koga.json').read_text())['new_forms']:
             dog=next(d for d in M.DOGS if d['slot']==slot)

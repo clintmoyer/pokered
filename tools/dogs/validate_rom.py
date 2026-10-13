@@ -269,4 +269,24 @@ for slot,move in [('WARTORTLE','SURF'),('RATICATE','STRENGTH')]:
     assert rom[pos+flag//8] & 1 << (flag%8),slot
 assert symbols['EvolutionAfterBattle'][0] == symbols['EvosMovesPointerTable'][0]
 assert symbols['EvolutionAfterBattle'][0] != symbols['BaseStats'][0]
-print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 34 chapter encounter tables, {checked} trainer placements, all fishing groups, new repeatable collection roots, three stone branches, and all five HM carriers.')
+sabrina=json.loads((ROOT/'data/dogs/sabrina.json').read_text())
+for label,parties in sabrina['trainers'].items():
+    for index,members in parties.items():
+        assert trainer_party(label,int(index)) == [(level,name_to_id[name]) for level,name in members],(label,index)
+for route in sabrina['maps']:
+    objects=(ROOT/f'data/maps/objects/{route}.asm').read_text()
+    for trainer,index in re.findall(r'object_event[^\n]+, (OPP_\w+), (\d+)',objects):
+        assert {sid for _,sid in trainer_party(classes[trainer],int(index))} <= allowed_species,(route,trainer,index)
+        checked+=1
+for slot,palette in sabrina['palettes'].items():
+    dog=next(d for d in DOGS if d['slot']==slot)
+    assert rom[offset('MonsterPalettes')+dog['dex']] == palette_ids[palette],slot
+for name,source in sabrina['repeatable_sources'].items():
+    encounters=koga['wild'].get(source,koga['water'].get(source,[]))
+    assert name in {dog for _,dog in encounters},name
+pos=offset('SilphCo7FSilphWorkerM1Text.give_lapras')
+end=offset('SilphCo7FSilphWorkerM1Text.saved_silph')
+level,name=sabrina['gifts']['silph']
+assert bytes([1,level,name_to_id[name]]) in rom[pos:end], 'Silph gift species/level'
+assert {'DOBERGUARD','ROTTGUARD'} == {name for _,name in sabrina['gifts']['dojo']}
+print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 34 chapter encounter tables, {checked} trainer placements, six later rival variants, repeatable collection sources, and all five HMs.')
