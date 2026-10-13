@@ -10,21 +10,19 @@ _SilphCo7FSilphWorkerM1HaveThisPokemonText::
 	prompt
 
 _SilphCo7FSilphWorkerM1LaprasDescriptionText::
-	text "It's LAPRAS. It's"
-	line "very intelligent."
+	text "This LEONTIDE is"
+	line "a LEONBERGER."
 
-	para "We kept it in our"
-	line "lab, but it will"
-	cont "be much better"
-	cont "off with you!"
+	para "Its thick coat"
+	line "keeps it warm on"
+	cont "water rescues."
 
-	para "I think you will"
-	line "be a good trainer"
-	cont "for LAPRAS!"
+	para "Give our gentle"
+	line "friend a home in"
+	cont "your pack!"
 
-	para "It's a good"
-	line "swimmer. It'll"
-	cont "give you a lift!"
+	para "Others swim off"
+	line "ROUTE 19, too!"
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::

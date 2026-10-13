@@ -105,8 +105,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED     ; Exeggutor
 	nybble ICON_QUADRUPED       ; Cubone
 	nybble ICON_QUADRUPED       ; Marowak
-	nybble ICON_MON       ; Hitmonlee
-	nybble ICON_MON       ; Hitmonchan
+	nybble ICON_QUADRUPED       ; Hitmonlee
+	nybble ICON_QUADRUPED       ; Hitmonchan
 	nybble ICON_QUADRUPED       ; Lickitung
 	nybble ICON_QUADRUPED       ; Koffing
 	nybble ICON_QUADRUPED       ; Weezing
@@ -130,7 +130,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Tauros
 	nybble ICON_QUADRUPED     ; Magikarp
 	nybble ICON_QUADRUPED     ; Gyarados
-	nybble ICON_WATER     ; Lapras
+	nybble ICON_QUADRUPED     ; Lapras
 	nybble ICON_QUADRUPED       ; Ditto
 	nybble ICON_QUADRUPED ; Eevee
 	nybble ICON_QUADRUPED ; Vaporeon

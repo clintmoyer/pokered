@@ -8,8 +8,8 @@ SafariZoneNorthWildMons:
 	db 27, BERNPUP
 	db 28, GREATDANE
 	db 28, COLLIEMIND
-	db 30, CRESTWING
-	db 32, BERNBLOOM
+	db 30, DOBERGUARD
+	db 30, ROTTGUARD
 	end_grass_wildmons
 
 	def_water_wildmons 0

@@ -51,7 +51,7 @@ or permanently exclusive rewards required to complete the Pokédex.
 - KEESPUP and ELKPUP have repeatable Rock Tunnel B1F encounters; WOLFGALE has a
   Victory Road 1F encounter. Fossil choice and revival can provide an early or
   higher-level gift, but do not exclude either family from the collection.
-- Both Fighting Dojo dogs are also catchable on Route 23. The original gift
+- Both Fighting Dojo dogs are also catchable in Safari Zone North. The original gift
   choice can remain without locking the other form out.
 - Adoptable SPRINGPUP replaces the Mt. Moon seller's gift and also appears on
   Route 4. Other story gifts remain bonuses rather than exclusive sources.
@@ -101,8 +101,9 @@ Their field-menu labels and explanatory text must match the redesigned names.
    and repeatable sources for both fossil families.
 3. Extend through Fuchsia, Saffron, Cinnabar, and Viridian, with Surf, Strength,
    Safari encounters, Tower events, sleeping dogs, and late-game progression.
-   The current demo reaches Koga with 139 forms, the Rocket Hideout, Tower,
-   sleeping dogs, Safari rewards, Surf and Strength. Saffron onward remains.
+   The current demo reaches Sabrina with 142 forms, the Rocket Hideout, Tower,
+   sleeping dogs, Safari rewards, all five HMs, Saffron, the Fighting Dojo and
+   Silph's rescue. Cinnabar and Viridian remain.
 4. Finish Elite Four, Champion, legendary retries, Cerulean Cave, and collection
    completion. Add the remaining presentation assets and sound pass.
 

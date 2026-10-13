@@ -159,13 +159,11 @@ _RhyhornDexEntry::
 	dex
 
 _LaprasDexEntry::
-	text "A #MON that"
-	next "has been over-"
-	next "hunted almost to"
-
-	page "extinction. It"
-	next "can ferry people"
-	next "across the water"
+	text "LEONBERGER."
+	next "guards its pack."
+	next "Its water power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _ArcanineDexEntry::
@@ -357,23 +355,19 @@ _MrMimeDexEntry::
 	dex
 
 _HitmonleeDexEntry::
-	text "When in a hurry,"
-	next "its legs lengthen"
-	next "progressively."
-
-	page "It runs smoothly"
-	next "with extra long,"
-	next "loping strides"
+	text "DOBERMANN."
+	next "guards its pack."
+	next "Its fighting power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _HitmonchanDexEntry::
-	text "While apparently"
-	next "doing nothing, it"
-	next "fires punches in"
-
-	page "lightning fast"
-	next "volleys that are"
-	next "impossible to see"
+	text "ROTTWEILER."
+	next "guards its pack."
+	next "Its fighting power"
+	page "helps friends"
+	next "explore Kanto."
 	dex
 
 _ArbokDexEntry::

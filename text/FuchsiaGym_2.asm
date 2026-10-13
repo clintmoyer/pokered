@@ -2,12 +2,9 @@ _FuchsiaGymKogaPostBattleAdviceText::
 	text "Five badges! Your"
 	line "pack is fearless."
 
-	para "This demo ends"
-	line "here for now."
-
-	para "Use DOG PADDLE"
-	line "and HAUL to find"
-	cont "more dog friends!"
+	para "Visit SAFFRON and"
+	line "help the dogs at"
+	cont "SILPH CO.!"
 	done
 
 _FuchsiaGymKogaSoulBadgeInfoText::

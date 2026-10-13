@@ -113,8 +113,8 @@ Stats below are HP / Attack / Defense / Speed / Special. See [ROSTER.csv](ROSTER
 | 103 | EXEGGUTOR | BERNBLOOM | BERNESE MOUNTAIN DOG | GRASS/PSYCHIC | 95/70/90/45/100 | EXEGGCUTE at L24 |
 | 104 | CUBONE | SCOTTPUP | SCOTTISH TERRIER | GROUND | 40/48/46/37/40 | RockTunnel1F grass, L15-22, gate=cascade |
 | 105 | MAROWAK | SCOTTDIG | SCOTTISH TERRIER | GROUND | 70/85/80/65/70 | CUBONE at L24 |
-| 106 | HITMONLEE | DOBERGUARD | DOBERMANN | FIGHTING | 75/95/65/100/75 | Route23 grass, L35-42, gate=all_badges |
-| 107 | HITMONCHAN | ROTTGUARD | ROTTWEILER | FIGHTING | 85/100/95/55/75 | Route23 grass, L35-42, gate=all_badges |
+| 106 | HITMONLEE | DOBERGUARD | DOBERMANN | FIGHTING | 75/95/65/100/75 | SafariZoneNorth grass, L30-30, gate=poke_flute |
+| 107 | HITMONCHAN | ROTTGUARD | ROTTWEILER | FIGHTING | 85/100/95/55/75 | SafariZoneNorth grass, L30-30, gate=poke_flute |
 | 108 | LICKITUNG | STBERNARD | SAINT BERNARD | NORMAL | 115/70/85/40/100 | SafariZoneCenter grass, L24-32, gate=poke_flute |
 | 109 | KOFFING | PUGPUP | PUG | POISON | 46/30/37/30/57 | Route14 grass, L24-32, gate=poke_flute |
 | 110 | WEEZING | PUGHAZE | PUG | POISON | 80/50/65/50/100 | KOFFING at L24 |
@@ -138,7 +138,7 @@ Stats below are HP / Attack / Defense / Speed / Special. See [ROSTER.csv](ROSTER
 | 128 | TAUROS | RIDGEBACK | RHODESIAN RIDGEBACK | NORMAL/FIGHTING | 80/95/75/90/70 | SafariZoneCenter grass, L24-32, gate=poke_flute |
 | 129 | MAGIKARP | SPRINGPUP | ENGLISH SPRINGER SPANIEL | WATER | 43/43/34/54/46 | Route4 grass, L8-14, gate=boulder |
 | 130 | GYARADOS | SPRINGTIDE | ENGLISH SPRINGER SPANIEL | WATER | 75/75/60/95/80 | MAGIKARP at L20 |
-| 131 | LAPRAS | LEONTIDE | LEONBERGER | WATER/ICE | 105/80/85/45/95 | SeafoamIslandsB2F grass, L28-36, gate=surf |
+| 131 | LAPRAS | LEONTIDE | LEONBERGER | WATER/ICE | 105/80/85/45/95 | Route19 surf, L30-30, gate=surf |
 | 132 | DITTO | XOLO | XOLOITZCUINTLI | GHOST | 65/65/65/85/95 | Route15 grass, L24-32, gate=poke_flute |
 | 133 | EEVEE | TERVPUP | BELGIAN TERVUREN | NORMAL | 43/43/37/54/57 | Route7 grass, L18-22, gate=celadon |
 | 134 | VAPOREON | TIDETERV | BELGIAN TERVUREN | WATER | 95/65/80/65/105 | EEVEE + WATER_STONE (unlimited Celadon purchase) |

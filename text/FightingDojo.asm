@@ -28,17 +28,19 @@ _FightingDojoKarateMasterIWillGiveYouAPokemonText::
 
 	para "In return, I will"
 	line "give you a prized"
-	cont "fighting #MON!"
+	cont "fighting dog!"
 
 	para "Choose whichever"
 	line "one you like!"
 	done
 
 _FightingDojoKarateMasterStayAndTrainWithUsText::
-	text "Ho!"
+	text "Ho! Keep training"
+	line "with your dog!"
 
-	para "Stay and train at"
-	line "Karate with us!"
+	para "Both our breeds"
+	line "live in SAFARI"
+	cont "ZONE NORTH, too!"
 	done
 
 _FightingDojoBlackbelt1BattleText::
@@ -113,15 +115,15 @@ _FightingDojoBlackbelt4AfterBattleText::
 	done
 
 _FightingDojoHitmonleePokeBallText::
-	text "You want the"
-	line "hard kicking"
-	cont "HITMONLEE?"
+	text "Would you adopt"
+	line "the swift"
+	cont "DOBERGUARD?"
 	done
 
 _FightingDojoHitmonchanPokeBallText::
-	text "You want the"
-	line "piston punching"
-	cont "HITMONCHAN?"
+	text "Would you adopt"
+	line "the sturdy"
+	cont "ROTTGUARD?"
 	done
 
 _FightingDojoBetterNotGetGreedyText::

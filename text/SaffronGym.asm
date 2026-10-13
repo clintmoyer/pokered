@@ -31,10 +31,14 @@ _SaffronGymSabrinaReceivedMarshBadgeText::
 	text_end
 
 _SaffronGymSabrinaPostBattleAdviceText::
-	text "Everyone has"
-	line "psychic power!"
-	cont "People just don't"
-	cont "realize it!"
+	text "Six badges! Your"
+	line "pack is in tune."
+
+	para "This demo ends"
+	line "here for now."
+
+	para "Meet more dogs and"
+	line "keep training!"
 	done
 
 _SaffronGymSabrinaMarshBadgeInfoText::
@@ -63,7 +67,7 @@ _SaffronGymSabrinaReceivedTM46Text::
 _TM46ExplanationText::
 	text_start
 
-	para "TM46 is PSYWAVE!"
+	para "TM46: AURA PULSE!"
 	line "It uses powerful"
 	cont "psychic waves to"
 	cont "inflict damage!"
@@ -133,9 +137,10 @@ _SaffronGymYoungster1EndBattleText::
 	prompt
 
 _SaffronGymYoungster1AfterBattleText::
-	text "Psychic #MON"
-	line "fear only ghosts"
-	cont "and bugs!"
+	text "Bug attacks help"
+	line "against Psychic"
+	cont "dogs. Try a"
+	cont "YORKGUARD!"
 	done
 
 _SaffronGymChanneler2BattleText::

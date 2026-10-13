@@ -450,15 +450,17 @@ RhyhornEvosMoves:
 	db 0
 
 LaprasEvosMoves:
-; Evolutions
+; LEONTIDE: same breed, growing maturity.
 	db 0
-; Learnset
-	db 16, SING
-	db 20, MIST
-	db 25, BODY_SLAM
-	db 31, CONFUSE_RAY
-	db 38, ICE_BEAM
-	db 46, HYDRO_PUMP
+	db 7, SPLASH_KICK
+	db 11, PAW_DASH
+	db 14, WATER_GUARD
+	db 18, WAKE_CHARGE
+	db 24, PACK_RUSH
+	db 27, FROST_PAW
+	db 30, RIVER_RUSH
+	db 38, TIDAL_BARK
+	db 42, MIST_SHAKE
 	db 0
 
 ArcanineEvosMoves:
@@ -747,25 +749,29 @@ MrMimeEvosMoves:
 	db 0
 
 HitmonleeEvosMoves:
-; Evolutions
+; DOBERGUARD: same breed, growing maturity.
 	db 0
-; Learnset
-	db 33, ROLLING_KICK
-	db 38, JUMP_KICK
-	db 43, FOCUS_ENERGY
-	db 48, HI_JUMP_KICK
-	db 53, MEGA_KICK
+	db 7, PAW_COMBO
+	db 11, PAW_DASH
+	db 14, SCENT_LOCK
+	db 18, BOXING_PAW
+	db 24, PACK_RUSH
+	db 30, SPAR_RUSH
+	db 38, SKY_PAW
+	db 42, RETORT_PAW
 	db 0
 
 HitmonchanEvosMoves:
-; Evolutions
+; ROTTGUARD: same breed, growing maturity.
 	db 0
-; Learnset
-	db 33, FIRE_PUNCH
-	db 38, ICE_PUNCH
-	db 43, THUNDERPUNCH
-	db 48, MEGA_PUNCH
-	db 53, COUNTER
+	db 7, PAW_COMBO
+	db 11, PAW_DASH
+	db 14, SCENT_LOCK
+	db 18, BOXING_PAW
+	db 24, PACK_RUSH
+	db 30, SPAR_RUSH
+	db 38, SKY_PAW
+	db 42, TITAN_PAW
 	db 0
 
 ArbokEvosMoves:

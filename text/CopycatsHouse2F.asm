@@ -37,7 +37,7 @@ _CopycatsHouse2FCopycatTM31Explanation1Text::
 	text_start
 
 	para "TM31 contains my"
-	line "favorite, MIMIC!"
+	line "move, COPY TRICK!"
 
 	para "Use it on a good"
 	line "#MON!@"
@@ -63,7 +63,7 @@ _CopycatsHouse2FCopycatTM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FDoduoText::
-	text "DODUO: Giiih!"
+	text "BORZPUP: Woof!"
 
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"
@@ -92,7 +92,7 @@ _CopycatsHouse2FPCMySecretsText::
 	line "Hobby: Collecting"
 	cont "dolls!"
 	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	cont "SAMOPUP!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::

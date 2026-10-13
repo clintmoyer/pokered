@@ -90,7 +90,7 @@ _FuchsiaCitySlowpokeSignText::
 	prompt
 
 _FuchsiaCityLaprasSignText::
-	text "Name: GOLDTIDE"
+	text "Name: LEONTIDE"
 
 	para "A golden swimmer"
 	line "who rescues pups."

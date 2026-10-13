@@ -1,6 +1,6 @@
 # Pokedogs
 
-A dog-themed Pokémon Red mod. The current demo runs through Koga, with Groenendael, Shiba Inu, and Newfoundland starters, 139 dog forms, all 165 redesigned move entries, original dog sprites, and all five working HMs. The Rocket Hideout, Pokémon Tower, Fuchsia and Safari Zone are included.
+A dog-themed Pokémon Red mod. The current demo runs through Sabrina, with Groenendael, Shiba Inu, and Newfoundland starters, 142 dog forms, all 165 redesigned move entries, original dog sprites, and all five working HMs. Saffron City, Silph Co., and the Fighting Dojo join the Rocket Hideout, Pokémon Tower, Fuchsia, and Safari Zone.
 
 Build with RGBDS 1.0.4 using `make -j4 demo`, then load `build/pokedogs-demo.gb` in a Game Boy emulator. See [the demo specification](docs/DEMO.md) for scope and verification instructions. Changes are recorded as Git commits on the [`dogs` branch of clintmoyer/pokered](https://github.com/clintmoyer/pokered/tree/dogs).
 

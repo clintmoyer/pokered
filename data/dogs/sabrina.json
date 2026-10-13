@@ -1,0 +1,689 @@
+{
+  "maps": [
+    "FightingDojo",
+    "SaffronGym",
+    "SilphCo2F",
+    "SilphCo3F",
+    "SilphCo4F",
+    "SilphCo5F",
+    "SilphCo6F",
+    "SilphCo7F",
+    "SilphCo8F",
+    "SilphCo9F",
+    "SilphCo10F",
+    "SilphCo11F"
+  ],
+  "trainers": {
+    "BlackbeltData": {
+      "1": [
+        [
+          37,
+          "DOBERGUARD"
+        ],
+        [
+          37,
+          "ROTTGUARD"
+        ]
+      ],
+      "2": [
+        [
+          31,
+          "BOXER"
+        ],
+        [
+          31,
+          "BOXER"
+        ],
+        [
+          31,
+          "BOXER"
+        ]
+      ],
+      "3": [
+        [
+          32,
+          "STAFFGUARD"
+        ],
+        [
+          32,
+          "STAFFGUARD"
+        ]
+      ],
+      "4": [
+        [
+          36,
+          "BOXER"
+        ]
+      ],
+      "5": [
+        [
+          31,
+          "STAFFORD"
+        ],
+        [
+          31,
+          "BOXER"
+        ],
+        [
+          31,
+          "BOXER"
+        ]
+      ]
+    },
+    "SabrinaData": {
+      "1": [
+        [
+          38,
+          "POODMIND"
+        ],
+        [
+          37,
+          "LHASA"
+        ],
+        [
+          38,
+          "CRESTWING"
+        ],
+        [
+          43,
+          "POODMIND"
+        ]
+      ]
+    },
+    "ChannelerData": {
+      "22": [
+        [
+          34,
+          "WEIMWRAITH"
+        ],
+        [
+          34,
+          "WEIMWRAITH"
+        ]
+      ],
+      "23": [
+        [
+          38,
+          "WEIMWRAITH"
+        ]
+      ],
+      "24": [
+        [
+          33,
+          "WEIMWRAITH"
+        ],
+        [
+          33,
+          "WEIMWRAITH"
+        ],
+        [
+          33,
+          "WEIMWRAITH"
+        ]
+      ]
+    },
+    "PsychicData": {
+      "1": [
+        [
+          31,
+          "POODLE"
+        ],
+        [
+          31,
+          "BASSET"
+        ],
+        [
+          31,
+          "LHASA"
+        ],
+        [
+          31,
+          "POODLE"
+        ]
+      ],
+      "2": [
+        [
+          34,
+          "LHASA"
+        ],
+        [
+          34,
+          "POODLE"
+        ]
+      ],
+      "3": [
+        [
+          33,
+          "BASSET"
+        ],
+        [
+          33,
+          "BASSET"
+        ],
+        [
+          33,
+          "BASSET"
+        ]
+      ],
+      "4": [
+        [
+          38,
+          "BASSET"
+        ]
+      ]
+    },
+    "ScientistData": {
+      "2": [
+        [
+          26,
+          "SHARPEI"
+        ],
+        [
+          26,
+          "PUGHAZE"
+        ],
+        [
+          26,
+          "PUGHAZE"
+        ],
+        [
+          26,
+          "PUGHAZE"
+        ]
+      ],
+      "3": [
+        [
+          28,
+          "SCHNAUZER"
+        ],
+        [
+          28,
+          "CHISPARK"
+        ],
+        [
+          28,
+          "SCHNAUZER"
+        ]
+      ],
+      "4": [
+        [
+          29,
+          "CHISPARK"
+        ],
+        [
+          29,
+          "PUGHAZE"
+        ]
+      ],
+      "5": [
+        [
+          33,
+          "CHISPARK"
+        ]
+      ],
+      "6": [
+        [
+          26,
+          "SCHNAUZER"
+        ],
+        [
+          26,
+          "PUGHAZE"
+        ],
+        [
+          26,
+          "PUGHAZE"
+        ],
+        [
+          26,
+          "SCHNAUZER"
+        ]
+      ],
+      "7": [
+        [
+          25,
+          "CHISPARK"
+        ],
+        [
+          25,
+          "PUGHAZE"
+        ],
+        [
+          25,
+          "SCHNAUZER"
+        ],
+        [
+          25,
+          "SCHNAUZER"
+        ],
+        [
+          25,
+          "PUGHAZE"
+        ]
+      ],
+      "8": [
+        [
+          29,
+          "CHISPARK"
+        ],
+        [
+          29,
+          "SHARPEI"
+        ]
+      ],
+      "9": [
+        [
+          29,
+          "SHARPEI"
+        ],
+        [
+          29,
+          "CHISPARK"
+        ]
+      ],
+      "10": [
+        [
+          28,
+          "CHISPARK"
+        ],
+        [
+          28,
+          "PUGHAZE"
+        ],
+        [
+          28,
+          "SCHNAUZER"
+        ]
+      ],
+      "11": [
+        [
+          29,
+          "SCHNAUZER"
+        ],
+        [
+          29,
+          "PUGHAZE"
+        ]
+      ]
+    },
+    "RocketData": {
+      "23": [
+        [
+          29,
+          "SCOTTDIG"
+        ],
+        [
+          29,
+          "IGGALE"
+        ]
+      ],
+      "24": [
+        [
+          25,
+          "IGGALE"
+        ],
+        [
+          25,
+          "IGGALE"
+        ],
+        [
+          25,
+          "IGGALE"
+        ],
+        [
+          25,
+          "BEAGLE"
+        ],
+        [
+          25,
+          "IGGALE"
+        ]
+      ],
+      "25": [
+        [
+          28,
+          "BEAGLE"
+        ],
+        [
+          28,
+          "BLOODHOUND"
+        ],
+        [
+          28,
+          "BEAGLE"
+        ]
+      ],
+      "26": [
+        [
+          29,
+          "STAFFORD"
+        ],
+        [
+          29,
+          "BLOODHOUND"
+        ]
+      ],
+      "27": [
+        [
+          28,
+          "DACHSHUND"
+        ],
+        [
+          28,
+          "IGGALE"
+        ],
+        [
+          28,
+          "SCOTTDIG"
+        ]
+      ],
+      "28": [
+        [
+          33,
+          "DACHSHUND"
+        ]
+      ],
+      "29": [
+        [
+          33,
+          "BLOODHOUND"
+        ]
+      ],
+      "30": [
+        [
+          29,
+          "STAFFORD"
+        ],
+        [
+          29,
+          "STAFFORD"
+        ]
+      ],
+      "31": [
+        [
+          28,
+          "IGGALE"
+        ],
+        [
+          28,
+          "IGGALE"
+        ],
+        [
+          28,
+          "IGGALE"
+        ]
+      ],
+      "32": [
+        [
+          26,
+          "BEAGLE"
+        ],
+        [
+          26,
+          "DACHSHUND"
+        ],
+        [
+          26,
+          "PUGHAZE"
+        ],
+        [
+          26,
+          "IGGALE"
+        ]
+      ],
+      "33": [
+        [
+          29,
+          "SCOTTDIG"
+        ],
+        [
+          29,
+          "SCOTTDIG"
+        ]
+      ],
+      "34": [
+        [
+          29,
+          "JACKDIG"
+        ],
+        [
+          29,
+          "JACKDIG"
+        ]
+      ],
+      "35": [
+        [
+          26,
+          "BEAGLE"
+        ],
+        [
+          26,
+          "IGGALE"
+        ],
+        [
+          26,
+          "IGGALE"
+        ],
+        [
+          26,
+          "BEAGLE"
+        ]
+      ],
+      "36": [
+        [
+          28,
+          "PUGHAZE"
+        ],
+        [
+          28,
+          "IGGALE"
+        ],
+        [
+          28,
+          "PUGHAZE"
+        ]
+      ],
+      "37": [
+        [
+          28,
+          "BLOODHOUND"
+        ],
+        [
+          28,
+          "SHARPEI"
+        ],
+        [
+          28,
+          "STAFFORD"
+        ]
+      ],
+      "38": [
+        [
+          28,
+          "IGGALE"
+        ],
+        [
+          28,
+          "BLOODHOUND"
+        ],
+        [
+          28,
+          "BLOODHOUND"
+        ]
+      ],
+      "39": [
+        [
+          33,
+          "STAFFGUARD"
+        ]
+      ],
+      "41": [
+        [
+          32,
+          "SCOTTDIG"
+        ],
+        [
+          32,
+          "BLOODHOUND"
+        ],
+        [
+          32,
+          "SCOTTDIG"
+        ]
+      ],
+      "40": [
+        [
+          25,
+          "BEAGLE"
+        ],
+        [
+          25,
+          "BEAGLE"
+        ],
+        [
+          25,
+          "IGGALE"
+        ],
+        [
+          25,
+          "BEAGLE"
+        ],
+        [
+          25,
+          "DACHSHUND"
+        ]
+      ]
+    },
+    "JugglerData": {
+      "1": [
+        [
+          29,
+          "POODLE"
+        ],
+        [
+          29,
+          "LHASA"
+        ]
+      ]
+    },
+    "GiovanniData": {
+      "2": [
+        [
+          37,
+          "AUSSGUARD"
+        ],
+        [
+          35,
+          "GREATDANE"
+        ],
+        [
+          37,
+          "BULLTANK"
+        ],
+        [
+          41,
+          "CATTLEGARD"
+        ]
+      ]
+    },
+    "Rival2Data": {
+      "7": [
+        [
+          37,
+          "WINDWHIP"
+        ],
+        [
+          38,
+          "AKITAFIRE"
+        ],
+        [
+          35,
+          "BERNBLOOM"
+        ],
+        [
+          35,
+          "POODMIND"
+        ],
+        [
+          40,
+          "NEWFTIDE"
+        ]
+      ],
+      "8": [
+        [
+          37,
+          "WINDWHIP"
+        ],
+        [
+          38,
+          "SPRINGTIDE"
+        ],
+        [
+          35,
+          "AKITAFIRE"
+        ],
+        [
+          35,
+          "POODMIND"
+        ],
+        [
+          40,
+          "GROENHOUND"
+        ]
+      ],
+      "9": [
+        [
+          37,
+          "WINDWHIP"
+        ],
+        [
+          38,
+          "BERNBLOOM"
+        ],
+        [
+          35,
+          "SPRINGTIDE"
+        ],
+        [
+          35,
+          "POODMIND"
+        ],
+        [
+          40,
+          "SHIBLAZE"
+        ]
+      ]
+    }
+  },
+  "new_forms": [
+    "HITMONLEE",
+    "HITMONCHAN",
+    "LAPRAS"
+  ],
+  "palettes": {
+    "HITMONLEE": "PAL_GROENMON",
+    "HITMONCHAN": "PAL_GROENMON",
+    "LAPRAS": "PAL_BROWNMON"
+  },
+  "repeatable_sources": {
+    "DOBERGUARD": "SafariZoneNorth",
+    "ROTTGUARD": "SafariZoneNorth",
+    "LEONTIDE": "SeaRoutes"
+  },
+  "gifts": {
+    "dojo": [
+      [
+        30,
+        "DOBERGUARD"
+      ],
+      [
+        30,
+        "ROTTGUARD"
+      ]
+    ],
+    "silph": [
+      30,
+      "LEONTIDE"
+    ]
+  }
+}

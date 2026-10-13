@@ -9529,19 +9529,20 @@
     "signature": "RETORT_PAW",
     "acquisition": {
       "method": "wild",
-      "map": "Route23",
+      "map": "SafariZoneNorth",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "all_badges",
+      "gate": "poke_flute",
       "retry": null,
       "levels": [
-        35,
-        42
-      ]
+        30,
+        30
+      ],
+      "note": "Also available as a Fighting Dojo gift; the other choice remains catchable."
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "DOBERMANN guards its pack. Its fighting power helps friends explore Kanto."
   },
   {
@@ -9623,19 +9624,20 @@
     "signature": "TITAN_PAW",
     "acquisition": {
       "method": "wild",
-      "map": "Route23",
+      "map": "SafariZoneNorth",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "all_badges",
+      "gate": "poke_flute",
       "retry": null,
       "levels": [
-        35,
-        42
-      ]
+        30,
+        30
+      ],
+      "note": "Also available as a Fighting Dojo gift; the other choice remains catchable."
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "ROTTWEILER guards its pack. Its fighting power helps friends explore Kanto."
   },
   {
@@ -11854,19 +11856,20 @@
     "signature": "MIST_SHAKE",
     "acquisition": {
       "method": "wild",
-      "map": "SeafoamIslandsB2F",
-      "terrain": "grass",
+      "map": "Route19",
+      "terrain": "surf",
       "repeatable": true,
       "gate": "surf",
       "retry": null,
       "levels": [
-        28,
-        36
-      ]
+        30,
+        30
+      ],
+      "note": "Also available as the Silph Co. gift."
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "implemented",
     "dex_description": "LEONBERGER guards its pack. Its water power helps friends explore Kanto."
   },
   {

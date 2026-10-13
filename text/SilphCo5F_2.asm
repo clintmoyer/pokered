@@ -22,18 +22,17 @@ _SilphCo5FRocket2EndBattleText::
 _SilphCo5FRocket2AfterBattleText::
 	text "Which reminds me."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "PUGPUP evolves"
+	line "into PUGHAZE!"
 	done
 
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
+	text "It is a dog"
 	line "REPORT!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	para "SHEPHGUARD helps"
+	line "our staff solve"
+	cont "tricky problems."
 	done
 
 _SilphCo5FPokemonReport2Text::
@@ -46,10 +45,10 @@ _SilphCo5FPokemonReport2Text::
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
+	text "It is a dog"
 	line "REPORT!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "Our dogs grow by"
+	line "level. TERVPUP"
+	cont "also uses stones!"
 	done

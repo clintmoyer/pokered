@@ -324,9 +324,9 @@ RhyhornDexEntry:
 	text_end
 
 LaprasDexEntry:
-	db "TRANSPORT@"
-	db 8,2
-	dw 4850
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _LaprasDexEntry
 	text_end
 
@@ -478,16 +478,16 @@ MrMimeDexEntry:
 	text_end
 
 HitmonleeDexEntry:
-	db "KICKING@"
-	db 4,11
-	dw 1100
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _HitmonleeDexEntry
 	text_end
 
 HitmonchanDexEntry:
-	db "PUNCHING@"
-	db 4,7
-	dw 1110
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _HitmonchanDexEntry
 	text_end
 
