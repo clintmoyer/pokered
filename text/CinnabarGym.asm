@@ -22,12 +22,12 @@ _CinnabarGymBlaineReceivedVolcanoBadgeText::
 	text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
-
-	para "Don't waste it on"
-	line "water #MON!"
+	text "Seven badges! Your"
+	line "pack burns bright."
+	para "This demo ends"
+	line "here for now."
+	para "Keep exploring and"
+	line "meet more dogs!"
 	done
 
 _CinnabarGymBlaineVolcanoBadgeInfoText::
@@ -50,17 +50,13 @@ _CinnabarGymBlaineReceivedTM38Text::
 	text_end
 
 _CinnabarGymBlaineTM38ExplanationText::
-	text_start
-
-	para "TM38 contains"
-	line "FIRE BLAST!"
-
-	para "Teach it to fire-"
-	line "type #MON!"
-
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	text "TM38 contains"
+	line "FLAME POUNCE!"
+	para "Teach it to a"
+	line "Fire-type dog."
+	para "SHIBA, BASENPUP"
+	line "or CHOWFLARE are"
+	cont "good partners!"
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
@@ -170,9 +166,9 @@ _CinnabarGymSuperNerd6EndBattleText::
 	prompt
 
 _CinnabarGymSuperNerd6AfterBattleText::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "Fire dog fans love"
+	line "BASENFLARE and"
+	cont "SUNSPITZ!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::

@@ -30,8 +30,9 @@ _PokemonMansion3FScientistAfterBattleText::
 
 _PokemonMansion3FDiaryText::
 	text "Diary: Feb. 6"
-	line "MEW gave birth."
-
-	para "We named the"
-	line "newborn MEWTWO."
+	line "Our study of"
+	cont "MUDIMYTH began."
+	para "We raised a new"
+	line "guardian. Its name"
+	cont "is PSIGUARD."
 	done

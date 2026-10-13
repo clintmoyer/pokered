@@ -99,6 +99,10 @@ source = ROOT/'assets/dogs/sabrina-source.png'
 if source.exists():
     atlas(source, [('hitmonlee','hitmonchan','lapras')])
 
+source = ROOT/'assets/dogs/blaine-source.png'
+if source.exists():
+    atlas(source, [('jynx','magmar'),('aerodactyl','articuno')])
+
 # The quadruped menu icon stores two 8x16 halves in an 8x32 strip.
 icon = Image.open(ROOT/'gfx/pokemon/front/bulbasaur.png').crop((10,6,46,42)).resize((16,16), Image.Resampling.NEAREST)
 strip = Image.new('L',(8,32),255)

@@ -29,11 +29,10 @@ _PokemonMansionB1FScientistAfterBattleText::
 	done
 
 _PokemonMansionB1FDiaryText::
-	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
-
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	text "Diary: Sept. 1"
+	line "PSIGUARD is far"
+	cont "too powerful."
+	para "It needs a patient"
+	line "partner. We failed"
+	cont "to earn its trust."
 	done

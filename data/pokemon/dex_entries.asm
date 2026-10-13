@@ -527,9 +527,9 @@ GolemDexEntry:
 	text_end
 
 MagmarDexEntry:
-	db "SPITFIRE@"
-	db 4,3
-	dw 980
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _MagmarDexEntry
 	text_end
 
@@ -618,9 +618,9 @@ PoliwagDexEntry:
 	text_end
 
 JynxDexEntry:
-	db "HUMANSHAPE@"
-	db 4,7
-	dw 900
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _JynxDexEntry
 	text_end
 
@@ -632,9 +632,9 @@ MoltresDexEntry:
 	text_end
 
 ArticunoDexEntry:
-	db "FREEZE@"
-	db 5,7
-	dw 1220
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _ArticunoDexEntry
 	text_end
 
@@ -1164,9 +1164,9 @@ PorygonDexEntry:
 	text_end
 
 AerodactylDexEntry:
-	db "FOSSIL@"
-	db 5,11
-	dw 1300
+	db "PACK DOG@"
+	db 2,0
+	dw 600
 	text_far _AerodactylDexEntry
 	text_end
 

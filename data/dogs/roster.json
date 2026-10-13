@@ -11222,8 +11222,8 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "SIBERIAN HUSKY guards its pack. Its ice power helps friends explore Kanto."
+    "art_status": "implemented",
+    "dex_description": "SIBERIAN HUSKY follows snow trails. Its bright howl keeps the pack together in a whiteout."
   },
   {
     "slot": "ELECTABUZZ",
@@ -11402,8 +11402,8 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "CHOW CHOW guards its pack. Its fire power helps friends explore Kanto."
+    "art_status": "implemented",
+    "dex_description": "CHOW CHOW wraps its pack in a warm mane. Its deep bark sends a wave of embers toward foes."
   },
   {
     "slot": "PINSIR",
@@ -12897,20 +12897,21 @@
     "signature": "SKY_POUNCE",
     "acquisition": {
       "method": "wild",
-      "map": "VictoryRoad1F",
+      "map": "SeafoamIslandsB2F",
       "terrain": "grass",
       "repeatable": true,
-      "gate": "all_badges",
+      "gate": "surf",
       "retry": null,
       "levels": [
-        35,
-        42
-      ]
+        34,
+        36
+      ],
+      "notes": "Old Amber revival gives a level-30 bonus; rare repeatable Seafoam encounters keep collection independent of fossils."
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "IRISH WOLFHOUND guards its pack. Its rock power helps friends explore Kanto."
+    "art_status": "implemented",
+    "dex_description": "IRISH WOLFHOUND rides coastal winds. Its long stride and rough stone coat guard the pack."
   },
   {
     "slot": "SNORLAX",
@@ -13094,8 +13095,8 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "ALASKAN MALAMUTE guards its pack. Its ice power helps friends explore Kanto."
+    "art_status": "implemented",
+    "dex_description": "ALASKAN MALAMUTE watches the frozen caves. Its great howl stills the wind to guide lost packs."
   },
   {
     "slot": "ZAPDOS",

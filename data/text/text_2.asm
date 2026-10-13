@@ -338,38 +338,38 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "BEAGPUP grows into"
+	line "BEAGLE?"
 	done
 
 _CinnabarQuizQuestionsText2::
-	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "There are 18"
+	line "types in our dog"
+	cont "battles?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
-	line "times?"
+	text "TERVPUP can grow"
+	line "with only one kind"
+	cont "of stone?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
-	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	text "Electric attacks"
+	line "can hurt Ground-"
+	cont "type dogs?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
-	line "same kind and"
-	cont "level are not"
-	cont "identical?"
+	text "Dogs of the same"
+	line "breed and level"
+	cont "can differ in"
+	cont "their stats?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "TM28 contains"
-	line "TOMBSTONER?"
+	text "TM28 teaches"
+	line "SKYBOUND?"
 	done
 
 _CinnabarGymQuizCorrectText::

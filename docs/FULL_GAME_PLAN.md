@@ -48,8 +48,8 @@ or permanently exclusive rewards required to complete the Pokédex.
   TERVPUP has Water Stone, Thunder Stone, and Fire Stone branches, with unlimited
   stones sold at Celadon. TERVPUP is also repeatably catchable on Route 7, so all
   three branches can be collected in one save.
-- KEESPUP and ELKPUP have repeatable Rock Tunnel B1F encounters; WOLFGALE has a
-  Victory Road 1F encounter. Fossil choice and revival can provide an early or
+- KEESPUP and ELKPUP have repeatable Rock Tunnel B1F encounters; WOLFGALE has rare
+  Seafoam encounters. Fossil choice and revival can provide an early or
   higher-level gift, but do not exclude either family from the collection.
 - Both Fighting Dojo dogs are also catchable in Safari Zone North. The original gift
   choice can remain without locking the other form out.
@@ -61,7 +61,8 @@ or permanently exclusive rewards required to complete the Pokédex.
   MUDIMYTH gains a standard, post-Champion encounter on Cerulean Cave 2F.
 - For special encounters, fleeing or defeating the dog makes it available again
   after the next Hall of Fame entry. Catching it permanently completes that
-  encounter. No save-file manipulation is required.
+  encounter. FROSTMAUL's retry hook is implemented; the other special encounters
+  remain planned. No save-file manipulation is required.
 
 Location, terrain, level range, milestone gate, and retry policy are recorded in
 each form's acquisition record. These are implementation requirements. The plan
@@ -101,9 +102,9 @@ Their field-menu labels and explanatory text must match the redesigned names.
    and repeatable sources for both fossil families.
 3. Extend through Fuchsia, Saffron, Cinnabar, and Viridian, with Surf, Strength,
    Safari encounters, Tower events, sleeping dogs, and late-game progression.
-   The current demo reaches Sabrina with 142 forms, the Rocket Hideout, Tower,
-   sleeping dogs, Safari rewards, all five HMs, Saffron, the Fighting Dojo and
-   Silph's rescue. Cinnabar and Viridian remain.
+   The current demo reaches Blaine with 146 forms, all five HMs, the earlier
+   quests, Saffron, Silph, Seafoam, Cinnabar, the Mansion, fossil revival and
+   the first guardian. Viridian remains.
 4. Finish Elite Four, Champion, legendary retries, Cerulean Cave, and collection
    completion. Add the remaining presentation assets and sound pass.
 

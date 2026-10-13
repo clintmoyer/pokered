@@ -36,22 +36,12 @@ _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
 	prompt
 
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
-	line "@"
-	text_ram wNameBuffer
-	text "!"
-
-	para "It is fossil of"
-	line "@"
-	text_ram wStringBuffer
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
-
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	text "Oh! That fossil"
+	line "holds an ancient"
+	cont "dog trace!"
+	para "My revival machine"
+	line "will bring your"
+	cont "partner to life!"
 	done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::

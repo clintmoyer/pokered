@@ -17,19 +17,19 @@ _PokemonMansion2FSuperNerdAfterBattleText::
 
 _PokemonMansion2FDiary1Text::
 	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
-
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	line "A remote forest"
+	para "We found a rare"
+	line "dog with a strange"
+	cont "power over bonds."
 	done
 
 _PokemonMansion2FDiary2Text::
 	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	line "We named the dog"
+	cont "MUDIMYTH."
+	para "Its gentle howl"
+	line "calms the whole"
+	cont "pack."
 	done
 
 _PokemonMansion2FSwitchText::

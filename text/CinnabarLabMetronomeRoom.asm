@@ -14,14 +14,10 @@ _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 	text_end
 
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
-
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	text "TM35: WILD TRICK!"
+	para "Your dog tries a"
+	line "surprise move it"
+	cont "does not know!"
 	done
 
 _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
@@ -30,33 +26,29 @@ _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
 	done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "TERVPUP grows with"
+	line "Water, Thunder or"
+	cont "Fire Stones!"
 	done
 
 _CinnabarLabMetronomeRoomPCText::
-	text "There's an e-mail"
+	text "There is an e-mail"
 	line "message!"
-
-	para "..."
-
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
-
-	para "Their whereabouts"
-	line "are unknown."
-
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN."
-
-	para "From: #MON"
-	line "RESEARCH TEAM"
-
-	para "..."
+	para "Three legendary"
+	line "dogs guard KANTO:"
+	para "FROSTMAUL,"
+	line "STORMLAEK and"
+	cont "SUNMAST."
+	para "FROSTMAUL watches"
+	line "the SEAFOAM caves."
+	para "If it gets away,"
+	line "enter the HALL OF"
+	cont "FAME to try again."
+	para "A caught guardian"
+	line "stays with its new"
+	cont "pack."
+	para "From: DOG RESEARCH"
+	line "TEAM"
 	done
 
 _CinnabarLabMetronomeRoomAmberPipeText::

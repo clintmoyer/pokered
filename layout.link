@@ -214,6 +214,8 @@ ROMX $3D
 	"Dog Pics 17"
 ROMX $3E
 	"Dog Pics 18"
+ROMX $3F
+	"Dog Pics 19"
 WRAM0
 	"Audio RAM"
 	org $c100

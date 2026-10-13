@@ -415,13 +415,12 @@ _GolemDexEntry::
 	dex
 
 _MagmarDexEntry::
-	text "Its body always"
-	next "burns with an"
-	next "orange glow that"
-
-	page "enables it to"
-	next "hide perfectly"
-	next "among flames"
+	text "CHOW CHOW."
+	next "wraps its pack in"
+	next "a warm mane. Its"
+	page "deep bark sends a"
+	next "wave of embers"
+	next "toward foes."
 	dex
 
 _ElectabuzzDexEntry::
@@ -530,13 +529,12 @@ _PoliwagDexEntry::
 	dex
 
 _JynxDexEntry::
-	text "It seductively"
-	next "wiggles its hips"
-	next "as it walks. It"
-
-	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	text "SIBERIAN HUSKY."
+	next "follows snow"
+	next "trails. Its bright"
+	page "howl keeps the"
+	next "pack together in a"
+	next "whiteout."
 	dex
 
 _MoltresDexEntry::
@@ -550,13 +548,12 @@ _MoltresDexEntry::
 	dex
 
 _ArticunoDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear to"
-
-	page "doomed people who"
-	next "are lost in icy"
-	next "mountains"
+	text "ALASKAN MALAMUTE."
+	next "watches the frozen"
+	next "caves. Its great"
+	page "howl stills the"
+	next "wind to guide lost"
+	next "packs."
 	dex
 
 _ZapdosDexEntry::
@@ -1252,13 +1249,12 @@ _PorygonDexEntry::
 	dex
 
 _AerodactylDexEntry::
-	text "A ferocious, pre-"
-	next "historic #MON"
-	next "that goes for the"
-
-	page "enemy's throat"
-	next "with its serrated"
-	next "saw-like fangs"
+	text "IRISH WOLFHOUND."
+	next "rides coastal"
+	next "winds. Its long"
+	page "stride and rough"
+	next "stone coat guard"
+	next "the pack."
 	dex
 
 _MagnemiteDexEntry::

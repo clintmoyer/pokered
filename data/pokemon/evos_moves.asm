@@ -844,15 +844,15 @@ MissingNo32EvosMoves:
 	db 0
 
 MagmarEvosMoves:
-; Evolutions
+; CHOWFLARE: same breed, growing maturity.
 	db 0
-; Learnset
-	db 36, LEER
-	db 39, CONFUSE_RAY
-	db 43, FIRE_PUNCH
-	db 48, SMOKESCREEN
-	db 52, SMOG
-	db 55, FLAMETHROWER
+	db 7, CINDER_YIP
+	db 11, PAW_DASH
+	db 14, SOOT_SHAKE
+	db 18, EMBER_PAW
+	db 24, PACK_RUSH
+	db 30, CINDER_BARK
+	db 38, FLAME_POUNCE
 	db 0
 
 MissingNo34EvosMoves:
@@ -1067,15 +1067,16 @@ PoliwagEvosMoves:
 	db 0
 
 JynxEvosMoves:
-; Evolutions
+; HUSKY: same breed, growing maturity.
 	db 0
-; Learnset
-	db 18, LICK
-	db 23, DOUBLESLAP
-	db 31, ICE_PUNCH
-	db 39, BODY_SLAM
-	db 47, THRASH
-	db 58, BLIZZARD
+	db 7, FROST_PAW
+	db 11, PAW_DASH
+	db 14, FROST_COAT
+	db 18, POLAR_HOWL
+	db 24, PACK_RUSH
+	db 27, BARK_ECHO
+	db 30, FROST_BARK
+	db 38, WHITEOUT_YIP
 	db 0
 
 MoltresEvosMoves:
@@ -1088,12 +1089,16 @@ MoltresEvosMoves:
 	db 0
 
 ArticunoEvosMoves:
-; Evolutions
+; FROSTMAUL: same breed, growing maturity.
 	db 0
-; Learnset
-	db 51, BLIZZARD
-	db 55, AGILITY
-	db 60, MIST
+	db 7, FROST_PAW
+	db 11, PAW_DASH
+	db 14, FROST_COAT
+	db 18, POLAR_HOWL
+	db 24, PACK_RUSH
+	db 27, AIR_NIP
+	db 30, FROST_BARK
+	db 38, WHITEOUT_YIP
 	db 0
 
 ZapdosEvosMoves:
@@ -2211,13 +2216,17 @@ PorygonEvosMoves:
 	db 0
 
 AerodactylEvosMoves:
-; Evolutions
+; WOLFGALE: same breed, growing maturity.
 	db 0
-; Learnset
-	db 33, SUPERSONIC
-	db 38, BITE
-	db 45, TAKE_DOWN
-	db 54, HYPER_BEAM
+	db 7, BRACE
+	db 11, PAW_DASH
+	db 14, STONE_PAW
+	db 18, GUARD_HOWL
+	db 24, PACK_RUSH
+	db 27, AIR_NIP
+	db 30, BOULDER_RUSH
+	db 38, HAUL
+	db 42, SKY_POUNCE
 	db 0
 
 MissingNoACEvosMoves:

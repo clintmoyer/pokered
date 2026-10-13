@@ -33,12 +33,11 @@ _SaffronGymSabrinaReceivedMarshBadgeText::
 _SaffronGymSabrinaPostBattleAdviceText::
 	text "Six badges! Your"
 	line "pack is in tune."
-
-	para "This demo ends"
-	line "here for now."
-
-	para "Meet more dogs and"
-	line "keep training!"
+	para "Surf to CINNABAR."
+	line "Explore SEAFOAM"
+	cont "and the MANSION."
+	para "BLAINE awaits you"
+	line "at the next GYM!"
 	done
 
 _SaffronGymSabrinaMarshBadgeInfoText::
