@@ -257,7 +257,7 @@ def main():
         flown=fly_fixture(lit);S.checkpoint('erika-flown')
         gift=gift_fixture(flown);stones_fixture(gift);prize_fixture(flown)
         completed={}
-        for name,slots,levels,carrier in [('groen',['FEAROW','IVYSAUR','BEEDRILL'],[28,28,28],1),('shiba',['CHARMELEON','FEAROW','BEEDRILL'],[28,28,28],0),('newf',['FEAROW','WARTORTLE','RATICATE'],[28,28,26],2)]:
+        for name,slots,levels,carrier in [('groen',['FEAROW','IVYSAUR','BEEDRILL'],[28,28,28],1),('shiba',['CHARMELEON','FEAROW','BEEDRILL'],[28,28,28],0),('newf',['FEAROW','WARTORTLE','RATICATE'],[32,28,26],2)]:
             completed[name]=erika_fixture(flown,name,slots,levels,carrier)
         E.restore(completed['newf']);S.checkpoint('erika-complete')
         E.save_reload(completed['newf'],expected_map=0x86,expected_badges=0x0f)

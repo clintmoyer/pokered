@@ -279,8 +279,9 @@ def hall_continue(name,caught):
     assert G.owned(146)==caught and M.event('EVENT_BEAT_MOLTRES')==caught and B.hidden_object('VICTORYROAD2F_MOLTRES')==caught
     assert all(G.owned(dex) for dex in [144,145]) and B.hidden_object('POWERPLANT_ZAPDOS') and B.hidden_object('SEAFOAMISLANDSB4F_ARTICUNO')
     assert all(A.item_count(ITEMS[f'HM{i:02d}'])==1 for i in range(1,6))
-    # Read the saved first Hall of Fame team without modifying SRAM content.
+    # Read the current saved Hall of Fame team without modifying SRAM content.
     bank,address=E.SYMS['sHallOfFame'];E.gb.memory[0x0000]=0x0a;E.gb.memory[0x4000]=bank
+    address+=min(previous,49)*96 # current Hall entry, including postgame rematches
     record=list(E.gb.memory[address:address+96]);E.gb.memory[0x0000]=0
     assert [(record[i*16],record[i*16+1]) for i in range(6)]==expected
     for i,(species,_) in enumerate(expected):

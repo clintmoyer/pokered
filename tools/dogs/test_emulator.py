@@ -93,7 +93,7 @@ def trained_party(slots,levels):
     for n,(slot,level) in enumerate(zip(slots,levels),1):
         dog=next(d for d in DOGS if d['slot']==slot); sid=IDS[slot]
         dex=ROM[rom_offset('PokedexOrder')+sid-1]
-        header=ROM[rom_offset('BaseStats')+(dex-1)*28:][:28]
+        header=ROM[rom_offset('MewBaseStats') if slot=='MEW' else rom_offset('BaseStats')+(dex-1)*28:][:28]
         # Fixed DV=8 in every non-HP stat; the derived HP DV is zero.
         stats=[dog['stats'][0]*2*level//100+level+10]+[(v+8)*2*level//100+5 for v in dog['stats'][1:]]
         learned=list(dog['base'])+[m for l,m in dog['learnset'] if l<=level]

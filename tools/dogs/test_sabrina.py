@@ -169,7 +169,7 @@ def copycat_talk():
     for _ in range(50):
         x=E.read('wSprite01StateData2MapX')-4;y=E.read('wSprite01StateData2MapY')-4
         for position,direction in [((x,y+1),'up'),((x+1,y),'left'),((x-1,y),'right'),((x,y-1),'down')]:
-            if not (0<=position[0]<8 and 0<=position[1]<8):continue
+            if not (0<=position[0]<8 and 0<=position[1]<8) or position==(7,1):continue
             try:A.navigate('CopycatsHouse2F',position,cleared=[(4,3),(4,6)])
             except AssertionError as error:
                 if not (error.args and isinstance(error.args[0],tuple) and error.args[0][0]=='No map path'):raise

@@ -211,7 +211,7 @@ def main():
         base=E.brock_fixture(start,'misty-base',['WARTORTLE'],[16],1)
         for name,slots,levels,starter,rival in [
             ('groen',['IVYSAUR','GYARADOS'],[20,20],'BULBASAUR','CHARMANDER'),
-            ('shiba',['CHARMELEON','PIKACHU'],[20,20],'CHARMANDER','SQUIRTLE'),
+            ('shiba',['CHARMELEON','PIKACHU','GLOOM'],[20,20,20],'CHARMANDER','SQUIRTLE'),
             ('newf',['WARTORTLE','BUTTERFREE','BEEDRILL'],[20,20,20],'SQUIRTLE','BULBASAUR')]:
             rival_fixture(base,name,slots,levels,starter,rival)
         completed={}
