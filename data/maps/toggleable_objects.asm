@@ -418,6 +418,11 @@ ToggleableObjectStates:
 	toggle_object_state SEAFOAMISLANDSB4F_BOULDER2, OFF
 	toggle_object_state SEAFOAMISLANDSB4F_ARTICUNO, ON
 
+; A supplemental object for a map with existing toggles. Appending preserves
+; all older flag indices. The loader adds it to the 2F map-local list.
+	DEF toggle_map_id = CERULEAN_CAVE_2F
+	toggle_object_state CERULEANCAVE2F_MUDIMYTH, ON
+
 	assert_table_length NUM_TOGGLEABLE_OBJECTS
 
 	db -1, 1, ON ; end

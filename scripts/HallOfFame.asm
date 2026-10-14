@@ -50,6 +50,8 @@ HallOfFameResetEventsAndSaveScript:
 	call RetryUncaughtFrostmaul
 	call RetryUncaughtStormlaek
 	call RetryUncaughtSunmast
+	call RetryUncaughtPsiguard
+	call RetryUncaughtMudimyth
 	farcall SaveGameData
 	ld b, 5
 .delayLoop
@@ -102,6 +104,34 @@ RetryUncaughtSunmast:
 	ret nz
 	ResetEvent EVENT_BEAT_MOLTRES
 	ld a, TOGGLE_MOLTRES
+	ld [wToggleableObjectIndex], a
+	predef_jump ShowObject
+
+RetryUncaughtPsiguard:
+; Restore only an uncaught guardian after an earned Hall of Fame entry.
+	ld hl, wPokedexOwned
+	ld b, FLAG_TEST
+	ld c, DEX_MEWTWO - 1
+	predef FlagActionPredef
+	ld a, c
+	and a
+	ret nz
+	ResetEvent EVENT_BEAT_MEWTWO
+	ld a, TOGGLE_MEWTWO
+	ld [wToggleableObjectIndex], a
+	predef_jump ShowObject
+
+RetryUncaughtMudimyth:
+; Restore only an uncaught guardian after an earned Hall of Fame entry.
+	ld hl, wPokedexOwned
+	ld b, FLAG_TEST
+	ld c, DEX_MEW - 1
+	predef FlagActionPredef
+	ld a, c
+	and a
+	ret nz
+	ResetEvent EVENT_BEAT_MUDIMYTH
+	ld a, TOGGLE_MUDIMYTH
 	ld [wToggleableObjectIndex], a
 	predef_jump ShowObject
 

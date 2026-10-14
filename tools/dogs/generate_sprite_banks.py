@@ -12,6 +12,11 @@ for dog in DOGS:
     label = species_label(dog['slot'])
     for view in ('Front', 'Back'):
         source, count = re.subn(rf'^{label}Pic{view}::[^\n]*\n', '', source, flags=re.M)
+        if dog['slot'] == 'MEW' and count == 0:
+            # Mew's original pictures live beside its separate base stats.
+            mew_path = ROOT / 'data/pokemon/mew.asm'
+            value, count = re.subn(rf'^{label}Pic{view}::[^\n]*\n', '', mew_path.read_text(), flags=re.M)
+            mew_path.write_text(value)
         assert count == 1, (label, view, count)
 source = source.rstrip() + '\n\n'
 sections = []

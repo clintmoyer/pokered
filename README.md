@@ -1,10 +1,10 @@
 # Pokedogs
 
-A dog-themed Pokémon Red mod. The current demo runs through the Elite Four and Champion, with Groenendael, Shiba Inu, and Newfoundland starters, 149 dog forms, all 165 redesigned move entries, original dog sprites, and all five working HMs. Route 23, Victory Road and Indigo Plateau join the Power Plant, Viridian Gym and the earlier chapters. All eight badges and the complete League challenge are available; the final two postgame forms remain future work.
+A dog-themed Pokémon Red mod with the complete Kanto story and Cerulean Cave postgame. Choose Groenendael, Shiba Inu, or Newfoundland, then collect all 151 dog forms across 79 breed families in one ROM. All 165 moves are redesigned, all forms have dog sprites, and all five HM functions work. The five guardians can be retried after another Hall of Fame entry if they remain uncaught.
 
 Build with RGBDS 1.0.4 using `make -j4 demo`, then load `build/pokedogs-demo.gb` in a Game Boy emulator. See [the demo specification](docs/DEMO.md) for scope and verification instructions. Changes are recorded as Git commits on the [`dogs` branch of clintmoyer/pokered](https://github.com/clintmoyer/pokered/tree/dogs).
 
-The [full-game plan](docs/FULL_GAME_PLAN.md) defines all 151 dog forms, the complete move pool, single-ROM collection access, and preserved HM functions.
+The [compiled collection guide](docs/COLLECTION.md) lists a path for every form. The [full-game plan](docs/FULL_GAME_PLAN.md) defines all 151 dog forms, the complete move pool, single-ROM collection access, and preserved HM functions.
 
 ## Upstream Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 

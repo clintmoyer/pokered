@@ -391,4 +391,6 @@ ENDM
 	const TOGGLE_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; E2
 	const TOGGLE_ARTICUNO                      ; E3 X
 
+	const TOGGLE_MUDIMYTH                     ; E4, appended to preserve existing save bits
+
 DEF NUM_TOGGLEABLE_OBJECTS EQU const_value

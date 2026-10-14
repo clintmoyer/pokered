@@ -149,6 +149,6 @@ MonPartyData:
 	nybble ICON_QUADRUPED     ; Dratini
 	nybble ICON_QUADRUPED     ; Dragonair
 	nybble ICON_QUADRUPED     ; Dragonite
-	nybble ICON_MON       ; Mewtwo
-	nybble ICON_MON       ; Mew
+	nybble ICON_QUADRUPED       ; Mewtwo
+	nybble ICON_QUADRUPED       ; Mew
 	end_nybble_array NUM_POKEMON

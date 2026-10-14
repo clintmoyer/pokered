@@ -82,7 +82,7 @@
       "retry": null,
       "levels": [
         10,
-        12
+        10
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -338,7 +338,7 @@
       "retry": null,
       "levels": [
         10,
-        12
+        10
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -597,7 +597,7 @@
       "retry": null,
       "levels": [
         10,
-        12
+        10
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -851,7 +851,7 @@
       "retry": null,
       "levels": [
         3,
-        8
+        6
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -1103,8 +1103,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        7,
+        8
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -1386,8 +1386,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        6,
+        7
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -1657,8 +1657,8 @@
       "gate": "none",
       "retry": null,
       "levels": [
-        3,
-        8
+        2,
+        4
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -1835,8 +1835,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        6,
+        8
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -2017,7 +2017,7 @@
       "retry": null,
       "levels": [
         8,
-        14
+        10
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -2189,8 +2189,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        10,
+        12
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -2364,8 +2364,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        10,
+        11
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -2553,7 +2553,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "AUSTRALIAN CATTLE DOG. Its speckled coat hides in rocky grass. It guides its pack with firm and careful paws."
   },
   {
@@ -2647,7 +2647,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "AUSTRALIAN CATTLE DOG. Its speckled coat hides in rocky grass. It guides its pack with firm and careful paws."
   },
   {
@@ -2738,7 +2738,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "AUSTRALIAN CATTLE DOG. Its speckled coat hides in rocky grass. It guides its pack with firm and careful paws."
   },
   {
@@ -2833,13 +2833,13 @@
       "gate": "cascade",
       "retry": null,
       "levels": [
-        15,
+        16,
         22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "AUSTRALIAN SHEPHERD. Its bright eyes watch over the pack. It rounds up lost friends with swift turns."
   },
   {
@@ -2933,7 +2933,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "AUSTRALIAN SHEPHERD. Its bright eyes watch over the pack. It rounds up lost friends with swift turns."
   },
   {
@@ -3024,7 +3024,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "AUSTRALIAN SHEPHERD. Its bright eyes watch over the pack. It rounds up lost friends with swift turns."
   },
   {
@@ -3115,7 +3115,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "SAMOYED. Its snow-white coat stays cool in summer. Its gentle howl soothes frightened puppies."
   },
   {
@@ -3197,7 +3197,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "SAMOYED. Its snow-white coat stays cool in summer. Its gentle howl soothes frightened puppies."
   },
   {
@@ -3291,7 +3291,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "FINNISH SPITZ. Its foxlike ears follow woodland sounds. Its bright bark carries warm sparks."
   },
   {
@@ -3376,7 +3376,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "FINNISH SPITZ. Its foxlike ears follow woodland sounds. Its bright bark carries warm sparks."
   },
   {
@@ -3465,7 +3465,7 @@
       "retry": null,
       "levels": [
         8,
-        14
+        9
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -3648,8 +3648,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        7,
+        11
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -3837,7 +3837,7 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
+        12,
         14
       ]
     },
@@ -4114,7 +4114,7 @@
       "retry": null,
       "levels": [
         24,
-        28
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -4302,7 +4302,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -4494,7 +4494,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BORDER TERRIER. Its rough coat resists cave dust. It digs safe tunnels for lost puppies."
   },
   {
@@ -4580,7 +4580,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BORDER TERRIER. Its rough coat resists cave dust. It digs safe tunnels for lost puppies."
   },
   {
@@ -4669,12 +4669,12 @@
       "retry": null,
       "levels": [
         13,
-        17
+        16
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BOSTON TERRIER. Its bright eyes watch every trail. This lively dog greets friends with a playful dash."
   },
   {
@@ -4758,7 +4758,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BOSTON TERRIER. Its bright eyes watch every trail. This lively dog greets friends with a playful dash."
   },
   {
@@ -4845,7 +4845,7 @@
       "retry": null,
       "levels": [
         24,
-        28
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -5017,8 +5017,8 @@
       "gate": "none",
       "retry": null,
       "levels": [
-        3,
-        8
+        2,
+        4
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -5189,12 +5189,12 @@
       "retry": null,
       "levels": [
         18,
-        22
+        20
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "AKITA. Its thick coat stores gentle warmth. This loyal guardian protects its family."
   },
   {
@@ -5276,7 +5276,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "AKITA. Its thick coat stores gentle warmth. This loyal guardian protects its family."
   },
   {
@@ -5373,12 +5373,12 @@
       "retry": null,
       "levels": [
         15,
-        22
+        18
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "PORTUGUESE WATER DOG. Its curly coat sheds river water. It swims out to guide tired friends to shore."
   },
   {
@@ -5473,7 +5473,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "PORTUGUESE WATER DOG. Its curly coat sheds river water. It swims out to guide tired friends to shore."
   },
   {
@@ -5565,7 +5565,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "PORTUGUESE WATER DOG. Its curly coat sheds river water. It swims out to guide tired friends to shore."
   },
   {
@@ -5652,8 +5652,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        10,
+        11
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -5920,7 +5920,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "STAFFORDSHIRE BULL TERRIER. Its sturdy paws train in friendly spars. It protects smaller dogs from danger."
   },
   {
@@ -6005,7 +6005,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "STAFFORDSHIRE BULL TERRIER. Its sturdy paws train in friendly spars. It protects smaller dogs from danger."
   },
   {
@@ -6087,7 +6087,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "STAFFORDSHIRE BULL TERRIER. Its sturdy paws train in friendly spars. It protects smaller dogs from danger."
   },
   {
@@ -6187,7 +6187,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "IRISH SETTER. Its silky coat catches the sunset. It tends meadow flowers with warm leaf magic."
   },
   {
@@ -6280,7 +6280,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "IRISH SETTER. Its silky coat catches the sunset. It tends meadow flowers with warm leaf magic."
   },
   {
@@ -6371,7 +6371,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "IRISH SETTER. Its silky coat catches the sunset. It tends meadow flowers with warm leaf magic."
   },
   {
@@ -6463,7 +6463,7 @@
       "retry": null,
       "levels": [
         28,
-        36
+        29
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -6640,7 +6640,7 @@
       "retry": null,
       "levels": [
         8,
-        14
+        10
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -6891,7 +6891,7 @@
       "retry": null,
       "levels": [
         24,
-        28
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -7074,7 +7074,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -7271,7 +7271,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "SCHNAUZER. Its wiry beard crackles with sparks. It guards its pack with an electric bark."
   },
   {
@@ -7360,7 +7360,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "SCHNAUZER. Its wiry beard crackles with sparks. It guards its pack with an electric bark."
   },
   {
@@ -7446,7 +7446,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -7546,7 +7546,7 @@
       "retry": null,
       "levels": [
         24,
-        28
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -7738,7 +7738,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -7920,8 +7920,8 @@
       "gate": "poke_flute",
       "retry": null,
       "levels": [
-        24,
-        32
+        25,
+        27
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -8103,7 +8103,7 @@
       "retry": null,
       "levels": [
         28,
-        30
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -8285,8 +8285,8 @@
       "gate": "silph_scope",
       "retry": null,
       "levels": [
-        18,
-        26
+        21,
+        23
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -8536,8 +8536,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        12,
+        12
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -8637,7 +8637,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BLOODHOUND. Its long ears gather faint scents. It follows trails with a calm and focused mind."
   },
   {
@@ -8723,7 +8723,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BLOODHOUND. Its long ears gather faint scents. It follows trails with a calm and focused mind."
   },
   {
@@ -8813,7 +8813,7 @@
       "retry": null,
       "levels": [
         28,
-        30
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -8991,12 +8991,12 @@
       "retry": null,
       "levels": [
         14,
-        17
+        16
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "CHIHUAHUA. Its tiny paws store lively sparks. Its brave bark warns much larger dogs."
   },
   {
@@ -9079,7 +9079,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "CHIHUAHUA. Its tiny paws store lively sparks. Its brave bark warns much larger dogs."
   },
   {
@@ -9176,7 +9176,7 @@
       "retry": null,
       "levels": [
         24,
-        28
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -9360,13 +9360,13 @@
       "gate": "cascade",
       "retry": null,
       "levels": [
-        15,
+        17,
         22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "SCOTTISH TERRIER. Its short sturdy legs dig deep tunnels. Its sharp nose finds hidden stones."
   },
   {
@@ -9448,7 +9448,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "SCOTTISH TERRIER. Its short sturdy legs dig deep tunnels. Its sharp nose finds hidden stones."
   },
   {
@@ -9723,8 +9723,8 @@
       "gate": "poke_flute",
       "retry": null,
       "levels": [
-        24,
-        32
+        25,
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -9818,7 +9818,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -10001,7 +10001,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -10182,7 +10182,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -10279,7 +10279,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "KOMONDOR. Its corded coat gathers soft leaves. It guards flower beds while the puppies rest."
   },
   {
@@ -10373,7 +10373,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -10475,7 +10475,7 @@
       "retry": null,
       "levels": [
         28,
-        36
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -10662,7 +10662,7 @@
       "retry": null,
       "levels": [
         28,
-        30
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -10845,7 +10845,7 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
+        13,
         14
       ]
     },
@@ -11024,7 +11024,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -11121,7 +11121,7 @@
       "gate": "poke_flute",
       "retry": null,
       "levels": [
-        24,
+        25,
         32
       ]
     },
@@ -11397,7 +11397,7 @@
       "retry": null,
       "levels": [
         28,
-        36
+        32
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -11494,7 +11494,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -11591,7 +11591,7 @@
       "gate": "poke_flute",
       "retry": null,
       "levels": [
-        24,
+        27,
         32
       ]
     },
@@ -11682,8 +11682,8 @@
       "gate": "boulder",
       "retry": null,
       "levels": [
-        8,
-        14
+        10,
+        12
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -11952,7 +11952,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        28
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -12049,7 +12049,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "branch_evolutions": [
       {
         "method": "stone",
@@ -12154,7 +12154,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BELGIAN TERVUREN. Its watchful eyes follow every trail. Element stones reveal new powers in its long coat."
   },
   {
@@ -12242,7 +12242,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BELGIAN TERVUREN. Its watchful eyes follow every trail. Element stones reveal new powers in its long coat."
   },
   {
@@ -12329,7 +12329,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "BELGIAN TERVUREN. Its watchful eyes follow every trail. Element stones reveal new powers in its long coat."
   },
   {
@@ -12428,7 +12428,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "GERMAN SHEPHERD. Its keen mind solves difficult tasks. It guides and protects every member of its pack."
   },
   {
@@ -12523,13 +12523,13 @@
       "gate": "cascade",
       "retry": null,
       "levels": [
-        15,
+        18,
         22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "KEESHOND. Its fluffy gray coat sheds water. It watches cave streams from sturdy rocks."
   },
   {
@@ -12620,7 +12620,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "KEESHOND. Its fluffy gray coat sheds water. It watches cave streams from sturdy rocks."
   },
   {
@@ -12715,13 +12715,13 @@
       "gate": "cascade",
       "retry": null,
       "levels": [
-        15,
+        18,
         22
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "NORWEGIAN ELKHOUND. Its strong paws grip rocky slopes. Its bold howl guides friends through the hills."
   },
   {
@@ -12812,7 +12812,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
+    "art_status": "draft_implemented",
     "dex_description": "NORWEGIAN ELKHOUND. Its strong paws grip rocky slopes. Its bold howl guides friends through the hills."
   },
   {
@@ -13367,7 +13367,7 @@
       "retry": null,
       "levels": [
         24,
-        32
+        26
       ]
     },
     "growth": "GROWTH_MEDIUM_SLOW",
@@ -13605,9 +13605,9 @@
     ],
     "height": [
       2,
-      0
+      6
     ],
-    "weight": 600,
+    "weight": 1300,
     "catch": 3,
     "exp": 175,
     "stage": 2,
@@ -13628,8 +13628,8 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "CAUCASIAN SHEPHERD DOG guards its pack. Its psychic power helps friends explore Kanto."
+    "art_status": "draft_implemented",
+    "dex_description": "CAUCASIAN SHEPHERD DOG. A watchful guardian that protects its pack with a fierce will."
   },
   {
     "slot": "MEW",
@@ -13705,10 +13705,10 @@
       "METRONOME"
     ],
     "height": [
-      2,
-      0
+      1,
+      8
     ],
-    "weight": 600,
+    "weight": 280,
     "catch": 3,
     "exp": 175,
     "stage": 2,
@@ -13729,7 +13729,7 @@
     },
     "growth": "GROWTH_MEDIUM_SLOW",
     "design_status": "finalized",
-    "art_status": "planned",
-    "dex_description": "MUDI guards its pack. Its psychic power helps friends explore Kanto."
+    "art_status": "draft_implemented",
+    "dex_description": "MUDI. This clever herder senses the thoughts of its pack and vanishes among the leaves."
   }
 ]

@@ -192,10 +192,9 @@ _CeruleanCityCooltrainerF2Text::
 	done
 
 _CeruleanCitySuperNerd3Text::
-	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong #MON"
-	cont "live in there!"
+	text "CERULEAN CAVE"
+	line "shelters two rare"
+	cont "guardian dogs."
 
 	para "The #MON LEAGUE"
 	line "champion is the"

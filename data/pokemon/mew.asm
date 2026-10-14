@@ -1,4 +1,4 @@
-; Mew's pics and base data are not grouped with the other Pokémon
+; Mew's original pics and base data were not grouped with the other Pokémon
 ; because it was a last-minute addition "as a kind of prank".
 ; Shigeki Morimoto explained in an Iwata Asks interview:
 ; "We put Mew in right at the very end. The cartridge was really full and
@@ -8,8 +8,6 @@
 ; slot Mew in there. What we did would be unthinkable nowadays!"
 ; https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/
 
-MewPicFront:: INCBIN "gfx/pokemon/front/mew.pic"
-MewPicBack::  INCBIN "gfx/pokemon/back/mewb.pic"
-
+; Dog pictures are banked in gfx/pics.asm; retain Mew's separate base-stat path.
 MewBaseStats::
 INCLUDE "data/pokemon/base_stats/mew.asm"

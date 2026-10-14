@@ -42,7 +42,7 @@ for dog in DOGS:
     name=decode(rom[offset('MonsterNames')+(sid-1)*10:][:10])
     assert name == dog['name'] and len(name) <= 10, (sid,name,dog['name'])
     dex=rom[offset('PokedexOrder')+sid-1]
-    record=rom[offset('BaseStats')+(dex-1)*28:][:28]
+    record=rom[offset('MewBaseStats') if dog['slot']=='MEW' else offset('BaseStats')+(dex-1)*28:][:28]
     assert tuple(record[1:6]) == dog['stats'], (name,record[1:6])
     assert tuple(record[6:8]) == tuple(type_ids[t] for t in dog['types']), name
     expected_base=[move_ids[MOVES[m][0]] for m in dog['base']]
@@ -395,4 +395,24 @@ assert rom[pos] == 13
 pos+=1+5*8
 assert tuple(rom[pos+6:pos+8]) == (name_to_id['SUNMAST'],50)
 assert 'SPRITE_MONSTER, STAY, UP, TEXT_VICTORYROAD2F_MOLTRES, SUNMAST, 50' in (ROOT/'data/maps/objects/VictoryRoad2F.asm').read_text()
-print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 49 chapter encounter tables, {checked} trainer placements, three Champion variants and legal ace moves, three guardian retry hooks, trades and quiz answers, and all five HMs.')
+postgame=json.loads((ROOT/'data/dogs/postgame.json').read_text())
+assert len(DOGS)==151
+for route,encounters in postgame['wild'].items():
+    pos=offset(route+'WildMons')
+    assert rom[pos]==postgame['rates'][route]
+    assert list(rom[pos+1:pos+21])==[v for level,name in encounters for v in (level,name_to_id[name])]
+    assert rom[pos+21]==0
+for slot,palette in postgame['palettes'].items():
+    dog=next(d for d in DOGS if d['slot']==slot)
+    assert rom[offset('MonsterPalettes')+dog['dex']]==palette_ids[palette]
+for label in ('RetryUncaughtPsiguard','RetryUncaughtMudimyth'):
+    assert symbols[label][0]==symbols['HallOfFameResetEventsAndSaveScript'][0]
+    assert b'\xcd'+symbols[label][1].to_bytes(2,'little') in rom[start:end]
+# The new toggle follows every original toggle, inside the existing 256-bit array.
+pos=offset('ToggleableObjectStates')+0xe4*3
+assert list(rom[pos:pos+3])==[map_ids['CERULEAN_CAVE_2F'],4,0x15]
+assert list(rom[pos+3:pos+6])==[255,1,0x15]
+assert symbols['wToggleableObjectFlagsEnd'][1]-symbols['wToggleableObjectFlags'][1]==32
+pos=offset('CeladonMansion3FGameDesignerText')
+assert b'\xfe\x97' in rom[pos:pos+24], 'Diploma requires 151 forms'
+print(f'PASS: {len(DOGS)} dog records and banks, {len(MOVES)} moves, 52 chapter encounter tables, {checked} trainer placements, three Champion variants and legal ace moves, five guardian retry hooks, a 151-form diploma, trades and quiz answers, and all five HMs.')

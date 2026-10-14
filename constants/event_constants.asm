@@ -712,6 +712,8 @@
 	const_next $8C0
 	const_skip
 	const EVENT_BEAT_MEWTWO
+	const_skip 2
+	const EVENT_BEAT_MUDIMYTH ; reserved bit $8C4, matching object 4
 
 ; Indigo Plateau events
 	const_next $8E0

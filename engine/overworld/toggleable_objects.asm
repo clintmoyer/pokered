@@ -61,6 +61,17 @@ MarkTownVisitedAndLoadToggleableObjects::
 	inc de
 	jr .writeToggleableObjectsListLoop
 .done
+; Add the appended guardian without shifting any existing persistent flag.
+	ld a, [wCurMap]
+	cp CERULEAN_CAVE_2F
+	jr nz, .terminate
+	ld a, CERULEANCAVE2F_MUDIMYTH
+	ld [de], a
+	inc de
+	ld a, TOGGLE_MUDIMYTH
+	ld [de], a
+	inc de
+.terminate
 	ld a, -1
 	ld [de], a                 ; write sentinel
 	ret

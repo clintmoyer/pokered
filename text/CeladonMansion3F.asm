@@ -27,7 +27,7 @@ _CeladonMansion3FGameDesignerText::
 	line "designer!"
 
 	para "Filling up your"
-	line "#DEX is tough,"
+	line "151 dogs is tough,"
 	cont "but don't quit!"
 
 	para "When you finish,"
@@ -35,7 +35,7 @@ _CeladonMansion3FGameDesignerText::
 	done
 
 _CeladonMansion3FGameDesignerCompletedDexText::
-	text "Wow! Excellent!"
+	text "All 151 dogs!"
 	line "You completed"
 	cont "your #DEX!"
 	cont "Congratulations!"

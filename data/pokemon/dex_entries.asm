@@ -338,9 +338,9 @@ ArcanineDexEntry:
 	text_end
 
 MewDexEntry:
-	db "NEW SPECIE@"
-	db 1,4
-	dw 90
+	db "PACK DOG@"
+	db 1,8
+	dw 280
 	text_far _MewDexEntry
 	text_end
 
@@ -954,9 +954,9 @@ GolbatDexEntry:
 	text_end
 
 MewtwoDexEntry:
-	db "GENETIC@"
-	db 6,7
-	dw 2690
+	db "PACK DOG@"
+	db 2,6
+	dw 1300
 	text_far _MewtwoDexEntry
 	text_end
 

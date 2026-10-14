@@ -2016,7 +2016,7 @@ wBrunosRoomCurScript:: db
 wAgathasRoomCurScript:: db
 wCeruleanCaveB1FCurScript:: db
 wVictoryRoad1FCurScript:: db
-	ds 1
+wCeruleanCave2FCurScript:: db ; use a reserved script byte; save layout stays stable
 wLancesRoomCurScript:: db
 	ds 4
 wSilphCo10FCurScript:: db

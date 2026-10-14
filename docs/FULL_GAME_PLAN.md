@@ -21,7 +21,7 @@ The full breed name appears in Pokédex prose, wrapped across lines when needed.
 
 These are finalized design baselines. Balance can be tuned against playthroughs.
 `data/dogs/implemented.json` lists the forms actually converted in the current ROM;
-the full collection plan does not imply all 151 are already implemented.
+all 151 are now implemented. [COLLECTION.md](COLLECTION.md) is generated from compiled collection data in both normal ROM variants.
 
 Stats give breeds different roles: fast coursing hounds, sturdy guardians,
 rescue swimmers, special attackers, and supporting companions. Evolution and
@@ -102,18 +102,18 @@ Their field-menu labels and explanatory text must match the redesigned names.
    and repeatable sources for both fossil families.
 3. Extend through Fuchsia, Saffron, Cinnabar, and Viridian, with Surf, Strength,
    Safari encounters, Tower events, sleeping dogs, and late-game progression.
-   The current demo reaches the Champion with 149 forms, all eight badges,
-   all five HMs, the earlier quests, Victory Road, Indigo Plateau and three
-   guardians.
-4. Elite Four, all three Champion teams, Hall of Fame and the first three
-   guardian retries are implemented. Finish Cerulean Cave, the final two dogs
-   and their retries, and collection completion. Add the remaining presentation
-   assets and sound pass.
+   The adventure reaches the Champion and Cerulean Cave with all 151 forms,
+   all eight badges, all five HMs, the earlier quests, Victory Road, Indigo
+   Plateau and five retryable guardians.
+4. Elite Four, all three Champion teams, Hall of Fame, Cerulean Cave, all five
+   guardian retries and single-ROM collection access are implemented. The
+   compiled data reaches all 151 forms. Finish continuous playthroughs, a
+   legitimate complete collection, remaining presentation assets and sound.
 
 Each slice needs a successful build, compiled-data checks, actual boss battle and
 badge/TM reward checks, save/load, evolution checks, and sprite inspection. Full
 release acceptance additionally requires continuous playthroughs with all three
 starters and a legitimate 151-entry collection in one save. Fixture-based boss
 checks alone do not establish natural difficulty or complete collection access.
-The original intro, logo, Super Game Boy border, cries, and unconverted later
-content remain visible until their respective implementation milestones.
+The original intro, logo, Super Game Boy border and cries remain visible until
+the presentation and sound passes. Generic story text still uses Pokémon terminology.

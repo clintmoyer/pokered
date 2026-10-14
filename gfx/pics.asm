@@ -14,8 +14,6 @@ FossilKabutopsPic::   INCBIN "gfx/pokemon/front/fossilkabutops.pic"
 
 SECTION "Pics 4", ROMX
 
-MewtwoPicFront::       INCBIN "gfx/pokemon/front/mewtwo.pic"
-MewtwoPicBack::        INCBIN "gfx/pokemon/back/mewtwob.pic"
 
 RedPicBack::           INCBIN "gfx/player/redb.pic"
 OldManPicBack::        INCBIN "gfx/battle/oldmanb.pic"
@@ -430,3 +428,7 @@ DragonairPicFront:: INCBIN "gfx/pokemon/front/dragonair.pic"
 DragonairPicBack:: INCBIN "gfx/pokemon/back/dragonairb.pic"
 DragonitePicFront:: INCBIN "gfx/pokemon/front/dragonite.pic"
 DragonitePicBack:: INCBIN "gfx/pokemon/back/dragoniteb.pic"
+MewtwoPicFront:: INCBIN "gfx/pokemon/front/mewtwo.pic"
+MewtwoPicBack:: INCBIN "gfx/pokemon/back/mewtwob.pic"
+MewPicFront:: INCBIN "gfx/pokemon/front/mew.pic"
+MewPicBack:: INCBIN "gfx/pokemon/back/mewb.pic"

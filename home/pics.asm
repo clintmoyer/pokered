@@ -222,6 +222,8 @@ DogSpriteSpecies:
 	db DRATINI, BANK(DratiniPicFront)
 	db DRAGONAIR, BANK(DragonairPicFront)
 	db DRAGONITE, BANK(DragonitePicFront)
+	db MEWTWO, BANK(MewtwoPicFront)
+	db MEW, BANK(MewPicFront)
 	db -1
 
 POPS

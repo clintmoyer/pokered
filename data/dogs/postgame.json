@@ -1,0 +1,166 @@
+{
+  "maps": [
+    "CeruleanCave1F",
+    "CeruleanCave2F",
+    "CeruleanCaveB1F"
+  ],
+  "new_forms": [
+    "MEWTWO",
+    "MEW"
+  ],
+  "wild": {
+    "CeruleanCave1F": [
+      [
+        46,
+        "IGGALE"
+      ],
+      [
+        46,
+        "BLOODHOUND"
+      ],
+      [
+        46,
+        "SCHNAUZER"
+      ],
+      [
+        49,
+        "BORZGALE"
+      ],
+      [
+        49,
+        "CRESTWING"
+      ],
+      [
+        52,
+        "DACHSHUND"
+      ],
+      [
+        49,
+        "POODLE"
+      ],
+      [
+        52,
+        "BICHOBLOOM"
+      ],
+      [
+        53,
+        "JACKDIG"
+      ],
+      [
+        53,
+        "XOLO"
+      ]
+    ],
+    "CeruleanCave2F": [
+      [
+        51,
+        "BORZGALE"
+      ],
+      [
+        51,
+        "CRESTWING"
+      ],
+      [
+        51,
+        "POODLE"
+      ],
+      [
+        52,
+        "BULLTANK"
+      ],
+      [
+        52,
+        "SCOTTDIG"
+      ],
+      [
+        52,
+        "CHISPARK"
+      ],
+      [
+        56,
+        "CAVALIER"
+      ],
+      [
+        54,
+        "COCKER"
+      ],
+      [
+        55,
+        "XOLO"
+      ],
+      [
+        60,
+        "XOLO"
+      ]
+    ],
+    "CeruleanCaveB1F": [
+      [
+        55,
+        "BULLTANK"
+      ],
+      [
+        55,
+        "SCOTTDIG"
+      ],
+      [
+        55,
+        "CHISPARK"
+      ],
+      [
+        64,
+        "CAVALIER"
+      ],
+      [
+        64,
+        "BICHOBLOOM"
+      ],
+      [
+        64,
+        "POMSPARK"
+      ],
+      [
+        57,
+        "DACHSHUND"
+      ],
+      [
+        57,
+        "JACKDIG"
+      ],
+      [
+        63,
+        "XOLO"
+      ],
+      [
+        67,
+        "XOLO"
+      ]
+    ]
+  },
+  "rates": {
+    "CeruleanCave1F": 10,
+    "CeruleanCave2F": 15,
+    "CeruleanCaveB1F": 25
+  },
+  "water": {},
+  "water_rates": {},
+  "palettes": {
+    "MEWTWO": "PAL_BROWNMON",
+    "MEW": "PAL_GROENMON"
+  },
+  "guardians": [
+    [
+      "CeruleanCaveB1F",
+      60,
+      "PSIGUARD",
+      "EVENT_BEAT_MEWTWO",
+      "TOGGLE_MEWTWO"
+    ],
+    [
+      "CeruleanCave2F",
+      50,
+      "MUDIMYTH",
+      "EVENT_BEAT_MUDIMYTH",
+      "TOGGLE_MUDIMYTH"
+    ]
+  ]
+}

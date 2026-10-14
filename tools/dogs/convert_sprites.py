@@ -111,6 +111,10 @@ source = ROOT/'assets/dogs/league-source.png'
 if source.exists():
     atlas(source, [('moltres',)])
 
+source = ROOT/'assets/dogs/postgame-source.png'
+if source.exists():
+    atlas(source, [('mewtwo','mew')], column_bounds=[[0,620,1160,1710,2170]])
+
 # The quadruped menu icon stores two 8x16 halves in an 8x32 strip.
 icon = Image.open(ROOT/'gfx/pokemon/front/bulbasaur.png').crop((10,6,46,42)).resize((16,16), Image.Resampling.NEAREST)
 strip = Image.new('L',(8,32),255)

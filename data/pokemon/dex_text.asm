@@ -176,13 +176,12 @@ _ArcanineDexEntry::
 	dex
 
 _MewDexEntry::
-	text "So rare that it"
-	next "is still said to"
-	next "be a mirage by"
-
-	page "many experts. Only"
-	next "a few people have"
-	next "seen it worldwide"
+	text "MUDI."
+	next "This clever herder"
+	next "senses the"
+	page "thoughts of its"
+	next "pack and vanishes"
+	next "among the leaves."
 	dex
 
 _GyaradosDexEntry::
@@ -972,13 +971,13 @@ _GolbatDexEntry::
 	dex
 
 _MewtwoDexEntry::
-	text "It was created by"
-	next "a scientist after"
-	next "years of horrific"
-
-	page "gene splicing and"
-	next "DNA engineering"
-	next "experiments"
+	text "CAUCASIAN SHEPHERD"
+	next "DOG."
+	next "A watchful"
+	page "guardian that"
+	next "protects its pack"
+	next "with a fierce"
+	page "will."
 	dex
 
 _SnorlaxDexEntry::
