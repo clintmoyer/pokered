@@ -1,39 +1,37 @@
 # Pokedogs
 
-A dog-themed Pokémon Red mod with the complete Kanto story and Cerulean Cave postgame. Choose Groenendael, Shiba Inu, or Newfoundland, then collect all 151 dog forms across 79 breed families in one ROM. All 165 moves are redesigned, all forms have dog sprites, and all five HM functions work. The five guardians can be retried after another Hall of Fame entry if they remain uncaught.
+**Pokémon Red, with dogs.**
 
-Build with RGBDS 1.0.4 using `make -j4 demo`, then load `build/pokedogs-demo.gb` in a Game Boy emulator. See [the demo specification](docs/DEMO.md) for scope and verification instructions. Changes are recorded as Git commits on the [`dogs` branch of clintmoyer/pokered](https://github.com/clintmoyer/pokered/tree/dogs).
+Explore Kanto with a pack of canine companions. Pokedogs replaces all 151 Pokémon with dog forms inspired by 79 breed families, from playful puppies to powerful guardians. Earn all eight badges, challenge the Elite Four and Champion, and discover the rare dogs of Cerulean Cave.
 
-The [compiled collection guide](docs/COLLECTION.md) lists a path for every form. The [full-game plan](docs/FULL_GAME_PLAN.md) defines all 151 dog forms, the complete move pool, single-ROM collection access, and preserved HM functions.
+## Choose your starter
 
-## Upstream Pokémon Red and Blue [![Build Status][ci-badge]][ci]
+| Groenendael | Shiba Inu | Newfoundland |
+| :---: | :---: | :---: |
+| ![Groenendael starter](gfx/pokemon/front/bulbasaur.png) | ![Shiba Inu starter](gfx/pokemon/front/charmander.png) | ![Newfoundland starter](gfx/pokemon/front/squirtle.png) |
+| **Grass** · GROENPUP | **Fire** · SHIBAPUP | **Water** · NEWFPUP |
 
-This is a disassembly of Pokémon Red and Blue.
+## What changes
 
-It builds the following ROMs:
+- **A dog Pokédex:** new sprites, stats, evolutions, and learnsets, with full breed names in the Pokédex.
+- **165 dog-themed moves:** the original 15 types and all five HM field functions are preserved.
+- **All 151 in one ROM:** no trading or version exclusives. Uncaught guardians return after another Hall of Fame entry.
 
-- Pokemon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
-- Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
-- BLUEMONS.GB (debug build) `sha1: 5b1456177671b79b263c614ea0e7cc9ac542e9c4`
-- dmgapae0.e69.patch `sha1: 0fb5f743696adfe1dbb2e062111f08f9bc5a293a`
-- dmgapee0.e68.patch `sha1: ed4be94dc29c64271942c87f2157bca9ca1019c7`
+## Build and play
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+Install the [build dependencies](INSTALL.md), using **RGBDS 1.0.4**, then run:
 
+```sh
+make -j4 demo
+```
 
-## See also
+Open `build/pokedogs-demo.gb` in a Game Boy emulator, such as SameBoy.
 
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- [**Symbols**][symbols]
-- [**Tools**][tools]
+The full adventure and postgame are implemented. Balance, presentation polish, and continuous playtesting are still in progress.
 
-You can find us on [Discord (pret, #pokered)](https://discord.gg/d5dubZ3).
+## Explore the mod
 
-For other pret projects, see [pret.github.io](https://pret.github.io/).
-
-[wiki]: https://github.com/pret/pokered/wiki
-[tutorials]: https://github.com/pret/pokered/wiki/Tutorials
-[symbols]: https://github.com/pret/pokered/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/pret/pokered/actions
-[ci-badge]: https://github.com/pret/pokered/actions/workflows/main.yml/badge.svg
+- [Collection guide](docs/COLLECTION.md) — where to find every dog form.
+- [Roster](docs/ROSTER.md) and [moves](docs/MOVES.csv) — breeds, types, stats, evolutions, and move details.
+- [Development notes](docs/DEMO.md) — implementation scope, builds, and automated checks.
+- [Design plan](docs/FULL_GAME_PLAN.md) — the rules behind the roster and progression.
